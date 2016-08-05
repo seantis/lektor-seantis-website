@@ -1,0 +1,81 @@
+title: Agile Softwareentwicklung
+---
+description: Wir entwicklen qualitativ hochstehende Software. Dazu setzen wir auf die besten Open Source Entwickler-Tools und arbeiten gemäss Agiler Methodik.
+---
+body:
+
+![SCRUM-XP](agile-softwareentwicklung.jpg)
+
+Agile ist für uns ein Mindset. Agile als Grundeinstellung prägt unser Denken und Handeln. Wir orientieren uns am «Manifesto for Agile Software Development»:
+
+- Individuals and interactions over processes and tools
+- Working software over comprehensive documentation
+- Customer collaboration over contract negotiation
+- Responding to change over following a plan
+
+[http://www.agilemanifesto.org](http://www.agilemanifesto.org/)
+
+### Vorgehensmodell (Methodology)
+
+Wir leben die Grundwerte der Agilen Softwareentwicklung. Unser Vorgehensmodell setzt stark auf Agile Werte, Methoden und Praktiken.
+
+- User Stories
+- Prototyping
+- Iterations
+- Test Driven Development
+- Refactoring
+- Continuous Integration
+
+Je nach Projekt arbeiten wir nach Agilen Vorgehensmodellen wie Extreme Programming (XP), SCRUM oder KANBAN.
+
+### Software Stack
+
+Wir entwickeln ausschliesslich mit Open Source Software. Den Software Stack passen wir je nach Anforderung des Projektes an.
+
+- Python als Programmiersprache
+- Postgres als Datenbank
+- Pyramid / morepath als leichtgewichtige Web Frameworks
+- Zope/Plone als Web Applikation Framework
+
+### DevOps
+
+Alle unsere Server werden mit Konfigurationsmanagement Tools (u.a. Puppet und Ansible) verwaltet. Damit ist sichergestellt, dass die Konfiguration eines jeden Servers explizit gemacht und dokumentiert ist. 
+
+Auch ermöglichen die Konfigurationsmanagement Tools, dass alle Teammitglieder Software selbstständig und kontrollierbar ausrollen können (Continuous Delivery).
+
+[https://www.seantis.ch/services](https://seantis.ch/services)
+
+### Tools
+
+Ein guter Handwerker braucht das richtige Werkzeug. Sein Werkzeugset hegt und pflegt er und erweitert es um neue und bessere Tools. Wir setzen auf die besten Tool für Entwickler und probieren auch immer wieder Neues aus.
+
+### Open Source
+
+Wenn immer möglich gegen wir unsere Software als Open Source frei und sind aktiv an Open Source Projekten beteiligt.
+
+[https://github.com/seantis](https://github.com/seantis)
+[https://github.com/onegov](https://github.com/onegov)
+
+### Arbeitsumfeld
+
+Wir ermöglichen unserern «Hackern» ein optimales Arbeitsumfeld und unterstützen den «Hacker Pledge»:
+
+1. Initiative & curiosity
+2. High-productivity working conditions
+3. Openness & freedom of speech
+4. Giving back to the community
+
+[https://www.seantis.ch/blog/we-support-the-hacker-pledge](https://seantis.ch/blog/we-support-the-hacker-pledge)
+
+### Empfohlene Literatur
+
+- Fred Brooks (1986): No Silver Bullet — Essence and Accidents of Software Engineering
+- Fred Brooks (1995): The Mythical Man-Month: Essays on Software Engineering
+- Pekka Himanen (2001): The Hacker Ethic and the Spirit of the Information Age
+- Andrew Hunt, David Thomas (1999): The Pragmatic Programmer: From Journeyman to Master
+- Eric Ries (2011): The Lean Startup
+- Zed Shaw (2013): Learn Python the Hard Way
+- Andrew Stellman, Jennifer Greene (2014): Learning Agile
+
+---
+portlet: ![swiss made software](/static/img/swiss_made.gif)

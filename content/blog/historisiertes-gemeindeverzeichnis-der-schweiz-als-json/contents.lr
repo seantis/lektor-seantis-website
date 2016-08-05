@@ -1,0 +1,19 @@
+title: Historisiertes Gemeindeverzeichnis der Schweiz im Format JSON
+---
+pub_date: 2015-10-24
+---
+author: seantis
+---
+description: BFS-Nummern der Schweizer Gemeinden zurück bis ins Jahr 1960 einfach aufbereitet.
+---
+body:
+
+Wir verwenden die BFS-Nummern der Schweizer Gemeinden in einem Projekt und mussten diese dafür aufbereiten. Wichtig zu wissen ist, dass sich die BFS-Nummer einer Gemeinde jedes Jahr ändern kann. Das historische Gemeindeverzeichnis der Schweiz ist beim BFS online verfügbar:
+
+[http://www.bfs.admin.ch/bfs/portal/de/index/infothek/nomenklaturen/blank/blank/gem_liste/02.html](http://www.bfs.admin.ch/bfs/portal/de/index/infothek/nomenklaturen/blank/blank/gem_liste/02.html)
+
+Der durch das BFS zur Verfügung gestellte Datensatz (XML) enthält viele Informationen, welche je nach Anwendung uninteressant sind. Für unseren Anwendungsfall - ein einfacher Abgleich von BFS Nummer/Ort/Bezirk nach Jahr - haben wir deshalb JSON Dateien generiert und das Resultat Online gestellt. Das erlaubt es uns und anderen mit diesen Daten zu arbeiten, ohne sich mit dem komplexen XML auseinandersetzen zu müssen:
+
+**Swiss Municipalities as JSON: https://github.com/seantis/swiss-municipalities**
+
+![BFS](BFS.png)

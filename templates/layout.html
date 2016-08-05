@@ -1,0 +1,182 @@
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+      <title>{% block title %}{% endblock %}</title>
+      <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,800,700,600' rel='stylesheet' type='text/css'>
+      <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+      <link rel="stylesheet" href="{{ '/static/css/normalize.min.css'|url }}">
+      <link rel="stylesheet" href="{{ '/static/css/foundation.min.css'|url }} ">
+      <link rel="stylesheet" href="{{ '/static/css/ionicons.min.css'|url }} ">
+      <link rel="stylesheet" href="{{ '/static/css/app.css'|url }}/">
+      <link rel="stylesheet" href="{{ '/static/css/prism.css'|url }}" />
+      <script src="{{ '/static/js/custom.modernizr.js'|url }}"></script>
+    </head>
+
+    <body>
+        {% set root = site.get('/') %}
+        <!-- Header and Nav -->
+        <div class="row">
+          <div class="large-3 push-9 columns">
+            <div id="logo">
+              <a id="brand" class="brand" href="{{ '/'|url }}">
+                <img src="{{ '/static/img/logo.svg'|url }}" alt="seantis gmbh">
+              </a>
+            </div>
+          </div>
+          <div class="large-9 pull-3 columns">
+            <div id="navigation">
+              <ul class="left" id="nav-tabs">
+                <li><a href="{{ '/portrait'|url }}"><i class="icon-ios7-people"></i> Portrait</a></li>
+                <li><a href="{{ '/engineering'|url }}"><i class="icon-ios7-gear"></i> Engineering</a></li>
+                <li><a href="{{ '/services'|url }}"><i class="icon-cloud"></i> Services</a></li>
+                <li><a href="{{ '/portfolio'|url }}"><i class="icon-image"></i> Portfolio</a></li>
+                <li><a href="{{ '/news'|url }}"><i class="icon-speakerphone"></i> News</a></li>
+                <li><a href="{{ '/blog'|url }}"><i class="icon-chatbox"></i> Blog</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- First Band (Image) -->
+        <div class="row hide-for-small">
+          <div class="large-12 columns">
+            <div id="banner" style="background-image: url({{ '/static/img/'|url }}{% block banner_background %}{% endblock %});">
+              <div class="large-5 large-offset-7 columns">
+                <h4 class="subheader">{% block banner_title %}{% endblock %}</h4>
+                <p>{% block banner_body %}{% endblock %}</p>
+                <a href="{% block banner_link %}{% endblock %}">mehr &rarr;</a>
+              </div>
+            </div>
+            <div id="portlets-in-header"></div>
+          </div>
+        </div>
+
+        <!-- Second Band (Breadcrumbs & Search) -->
+        <div class="row">
+          <div class="large-8 columns">
+            <ul class="breadcrumbs">
+              <!-- todo:  breadcrumbs -->
+              <li><a href="#"><i class="icon-home"></i></a></li>
+              {% if this != root %}
+                {% if this.parent != root %}
+                    <li><a href="{{ this.parent.path }}">{{ this.parent.title }}</a></li>
+                {% endif %}
+                <li class="current"><a href="{{ this.path }}">{{ this.title }}</a></li>
+              {% endif %}
+            </ul>
+          </div>
+          <div class="large-4 columns" id="search">
+            <form id="searchbox" action="{{ '/search'|url }}">
+              <div class="row collapse">
+                <div class="small-10 columns">
+                  <input type="text" name="q" id="tipue_search_input" autocomplete="off" requiredclass="search-query" placeholder="Suche">
+                </div>
+                <div class="small-2 columns">
+                <button type="submit" class="postfix"><i class="icon-search"></i></button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <!-- Third Band (Content) -->
+        <div class="row">
+          <div class="large-8 columns">
+            <div id="content">
+                {% block body %}{% endblock %}
+                <div id="tipue_search_content"></div>
+            </div>
+          </div>
+          <div class="large-4 columns">
+            <ul class="vcard">
+              <li class="fn">seantis gmbh</li>
+              <li class="street-address">Unter der Egg 5</li>
+              <li><span class="zip">CH-6004</span> <span class="state">Luzern</span></li>
+              <li class="phone"><i class="icon-ios7-telephone"></i>
+              +41 41 511 22 50</li>
+              <li class="email"><i class="icon-at"></i>
+              <a href="mailto:info@seantis.ch">info@seantis.ch</a></li>
+            </ul>
+            <div id="right-column">
+                <div>
+                    <!-- todo: should we display the blog post navigation -->
+                    {% if this != root and this._model != 'blog' and this._model != 'blog-post'%}
+                        <dl class="portletNavigationTree" >
+                            <dt class="hiddenStructure">Navigation</dt>
+                            <dd>
+                                <ul class="navTree navTreeLevel0">
+                                    {% for child in this.children %}
+                                        {% if not child.hidden %}
+                                            <li class="navTreeItem">
+                                                <a href="{{ child.path }}">{{ child.title }}</a>
+                                            </li>
+                                        {% endif %}
+                                    {% endfor %}
+                                    {% if not this.parent == root %}
+                                        {% for child in this.parent.children %}
+                                            {% if not child.hidden %}
+                                                <li class="navTreeItem">
+                                                    <a href="{{ child.path }}">{{ child.title }}</a>
+                                                </li>
+                                            {% endif %}
+                                        {% endfor %}
+                                    {% endif %}
+                                </ul>
+                            </dd>
+                        </dl>
+                    {% endif %}
+                </div>
+                <div>{% block portlet %}{% endblock %}</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="row">
+          <div class="large-12 columns">
+            <hr />
+
+            <div id="portlets-in-footer" class="row">
+              <div class="large-12 columns">
+                <div class="row">
+                  <div id="portlets-in-footer-1" class="large-4 columns"></div>
+                  <div id="portlets-in-footer-2" class="large-4 columns"></div>
+                  <div id="portlets-in-footer-3" class="large-4 columns"></div>
+                </div>
+                <div class="row">
+                  <div id="portlets-in-footer-4" class="large-12 columns"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="large-8 columns">
+                <p>&copy; 2005 - 2016 by seantis gmbh | lektor powered</p>
+              </div>
+              <div class="large-4 columns">
+                <ul class="inline-list right">
+                  <li id="siteaction-webmail"><a href="https://webmail.seantis.ch" accesskey="" title="Webmail">Webmail</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </footer>
+
+        <script src="{{ '/static/js/jquery.min.js'|url }}"></script>
+        <script src="{{ '/static/js/foundation.min.js'|url }}"></script>
+        <script src="{{ '/static/js/prism.min.js'|url }}"></script>
+        <script src="{{ '/static/js/tipuesearch_set.js'|url }}"></script>
+        <script src="{{ '/static/js/tipuesearch.min.js'|url }}"></script>
+        <script>
+            $(document).foundation();
+            $(document).ready(function() {
+                $('#tipue_search_input').tipuesearch({
+                    'mode': 'json',
+                    'contentLocation': '/static/js/tipuesearch_content.json'
+                });
+            });
+        </script>
+    </body>
+</html>

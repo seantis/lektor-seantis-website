@@ -1,0 +1,5 @@
+[project]
+name = seantis
+
+[packages]
+lektor-htmlmin = 0.2

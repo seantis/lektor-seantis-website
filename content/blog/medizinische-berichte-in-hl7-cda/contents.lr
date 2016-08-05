@@ -1,0 +1,21 @@
+title: Medizinische Berichte in HL7 CDA
+---
+pub_date: 2016-07-01
+---
+author: seantis
+---
+description: Medizinische Berichte können in OCQM gemäss dem Standard HL7 ausgetauscht werden.
+---
+body:
+
+Medizinische Berichte können in OCQM gemäss dem Standard HL7 ausgetauscht werden.
+
+In OCQMS sind Berichte neu im Standard "Clinical Document Architecture" (CDA) verfügbar. CDA ist ein von HL7 erarbeiteter, auf XML basierender Standard für den Austausch und die Speicherung klinischer Inhalte. Dabei entspricht ein CDA-Dokument einem klinischen Dokument (z. B. Arztbrief, Befundbericht).
+
+CDA Level 2 bringt die Repräsentation bestehender klinischer Dokumente in XML mit dem Fokus auf Layout und grundlegende Formatierung von Freitext (Abschnitte, Hervorhebungen, Tabellen).
+
+Gemäss CDA Level 2 wird die Interoperabilität durch eine einheitliche strukturierte Beschreibung und Gliederung der Inhalte (Art des Dokument, Abschnitte, Unterabschnitte) verbessert. Dabei werden die einzelnen Bestandteile durch standardisierte Codes und Codesysteme (LOINC, SNOMED) klassifiziert. Die Berichte werden mit den kommenden Versionen von OCQMS kontinuierlich näher an CDA Level 2 gebracht.
+
+**Mehr Informationen: OCQMS - Medical Research in Practice**
+
+![Report CDA](Report-CDA.png)
