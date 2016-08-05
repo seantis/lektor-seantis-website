@@ -10,6 +10,7 @@ The seantis website generated with [Lektor](https://github.com/lektor/lektor).
 mkdir lektor
 cd lektor
 virtualenv .
+source bin/activate
 pip install lektor
 ```
 
