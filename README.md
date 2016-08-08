@@ -27,7 +27,9 @@ cd lektor-seantis-website
 lektor server
 ```
 
-## Update development installati after plugins have changed
+## Update development installation
+
+Sometimes, the plugins need to be reinstalled:
 
 ```
 lektor plugins reinstall
