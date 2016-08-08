@@ -1,11 +1,11 @@
 {% macro render_pagination(pagination) %}
 <div class="pagination listingBar">
     {% if pagination.has_prev %}
-        <a href="{{ pagination.prev|url }}" aria-label="Previous page">« </a>
+        <a href="{{ pagination.prev|url }}" aria-label="Previous page">« vorherige Artikel </a>
     {% endif %}
     <span class="current">{{ pagination.page }}</span>
     {% if pagination.has_next %}
-      <a href="{{ pagination.next|url }}"> »</a>
+      <a href="{{ pagination.next|url }}"> nächste Artikel »</a>
     {% endif %}
 </div>
 {% endmacro %}
