@@ -1,0 +1,34 @@
+title: Neuer Webmail-Client
+---
+pub_date: 2010-6-22
+---
+author: seantis
+---
+description: Mit dem Ziel den Kundennutzen weiter zu erhöhen, setzt seantis als neuen webmail-client RoundCube ein.
+---
+body:
+
+RoundCube macht intensiv von der Ajax-Technologie Gebrauch, was dazu führt,
+dass die Bedienung sehr intuitiv und eingängig ist.
+
+Neben den bisherigen Funktionen erhöht der nene client den Benutzerkomfort
+durch folgende Funktionen:
+
+  * Unterstützung mehrerer Absender 
+  * Adressbuch 
+  * Autovervollständigung bei der Eingabe von Adressen 
+  * Ordnerverwaltung 
+  * Verschieben von E-Mails per Drag &amp; Drop 
+  * Rechtschreibprüfung via Google
+
+  
+[http://webmail.seantis.ch](http://webmail.seantis.ch/)  
+[http://www.roundcube.net](http://www.roundcube.net/)
+
+  
+Offensichtlich gibt es im neuen webmail-client ein Problem bei Öffnen grosser
+Mails im Browser. Sollten Sie mit diesem Problem konfrontiert sein, so können
+Sie in diesen Fällen alternativ den vorherigen webmail-client verwenden:
+<http://controlpanel.seantis.ch/tools/webmail>
+
+

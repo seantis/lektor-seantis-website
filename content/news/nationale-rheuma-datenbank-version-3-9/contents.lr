@@ -1,0 +1,28 @@
+title: Nationale Rheuma-Datenbank Version 3.9
+---
+pub_date: 2013-6-17
+---
+author: seantis
+---
+description: Version 3.9 der Webapplikation wurde erfolgreich ausgerollt.
+---
+body:
+
+Die SCQM-Datenbank bietet Ärzten (und Patienten) eine klare Darstellung und
+Dokumentation des Krankheitsverlaufes über Jahre (bis zu 18 Jahre
+Beobachtungsdauer). Die Online-Datenbank wird als Entscheidungshilfe für die
+Therapie genutzt. Im Weiteren ermöglicht es das System zusätzliche Fragen für
+spezifische Studien einzubinden. So wurden im Verlauf der letzten Jahre zum
+Beispiel Studien zu sonographischen Untersuchungen oder kardiovaskulären
+Risiken in die Datenbank integriert.
+
+  * 12'000 Patienten
+  * 60'000 Visiten
+  * 33'000 Medikationen
+  * 2'500 UAW Meldungen
+  * 60'000 digitalisierte Röntgenbilder (440 GB DICOM Bilder)
+  * 25'000 Röntenscorings
+  * 1'000 Bioproben (Blut und Serum)
+  * 550 Merkmale (items)
+
+

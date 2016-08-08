@@ -1,0 +1,27 @@
+title: More Reports for Pilots
+---
+pub_date: 2014-10-8
+---
+author: seantis
+---
+description: Are you applying for a pilot job? The report from myControl.aero with flight hours by aircraft type is what you need.
+---
+body:
+
+Version 3.5 of myControl.aero is out. See the list of changes below and enjoy
+logging your flights with myControl.aero.  
+  
+**Visit myControl.aero: <https://www.myControl.aero>**  
+  
+Changes and improvements:
+
+  * Add PDF export to aircraft type stats view #194
+  * Add filter to aircraft type stats view #204
+  * Add bar chart to yearly reports #255
+  * Add past experience option to flight filter #394
+  * Stats filter depends now on profile settings and preferences #422
+  * Stats views depends now on profile settings and selected filter values #422
+  * Don't show the unassigned option in the flight filter unconditionally #394
+  * Don't send account expiry reminder for employed pilots #431
+
+

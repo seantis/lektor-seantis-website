@@ -1,0 +1,24 @@
+title: myControl.aero API for Developers
+---
+pub_date: 2014-6-11
+---
+author: seantis
+---
+description: Manage flights with the myControl.aero REST API
+---
+body:
+
+myControl.aero now has an API, which opens up our platform to third parties.
+An API, or Application Programming Interface, is a way for third parties to
+interact with your flight records.  
+  
+Developers may integrate myControl.aero into their own applications. Using the
+API new flights may be added, and existing flights may be exported, modified,
+and deleted. As the user you control which third party gets access to your
+flights and which third party may modify them. You have to explicitly enable
+access on your profile page. By default, nobody has access to anything!  
+  
+Interested developers are invited to check our API documentation:
+<https://docs.mycontrol.aero>
+
+

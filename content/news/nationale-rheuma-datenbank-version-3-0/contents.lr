@@ -1,0 +1,18 @@
+title: Nationale Rheuma-Datenbank Version 3.0
+---
+pub_date: 2010-10-11
+---
+author: seantis
+---
+description: Dieses Wochenende haben wir Version 3.0 der Nationale Rheuma-Datenbank released.
+---
+body:
+
+Version 3.0 bringt Updates des Frameworks und damit eine bessere Performance.
+Die Code-Base wurde verschlankt und für die weitere Entwicklung vorbereitet.
+
+Nachdem die Datenbank bereits um Röntgenbilder erweitert worden ist, steht als
+nächster Entwicklungsschritt die Anbindung einer Bio-Datenbank für genetisches
+Material an.
+
+

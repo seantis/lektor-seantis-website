@@ -1,0 +1,30 @@
+title: Plone Update 
+---
+pub_date: 2010-6-22
+---
+author: seantis
+---
+description: Plone 2.5.2 is a bugfix release, which resolves open issues with rendering on Internet Explorer 7.
+---
+body:
+
+  * LiveSearch 
+  * Unicode handling 
+  * External Editor 
+  * IE7 rendering
+
+All sites were subjected to a visual check while the design of the sites
+remained unchanged.
+
+All sites remained in operation during this entire time since the updates and
+the migration were carried out on a redundant second system.
+
+Nevertheless, if you should detect unwanted changes to your home page contact
+us at: [migration2.5@seantis.ch](mailto:migration2.5@seantis.ch).
+
+The complete changelog can be found under:
+<http://plone.org/products/plone/releases/2.5.2>
+
+**Plone 2.5.2** :: <http://plone.org/news/plone-2-5-2-released>
+
+

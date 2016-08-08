@@ -1,0 +1,41 @@
+title: Diagnosespezifische Module
+---
+pub_date: 2015-1-18
+---
+author: seantis
+---
+description: Die neue Version von OCQMS verbessert die Unterstützung krankheitsspezifischer Module.
+---
+body:
+
+Der Begriff Diagnostik beschreibt den Prozess der Diagnosefindung. Dabei
+werden Befunde (diagnostische Zeichen bzw. Symptome) zu einem
+Krankheitsbegriff oder einer Symptomatik im Sinne eines Syndroms zugeordnet.
+Die Diagnose ist die Klassifizierung von Phänomenen sowie deren
+Interpretation.
+
+Zu einer Diagnose wird die Diagnosesicherheit angegeben: suspected, confirmed,
+excluded, status post.
+
+Die Module in OCQMS unterstützen den Prozess der Zuordnung von Befunden zu
+einem Krankheitsbegriff. Die Module sind nach Krankheitsbildern gegliedert und
+heissen daher «Disease Module». Eröffnet der Arzt für einen Patienten eine
+neue Visite, so stellt er eine Arbeitshypothese bezüglich des Krankeitsbildes
+auf. Die Arbeitshypothese entspricht einer ersten (provisorischen)
+Verdachtsdiagnose. Je nach Auswahl für «Disease Module» werden andere
+Fragebögen (Items) angezeigt. Am Ende des Prozesses (unter «Assessment») steht
+die definitive (gesicherte) Diagnosestellung.
+
+![Disease-
+Modules.png](http://nohost/seantis/blog/media/DiseaseModules.png)Diagnosen
+werden über eine tabellarische Ansicht erfasst und aktualisiert. Analog zu
+«Medication» gibt es auf der Ansicht «Diagnoses» zwei Tabellen: 1\. Active
+Diagnosis, 2\. History of Diagnoses.
+
+Unter dem Tab «6. Assessment» erscheint die gleiche tabellarische Übersicht
+der Diagnosen ein zweites Mal in der Visite. Verdachtsdiagnosen werden hier
+als gesicherte Diagnosen gespeichert.
+
+**Mehr Informationen zu OCQMS: [www.ocqm.org](http://ocqm.org "" )**
+
+

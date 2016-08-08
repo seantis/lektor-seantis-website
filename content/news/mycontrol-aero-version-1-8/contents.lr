@@ -1,0 +1,31 @@
+title: myControl.aero Version 1.8
+---
+pub_date: 2011-7-8
+---
+author: seantis
+---
+description: Version 1.8 of myControl brings further improvements for the duty time tracking module. 
+---
+body:
+
+Off-days can now be marked as "Off Duty" and you can manually enter duty hours
+per duty record (if different from check-out / check-in time).  
+The Duty Time Tracking module is available for all pilots with a
+"Professional" subscription.  
+  
+Visit myControl: [**https://www.myControl.aero**](https://www.myControl.aero)  
+  
+For all pilots the latest version brings the following improvements:
+
+  * Increased map size
+  * Separate edit form for helicopter and airplane flights
+  * Custom error messages ([error 404](https://myControl.aero/notfound), error 500)
+  * Improved outside landing location search
+  * Class rating currency limits in the future are shown as okay, with the annotation "not yet relevant"
+  * Registrations no longer include a dash
+
+  
+Our special thanks for the valuable suggestions and insights go to Simon T.,
+Simon Z., Florian and Chris.
+
+

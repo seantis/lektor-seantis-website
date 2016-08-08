@@ -1,0 +1,23 @@
+title: myControl.aero Release 1.10
+---
+pub_date: 2012-2-15
+---
+author: seantis
+---
+description: Version 1.10 of myControl.aero is out. See the list of changes below and enjoy logging your flights with myControl.aero.
+---
+body:
+
+  * Multiple carry forward records
+  * Additional field: duty hours for Non-Flight Duty
+  * Flight Rules: IFR / VFR for type ratings
+  * Time zones for airports: Country and timezone are set automatically as soon as the coordinates are set
+  * Show country flag
+  * Bugfixes
+
+
+
+Visit myControl.aero:
+[**https://www.myControl.aero**](https://www.myControl.aero)
+
+

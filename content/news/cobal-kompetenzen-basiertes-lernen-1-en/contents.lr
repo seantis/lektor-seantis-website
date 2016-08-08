@@ -1,0 +1,30 @@
+title: COBAL - Competency Based Learning
+---
+pub_date: 2010-6-29
+---
+author: seantis
+---
+description: COBAL (Competency Based Learning) is a web application to manage and to keep record of students learning progress and their progress in different school projects.
+---
+body:
+
+It is designed as an interactive forum where they can note goals, reflect on
+objectives or achieved competencies as well as document successfull projects.  
+As it is interactive, it allows communication between students about their
+projects and thus to motivate each other. Teachers can take part too and
+evaluate their students individual progress.  
+For each project, the teacher can define curricular competencies the students
+have to achieve. By tagging specific items which indicate the achieved
+competencies, students will be able to keep record of their individual
+proceedings and share them with their fellow students.
+
+  * eportfolio.cobal is the first application of the COBAL project. Its a web-based student eportfolio.
+  * eportfolio.cobal is developed in close collaboration with the LIS (Landesinstitut für Schule Bremen).
+  * eportfolio.cobal will be released as open source software.
+  * The application is build with repoze.bfg.
+
+
+
+**Visit the COBAL website: [www.cobal.eu](http://www.cobal.eu/)**
+
+

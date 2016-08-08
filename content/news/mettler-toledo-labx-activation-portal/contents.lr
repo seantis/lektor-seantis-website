@@ -1,0 +1,56 @@
+title: METTLER TOLEDO LabX Activation Portal
+---
+pub_date: 2010-6-22
+---
+author: seantis
+---
+description: METTLER TOLEDO hat den bestehenden Aktivierungsprozess für LabX, der Software zur Steuerung von Laborinstrumenten, durch ein webbasiertes Activation Portal abgelöst.
+---
+body:
+
+Die betriebswirtschaftlichen Ziele des Projektes wurden wie folgt definiert:
+
+  * Steigerung der Effizienz der internen Abläufe für Software Aktivierungen
+  * Reduktion der Supportanfragen bezüglich der Aktivierung
+  * Vertiefung der Kundenbeziehung zugunsten der Bereiche Marketing und Support
+
+**  
+Konzeptuelle Phase:**
+
+  * Definition der auftretenden use cases und Identifikation der benötigten Funktionalitäten
+  * Konzeptentwicklung, Verfassen eines Lösungskonzepts
+      * use cases
+      * UML-Diagramme
+
+  
+**Implementierungsphase:**
+
+  * Entwicklung der Applikation; Back- und Frontend gemäss Architektur des ausgearbeiteten Lösungskonzepts
+        * Registrierungs- und Aktiverungsprozess
+        * Weboberfläche
+        * Datenbankschema
+        * Schnittstellen zu COM-Komponenten
+
+  
+seantis gmbh entwickelte das Portal auf der Basis von Zope, dem führenden Open
+Source Webapplikationsserver. Das CMS Plone wird zur Konfiguration der aktiven
+Prozesse und zur Benutzerverwaltung genutzt.
+
+Die gewählte Architekur der macht es möglich, das System so zu werweitern,
+dass die Aktivierung zukünftig direkt aus der LabX-Software via webservice
+vorgenommen werden kann.
+
+Die Entwicklung stützte sich stark auf das Zope Archetypes Framework, welches
+eine Programmierung nach einem modelgetriebenen Ansatz unterstützt.
+
+METTLER TOLEDO LabX :: <http://www.mt.com/labx>  
+  
+"METTLER TOLEDO ist spezialisiert auf Präzisionsinstrumente für professionelle
+Anwendungen. Zusätzlich zu seinem breiten Produktespektrum verfügt das
+Unternehmen über das weltweit größte Leistungsangebot in seiner Branche. Mit
+mehr als 10.000 Mitarbeitern erwirtschaftet METTLER TOLEDO jährlich einen
+Umsatz von über 1 Milliarde US-Dollar. Mettler Toledo International Inc. ist
+seit 1997 an der New Yorker Börse kotiert."
+<http://ch.mt.com/mt/businessDesc/businessDesc.jsp>
+
+

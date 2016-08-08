@@ -1,0 +1,20 @@
+title: myControl.aero Version 1.11
+---
+pub_date: 2012-5-18
+---
+author: seantis
+---
+description: Version 1.11 of the Online Professional Flight Logbook offers you new features and improvements.
+---
+body:
+
+  * New Field: Time Examiner
+  * New Field "Helicopter departure in fog"
+  * Site width increased
+  * Reminder email licenses sent multiple times
+  * Direct link for return flight
+  * Upgrade to Python 2.7
+  * UTF-8 for csv files
+  * Improve performance for pilots &gt; 10T flights by adding caching for favorites
+
+

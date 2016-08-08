@@ -1,0 +1,22 @@
+title: Online Patienteneingabe mit dem iPad
+---
+pub_date: 2011-4-20
+---
+author: seantis
+---
+description: Im Rahmen eines Pilotprojektes testen wir die Online-Dateneingabe von Patienten im Spital mit einem Tablet.
+---
+body:
+
+Patienten der [Nationalen Rheuma-Datenbank](http://nohost/seantis/portfolio
+/swiss-clinical-quality-management-in-rheumatic-diseases) können Fragebögen
+zum Krankheitsverlauf nun im Spital auf einem iPad ausfüllen.
+
+Die Fragebögen sind für das iPad optimiert (z.B. HTML5 &lt;_input
+type_="_number_"), so dass die Eingabe einfach möglich ist.
+
+Für das Login wird ein One Time Token (OTT) genutzt. Es stellt sicher, dass
+die Dateneingabe vor Ort auch für die Administration im Spital so einfach wie
+möglich ist.
+
+

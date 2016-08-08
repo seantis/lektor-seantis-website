@@ -1,0 +1,29 @@
+title:  Plone Update 2.5 
+---
+pub_date: 2010-6-22
+---
+author: seantis
+---
+description: All hosted Plone sites were supplied with the latest versions during a server update on Sunday, August 6th.
+---
+body:
+
+A Zope update from version 2.8.0 to version 2.8.8 was made on our Linux
+servers. This enabled the Plone CMS to be updated to version 2.5. All existing
+Plone instances were migrated.
+
+This provides an improved performance as well as the latest security patches.
+Editors profit in addition from an improved set of functions.
+
+Apart from a series of many tests, all sites were subjected to a visual check
+while the design of the sites remained unchanged.
+
+All sites remained in operation during this entire time since the updates and
+the migration were carried out on a redundant second system.
+
+Nevertheless, if you should detect unwanted changes to your home page contact
+us at: [migration2.5@seantis.ch](mailto:migration2.5@seantis.ch).
+
+**Plone 2.5** :: <http://plone.org/products/plone/releases/2.5>
+
+

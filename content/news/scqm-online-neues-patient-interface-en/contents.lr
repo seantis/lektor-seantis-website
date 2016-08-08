@@ -1,0 +1,17 @@
+title: SCQM-Online: New Patient Interface
+---
+pub_date: 2010-6-22
+---
+author: seantis
+---
+description: To further simplify the data entry of patients the online forms have been revised.
+---
+body:
+
+The new user interface is clear and easy to use and directs the focus on the
+questions to be answered. It's possible to define dependencies between
+individual questions. Subsequent questions are depending on the answer on a
+preceding question. For instance a questions about smoking habits is asked to
+smokers only.
+
+

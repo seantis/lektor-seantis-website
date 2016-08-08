@@ -1,0 +1,28 @@
+title: seantis::invoice: Open Source Fakturierung
+---
+pub_date: 2010-6-22
+---
+author: seantis
+---
+description: seantis released eine webbasierte Lösung zur Rechnungsstellung basierend auf repoze.bfg.
+---
+body:
+
+seantisinvoice ist eine schlanke Online-Applikation zur Rechnungstellung und
+der Verwaltung von Zahlungseingängen für KMU. Die Lösung ist konsequent auf
+einfache Bedienbarkeit ausgelegt. seantisinvoice ist kein vollwertiges
+Customer Relationship Management (CRM) sondern beschränkt sich auf die
+Kernfunktionalitäten.
+
+Um mit [repoze.bfg](http://bfg.repoze.org/) zu sprechen: seantisinvoice eine
+"pay only for what you eat" Fakturierungslösung.
+
+
+
+**Alle Informationen auf: [http://invoice.seantis.ch](http://invoice.seantis.ch/)  
+  
+**Source code: <http://github.com/seantis/seantisinvoice>**  
+  
+**seantisinvoice auf dem repoze blog: [http://blog.repoze.org](http://blog.repoze.org/Seantis%20releases%20BFG-based%20invoicing%20application/)
+
+

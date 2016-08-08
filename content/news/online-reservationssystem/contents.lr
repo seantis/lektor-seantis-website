@@ -1,0 +1,40 @@
+title: Online Reservationssystem
+---
+pub_date: 2013-4-30
+---
+author: seantis
+---
+description: seantis.reservation ist ein umfassendes Online-Reservationssystem für das CMS Plone.
+---
+body:
+
+Das Reservationssystem wurde gemeinsam mit der Verwaltung des Kantons Zug
+entwickelt und ist ein Modul der [OneGov Box.](http://onegov.ch)  
+Das Reservatiossystem bietet eine flexible Lösung für unterschiedliche
+Anforderungen und Szenarien:  
+  
+
+  * **Reservation von Sitzungszimmern**  
+Die Benutzer können Räume einfach und ohne zentrale Verwaltung reservieren.
+
+  * **Familienexterne Betreuungsplätze für Kinder**  
+Die Eltern schicken eine Anfrage für einen Betreuungsplatz an das Angebot
+ihrer Wahl. Die Anfragen werden in der Betreuungseinrichtung bearbeitet und
+die Betreuungsplätze zugeteilt. Für bereits besetzte Plätze gibt es eine
+Warteliste.
+
+  * **Saalvermietung einer Gemeinde **(Turnhalle, Mehrzweckhalle)  
+Das Raumangebot wird im Internet publiziert und Interessierte erhalten einen
+stets aktuellen Überblick über die Belegungssituation. Vereine und Private
+können einfach eine Reservationsanfrage für einen Raum (z.B. eine Turnhalle)
+stellen.
+
+  * **SBB-Tageskarten Gemeinde  
+**Abwicklung der Reservation  der unpersönlichen SBB-Generalabonnemente (Tageskarte Gemeinde)   
+
+
+
+seantis.reservation auf GitHub:
+[https://github.com/seantis/seantis.reservation](https://github.com/seantis/seantis.reservation)
+
+

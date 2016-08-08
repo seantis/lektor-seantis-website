@@ -1,0 +1,22 @@
+title: Online Flugbuch myControl Version 1.3
+---
+pub_date: 2010-10-22
+---
+author: seantis
+---
+description: Die neuste Version unseres digitalen Flugbuches macht es für Piloten noch einfacher ihre Flüge online zu loggen.
+---
+body:
+
+myControl bietet nun folgende neue Funktionen:
+
+  * Reports nach Aircraft Type
+  * Suche nach Ortsbezeichnungen bei Aussenlandungen inkl. automatischem Übertragen der Geo-Koordinaten
+  * Persönliche Einstellungen zentral verwalten
+  * Block Time für Helikopterflüge (vgl. [Logbook für Helicopter-Piloten](http://nohost/seantis/blog/logbook-fuer-helicopter-piloten "Im Rahmen der Erweiterung unseres Online-Flugbuches "myControl" haben wir uns auch mit den Besonderheiten für Helikopter-Piloten auseinander gesetzt. " ))
+
+
+
+**myControl testen: <https://www.mycontrol.aero>**
+
+

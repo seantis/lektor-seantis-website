@@ -1,0 +1,23 @@
+title: mobil.amtsblatt.ch
+---
+pub_date: 2011-3-2
+---
+author: seantis
+---
+description: Das "Amtsblatt des Kantons Zug" ist ab sofort in einer für Mobiles optimierten Version online.
+---
+body:
+
+Das Content Management System Plone bietet mit den entsprechenden
+Erweiterungen ein umfassendes Multichannel Web und Mobile CMS.
+
+Besucht man die Website [www.amtsblatt.ch](http://www.amtsblatt.ch) mit einem
+mobilen Device, so wird man automatisch auf die optimierte Version
+weitergeleitet ([mobil.amtsblatt.ch](http://mobil.amtsblatt.ch)).
+
+Das Theme wurde mit jQuery Mobile umgesetzt: <http://jquerymobile.com>
+
+Die Mobile-Funktionalitäten bietet ein entsprechendes Plone-Addon:
+<http://plone.org/products/web-and-mobile>
+
+

@@ -1,0 +1,27 @@
+title: suisseID für Plone
+---
+pub_date: 2010-10-25
+---
+author: seantis
+---
+description: Ab sofort steht unsere suisseID-Erweiterung für Plone als Open Source Komponente zum Download bereit.
+---
+body:
+
+Die **suisseID** ist der erste standardisierte elektronische
+Identitätsnachweis der Schweiz, mit dem sowohl eine rechtsgültige
+elektronische Signatur wie auch eine sichere Authentifizierung (Log-in)
+möglich sind.
+
+Dank unserer Erweiterung kann nun jede Plone-Seite einfach um eine sichere
+Authentifizierung mit der suisseID erweitert werden.
+
+**<http://plone.org/products/collective.suisseid/>**
+
+Unsere Implementation bietet eine Authentifizierung via einen IdP (Identity
+Provider), inkl. der Möglichkeit zusätzliche personenbezogene Attribute vom
+IdP abzufragen.
+
+![SuisseID IdP](http://nohost/seantis/blog/media/suisseid_idp.jpg)
+
+

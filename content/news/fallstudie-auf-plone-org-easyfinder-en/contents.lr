@@ -1,0 +1,28 @@
+title: Case Study on plone.org: EasyFinder
+---
+pub_date: 2010-6-22
+---
+author: seantis
+---
+description: plone.org gives an overview over plone based internet sites. Besides a section with plone-companies a wide range of case studies can be found.
+---
+body:
+
+The case study of the EasyFinder gives an overview over the project aims and
+the following requirements. Further, it presents in brief the used
+technologies.
+
+  * AJAX - Plone KSS
+  * Product Filtering - ZCatalog
+  * Multilanguage - Translations
+  * Country Detection - Python-MySQL database interface
+
+  
+**Case Study on plone.org: <http://plone.net/case-studies/mettler-toledo-easyfinder-2.0>**  
+  
+
+If you have any questions regarding this project or about online
+recommendation (product finder) in general, do not hesitate to contact us:
+[Fabian.Reinhard@seantis.ch](mailto:fabian.reinhard@seantis.ch)
+
+

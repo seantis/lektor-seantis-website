@@ -1,0 +1,44 @@
+title: Arthritis-Check-Up: SNF screening study of Rheumatoid Arthrits 
+---
+pub_date: 2010-6-22
+---
+author: seantis
+---
+description: Development of an online database for repeated questioning of a medical cohort
+---
+body:
+
+The cohort includes first grade relatives of patients with an Rheumatoid
+Arthritis (RA). Rheumatoid arthritis (RA) is a chronic inflammatory disease
+characterized by progressive joint destruction, extra-articular manifestations
+and permanent disability. RA is the most prevalent systemic rheumatic disease
+affecting approximately 1% of the adult population.
+
+The study subjects are included in the database and fill in an annual
+questionnaire. The data thus gained gives information as to which subjects
+develop RA.  
+  
+The developed web-application contains an annual as well as an inclusion
+questionnaire. Further it contains a management interface to manage subjects
+and gained data.  
+The questionnaires features complex dependencies to facilitate the process of
+filling in the questionnaire: Questions that a subject, due to his/her
+previous answers, does not have to answer are not asked.  
+Should a filled-in questionnaire show signs of newly developed RA the subject
+appears in a special list and can be invited for a visit.  
+All data can be exported in structured files.  
+The application also contains a reminder system that invites subjects
+periodically to fill in the questionnaire. Subjects do not have their own user
+account but receive a new unique URL to the questionnaire with the reminder
+mail. If the questionnaire is not filled in within a defined time period, the
+subject gets a second reminder mail with the invitation.  
+  
+The application is multilingual and is currently available in english, german
+and french. It was designed to be used in a medical environment but is easily
+adapted to be used in any other environment.
+
+
+
+**[http://www.arthritis-checkup.ch](http://www.arthritis-checkup.ch/)**
+
+

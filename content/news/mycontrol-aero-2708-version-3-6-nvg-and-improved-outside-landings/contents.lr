@@ -1,0 +1,26 @@
+title: myControl.aero ✈ Version 3.6: NVG and Improved Outside Landings
+---
+pub_date: 2014-11-7
+---
+author: seantis
+---
+description: Version 3.6 of myControl.aero is out.
+---
+body:
+
+This version improves handing of outside landings:
+
+  * The location search form has been optimized for smaller devices.
+  * The last two outside landings are now provided as shortcuts in the flight view.
+  * The outside location field provides autocomplete: Just start typing the name of an already used outside landing!
+
+Version 3.6 also brings support for night vision googles for professional
+helicopter pilots. To use the additional NVG field on flights and past
+experience, enable the night vision goggles option in the preferences.
+
+The new features are rolled out and available for you. No installation on your
+side is needed. Enjoy logging your flights with myControl.aero.
+
+**Visit myControl.aero: [www.myControl.aero](https://www.mycontrol.aero "" )**
+
+

@@ -1,0 +1,22 @@
+title: myControl.aero Version 3.4
+---
+pub_date: 2014-8-26
+---
+author: seantis
+---
+description: Version 3.4 of myControl.aero is out
+---
+body:
+
+See the list of changes below and enjoy logging your flights with
+myControl.aero. Changes and improvements:
+
+  * Add Excel/CSV import/export for simulator flights
+  * Add period to simulator flights view
+  * Show subscription prices in EUR/USD
+  * Allow the user to bypass the domain check on signup
+  * Move aircraft statistics (hours flown) to stats view
+
+**Visit myControl.aero: [https://www.myControl.aero](https://www.mycontrol.aero/)**
+
+

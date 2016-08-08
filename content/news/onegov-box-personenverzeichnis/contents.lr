@@ -1,0 +1,28 @@
+title: OneGov Box Personenverzeichnis 
+---
+pub_date: 2013-12-10
+---
+author: seantis
+---
+description: Mit dem Personenverzeichnis der OneGov Box lassen sich Verzeichnisse von Personen einfach als Adressbuch online publizieren.
+---
+body:
+
+Das Modul ist generisch, so dass es sich für verschiedene Szenarien einsetzen
+lässt.  Die Informationen zu den einzelnen Einträgen lassen sich im System
+flexibel konfigurieren. Damit können die Personendaten strukturiert erfasst
+und aufbereitet werden.
+
+Ein Beispiel für ein Personenverzeichnis ist ein Online-Staatskalender. Ein
+Staatskalender ist ein amtliches Adressbuch, welches die hierarchische
+Gliederung der staatlichen Behörden wiedergibt und über die Namen und
+Funktionen der Behördenmitglieder und anderen Staatsangestellten Auskunft
+gibt.
+
+Ein anderes Beispiel für ein Online-Personenverzeichnis ist ein
+Mitarbeiterverzeichnis.
+
+Mitarbeitendenverzeichnis der Pädagogischen Hochschule Zug:
+**<https://phzg.zug.ch/mitarbeitende>**
+
+

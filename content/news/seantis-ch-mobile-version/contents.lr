@@ -1,0 +1,29 @@
+title: seantis.ch optimiert für Mobiles
+---
+pub_date: 2010-11-2
+---
+author: seantis
+---
+description: Unsere Hompage wird nun für iPhones, Android Phones und Konsorten in einer optimierten Mobile-Version angezeigt.
+---
+body:
+
+Das Content Management System Plone bietet mit den entsprechenden
+Erweiterungen ein umfassendes Multichannel Web und Mobile CMS.
+
+Besucht man unsere Website mit einem mobilen Device, so wird man automatisch
+auf die optimierte Version weitergeleitet
+([m.seantis.ch](http://m.seantis.ch)).
+
+<http://plone.org/products/web-and-mobile>
+
+  * Mobile Theme
+  * Mobile settings
+  * Image resizing
+  * Mobile analytics and tracking
+  * Mobile simulator
+  * Discriminating web and mobile site requests
+  * Managing mobile domain names
+  * Redirecting and mobile switching links between web and mobi
+
+

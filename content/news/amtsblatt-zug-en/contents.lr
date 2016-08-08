@@ -1,0 +1,47 @@
+title: Amtsblatt Zug 
+---
+pub_date: 2010-6-22
+---
+author: seantis
+---
+description: The “Amtsblatt des Kantons Zug” is the most significant information medium for the region and the official publication medium of the Canton of Zug.
+---
+body:
+
+The publishing house, Speck, has been responsible for the publication of the
+Amtsblatt for over 100 years.  
+  
+The Amtsblatt is the number one with regard to classifieds in every section,
+in particular in the jobs and property sections.  
+  
+seantis, in close collaboration with Speck Medien AG, has developed a new
+Plone-based portal solution for the Amtsblatt’s Internet presence.
+
+  * Database connection to a MS-SQL database
+  * Publication of “Official Notices”
+  * Classifieds in the “Market Place”
+    * Jobs
+    * Property
+    * Vehicles
+    * Events
+    * Etc.
+
+  * Trade directory with portraits of companies in Zug
+  * RSS integration
+  * Banner management
+
+  
+One of the main challenges of the project was the editing of the structure of
+the data so as to enable visitors to find information without long searches.  
+  
+The user can either navigate through the content in the “classic” manner or
+browse through the entire database by means of a full-text search. Search
+results in the property section can be further narrowed down by means of
+specific filters.  
+  
+
+**[http://www.amtsblatt.ch](http://www.amtsblatt.ch/)  
+[http://plone.org](http://plone.org/)  
+[http://www.speck-medien.ch](http://www.speck-medien.ch/)**
+
+

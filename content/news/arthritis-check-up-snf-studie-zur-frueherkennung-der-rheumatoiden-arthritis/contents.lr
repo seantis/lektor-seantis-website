@@ -1,0 +1,47 @@
+title: Arthritis-Check-Up: SNF-Studie zur Früherkennung der Rheumatoiden Arthritis
+---
+pub_date: 2010-6-22
+---
+author: seantis
+---
+description: Entwicklung einer Online-Datenbank zur wiederholten Befragung einer medizinischen Kohorte
+---
+body:
+
+Zur Kohorte zählen Verwandte ersten Grades von Patienten der Rheumatoiden
+Arthritis (RA). Rheumatoide Arthritis ist eine chronische entzündliche
+Autoimmunerkrankung der Gelenke, die zu permanenter Behinderung führen kann.
+RA ist die häufigste rheumatische Erkrankung und betrifft ungefähr 1% der
+erwachsenen Bevölkerung.  
+  
+Die Studienteilnehmer werden in die Datenbank aufgenommen und füllen dann
+jährlich einen online Fragebogen aus. Die so erfassten Daten geben Auskunft
+darüber, welche der eingeschlossenen Teilnehmer eine RA entwickeln.  
+  
+Die entwickelte Web-Applikation umfasst sowohl den Einschlussfragebogen und
+den jährlichen Follow-Up-Fragebogen wie auch ein Manage Interface zur
+Verwaltung der Studienteilnehmer und der gesammelten Daten.  
+Die Fragebögen wenden teilweise komplexe Abhängigkeiten an, denen im Prozess
+Rechnung getragen wird: Fragen, die ein Studienteilnehmer aufgrund von
+vorhergehenden Antworten nicht beantworten kann oder muss, werden diesem nicht
+gestellt.  
+Falls ein ausgefüllter Fragebogen darauf hindeutet, dass ein Studienteilnehmer
+eine RA entwickelt hat, erscheinen diese in einer Listenansicht und können zu
+einer Visite aufgeboten werden.  
+Sämtliche Daten können in strukturierter Form exportiert werden.  
+Die Applikation umfasst ebenfalls ein reminder-System, das die
+Studienteilnehmer periodisch zum Ausfüllen des Fragebogens einlädt. Der
+Teilnehmer hat keinen eigenen Benutzeraccount, in jeder reminder-Mail findet
+sich die direkte URL zum spezifischen Fragebogen. Wird der Fragebogen nicht
+innerhalb einer gewissen Frist ausgefüllt, wird eine zweite reminder-Mail an
+den Teilnehmer verschickt.  
+  
+Die Applikation ist mehrsprachig und steht zur Zeit in deutscher, englischer
+und französischer Version zur Verfügung.  
+Die Web-Applikation wurde zur Anwendung im medizinischen Bereich entwickelt,
+kann aber leicht an andere Anwendungsbereiche angepasst werden.  
+  
+
+**[http://www.arthritis-checkup.ch](http://www.arthritis-checkup.ch/)**
+
+

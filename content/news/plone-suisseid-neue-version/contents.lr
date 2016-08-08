@@ -1,0 +1,28 @@
+title: Plone suisseID: Neue Version
+---
+pub_date: 2010-12-7
+---
+author: seantis
+---
+description: Anpassungen für den neuen SwissSign Idp Endpoint.
+---
+body:
+
+Die neue Version ist ab sofort zum Installieren bereit:
+<http://plone.org/products/collective.suisseid>
+
+### 0.1b2 (2010-12-07)
+
+> * Cleanup docs
+
+> * Cleanup metadata.xml file
+
+> * Change SwissSign Idp endpoint URL
+
+> * Show SAML2 metadata file configuration option
+
+> * Patch pySAML2 so that POST is default binding in metadata configuration
+
+> * Use Name instead of FriendlyName for core/derived assertion attributes
+
+

@@ -1,0 +1,26 @@
+title: Neues Forschungsprojekt in der SCQM-Datenbank
+---
+pub_date: 2012-3-5
+---
+author: seantis
+---
+description: Herz-Kreislauf-Erkrankungen sind die wichtigste Todesursache bei Rheuma-Patienten, die etwa unter rheumatoider Polyarthritis (PR), Morbus Bechterew (MB) und Psoriasis-Arthritis (PA) leiden.
+---
+body:
+
+Die Entzündung spielt dabei eine gewisse Rolle, doch müssen auch andere
+Faktoren, wie zum Beispiel die klassischen kardiovaskulären Risiken und die
+Rheumabehandlung, berücksichtigt werden. In den letzten zehn Jahren wurden
+grosse Fortschritte sowohl bei der Behandlung der rheumatischen Erkrankungen
+als auch bei der kardiovaskulären Prävention erzielt.
+
+Jetzt ist es an der Zeit, eine Zwischenbilanz zu ziehen, um die Betreuung der
+Patienten weiter zu verbessern. Die SCQM-Befragung wird um entsprechende
+Fragebögen erweitert. In einem ersten Schritt wurden die entsprechenden
+Patientfragebögen in die Datenbank eingebunden.
+
+Die zusätzlichen Fragebögen sind mittels eines Zusatzmoduls integriert. Der
+modulare Aufbau der Applikation macht es möglich, solche zusätzlichen Items
+mit beschränktem Aufwand einzufügen.
+
+

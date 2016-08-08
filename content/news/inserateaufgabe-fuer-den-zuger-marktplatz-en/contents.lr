@@ -1,0 +1,52 @@
+title: Advertising Online in and around Zug
+---
+pub_date: 2010-6-22
+---
+author: seantis
+---
+description: The online advertising tool includes the whole range of services of the „Amtsblatt des Kantons Zug“. 
+---
+body:
+
+You can easily place adverts, stop current adverts or reactivate older ones at
+the online counter.  
+  
+Advertisers are able to see a preview of the printed version of their advert
+since there are a are comfortable text editor and a preview in real time.  
+  
+Navigation and user-friendlyness are key. Therefore the advertising works in
+three simple steps:
+
+  * Enter the text of the advert with WYSIWYG editor and hyphenation
+
+  * Confirm the advert and calculate the price
+
+  * Pay the advert with credit or Postfinance card
+
+  
+After this transaction, the user receives a confirmation email with a preview
+of his advert and the bill.
+
+<https://www.amtsblattzug.ch/e-amtsblatt>  
+  
+[» Eamtsblatt in action: Screenshots  
+](http://www.seantis.ch/engineering/case-studies/eamtsblatt)  
+[http://www.amtsblatt.ch](http://www.amtsblatt.ch/)  
+  
+  
+
+## Technology:
+
+The solution is based on Zope3 and uses the following components:
+
+  * [Grok: ](http://grok.zope.org/)Application-Framework
+
+  * [ReportLab](http://www.reportlab.org/): PDF generation
+
+  * [SQLAlchemy: ](http://www.sqlalchemy.org/)SQL toolkit and object-relational mapper
+
+  * MSSQL: database server
+
+  * Postfinance Kreditcard API
+
+

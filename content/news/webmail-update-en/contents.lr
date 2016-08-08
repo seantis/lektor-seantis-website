@@ -1,0 +1,26 @@
+title: Webmail Update 
+---
+pub_date: 2010-6-22
+---
+author: seantis
+---
+description: The just released version of the webmail client "Roundcube" is ready for use for all customer accounts.
+---
+body:
+
+Roundcube is kown for its unique usability. The user interface - built in
+AJAX-Technology - allows you to use the webmail-client with the ease of use of
+desktop applications.
+
+Improvements in the new release:
+
+  * Better and less memory consuming message parser
+  * Integration of LDAP address directories
+  * Enhancements in session authentication
+
+  
+[http://webmail.seantis.ch](http://webmail.seantis.ch/)  
+  
+[http://roundcube.net](http://roundcube.net/)
+
+

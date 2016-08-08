@@ -1,0 +1,32 @@
+title: Version 1.9 of myControl.aero
+---
+pub_date: 2011-11-28
+---
+author: seantis
+---
+description: Version 1.9 of myControl.aero - the professional online pilot logbook - has been released.
+---
+body:
+
+See the list of changes below and enjoy logging your flights with
+myControl.aero.
+
+Changes and improvements:
+
+  * Fixes issue with date input field on iPhone (new iOS5)
+
+  * Adds new duty type: Instructional Flying Activites 
+  * Updates jQuery, jQuery-UI, fullcalendar and OpenLayers to the newest releases 
+  * Adds piloting type to aircraft
+  * Adds automatic propagation of totals for either pilot SE/ME or Multi Pilot depending on the aircraft 
+  * "add to home screen" for iOS devices 
+  * Prints 'out' instead of "empty" on the Pilot Book PDF for outside landings
+  * Fixes some corner cases in the flight form javascript
+
+  
+Our special thanks for the valuable suggestions and insights go to Chris,
+Edwin, Christoph, Andreas, Dominic and Jürg.
+
+**Visit myControl:** [**https://www.myControl.aero**](https://www.myControl.aero)
+
+

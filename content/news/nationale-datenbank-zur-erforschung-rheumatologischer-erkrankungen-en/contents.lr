@@ -1,0 +1,42 @@
+title: National database for research into rheumatological diseases
+---
+pub_date: 2010-6-22
+---
+author: seantis
+---
+description: seantis develops the national online database for research into rheumatological diseases for SCQM.
+---
+body:
+
+SCQM (Swiss Clinical Quality Management in Rheumatic Diseases) oversees the
+database showing the development of disease in rheumatic patients in close
+cooperation with the rheumatological clinics. The SCQM research project is
+supported by well-known companies from the pharmaceutical industry:
+[Roche](http://www.roche.ch/), [Abbott](http://www.abbott.ch/),
+[ESSEX](http://www.essex.ch/), [Wyeth](http://www.wyeth.ch/), [Bristol-Myers
+Squibb](http://www.bms.ch/)  
+  
+The aims of the project:
+
+  * Data collection and data processing: statistical analyses
+  * Quality measurement and information for patients and doctors
+  * Data source for research purposes: Measurement of the effectiveness of medication
+
+  
+The solution is based on the open source application server Zope/Plone and
+offers a customised solution, which has already stood the test in comparable
+research projects.  
+The online database is developed jointly by seantis gmbh and ZiteLab ApS.
+ZiteLab specialises in solutions for data processing in research and is,
+alongside others, developer of the national Danish rheumatology database.  
+  
+
+**[SCQM Foundation](http://www.scqm.ch/)**
+
+**[ZiteLab ApS](http://www.zitelab.dk/)**
+
+**[Zope](http://zope.org/)**
+
+**[Plone](http://plone.org/)**
+
+

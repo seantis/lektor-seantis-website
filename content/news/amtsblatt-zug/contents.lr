@@ -1,0 +1,50 @@
+title: Amtsblatt Zug
+---
+pub_date: 2010-6-22
+---
+author: seantis
+---
+description: Das "Amtsblatt des Kantons Zug" ist das bedeutendste Informationsmedium der Region und das Amtliche Publikationsorgan des Kantons Zug.
+---
+body:
+
+Für die Publikation des Amtsblattes zeichnet seit über 100 Jahren das
+Verlagshaus Speck verantwortlich.
+
+In der Region Zug ist das Amtsblatt die Nummer eins für Inserate in sämtlichen
+Bereichen, insbesondere für Stellen und Immobilien.
+
+In enger Zusammenarbeit mit Speck Medien AG hat seantis für den
+Internetauftritt des Amtsblattes eine neue plone-basierte Portallösung
+entwickelt.
+
+  * Datenbankanbindung an MSSQL-Datenbank
+
+  * Publikation "Amtliche Mitteilungen"
+
+  * Inserate im "Marktblatt"
+
+    * Stellen
+    * Immobilien
+    * Fahrzeuge
+    * Veranstaltungen
+    * Etc.
+
+  * Firmenverzeichnis mit Portraits von Zuger Firmen
+  * RSS-Einbindung
+  * Bannermanagement
+
+  
+Eine der Herausforderungen des Projektes war die Aufbereitung der
+Datenstruktur, so dass der Besucher die Informationen ohne lange Suche findet.
+
+Der Benutzer hat die Möglichkeit "klassisch" durch die Inhalte zu navigieren
+oder mittels Volltextsuche den gesamten Datenbestand zu durchsuchen.
+Zusätzlich lassen sich Suchresultate in der Rubrik Immobilien mittels
+spezifischer Filter eingrenzen.  
+  
+**[http://www.amtsblatt.ch](http://www.amtsblatt.ch/)  
+[http://plone.org](http://plone.org/)  
+[http://www.speck-medien.ch](http://www.speck-medien.ch/)**
+
+

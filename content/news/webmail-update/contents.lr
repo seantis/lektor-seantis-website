@@ -1,0 +1,26 @@
+title: Webmail Update
+---
+pub_date: 2010-6-22
+---
+author: seantis
+---
+description: Die neue Version des Webmail-Clients "Roundcube" steht ab sofort für alle Kundenaccounts zur Verfügung.
+---
+body:
+
+Roundcube gilt als äusserst benutzerfreundlicher Webmail-Client. Die in
+mittels AJAX-Technologie umgesetzte Benutzeroberfläche ermöglicht eine
+intuitive Bedingung, die sich sonst nur in Desktop-Programmen findet.
+
+Verbesserungen in der neuen Version:
+
+  * Effizientere Nutzung der Speicherressourcen
+  * Natlose Integration von LDAP-Adressbeständen
+  * Verbesserungen im Bereich der Session-Authentikation
+
+  
+[http://webmail.seantis.ch](http://webmail.seantis.ch/)  
+  
+[http://roundcube.net](http://roundcube.net/)
+
+

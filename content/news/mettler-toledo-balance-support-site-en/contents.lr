@@ -1,0 +1,41 @@
+title: METTLER TOLEDO Balance Support Site
+---
+pub_date: 2010-6-22
+---
+author: seantis
+---
+description: Re-launch of the METTLER TOLEDO on-line support site.
+---
+body:
+
+Registered users can profit from a mass of information and functions at the
+balance support site for analytical and precision scales.
+
+  * Download of the latest software
+  * Download of the latest documentation
+  * E-mail alerts for new software releases
+
+Rights administration and the registration process are central elements for
+the project. Customers identify themselves with the serial number of their
+product and are given access to a protected area. Authentification is made via
+an interface to the internal logistic database.
+
+Technologies used:
+
+  * Zope/Plone
+  * Extension in Python 
+  * MySQL
+
+  
+[www.mettler-toledo-support.com](http://www.mettler-toledo-support.com/)  
+[www.mt.com](http://www.mt.com/)
+
+  
+"METTLER TOLEDO specializes in the area of precision instruments for
+professional use. In addition to a wide product array, we offer the most
+comprehensive range of services in our industry on a global level. With more
+than 10,000 employees, we generate annual sales of over USD 1 billion.
+Mettler-Toledo International Inc. has been listed on the New York Stock
+Exchange since 1997." <http://ch.mt.com/mt/businessDesc/businessDesc.jsp>
+
+

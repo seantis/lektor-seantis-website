@@ -1,0 +1,27 @@
+title: myControl.aero Version 3.1.3
+---
+pub_date: 2014-5-19
+---
+author: seantis
+---
+description: Version 3.1.3 of myControl.aero is out.
+---
+body:
+
+See the list of changes below and enjoy logging your flights with
+myControl.aero. Changes and improvements:
+
+  * Add option description to documents
+  * Add '90 days' option to operator dashboard license status filter
+  * Add new setting to show/hide simulator flights
+  * Add new setting to show/hide motorgliders
+  * Flights views depends on profile and settings
+  * Separate flights and glider flights views better
+  * Preselect aircraft type for PDF dialog depending on current flights view
+  * Include flights from today in aircraft type statistics
+  * Rename "all" option in operator dashboard pilot filter
+  * Show duty of employed pilots for the whole year
+
+**Visit myControl.aero: [https://www.myControl.aero](https://www.mycontrol.aero/)**
+
+

@@ -1,0 +1,32 @@
+title: External child care in the Canton of Zug
+---
+pub_date: 2010-6-22
+---
+author: seantis
+---
+description: The portal offers an overview of the range of external child care offers and institutions on the Canton of Zug. The solution is based on the Zope/Plone application server and is embedded in the online apperance of the canton.
+---
+body:
+
+The solution is developed for the decentralized organization of external child
+care in the Canton of Zug and is made for different users:  
+  
+
+  * _Parents_: To get an overview of the range of day-nurseries and available places. Searching a place is easy organised and the results are shown on a map. For each institution is additional information available and one can contact the day-nursery immediately.
+
+
+
+  * _Cantons’ administration_: The portal is an instrument to navigate and report the developments in the child care section of the canton and it facilitates analysis of the 
+
+
+
+  * _Managment of day-nurseries _(Version 2.0): The management of child care institutions can advert free spaces and is responsible to keep ist appearance up to date. 
+
+  
+[www.kinderbetreuung-zug.ch](http://www.kinderbetreuung-zug.ch/)  
+  
+[www.zug.ch](http://www.zug.ch/)  
+  
+[www.plone.org](http://www.plone.org/)
+
+

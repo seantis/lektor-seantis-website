@@ -1,0 +1,37 @@
+title: PACS-Server für Rheuma-Datenbank
+---
+pub_date: 2010-9-7
+---
+author: seantis
+---
+description: Die nationale Rheuma-Datenbank wurde um ein PACS-System (Picture Archiving and Communication System) erweitert.
+---
+body:
+
+Unsere Lösung basiert auf dem Open Source [PACS-
+System](http://de.wikipedia.org/wiki/Picture_Archiving_and_Communication_System)
+"[dcm4che](http://www.dcm4che.org/)". Die digitalen Röntgenbilder werden
+gemäss
+[DICOM](http://de.wikipedia.org/wiki/Digital_Imaging_and_Communications_in_Medicine)-Protokollen
+übertragen.
+
+Aus dem Prozess ergaben sich folgende Anforderungen:
+
+  * Bilder werden übers Internet auf den Röntgen-Server übermittelt.
+  * Bilder müssen mit Patienten-Informationen verknüpft werden.
+  * Die Bilder werden bewertet (Scoring).
+  * Es kann nach Bildern gesucht werden.
+  * Der Zugriff auf Bilder muss (auch dezentral) gewährleistet sein.
+
+Das System muss erweiterbar sein und sich am DICOM-Standard orientieren. Die
+Übertragung von Bildern (Senden und Empfangen) erfolgen nach standardisierten
+DICOM-Protokollen.
+
+Im Rahmen des Projektes wurde eine bestehende XRay-Datenbank migriert, sowie
+alle bestehenden digitalen Röntgenbilder (BMP, JPEG) ins DICOM-Format
+transformiert.
+
+![xray_process](../portfolio/swiss-clinical-quality-management-in-rheumatic-
+diseases/screenshots/xray_process.png/image_full)
+
+

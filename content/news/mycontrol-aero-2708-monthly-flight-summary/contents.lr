@@ -1,0 +1,29 @@
+title: myControl.aero ✈ Monthly Flight Summary
+---
+pub_date: 2013-1-9
+---
+author: seantis
+---
+description: myControl.aero delievers pilots a monthly report (flight summary) via email.
+---
+body:
+
+Changes and improvements with release 1.14:
+
+  * Email with monthly report
+  * Fixed issue with drawing a Point in OpenLayers
+  * Export panel: Empty page
+  * Datepicker: Monday is the first day of the week
+  * Reset password: Username not found
+  * Licences: days before license expires
+  * Excel export for basic subscription
+  * Import flights: fixed UnicodeDecodeError
+  * Non-commercial pilots: fill dual time instead of COPI
+  * Import flights: strip empty space from registration
+
+
+
+Visit myControl.aero:
+[**https://www.myControl.aero**](https://www.myControl.aero)
+
+

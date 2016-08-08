@@ -1,0 +1,32 @@
+title: myControl.aero Version 2.3
+---
+pub_date: 2014-2-4
+---
+author: seantis
+---
+description: Version 2.3 of myControl.aero is out. See the list of changes below and enjoy logging your flights with myControl.aero.
+---
+body:
+
+Changes and improvements:
+
+  * Inactive state for licences
+  * Add multiple Off Duty entries at once
+  * Show aircraft type on PDF report
+  * Add LAPL licences
+  * Fix PDF export panel layout
+  * Hide invitation code field on signup form
+  * Use only one newsletter text file
+  * Add list-unsubscribe header to newsletter
+  * Show local time for outside departure/landing
+  * Add unsubscribe link for notifications
+  * Pre-fill times: Update licence evaluation
+  * Show shortcuts to last used airports/aircrafts/PIC only
+  * Send support email 14d after registration
+  * Add Flying Activities duty type
+
+**Visit myControl.aero: [https://www.myControl.aero  
+  
+ ](https://www.mycontrol.aero/)**
+
+

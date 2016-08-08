@@ -1,0 +1,27 @@
+title: myControl.aero Release 1.12
+---
+pub_date: 2012-7-18
+---
+author: seantis
+---
+description: Version 1.12 of myControl.aero is up in the air.
+---
+body:
+
+See the list of changes below and enjoy logging your flights with
+myControl.aero.  
+  
+
+  * Adds new report showing the values of flights summarized by aircraft type. #194
+  * The week in the calendar view begins with Monday now and Saturday/Sunday have a background shading. #196
+  * Clone (copy) flights #197
+  * Show flight rules in license table #207
+  * Improve performance for pilots with &gt; 1T flights #175
+  * Show flight rules and license expiry date in currency table #210, #206
+  * PDF used to block the server #211
+  * Total hours on flown aircraft list #193
+
+**  
+Visit myControl.aero: <https://www.myControl.aero>**
+
+

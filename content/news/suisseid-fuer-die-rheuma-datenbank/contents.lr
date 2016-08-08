@@ -1,0 +1,16 @@
+title: suisseID für die Rheuma-Datenbank
+---
+pub_date: 2010-11-19
+---
+author: seantis
+---
+description: Die nationale Rheuma-Datenbank unterstützt nun die Authentifizierung mit der suisseID.
+---
+body:
+
+Ab sofort können sich sowohl Ärzte als auch Patienten sicher mit der suisseID
+anmelden. Die Implementation basiert auf unserem Open Source suisseID Modul.
+
+[www.suisseid.ch](http://www.suisseid.ch)
+
+

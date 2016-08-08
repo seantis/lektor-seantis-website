@@ -1,0 +1,29 @@
+title: seantis::invoice: Open Source Invoicing
+---
+pub_date: 2010-6-22
+---
+author: seantis
+---
+description: We just released a small web-based open source invoice and payment management build with repoze.bfg.
+---
+body:
+
+seantisinvoice is a small web based invoicing and payment tracking solution
+for freelancers and small companies. It's designed to keep your processes as
+easy as possible. seantisinvoice is not a full scale customer relationship
+management (CRM), instead focusing on the core features.  
+To use the words of [repoze.bfg](http://bfg.repoze.org/): seantisinvoice is a
+"pay only for what you eat" invoicing solution.
+
+**  
+**
+
+**For more informationen: [http://invoice.seantis.ch](http://invoice.seantis.ch/)**
+
+Source code: <http://github.com/seantis/seantisinvoice>**  
+**  
+seantisinvoice on the repoze blog:
+[http://blog.repoze.org](http://blog.repoze.org/Seantis%20releases%20BFG-
+based%20invoicing%20application/)
+
+

@@ -1,0 +1,28 @@
+title: myControl.aero Version 2.1
+---
+pub_date: 2013-10-17
+---
+author: seantis
+---
+description: Version 2.1 of myControl.aero is out. 
+---
+body:
+
+See the list of changes below and enjoy logging your flights with
+myControl.aero.
+
+  * Pagination Position when Editing a Past Flight
+  * Clone Flight Button for Sim Flights
+  * Page Break Option for Flight Entry
+  * New License Type: Security Clearance
+  * New Rotorcraft Cycles Field: ECS Minutes
+  * Hide Login in Header on Login Form
+  * Stats Graph in Hours
+  * Truncate long words in description fields (PDF)
+  * Fixes missing log table throwing an error
+  * Fixes duty report throwing an exception  
+
+**  
+Pilot Logbook in the Cloud: [www.myControl.aero](http://www.mycontrol.aero)**
+
+

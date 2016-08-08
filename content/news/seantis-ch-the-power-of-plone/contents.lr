@@ -1,0 +1,21 @@
+title: seantis.ch - The Power of Plone
+---
+pub_date: 2010-6-22
+---
+author: seantis
+---
+description: Nach erfolgreicher Umsetzung zahlreicher Projekte haben wir uns den seantis-Auftritt vorgenommen und die Seite auf den neusten Stand gebracht.
+---
+body:
+
+Auf unseren Seite wird nun nicht mehr "gesucht" sondern gefunden. LiveSearch -
+einfach schneller finden.
+
+Neue Feature der plone-basierten Website:
+
+  * LiveSearch (Hint: ALT + 4 auf der Tastatur)
+  * Suchmaschienen-Optimierung (be nice to google)
+  * Barrierefreiheit (Surfen ohne Schranken)
+  * Last but not least 100% XHTML ([validate](http://validator.w3.org/check?uri=http://www.seantis.ch&charset=%28detect+automatically%29&doctype=Inline))
+
+

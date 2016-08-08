@@ -1,0 +1,39 @@
+title: Familienergänzende Kinderbetreuung im Kanton Zug
+---
+pub_date: 2010-6-22
+---
+author: seantis
+---
+description: Das Portal bietet einen umfassenden Überblick über die Kinderbetreuungangebote im Kanton Zug. Die Lösung basiert auf dem Zope/Plone-Applikationsserver und ist in den Internetauftritt des Kantons eingebettet.
+---
+body:
+
+Die Lösung trägt dem dezentralen Ansatz der Organisation der
+Familienergänzenden Kinderbetreuung im [Kanton Zug](http://www.zug.ch/)
+Rechnung und richtet sich an folgende Benutzergruppen:
+
+  * _Eltern_ erhalten einen einfachen Überblick über das Betreuungsangebot sowie offene Plätze im Kanton.
+      * Einfache und schnelle Suche mit Filterkriterien. Die Menge der verfügbaren Angebote wird dynamisch berechnet und angezeigt; so lassen sich frustrierende Leermengen bei der Suche vermeiden.
+      * Die den Kriterien entsprechenden Angebote werden auf einer Karte angezeigt.
+      * Zu den einzelnen Krippen sind auf dem Portal Informationen abrufbar.
+      * Bei Interesse an einem Betreuungsplatz ist eine direkte Anfrage an die Krippe möglich.
+  * _Verwaltung_: Portal als Steuerungsinstrument bzw. zu Reportingzwecken
+      * Kantonale Verwaltungsstellen erhalten eine zeitaktuelle Übersicht über Auslastung und Entwicklungen im kantonalen Betreuungsangebot. Ein Überblick über die Nachfragesituation erleichtert die angebotsseitige Planung. 
+      * Mit der Lösung sind jederzeit die aktuellen Bestandszahlen abrufbar und es lassen sich Analysen zur Bedarfserhebung durchführen.
+  * _Krippenleitung (Version 2.0)_: Angebotsplattform für Betreuungsplätze
+      * Die Krippenleitung benutzt das System um freie Plätze auszuschreiben.
+      * Der dezentrale Ansatz stellt sicher, dass die Krippenleitung die Angaben zur Krippe (insbesondere freie Plätze) in der zentralen Datenbank selbstständig aktuell hält.
+
+**[www.kinderbetreuung-zug.ch](http://www.kinderbetreuung-zug.ch/)**
+
+**  
+**
+
+**[www.zug.ch](http://www.zug.ch/)**
+
+**  
+**
+
+**[www.plone.org](http://plone.org/)**
+
+

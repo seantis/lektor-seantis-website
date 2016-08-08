@@ -1,0 +1,29 @@
+title: myControl: Duty Time Tracking leicht gemacht
+---
+pub_date: 2011-5-2
+---
+author: seantis
+---
+description: myControl macht das Duty Time Tracking (Ruhezeitkontrolle) einfach. Beim Loggen eines Fluges wird automatisch die entsprechende Duty Time berechnet und gespeichert.
+---
+body:
+
+Das lästige zusätzliche Erfassen der Duty Time entfällt. myControl gibt Dir
+jederzeit den Überblick über Deine geleisteten Arbeitszeiten (Flight Duty,
+Non-Flight Duty). Das monatliche Duty Control Sheet kann jederzeit im Exel-
+Format heruntergeladen werden.
+
+Duty Time Tracking steht allen Benutzern mit dem „Professional“ Abo ab sofort
+zu Verfügung.
+
+Für alle Piloten haben wir mit der letzten Version folgende Verbesserungen
+eingeführt:
+
+\- Added real class ratings with currency (SEP Land, MEP Land, TMG)  
+\- Added motor glider type and turbine engine  
+\- Improved time calculation on flight form  
+\- Update aircraft types with engine counts and correct types
+
+**Professional Pilot Logbook: **[**https://www.mycontrol.aero**](https://www.mycontrol.aero)
+
+

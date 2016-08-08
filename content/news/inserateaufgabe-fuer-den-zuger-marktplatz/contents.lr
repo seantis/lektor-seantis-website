@@ -1,0 +1,48 @@
+title: Inserateaufgabe für den Zuger Marktplatz
+---
+pub_date: 2010-6-22
+---
+author: seantis
+---
+description: Die Online-Inserateaufgabe bietet das gesamte Serviceangebot des "Amtsblatt des Kantons Zug".
+Inserateaufgabe für den Zuger Marktplatz
+
+
+---
+body:
+
+Am Online-Schalter lassen sich einfach Inserate aufgeben, laufende Inserate
+stoppen oder ältere Inserate wieder aktivieren.
+
+Den Inserenten stehen ein komfortabler Text-Editor sowie eine Echtzeit-
+Vorschau des Inserates zur Verfügung. So sehen die Inserenten direkt, wie ihr
+Inserat in der gedruckten Version aussehen wird.
+
+Viel Gewicht wurde auf die Benutzerführung und die Bedienungsfreundlichkeit
+gelegt. Die Inserate-Aufgabe erfolgt in drei einfachen Schritten:
+
+  * Inserate-Text erfassen mit WYSIWYG-Editor, Silbentrennung
+  * Inserat bestätigen inkl. Preisberechnung
+  * Inserat bezahlen mit Kredit- oder Postfinance-Karte
+
+Nach erfolgreicher Transaktion erhält der Benutzer eine Bestätigung per e-Mail
+inkl. der Inserat-Vorschau und der Rechnung.
+
+**<https://www.amtsblattzug.ch/eamtsblatt>**
+
+**» [Eamtsblatt in action: Screenshots](http://www.seantis.ch/engineering/case-studies/eamtsblatt "eamtsblatt" )**
+
+**[http://www.amtsblatt.ch](http://www.amtsblatt.ch/)**
+
+### Technologie
+
+Die Lösung ist auf der Basis von Zope3 entwickelt und setzt auf folgende
+zusätzliche Komponeten:
+
+  * [Grok](http://grok.zope.org/): Application-Framework
+  * [ReportLab](http://www.reportlab.org/): PDF-Generierung
+  * [SQLAlchemy](http://www.sqlalchemy.org/): SQL Toolkit und object-relational mapper
+  * MSSQL: Datenbankserver
+  * Postfinance Kreditkarten-API
+
+

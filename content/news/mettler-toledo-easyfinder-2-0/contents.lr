@@ -1,0 +1,42 @@
+title: METTLER TOLEDO EasyFinder 2.0
+---
+pub_date: 2010-6-22
+---
+author: seantis
+---
+description: EasyFinder 2.0 steht für den brandneuen METTLER TOLEDO Online-Berater, der Kunden bei der Suche nach der für ihre Prozesse, ihr Bugdet und ihre Umgebung passenden Laborwaage unterstützt.
+---
+body:
+
+Das Projekt verfolgt folgende Ziele:
+
+  1. Führen des Kunden (Endkunden, Händler) zum passenden Produkt mit einer minimalen Anzahl Fragen.
+  2. Generieren direkter Offertenanfragen.
+  3. Der Online-Berater ermöglicht: Filtern nach Kriterien, Produktvergleiche mit Erklärung der Resultate. Der Kunde erhält eine geeignete Empfehlung im Sinne eines guten Preis-Leistungsverhältnisses.
+  4. Die Applikation ist modular aufgebaut und ermöglicht eine Erweiterung um weitere Funktionalitäten und Sprachen.
+  5. Benutzerfreundlichkeit ist zentral. Das Tool ist dynamisch im Sinne, dass der user auf alle Selektionen ein sofortiges Feedback erhält.
+
+  
+Um diese Anforderungen zu erfüllen hat seantis den EasyFinder 2.0 entwickelt.
+Als Online-Berater setzt die Applikation voll auf AJAX. Das Zope/Plone-
+Framework ermöglichte einen Extreme-Programming-Ansatz inklusive der raschen
+Umsetzung mehrerer Prototypen.  
+  
+Der EasyFinder ist in dem Sinne interaktiv, dass die Empfehlungen umso genauer
+werden, je mehr Angaben der Kunde macht. Nach der Angabe von Filter-Kriterien
+wird die Menge der geeigneten Produkte sofort eingeschränkt. Dies macht die
+Selektion schnell, direkt und transparent.  
+  
+**[http://www.lab-balance.com](http://www.lab-balance.com/)**
+
+[http://www.mt.com](http://www.mt.com/)  
+  
+"METTLER TOLEDO ist spezialisiert auf Präzisionsinstrumente für professionelle
+Anwendungen. Zusätzlich zu seinem breiten Produktespektrum verfügt das
+Unternehmen über das weltweit größte Leistungsangebot in seiner Branche. Mit
+mehr als 10.000 Mitarbeitern erwirtschaftet METTLER TOLEDO jährlich einen
+Umsatz von über 1 Milliarde US-Dollar. Mettler Toledo International Inc. ist
+seit 1997 an der New Yorker Börse kotiert."
+<http://www.mt.com/mt/businessDesc/businessDesc.jsp>
+
+

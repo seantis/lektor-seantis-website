@@ -1,0 +1,57 @@
+title: METTLER TOLEDO LabX Activation Portal 
+---
+pub_date: 2010-6-22
+---
+author: seantis
+---
+description: METTLER TOLEDO successfully replaces the existing activation process for LabX, the instrument control software, with a webbased activation portal.
+---
+body:
+
+The economic goals of the overall project have been defined as follows:
+
+  * Increasing the efficiency in the internal workflow of the software activation
+
+  * Reducing the number of support cases regarding registration
+
+  * Being closer to the customer for support and marketing
+
+**  
+Conceptual phase**:
+
+  * Defining the necessary use cases and identifying the required functionality
+  * Development of a solution concept for the application
+      * Use cases
+      * UML diagrams
+
+  
+**Implementation phase**:
+
+  * Development of the structure of the application; back- and front-end in accordance with the architecture in the solution concept.
+      * Registration and activation workflows
+      * Frontend: web-interface
+      * Database: user data, complete activation history
+      * Interface to COM components
+
+  
+seantis gmbh developed the activation portal on Zope, the leading open source
+web application server. The CMS Plone is used as interface for configuration
+tasks and user management.
+
+The system design allows an extension to handle the activation trough
+webservices instead of the existing webbased procedure.
+
+The system makes heavy use of the Zope Archetypes framework, which supports
+the generation of new content types with a model-driven approach.
+
+METTLER TOLEDO LabX :: <http://www.mt.com/labx>
+
+  
+"METTLER TOLEDO specializes in the area of precision instruments for
+professional use. In addition to a wide product array, we offer the most
+comprehensive range of services in our industry on a global level. With more
+than 10,000 employees, we generate annual sales of over USD 1 billion.
+Mettler-Toledo International Inc. has been listed on the New York Stock
+Exchange since 1997." <http://ch.mt.com/mt/businessDesc/businessDesc.jsp>
+
+

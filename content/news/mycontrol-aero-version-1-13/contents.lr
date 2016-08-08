@@ -1,0 +1,30 @@
+title: myControl.aero Version 1.13
+---
+pub_date: 2012-8-31
+---
+author: seantis
+---
+description: We just released version 1.13 of myControl.aero.
+---
+body:
+
+See the list of changes below and enjoy logging your flights with
+myControl.aero.
+
+  * PDF export panel #24
+  * Cache issue on currency View #217
+  * Simulator time total time Stats #46
+  * Professional Subscription falls back to Basic when expired #216
+  * Carry forward totals added to the type stats #219
+  * Improved help text on the import view
+  * Good loooking error pages #214 
+  * METAR Portlet Timeout #218
+
+  
+Our special thanks for the valuable suggestions and insights go to Eric,
+Simon, Jürg, Nicolas and Beat.
+
+  
+**Visit myControl.aero: <https://www.myControl.aero>**
+
+

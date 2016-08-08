@@ -1,0 +1,24 @@
+title: Biobank Checkout
+---
+pub_date: 2014-3-12
+---
+author: seantis
+---
+description: Die Biobank der SCQM-Datenbank wurde um die Logistikprozesse zum Checkout von Bioproben erweitert.
+---
+body:
+
+Nach erfolgreichem Sammeln von Bioproben stehen nun die ersten
+Forschungsprojekt an. Im Gegensatz zu digitalen Daten sind die Bioproben
+physisch beschränkt verfügbar und können nicht beliebig vervielfacht werden.
+
+Wird eine Probe (Aliquot) entnommen, so muss dies nach einem strukturierten
+Prozess ablaufen und alle Schritte müssen detailliert dokumentiert werden
+(Audit Trail).
+
+Im Rahmen des Projektes wurden die Logistikprozesse der Biobank inklusive
+Checkout von Bioproben anhand von Use Cases definiert. In der Umsetzung wurde
+grössten Wert auf die umfassende und sorgfältige Protokollierung aller
+Schritte in der Kette vom Spital bis ins Labor gelegt.
+
+

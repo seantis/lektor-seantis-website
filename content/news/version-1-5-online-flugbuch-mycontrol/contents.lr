@@ -1,0 +1,24 @@
+title: Version 1.5 - Online Flugbuch myControl
+---
+pub_date: 2011-2-1
+---
+author: seantis
+---
+description: Mit schöner Regelmässigkeit landen die neuen Version von myControl.
+---
+body:
+
+Version 1.5 von myControl bietet Dir zahlreiche Verbesserungen:
+
+  * Edit shared data: aircraft, aircraft types
+  * Show number of landings and takeoffs on airport table
+  * More shortcuts on the flight edit form: (favorite) PIC name, single pilot SE/ME minutes
+  * HTML5 for webkit mobile version
+  * More time intervals in stats: 28d, current year
+  * Map View: filter period
+  * Bugfixes
+
+  
+myControl:** <http://www.mycontrol.ch> **
+
+

@@ -1,0 +1,36 @@
+title: SCQM Online-Datenbank mit Webscoring
+---
+pub_date: 2012-6-10
+---
+author: seantis
+---
+description: Mit der neusten Version bietet die SCQM-Datenbank die Möglichkeit Röntgenbilder komplett online und damit dezentral zu beurteilen (Scoring).
+---
+body:
+
+Auf dem Tab „Webscoring" finden Benutzer mit der entsprechenden Scorer-Rolle
+eine Liste mit Bildern, welche gescored werden sollen. In der Liste erscheinen
+nur Bilder, für welche noch kein Score existiert, bzw. für welche noch ein
+zweiter Score eingegeben werden muss.
+
+Das System stellt sicher, dass die Bilder für die zweite Beurteilung einem
+anderen Scorer gezeigt werden.  Der Scorer lädt ein Set von 10 Studies mit den
+entsprechenden Bildern herunter und es wird automatisch
+[Weasis](http://www.dcm4che.org/confluence/display/WEA/Home) gestartet.
+
+![Webscoring](Bildschirmfoto20120610um15.57.01.png/image_full)
+
+  1. Die Zuweisung der Scores ist über die PatientID sichergestellt. Der Scorer arbeitet nun idealerweise in zwei Bildschirmen. Im linken Fenster den Weasis DICOM Viewer und im rechten die Psaraas-DB.
+  2. Der Scorer sieht nun 10 mal das Formular für die Eingabe seiner Beurteilung. Mit „Save and Next“ kommt er auf die nächste Study (Patient).  
+Die Reihenfolge muss in Weasis gleich sein wie im Webinterface. Idealerweise
+springt Weasis im eigenen Fenster zur nächsten Studie (Patient), wenn der
+Scorer auf „Save and Next“ klickt.
+
+  3. Es muss verhindert werden, dass der Score einem falschen Patienten zugeordnet wird; z.B. wenn der Scorer sich bei der PatientID vertippt hat. Das Formularfeld „PatientID“ stellt sicher, dass der Scorer seine Beurteilung nicht dem falschen Patienten zuordnet.
+
+
+
+SCQM (Swiss Clinical Quality Management in Rheumatic Diseases):
+[www.scqm.ch](http://www.scqm.ch)
+
+

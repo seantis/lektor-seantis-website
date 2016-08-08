@@ -1,0 +1,23 @@
+title: Schweizerische Rheumadatenbank Version 4.2
+---
+pub_date: 2014-5-25
+---
+author: seantis
+---
+description: Version 4.2 bietet weitere Verbesserungen in der Benutzeroberfläche und bei der Performance.
+---
+body:
+
+Die Datenbank der SCQM Foundation läuft nun seit mehr als fünf Jahren auf
+unserer Online-Applikation und wurde in den Jahren stark erweitert.
+
+  *  371 Institutionen (Spitäler und Praxen)
+  * 13’102 Patienten
+  * 63’782 Visiten
+  * 37’327 Medikationen
+  * 63’149 Röntgenbilder
+  * 23’902 Xray Scores
+  * 28’868 Aliquots (DNA, Serum)
+  * 2’229 Sonografie Scores
+
+

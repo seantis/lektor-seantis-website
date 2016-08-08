@@ -1,0 +1,33 @@
+title: Fallstudie auf plone.org: EasyFinder
+---
+pub_date: 2010-6-22
+---
+author: seantis
+---
+description: plone.org bietet einen Überblick über plonebasierte Internet-Sites. Es findet sich eine Übersicht über Anbieter sowie eine Sammlung von Fallstudien über Plone-Projekte.
+---
+body:
+
+Die EasyFinder-Fallstudie gibt einen Überblick über die Ziele des Projektes
+und die daraus folgenden Anforderungen. Zudem werden die einsetzten
+Funktionalitäten und Technologien vorgestellt:
+
+  * AJAX - Plone KSS
+
+  * Product Filtering - ZCatalog
+
+  * Mehrsprachigkeit - LinguaPlone
+
+  * Länder-Erkennung - Python-MySQL database interface
+
+
+
+**Fallstudie auf plone.org: <http://plone.net/case-studies/mettler-toledo-easyfinder-2.0>**
+
+
+
+Falls Sie Fragen zum Projekt oder allgemein zum Thema Online-Beratung (Product
+Finder) haben, zögern sie nicht uns zu kontaktieren:
+[Fabian.Reinhard@seantis.ch](mailto:fabian.reinhard@seantis.ch)
+
+

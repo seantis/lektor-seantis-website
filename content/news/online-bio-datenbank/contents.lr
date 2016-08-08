@@ -1,0 +1,26 @@
+title: Online Bio-Datenbank
+---
+pub_date: 2011-2-23
+---
+author: seantis
+---
+description: Die Biobank der SCQM Foundation sammelt biologisches Material (DNA, Serum) von Rheumapatienten in der Schweiz.
+---
+body:
+
+Die Proben werden den Patienten dezentral entnommen und in ein zentrales Labor
+gesandt, wo sie verarbeitet und sicher gelagert werden. Der gesamte Prozess
+von der Entnahme bis zu Lagerung wird in der Online-Datenbank dokumentiert.
+
+  * Zur Entnahme werden Kits mit Barcode-Labels bereit gestellt
+  * Nach der Aufbereitung der Proben im Labor werden diese aliquotiert und wiederum mit einem Barcode versehen. Die Etikette für das Aliquot wird mit einem Spezialdrucker gedruckt.
+  * Die Online-Datenbank gibt dem Lab Technician vor, an welcher Position das Aliquot abgestellt werden soll.
+
+Ein Anonymisierungsverfahren stellt sicher, dass nicht vom Sample auf den
+Studienteilnehmer zurückgeschlossen werden kann.
+
+![BioDB Overview](Bildschirmfoto20110223um23.01.41.png/image_full)
+
+![Bio-DB Proccess](Bildschirmfoto20110223um23.02.00.png/image_full)
+
+

@@ -1,0 +1,38 @@
+title: Flight Log in Public Beta
+---
+pub_date: 2010-6-18
+---
+author: seantis
+---
+description: In Zusammenarbeit mit der AVIONIS GmbH veröffentlichen wir ein Online-Flugbuch.
+---
+body:
+
+Ein Pilot Logbook (Flugbuch) ist die Aufzeichnung aller Flüge eines Piloten.
+Jeder Pilot ist gesetzlich verpflichtet selbstständig ein Flugbuch zu führen.
+Das Flugbuch dient dem Nachweis von Flugstunden, die für die Verlängerung der
+Pilotenlizenz erforderlich sind oder zur Erlangung von Berechtigungen und
+Lizenzen.  
+  
+_myControl_ ist ein Online-Flugbuch für Piloten.
+
+  * _myControl_ ist ein komplettes Flugbuch, das sämtliche Flüge eines Piloten übersichtlich und vollständig erfasst. Flüge und Daten können als CSV exportiert und importiert werden. Das Flugbuch kann jederzeit als übersichtlich gestaltetes PDF-Dokument ausgedruckt werden und entspricht der Regulierung der JAA (Joint Aviation Authorities).
+
+  * Die Daten werden sicher gespeichert und es kann weltweit auf sie zugegriffen werden.
+
+  * Kartenfunktionen ermöglichen die grafische Darstellung aller Flugstrecken, Abflug- und Ankunftsflughäfen sowie Zwischenlandungen.
+
+  * _myControl_ umfasst eine Suchfunktion sämtlicher Flughäfen weltweit mit METAR-Informationen zu Wind, Wetter, Luftdruck und Temperatur sowie eine Suchfunktion für alle registrierten Flugzeugtypen der Schweiz
+
+  * Durch oben genannte Datenbanken von Flughäfen und Flugzeugen wird die Plausibilität der erfassten Daten überprüft. Die Eingabe von Fehlinformationen wird verhindert.
+
+  * _myControl_ bietet eine automatische UTC-Zeit-Berechnung.
+
+  * Statistische Funktionen bieten automatische Reports und Statistiken über alle Flüge des Benutzers.
+
+_myControl_ ist mit auf dem Python web application framework
+**[repoze.bfg](http://bfg.repoze.org/)** entwickelt.
+
+**Testen Sie Flight Log: <https://www.myControl.aero>**
+
+

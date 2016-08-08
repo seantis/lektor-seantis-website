@@ -1,0 +1,43 @@
+title: MT Activation Portal with Webservices
+---
+pub_date: 2010-6-22
+---
+author: seantis
+---
+description: seantis successfully expands METTLER TOLEDO software activations portal with Webservices (SOAP).
+---
+body:
+
+Webservices are services which can be automated via the Internet. Meaning,
+applications communicate with each other; HTML pages are not being transmitted
+to a web browser but rather programs exchange data and are started by
+functions triggered on a remote server.  
+  
+This enables the activation of the LabX software by METTLER TOLEDO via an
+activation portal, without ever having to visit the web portal.  
+  
+The user enters his profile into the client page of the LabX software. The
+LabX software communicates with the server via the webservice and transmits
+all necessary data.  
+  
+This makes activation by the user incredibly easy, while at the same time
+METTLER TOLEDO maintains the flexibility and configuration options of a
+central portal server.
+
+
+
+  * Zope/Plone: [http://plone.org](http://plone.org/)
+  * SOAP: <http://www.w3.org/TR/soap/>
+  * ZSI - The Zolera Soap Infrastructure: <http://pywebsvcs.sourceforge.net/>
+
+  
+**METTLER TOLEDO Activation Portal: <https://activation.mt.com/>**
+
+  
+  
+
+Related content
+
+  * [METTLER TOLEDO LabX Activation Web Portal](http://www.seantis.ch/news/news/mettler-toledo-labx-activation-web-portal "METTLER TOLEDO successfully replaces the existing activation process for LabX, the instrument control software, with a webbased activation portal." )
+
+

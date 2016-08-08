@@ -1,0 +1,32 @@
+title: Nationale Rheumadatenbank in Version 3.5.1
+---
+pub_date: 2012-2-7
+---
+author: seantis
+---
+description: Mit Version 3.5.1 wird die Benutzerfreundlichkeit weiter optimiert.
+---
+body:
+
+Um die Benutzerfreundlichkeit der Dateneingabe in die Online Datenbank weiter
+zu verbessern und die Datenqualität zu erhöhen werden Sie bei der Dateneingabe
+ab sofort automatisch durch alle wichtigen Themen geleitet.
+
+So kommen Sie z.B., nach dem Ausfüllen einer Visite direkt in das
+**Medikamentenblatt** und können diese aktualisieren. Bis jetzt mussten Sie
+diese Eingabemasken immer selbst anwählen.
+
+![Psaraas 3.5.1](../Paraas_351.png/image_full)
+
+Die Krankheitscharakteristika  wurden neu nach Diagnose aufgeschlüsselt. Diese
+Massnahme verkürzt für Sie den Aufwand massgeblich. Sie werden nun  bei jeder
+Visite durch den Ordner Krankheitscharakteristika geführt und  können
+allenfalls notwendige Anpassungen vornehmen. Bitte beachten Sie, dass die
+Frage nach dem entzündlichen Rückenschmerz (AS und PsA) gemäss ASAS Kriterien
+in mehrere Fragen unterteilt wurde.
+
+Zusätzlich arbeiten wir ab sofort mit Farben: Fragen, welche für die Forschung
+wichtig sind, sind orange markiert. Sobald eine solche Frage beantwortet ist,
+wechselt die Frage von orange zu grün.
+
+

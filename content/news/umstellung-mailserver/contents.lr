@@ -1,0 +1,44 @@
+title: Umstellung Mailserver
+---
+pub_date: 2014-1-13
+---
+author: seantis
+---
+description: Am kommenden Wochenende stellen wir auf einen neuen E-Mail-Server um. Am 18. und 19. Januar sind Ihre E-Mail-Konten deshalb nur eingeschränkt verfügbar.
+---
+body:
+
+Der neue Server bringt neben verbesserter Sicherheit die Möglichkeit
+Abwesenheits- und Weiterleitungsregeln zu definieren. Diese finden Sie nach
+der Umstellung auf <https://webmail.seantis.ch> unter «Einstellungen/Filter».
+
+Wir beginnen mit der Umstellung am Samstag 18. Januar um 09:00. Ab diesem
+Zeitpunkt können Sie für mindestens eine Stunde keine E-Mails versenden und
+keine neuen E-Mails empfangen. Ihre bestehenden E-Mails werden zu diesem
+Zeitpunkt vom alten auf den neuen Server kopiert.
+
+Sie verlieren keine E-Mails, bestehende E-Mails werden kopiert und eingehende
+E-Mails erreichen Sie mit einer leichten Verzögerung. Während der Umstellung
+über das Wochenende können Sie jederzeit über unser Webmail E-Mails lesen und
+schreiben: <https://webmail.seantis.ch>
+
+Unser neuer Mailserver nutzt neueste Sicherheitsfunktionen, welche es Dritt-
+Parteien erschweren Ihre E-Mails mitzulesen. Der alte E-Mail Server hatte die
+meisten dieser Funktionen bereits, es wurde bei E-Mail-Clients wie Outlook
+oder Thunderbird aber nicht erzwungen, diese auch zu nutzen. Je nach
+Einstellung kann es deshalb sein, dass Sie sich nach der Umstellung nicht mehr
+mit dem Mailserver verbinden können.
+
+Die neuen Einstellungen können Sie bereits diese Woche - also vor der
+Umstellung - vornehmen. Wir haben eine Webseite aufgeschaltet, welche die
+Einstellungen beschreibt und Anleitungen für die gängigsten E-Mail-Programme
+enthält. Nutzen Sie diese Webseite, um Ihr Programm bereits diese Woche
+umzustellen oder leiten Sie es Ihrem IT-Verantwortlichen weiter:
+[http://www.seantis.ch/email-migration](http://nohost/seantis/email-migration
+"" )
+
+Wir sind darum bemüht die Umstellung so vorzunehmen, dass Sie davon möglichst
+nichts bemerken. Auf alle Fälle sind Ihre bestehenden E-Mail sicher und neue
+E-Mails werden Sie auch alle erhalten.
+
+

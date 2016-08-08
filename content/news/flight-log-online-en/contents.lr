@@ -1,0 +1,39 @@
+title: Flight Log in Public Beta
+---
+pub_date: 2010-6-18
+---
+author: seantis
+---
+description: In Zusammenarbeit mit der AVIONIS GmbH veröffentlichen wir ein Online-Flugbuch.
+---
+body:
+
+A pilot or flight logbook is a record of all flights by a pilot. A pilot has
+to independently keep account of his flights in order to prove his flight
+hours.  
+  
+_Flight Log_ is an online logbook for pilots. It offers a full range of
+possibilities:
+
+  * It is a complete pilot logbook to keep account of all flights in a clearly arranged manner. Flight data can be exported and imported as CSV. The pilot logbook can be converted into a clear PDF document and printed. It is compliant to the regulations of the JAA (Joint Aviation Authorities).
+
+  * All data is securely saved and worldwide accessible.
+
+  * Flight routes, Airports and stopovers are shown on maps.
+
+  * _Flight Log_ offers a search engine to find any airport worldwide and shows METAR information (wind, weather, pressure , temperature) and another engine to find any registrated aircraft type in Switzerland.
+
+  * The pilots flight data is proved by the data provided by the search engines. Wrong informations are not possible.
+
+  * _Flight Log_ also offers an automatic UTC-Time-Calculation
+
+  * Statistic functions offer automatic reports and statistics about all flights of the user. 
+
+_Flight Log_ is build with Python web application framework
+**[repoze.bfg](http://bfg.repoze.org/)**.
+
+[](http://www.seantis.ch/engineering/case-studies/flight-log "Flight Log" )
+
+**Try Flight Log: [https://flight-log.ch](https://flight-log.ch/)**
+
+
