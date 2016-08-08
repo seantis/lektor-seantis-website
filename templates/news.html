@@ -13,7 +13,7 @@
             <div <span class="actionDate">{{ child.pub_date }}</div>
             <h2><a href="{{ child|url }}">{{ child.title }}</a></h2>
             <div class="documentDescription">{{ child.description }}</div>
-            <div><a href="https://seantis.ch/news/onegov-cloud-gewinnt-einen-best-of-swiss-web">mehr…</a></div>
+            <div><a href="{{ child|url }}">mehr…</a></div>
         </div>
     {% endfor %}
     {{ render_pagination(this.pagination) }}
