@@ -9,9 +9,9 @@ The seantis website generated with [Lektor](https://github.com/lektor/lektor).
 ```
 mkdir lektor
 cd lektor
-virtualenv .
+virtualenv -p pyhton2.7 .
 source bin/activate
-pip install lektor
+pip install Lektor
 ```
 
 ### 2. Clone this repository
