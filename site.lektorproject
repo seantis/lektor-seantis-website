@@ -1,5 +1,6 @@
 [project]
 name = seantis
+url = https://seantis.ch
 
 [packages]
 lektor-htmlmin = 0.2
