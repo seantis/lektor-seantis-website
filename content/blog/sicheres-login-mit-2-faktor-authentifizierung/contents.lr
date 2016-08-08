@@ -1,0 +1,46 @@
+
+title: 2-Faktor-Authentifizierung in OCQMS
+---
+pub_date: 2013-11-27
+---
+author: seantis
+---
+description: Sicheres Login mit 2-Faktor-Authentifizierung
+---
+body:
+
+In den Datenbanken für die medizinische Forschung werden sensitive
+Patientendaten gespeichert. Der Zugriff auf die personenbezogenen Daten setzt
+eine sichere Authentifizierung der Benutzer voraus.
+[OCQMS](http://nohost/seantis/portfolio/ocqms "" ) bietet ein sicheres Login
+mit 2-Faktor-Authentifizierung. Die Benutzer verwenden dazu
+[YubiKeys](http://nohost/seantis/blog/sicheres-login-mit-yubikey "" ).
+
+### Unterschiedliche Arten von Tokens
+
+Die 2-Faktor-Authentifizierung ist flexibel implementiert, so dass
+grundsätzlich unterschiedliche Arten von Tokens verwendet werden können. Es
+lässt sich konfigurieren, ob ein YubiKey, ein Token per SMS (mTAN) oder eine
+andere Variante wie eine Strichliste mit Transaktionsnummern verwendet werden
+wird.  
+
+
+![YubiKey](yubikey.png)
+
+Auf dem Screenshot fällt auf, dass auf dem Formular nur ein YubiKey und kein
+Passwort eingegeben werden muss. Diese Methode ohne Passwort wäre nicht
+sicher, da damit ein gestohlener YubiKey zur Authentifizierung genügen würde.
+Im Authentifizierungsprozess von OCQMS ist dem abgebildeten Formular deshalb
+noch ein Login-Formular mit Passwort vorgeschaltet. So muss der Benutzer
+zwingend sowohl etwas wissen (sein geheimes Passwort) als auch etwas besitzen
+(sein persönliches YubiKey).
+
+### Sicherheit dank Hardware-Tokens
+
+Das „Wissen“ kann gestohlen werden, ohne dass der Eigentümer es bemerkt
+(Passwort ausgespäht). Auch das „Haben“ könnte ohne das Wissen des Benutzers
+missbraucht werden. Beim Einsatz von Hardware-Tokens (wie dem YubiKey) ist
+dieses Risiko jedoch deutlich kleiner, da ein YubiKey nicht kopiert werden
+kann und der Verlust schnell bemerkt wird (Schlüsselbund weg).
+
+

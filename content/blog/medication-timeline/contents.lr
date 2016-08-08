@@ -1,0 +1,21 @@
+
+title: Medication Timeline
+---
+pub_date: 2014-2-24
+---
+author: seantis
+---
+description: The medication timeline shows medication and disease activity scores combined on the same time axis.
+---
+body:
+
+OCQMS integrates and visualizes time-oriented medication data and combines the
+data with clinical scores (disease activity scores). The goal is to improve
+medication reconciliation by providing clinicians with more visual feedback
+for time-oriented medication data.
+
+**More information about OCQMS: [www.ocqm.org](http://www.ocqm.org "" )**
+
+![](Timeline.png)
+
+

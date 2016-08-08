@@ -1,0 +1,72 @@
+
+title: suisseID: Bitte keine rein zertifikats-basierte Authentifizierung
+---
+pub_date: 2010-11-7
+---
+author: seantis
+---
+description: Die rein zertifikats-basierte Authentifizierung mit der suisseID ist bei Webapplikationen nicht ideal und schöpft die eigentlichen Stärken der suisseID nicht aus.
+---
+body:
+
+Unsere Kritik an der Art und Weise wie Service-Provider die suisseID in ihre
+Internet-Applikationen integrieren kann man [hier
+nachlesen](http://nohost/seantis/blog/suisseid-ad-absurdum).
+
+Die eigentlichen Stärken der suisseID liessen sich nützen, wenn man sich
+konsequent an der Kernidee einer Authentifizierung mittels einer Trusted Third
+Party orientiert.
+
+### Trusted Third Party
+
+  1. Als Endbenutzer vertraue ich nur meinem Identity Provider (IdP): Natürlich weiss ich wer das ist (im Moment QuoVadis und SwissSign).
+  2. Als Service Provider vertraue ich nur den Identity Providern.
+
+Daraus leitet sich Folgendes ab:
+
+  1. Als Endbenutzer gebe ich Daten nur über meinen IdP frei. Dies geschiet immer über die Website des IdP und lasse nur diesen mein Zertifikat auslesen.
+  2. Als Service Provider lese ich nie ein Zertikat direkt aus, sondern leite den Benutzer lediglich auf den IdP weiter und bekomme die angefragten Informationen - nach der Zustimmung des Endbenutzers - vom IdP.
+
+Nun ist aber auch die rein zertifikats-basierte Authentifizierung nach den
+[Einsatzszenarien der
+suisseID](http://www.suisseid.ch/unternehmen/einsatzszenarien/zertifikat/index.html)
+zulässig.  
+Für Internet-Applikationen scheint uns dies nicht der richtige Weg, weil:
+
+  1. Der Endbenutzer sein Zertifikat nicht einfach jeder Internetseite zeigen sollte (vgl. [unseren Beitrag dazu](http://nohost/seantis/blog/suisseid-ad-absurdum)).
+  2. Der Service Provider gar nicht zu wissen braucht, auf welche Art sich der Benutzer beim IdP identifiziert.
+
+###  
+Identitätsprovider können für mehr Sicherheit sorgen
+
+Und jetzt kommt der Clou: Es liegt eigentlich beim Identitätsprovider die
+Sicherheit der Authentifizierung zu erhöhen: er kann zum Beispiel zusätzlich
+ein One Time Token per SMS an den Benutzer schicken (wie das Banken schon
+machen).  
+Und es kommt noch besser: Damit lösen wir auch das unten stehende
+Problem.![suisseID
+Hammer](hammer_suisseid.png)
+
+Offenbar arbeitet SwissSign bereits an [suisseID in der
+Cloud](http://www.computerworld.ch/aktuell/news/52792/index.html), wo mein
+Zertifikat also beim IdP liegen würde und nicht mehr physisch bei mir. Dazu
+müsste dann wohl in jedem Fall ein Verfahren wie ein One Time Token über SMS
+oder etwas Ähnliches dazu kommen.
+
+Service Provider, die eine echte Authentifizierung über den IdP machen, müssen
+dabei an ihrer Implementation gar nichts ändern.
+
+### Keine rein zertifikats-basierten Anmeldungen mehr!
+
+Die Service-Provider sollen aufhören direkt Zertifikate auszulesen. Das
+verbaut uns allen den oben beschriebenen Weg. Das SECO hätte es einfach in der
+Hand (gehabt), Subventionen für Webapplikationen nur für die Authentifizierung
+via einen IdP zu sprechen. Wir sehen wirklich nicht ein was man bei einer
+Webapplikationen durch die rein zertifikatsbasierte Anmeldung gewinnt; man
+muss für jede Anfrage so oder so einen Abgleich mit Certificate Revocation
+List (CRL) machen. Bleibt einzig der Punkt, dass die Email-Adresse leider
+nicht zu den Core Attributes gehört und nur auf dem Zertifikat gespeichert
+ist. Da viele Service Provider genau an dieser interessiert sind, wäre es wohl
+besser die Spezifikation in diesem Punkt zu ändern.
+
+

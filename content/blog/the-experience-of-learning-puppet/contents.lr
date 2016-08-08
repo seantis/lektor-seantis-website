@@ -1,0 +1,128 @@
+
+title: The Experience of Learning Puppet 
+---
+pub_date: 2012-6-13
+---
+author: seantis
+---
+description: 
+---
+body:
+
+About a month ago I started introducing puppet to our infrastructure at
+[seantis](http://nohost/seantis/). After ploughing through [Pro
+Puppet](http://www.apress.com/9781430230571) I was able to declare our basic
+configuration needs, setup the basic infrastructure and deploy two servers in
+no time.
+
+The experience I made is the basis for this post.
+
+## Why Puppet
+
+Before betting on puppet I had a good look at what is out there. Basically, I
+looked at Puppet and Chef, both ruby based systems for automating
+configuration. Other options like [Salt](http://saltstack.org/) or
+[Cfengine](http://cfengine.com/) I dismissed since they seem rather new or
+old, respectively.
+
+The big difference between Puppet and Chef, as any article will tell you, is
+the fact that Chef is an extension to Ruby, while Puppet relies on its own
+declarative configuration language per default.
+
+As I liked the idea of declaring my needs, instead of just writing ruby code,
+I went for the Puppet road.
+
+(At this point I should probably spend a month with Chef, but who has that
+kind of time?)
+
+## Starting Out
+
+Puppet is easy to like. The initial setup with
+[Vagrant](http://www.vagrantup.com) was simple and really helped me working
+out the kinks of my initial manifests.
+
+Similarly, setting up a Puppetmaster and connecting an agent to it is
+something you don’t need a PHD for. There’s certainly some amount of reading
+required to have a basic understanding, but it’s neither brain surgery nor
+rocket science.
+
+## It Gets Complex Fast
+
+Puppet has the concept of modules. Being used to write reusable code I pretty
+much started using them for any service I could think of. Setup Mysql? Use a
+module. Define Users? Use a module. And so on.
+
+Unfortunately, this is the point where documentation gets kinda thin. It’s
+nice if you can set up your a Trac project with two lines of code after you’ve
+hidden all the nitty gritty in some module. It’s really what I hoped to gain
+by declaring my configs. No more going crazy on the shell for 10 minutes to
+set up everything. No more silly mistakes. Set it, forget it.
+
+But then you realize that you coupled your Trac module too closely with the
+Nginx configuration. So you move some code out. You then realize that for
+another project to live on the same server you need to completely rethink your
+approach because you are not flexible enough.
+
+It’s all still okay, mind you. You can test your changes locally, you can do
+some real life staging and once you update your production machine you can be
+reasonably sure that nothing unexpected will happen.
+
+That’s of course what a learning curve looks like, but I was still somewhat
+unprepared for the fast increase in complexity of my configurations.
+
+## Puppet Forge to the Rescue?
+
+Whenever a smaller mind like yours truly encounters problems it goes off to
+wander around open source land. The [Puppet
+Forge](http://forge.puppetlabs.com) and numerous Github projects are waiting
+to be studied.
+
+Unfortunately, it’s not like shopping for a nice Python module in the
+Cheeseshop. It is quite hard to find a module that suits your needs. If you
+find one it is then hard to assess the quality of said module. At least for
+novices like me.
+
+I mean I did find good modules, like the [Mysql module from
+Puppetlabs](https://github.com/puppetlabs/puppetlabs-mysql) (though my Mysql
+needs are really basic). But I also encountered a number of modules which just
+didn’t seem like the kind of modules I would want to use on our
+infrastructure.
+
+For example [Puppetlabs’ own Nginx module](https://github.com/puppetlabs
+/puppetlabs-nginx) which has a listen_port parameter in the vhost resource
+which does nothing. A bug which was fixed in another fork months ago and has
+since been sitting around [waiting to be pulled](https://github.com/puppetlabs
+/puppetlabs-nginx/pull/15).
+
+I mean I know that Puppetlabs’ modules are not an official part of puppet, but
+as someone who is starting out it is still kinda surprising to me that a bug
+like that wouldn’t be fixed quicker. A module by the people who wrote puppet
+just seems like a module you would want to trust.
+
+## Do Modules Really Work?
+
+At this point I’m starting to wonder just how feasible community modules
+really are. From the modules I wrote and the modules I looked at I get the
+feeling that it is very hard to write a good module that supports different,
+complex use cases.
+
+The fork-jungle that is puppetlabs-nginx suggests that you end up writing your
+own version of a module quickly. Which of course is a bit of a problem,
+because it gets very hard to figure out which module to use. So you fork your
+own. Or write your own. And who wants to do that? There are certainly more
+interesting things to work on.
+
+## Summing Up
+
+I do like Puppet and it certainly helped a lot already. Even if just for the
+fact that it forced me to really understand all the steps involved in
+configuring our servers. But Puppet is not yet something that feels completely
+solid. At least not for complex use cases. At least not to me.
+
+But, I am keen to learn a great deal more about it so my views are surely up
+for changing. And what do I know, really?
+
+Also visit my personal blog:
+[**http://blog.stacktrace.ch**](http://blog.stacktrace.ch)
+
+

@@ -1,0 +1,47 @@
+
+title: Internet Explorer 7
+---
+pub_date: 2010-6-28
+---
+author: seantis
+---
+description: 
+---
+body:
+
+Nachdem der Internet Explorer 7 in der finalen Version erschienen ist und nun
+auch per automatisches update installiert wird, dürfen sich alle Webdesigner
+mit einem weiteren Browser herumschlagen.  
+Das positive vorneweg: mit dem ie7 sollte nun alles besser werden. Offene
+Fragen bleiben:  
+  
+**ie7 100% standardkonform?**  
+nein!!!!!! arrrrrrrhhhh. Leider immer noch nicht so ganz.  
+  
+**dirty ie6 hacks**: "html&gt;body"  
+zuweilen auch kommentiert mit: /* Another workaround for broken Internet
+Explorer */  
+Ab wann kann man denn nun diese Hacks entfernen und den html-code etwas
+entschlacken? Dies natürlich hängt stark davon ab, wie schnell der ie6 durch
+den ie7 ersetzt wird. Die Desktops in Unternehmungen werden voraussichtlich
+nicht allzu bald mit dem neuen Browser ausgestattet.
+
+**Testen im ie6/ie7**  
+Nach dem Update auf den ie7 lässt sich der ie6 nicht mehr verwenden.
+Allerdings ist es für Webentwicker unabdingbar Websites weiterhin auf Version
+6 zu testen. Glücklicherweise gibt es dazu ein Packet, das nach dem Update auf
+ie7 eine funktionsfähige Testumgebung mit mit vormaligen Internet Explorer
+Versionen bereitstellt:  <http://tredosoft.com/Multiple_IE>  
+  
+**ie7 und Plone 2.5  
+**Aktuell gibt es noch einige open issues: <http://plone.org/documentation/how-to/plone-ie7-updates>
+
+  * Breite der Site: fixed
+  * Kupu: fixed
+  * Fehlermeldung LiveSearch
+
+  
+Ein Plone Mini-Release, das die verbleibenden Probleme lösen wird, ist bereits
+angekündigt.
+
+

@@ -1,0 +1,19 @@
+
+title: sitemaps - Wegweiser für google
+---
+pub_date: 2010-6-22
+---
+author: seantis
+---
+description: 
+---
+body:
+
+Um google die Übersicht über die eigene site zu erleitern, ist es
+empfehlenswert eine sitemap bei google anzumelden. Für Plone gibt es eine
+Erweiterung, welche das benötigte xml-file automatisch erstellt. Damit bleibt
+nur noch das Anmelden bei google. Alles weitere unter:
+
+<http://www.google.com/webmasters/sitemaps>
+
+

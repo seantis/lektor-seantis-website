@@ -1,0 +1,22 @@
+
+title: Realtime Benchmarking for Medical Data
+---
+pub_date: 2014-4-23
+---
+author: seantis
+---
+description: Basic summary statistics in OCQMS
+---
+body:
+
+OCQMS now offers some basic summary statistics for realtime explorative data
+analysis. Below you see a boxplot chart for a certain institution in
+comparison to all cohort data. The charts can also help to discover outliers
+and correct erroneous values if needed.
+
+The summary statistics are implemented using the open source statistical
+programming language R ([www.r-project.org](http://www.r-project.org "" )).
+
+![](summarystats.png)
+
+

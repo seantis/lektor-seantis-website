@@ -1,0 +1,70 @@
+
+title: i18ndude: "the swiss army knife for translators"
+---
+pub_date: 2010-6-28
+---
+author: seantis
+---
+description: 
+---
+body:
+
+1\. Easy_install i18ndude (probably as root or with sudo):
+
+    
+    
+     easy_install i18ndude
+
+  
+2\. Go to the locales directory of your product and (re-)generate POT file:
+
+    
+    
+     i18ndude rebuild-pot --pot ${PRODUCT}.pot --create ${PRODUCT} ../
+
+  
+3\. Synchronize the german PO file with the POT:
+
+    
+    
+     i18ndude sync --pot ${PRODUCT}.pot de/LC_MESSAGES/${PRODUCT}.po
+
+Or you can just use the following shell script to make your life easier (sh
+sync.sh). Replace "${DOMAIN}" with your domain and the language code with the
+ones you need.
+
+    
+    
+    #!/bin/sh  
+      
+    # List of languages  
+    LANGUAGES="de fr"  
+    DOMAIN="${DOMAIN}"  
+    EXTRA=""  
+      
+    # Create locales folder structure for languages  
+    for lang in $LANGUAGES; do  
+    	install -d $lang/LC_MESSAGES  
+    done  
+      
+    echo "Extracting pot file"  
+    i18ndude rebuild-pot --pot $DOMAIN.pot --create $DOMAIN $EXTRA ../  
+      
+    # Compile po files  
+    for lang in $(find . -mindepth 1 -maxdepth 1 -type d); do  
+      
+        if test -d $lang/LC_MESSAGES; then  
+        		  
+    		PO=$lang/LC_MESSAGES/$DOMAIN.po  
+      
+        	# Create po file if not exists  
+        	touch $PO   
+      
+    		# Sync po file  
+    		echo "Syncing $PO"  
+    		i18ndude sync --pot $DOMAIN.pot $PO  
+        fi  
+    done  
+    
+
+

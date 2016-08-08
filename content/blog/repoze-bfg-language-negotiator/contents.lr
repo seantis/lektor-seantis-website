@@ -1,0 +1,201 @@
+
+title: repoze.bfg Language Negotiator
+---
+pub_date: 2010-6-22
+---
+author: seantis
+---
+description: 
+---
+body:
+
+Since version 1.3 repoze.bfg offers internationalization and localization. For
+one of our projects ([Flight Log](https://flight-log.ch/)) we have written a
+custom locale negotiator showing the page in the language defined in the users
+browser settings.
+
+The way how to internationalize your application is fully documented in the
+amazing repoze.bfg documentation:
+<http://docs.repoze.org/bfg/1.3/narr/i18n.html>
+
+Let's have a look at the test first:
+
+    
+    
+    from unittest import TestCase  
+      
+    from webob.acceptparse import Accept  
+      
+    from repoze.bfg.interfaces import ISettings  
+    from repoze.bfg.threadlocal import get_current_registry  
+    from repoze.bfg.testing import DummyRequest  
+      
+    class TestLocaleNegotiator(TestCase):  
+      
+        def test_get_preferred_languages(self):  
+            from flightlog.locale_negotiator import get_preferred_languages  
+              
+            # No header  
+            request = DummyRequest()  
+            langs = get_preferred_languages(request)  
+            self.assertEquals([], langs)  
+              
+            # Empty header  
+            request = DummyRequest()  
+            setattr(request, 'accept_language', Accept('Accept-Language', ''))  
+            langs = get_preferred_languages(request)  
+            self.assertEquals([], langs)  
+              
+            request = DummyRequest()  
+            setattr(request, 'accept_language', Accept('Accept-Language', 'de'))  
+            langs = get_preferred_languages(request)  
+            self.assertEquals(['de'], langs)  
+              
+        def test_locale_negotiator(self):  
+            from flightlog.locale_negotiator import locale_negotiator  
+              
+            registry = get_current_registry()  
+            settings = {'available_languages' : 'en de', 'default_locale_name' : 'de'}  
+            registry.registerUtility(settings, ISettings)  
+              
+            # No header  
+            request = DummyRequest()  
+            lang = locale_negotiator(request)  
+            self.assertEquals('de', lang)  
+              
+            # Single accepted language  
+            request = DummyRequest()  
+            setattr(request, 'accept_language', Accept('Accept-Language', 'en'))  
+            lang = locale_negotiator(request)  
+            self.assertEquals('en', lang)  
+              
+            # List of languages  
+            request = DummyRequest()  
+            setattr(request, 'accept_language', Accept('Accept-Language', 'de, en'))  
+            lang = locale_negotiator(request)  
+            self.assertEquals('de', lang)  
+              
+            # Qualities  
+            request = DummyRequest()  
+            setattr(request, 'accept_language', Accept('Accept-Language', 'da, en-gb;q=0.8, en;q=0.7'))  
+            lang = locale_negotiator(request)  
+            self.assertEquals('en', lang)  
+              
+            # Malformed quality  
+            request = DummyRequest()  
+            setattr(request, 'accept_language', Accept('Accept-Language', 'da, en-gb;q=0.8.0, en;q=0.7'))  
+            lang = locale_negotiator(request)  
+            self.assertEquals('en', lang)  
+                                             
+    
+
+Next the language negotiator (this code has mostly been copied from
+[zope.i18n](http://pypi.python.org/pypi/zope.i18n)):
+
+    
+    
+    from repoze.bfg.settings import get_settings  
+      
+    def get_preferred_languages(request):  
+          
+        # Not availabe in DummyRequest during testing  
+        if not hasattr(request, 'accept_language') or not hasattr(request.accept_language, 'header_value'):  
+            return []  
+          
+        accept_langs = request.accept_language.header_value.split(',')  
+      
+        # Normalize lang strings  
+        accept_langs = [normalize_lang(l) for l in accept_langs]  
+        # Then filter out empty ones  
+        accept_langs = [l for l in accept_langs if l]  
+      
+        accepts = []  
+        for index, lang in enumerate(accept_langs):  
+            l = lang.split(';', 2)  
+      
+            # If not supplied, quality defaults to 1...  
+            quality = 1.0  
+      
+            if len(l) == 2:  
+                q = l[1]  
+                if q.startswith('q='):  
+                    q = q.split('=', 2)[1]  
+                    try:  
+                        quality = float(q)  
+                    except ValueError:  
+                        # malformed quality value, skip it.  
+                        continue  
+      
+            if quality == 1.0:  
+                # ... but we use 1.9 - 0.001 * position to  
+                # keep the ordering between all items with  
+                # 1.0 quality, which may include items with no quality  
+                # defined, and items with quality defined as 1.  
+                quality = 1.9 - (0.001 * index)  
+      
+            accepts.append((quality, l[0]))  
+      
+        # Filter langs with q=0, which means  
+        # unwanted lang according to the spec  
+        # See: http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.4  
+        accepts = [acc for acc in accepts if acc[0]]  
+      
+        accepts.sort()  
+        accepts.reverse()  
+      
+        return [lang for quality, lang in accepts]  
+          
+    def normalize_lang(lang):  
+        lang = lang.strip().lower()  
+        lang = lang.replace('_', '-')  
+        lang = lang.replace(' ', '')  
+        return lang  
+      
+    def normalize_langs(langs):  
+        # Make a mapping from normalized->original so we keep can match  
+        # the normalized lang and return the original string.  
+        n_langs = {}  
+        for l in langs:  
+            n_langs[normalize_lang(l)] = l  
+        return n_langs  
+      
+    def locale_negotiator(request):  
+          
+        settings = get_settings()  
+        available_languages = settings.get('available_languages', '').split()  
+        preferred_languages = get_preferred_languages(request)  
+          
+        available_languages = normalize_langs(available_languages)  
+        for lang in preferred_languages:  
+            if lang in available_languages:  
+                return available_languages.get(lang)  
+            # If the user asked for a specific variation, but we don't  
+            # have it available we may serve the most generic one,  
+            # according to the spec (eg: user asks for ('en-us',  
+            # 'de'), but we don't have 'en-us', then 'en' is preferred  
+            # to 'de').  
+            parts = lang.split('-')  
+            if len(parts) > 1 and parts[0] in available_languages:  
+                return available_languages.get(parts[0])  
+                  
+        return settings.get('default_locale_name', 'en')  
+      
+    
+
+Finally have to include it via ZCML in configure.zcml.
+
+    
+    
+    <configure xmlns="http://namespaces.repoze.org/bfg">  
+      
+      <!-- this must be included for the view declarations to work -->  
+      <include package="repoze.bfg.includes" />  
+          
+      <localenegotiator negotiator=".locale_negotiator.locale_negotiator" />  
+      
+      <translationdir dir="flightlog:locale/" />  
+      
+    </configure>  
+    
+
+

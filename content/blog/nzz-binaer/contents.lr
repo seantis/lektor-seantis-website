@@ -1,0 +1,38 @@
+
+title: NZZ in binärer Kodierung
+---
+pub_date: 2012-6-10
+---
+author: seantis
+---
+description: Zum Relaunch der Website erscheint die Frontseite der NZZ in binärer Kodierung.
+---
+body:
+
+![NZZ
+Binär](Bildschirmfoto20120610um11.19.16.png)
+
+
+
+Mutig mutig, alte Tante! Was ich noch nicht ganz verstehe ist die
+Konvertierung in Binärcode. Müssten es für diese Textlänge nicht viel mehr
+Zeichen (0,1) sein? Darum bei der per Tweet nachgefragt
+([https://twitter.com/seantis/status/211755317267152896](http://twitter.com/seantis/status/211755317267152896)):
+
+> @[nzz](https://twitter.com/nzz) die binäre Frontseite vom Freitag war
+grossartig! Welche Konvertierung in Binärcode ist das? Scheinen mir etwas gar
+wenig Zeichen...  
+> — seantis (@seantis) [Juni 10,
+2012](https://twitter.com/seantis/status/211755317267152896)
+
+Gerade noch einmal selbst darüber nachgedacht. Für jedes Zeichen (Buchstabe,
+Zahl) werden 8 binäre Stellen gebraucht:
+
+Der NZZ-Schriftzug ist also entsprechend gekürzt:  
+"01001110 01011010 01011010" heisst "NZZ"
+
+Damit sind alle Artikel sehr stark gekürzt! :-)
+
+Neue Zürcher Zeitung: [www.nzz.ch](http://www.nzz.ch)
+
+

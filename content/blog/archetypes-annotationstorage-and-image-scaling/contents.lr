@@ -1,0 +1,67 @@
+
+title: Archetypes, AnnotationStorage and image scaling
+---
+pub_date: 2010-6-28
+---
+author: seantis
+---
+description: 
+---
+body:
+
+The ImageField Archetypes schema field type has a methode for scaling the
+images. But when using AnnotationStorage() this doesn't work out of the box.
+After defining the sizes for the field:
+
+    
+    
+        atapi.ImageField(  
+            'image',  
+            storage=atapi.AnnotationStorage(),  
+            widget=atapi.ImageWidget(  
+                label=_(u"Product Family Image"),  
+                description=_(u"add an image to the product family"),  
+            ),  
+            validators=('isNonEmptyFile'),  
+            sizes = {'large'   : (768, 768),  
+                     'preview' : (400, 400),  
+                     'mini'    : (200, 200),  
+                     'thumb'   : (128, 128),  
+                    },  
+        ),  
+    
+
+You need to override __bobo_traverse__ to access the scaled image.
+
+    
+    
+        # workaround to make resized images  
+        def __bobo_traverse__(self, REQUEST, name):  
+            """Transparent access to image scales  
+            """  
+            if name.startswith('image'):  
+                field = self.getField('image')  
+                image = None  
+                if name == 'image':  
+                    image = field.getScale(self)  
+                else:  
+                    scalename = name[len('image_'):]  
+                    if scalename in field.getAvailableSizes(self):  
+                        image = field.getScale(self, scale=scalename)  
+                if image is not None and not isinstance(image, basestring):  
+                    # image might be None or '' for empty images  
+                    return image  
+      
+            return base.ATCTContent.__bobo_traverse__(self, REQUEST, name)  
+    
+
+Now you can access the different sizes of the image by simple urls like
+"/image_mini"
+
+
+
+See also: Products.ATContentTypes.ATNewsItem
+
+Thanks to: [http://www.unc.edu/~jj/plone/](http://www.unc.edu/%7Ejj/plone/)
+
+

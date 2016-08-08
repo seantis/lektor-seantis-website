@@ -1,0 +1,117 @@
+
+title: Getting Pyramid to work with uWSGI in a buildout environment
+---
+pub_date: 2011-6-14
+---
+author: seantis
+---
+description: uWSGI supports setting up sys.path with the paths of a virtualenv. But what if you are using buildout and virtualenv is not aware of your paths?
+---
+body:
+
+Setting up our first production server with
+[ocqms](http://nohost/seantis/search?SearchableText=ocqms) proved to be
+somewhat tricky, as my own understanding of uWSGI, Pyramid and buildout was
+limited to say the least. We always run our python projects in virtual
+environments, but we often use it for nothing more than a container from which
+to run bootstrap.py
+
+Bootstrapping our environment like this, we tell buildout to create it's own
+interpreter script which sets up the path before it runs the python
+interpreter. We do this by setting the interpreter argument of zc.recipe.egg
+to something like 'interpreter = py', giving us the bin/py script to work
+with.
+
+Though I'm still not entirely convinced that this is the only way, or indeed
+the right way, it means that we have to setup the python paths ourselves, if
+we want to use uWSGI as our WSGI server. Or indeed any WSGI server.
+
+The thing is, uWSGI provides a case for virtualenv. But it only sets the
+python path to a specified directory. From there python python can find all
+required packages in the standard site-packages sub-directory.
+
+Unfortunately, in our environment the site-packages are in buildout's eggs
+directory, rendering this option useless for us.
+
+So, to get uWSGI to run with the correct paths we had to do the following.
+
+First, be sure that your uwsgi.ini or similar uses these parameters:
+
+    
+    
+    wsgi-file = /var/www/app/pyramid.wsgi  
+    chdir = /var/www/app  
+    post-buffering = 4096 
+
+This tells uWSGI to use the given WSGI script and to set the working dir prior
+to running it.
+
+Note the post-buffering parameter. We had to use this to prevent a bug with
+pyramid and uwsgi where pyramid would not read the content of POSTs correctly.
+It probably has something to do with the following paste bug which seems to be
+fixed, but not yet included in the latest release:
+
+<http://trac.pythonpaste.org/pythonpaste/ticket/473>
+
+Anywho, having done that, create the pyramid.wsgi script as follows:
+
+    
+    
+    import sys, os  
+    __this__ = os.getcwd()  
+      
+    def setup_python_path():      
+        base = __this__  
+        sources = os.path.join(base, 'src')  
+        eggs = os.path.join(base, 'eggs')  
+      
+        paths = []  
+      
+        for src in os.listdir(sources)  
+            paths.append(os.path.join(__this__, 'src', src))  
+          
+        for egg in os.listdir(eggs):  
+            paths.append(os.path.join(__this__, 'eggs', egg))  
+      
+        sys.path[0:0] = paths  
+      
+    setup_python_path()  
+      
+    # uncomment the following if set up logging with your paster ini  
+    # from paste.script.util.logging_config import fileConfig  
+    # fileConfig('production.ini')  
+      
+    from pyramid.paster import get_app  
+    application = get_app(os.path.join(__this__, 'production.ini'), 'app')
+
+As you can see, this script, residing in the root of the buildout directory,
+gathers all the directories that need to be known by python and adds them to
+the sys.path.
+
+The wsgi application is then set up using a paster configuration. Note that
+get_app expects the name of your app, defined in the ini, as the second
+argument.
+
+With this set up you should then be able to run
+
+    
+    
+    uwsgi --ini /var/www/app/uwsgi.ini
+
+
+
+**EDIT**
+
+As [unbit](http://twitter.com/#!/unbit) pointed out, this can actually be done
+much simpler by removing the setup_python_path function in the code above and
+adding the following lines to the uwsgi.ini
+
+    
+    
+    pythonpath = /var/www/app/eggs/*.egg  
+    pythonpath = /var/www/app/src/*
+
+Which does the same with less code and is therefore a superior way of doing
+it.
+
+

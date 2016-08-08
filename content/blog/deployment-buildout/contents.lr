@@ -1,0 +1,245 @@
+
+title: Deployment Buildout
+---
+pub_date: 2010-6-28
+---
+author: seantis
+---
+description: 
+---
+body:
+
+Für ein Plone-Projekt mit vielen Seitenzugriffen ist ein gutes Setup auf den
+Live-Servern zentral. Nur mit einer ausgefeilten Konfiguaration inkl. Caching
+lässt sich eine gute Performance erreichen.
+
+Mittels buildout lässt sich einfach eine schnelle Konfiguration aufsetzen:
+
+  * nginx: <http://wiki.codemongers.com/Main>
+
+  * varnish: <http://varnish.projects.linpro.no/>
+
+  * supervisor: <http://supervisord.org/>
+  * 1 ZEO-Server / 2 ZEO-Instanzen: primary und secondary
+
+  * Rotation der log-files
+  * Persistente Sessions
+
+  
+Die Konfiguration für den Produktivbetrieb findet sich im deployment.cfg. Die
+Konfiguration in der Datei ist zusätzlich zu den Angaben im eigentlichen
+buildout des Projektes (buildout.cfg).
+
+Um diese Umgebung aufzusetzen, die Konfigurationsdatei explizit angeben:
+
+    
+    
+     $ ./bin/buildout -c deployment.cfg
+
+Alles starten / stoppen:
+
+    
+    
+     $ ./bin/supervisorctl start all     
+     $ ./bin/supervisorctl stop all  
+    
+
+Um den Cache komplett zu leeren:
+
+    
+    
+     $ telnet localhost 6082  
+       -- url.purge .*  
+       -- quit  
+    
+
+Das gesamte deployment.cfg:
+
+    
+    
+    [buildout]  
+    extends =  
+        buildout.cfg  
+      
+    parts =  
+        plone  
+        zope2  
+        productdistros  
+        deploymentproducts  
+          
+        zeoserver  
+        instance1  
+        instance2  
+          
+        varnish-build  
+        varnish-instance  
+          
+        nginx-build  
+        nginx-instance  
+      
+        supervisor  
+        logrotate.conf  
+      
+    [deploymentproducts]  
+    recipe = plone.recipe.distros  
+    urls =  
+        http://plone.org/products/cachefu/releases/1.1/CacheFu-1.1.tgz  
+    nested-packages =  
+        CacheFu-1.1.tgz  
+    version-suffix-packages =   
+      
+    [zeoserver]  
+    recipe = plone.recipe.zope2zeoserver  
+    zope2-location = ${zope2:location}  
+    zeo-address = 127.0.0.1:8100  
+    effective-user = user  
+    zeo-conf-additional =  
+         %import tempstorage  
+         <temporarystorage temp>  
+             name temp storage for sessioning  
+         </temporarystorage>   
+      
+    [instance1]  
+    recipe = collective.recipe.zope2cluster  
+    instance-clone = instance  
+    zope2-location = ${zope2:location}  
+    zeo-client = true  
+    zeo-address = ${zeoserver:zeo-address}  
+    debug-mode = off  
+    verbose-security = off  
+    zodb-cache-size = 5000  
+    zeo-client-cache-size = 300MB  
+    http-address = 8080  
+    effective-user = user  
+    zodb-temporary-storage =  
+        <zodb_db temporary>  
+          <zeoclient>  
+            server 127.0.0.1:8100  
+            storage temp  
+            name zeostorage  
+            var ${buildout:directory}/var/filestorage  
+          </zeoclient>  
+          mount-point /temp_folder  
+          container-class Products.TemporaryFolder.TemporaryContainer  
+        </zodb_db>   
+      
+    [instance2]  
+    recipe = collective.recipe.zope2cluster  
+    instance-clone = instance  
+    zope2-location = ${zope2:location}  
+    zeo-client = true  
+    zeo-address = ${zeoserver:zeo-address}  
+    debug-mode = off  
+    verbose-security = off  
+    zodb-cache-size = 5000  
+    zeo-client-cache-size = 300MB  
+    http-address = 8081  
+    effective-user = user  
+    zope-conf-additional = zserver-threads 1  
+    zodb-temporary-storage = ${instance1:zodb-temporary-storage}  
+          
+    [varnish-build]  
+    recipe = zc.recipe.cmmi  
+    url = http://puzzle.dl.sourceforge.net/sourceforge/varnish/varnish-2.0.2.tar.gz  
+      
+    [varnish-instance]  
+    recipe = plone.recipe.varnish  
+    daemon = ${buildout:directory}/parts/varnish-build/sbin/varnishd  
+    bind = *:80  
+    backends = 127.0.0.1:8201  
+    cache-size = 1G  
+    telnet = 127.0.0.1:6082  
+    mode = foreground  
+      
+    [nginx-build]  
+    recipe = zc.recipe.cmmi  
+    url = http://sysoev.ru/nginx/nginx-0.6.34.tar.gz  
+    extra_options = --with-http_realip_module  
+      
+    [nginx-instance]  
+    recipe = gocept.nginx  
+    nginx = nginx-build  
+    configuration =   
+        user user;  
+        error_log ${buildout:directory}/var/log/nginx-error.log warn;  
+        worker_processes 1;  
+        daemon off;   
+        events {  
+            worker_connections 1024;  
+        }  
+        http {  
+            upstream zope {  
+                server 127.0.0.1:${instance1:http-address} max_fails=3 fail_timeout=30s;  
+                server 127.0.0.1:${instance2:http-address} max_fails=3 fail_timeout=30s;  
+            }  
+            server {  
+                listen 127.0.0.1:8201;  
+                server_name mydomain.ch www.mydomain.ch;  
+                set_real_ip_from   127.0.0.1;  
+                real_ip_header     X-Forwarded-For;  
+                access_log ${buildout:directory}/var/log/nginx-access.log;  
+                rewrite ^/(.*) /VirtualHostBase/http/www.mydomain.ch:80/myplonesite/VirtualHostRoot/$1 last;  
+                location / {  
+                    proxy_pass http://zope;  
+                }  
+            }  
+        }  
+      
+    [supervisor]  
+    recipe = collective.recipe.supervisor  
+    port = 127.0.0.1:9001  
+    user = admin  
+    password = admin  
+    serverurl = http://127.0.0.1:9001  
+    programs =  
+        10 zeo        ${buildout:directory}/parts/zeoserver/bin/runzeo  true user  
+        20 instance1  ${buildout:directory}/parts/instance1/bin/runzope true user  
+        20 instance2  ${buildout:directory}/parts/instance2/bin/runzope true user  
+        30 varnish    ${buildout:directory}/bin/varnish-instance        true  
+        40 nginx      ${nginx-build:location}/sbin/nginx [-c ${nginx-instance:run-directory}/nginx-instance.conf] true user  
+      
+    [logrotate.conf]  
+    recipe = zc.recipe.deployment:configuration  
+    text =   
+        rotate 4  
+        weekly  
+        create  
+        compress  
+        delaycompress  
+      
+        ${buildout:directory}/var/log/instance1*.log {  
+            sharedscripts  
+            postrotate  
+                /bin/kill -USR2 $(cat ${buildout:directory}/var/instance1.pid)  
+            endscript  
+        }  
+          
+        ${buildout:directory}/var/log/instance2*.log {  
+            sharedscripts  
+            postrotate  
+                /bin/kill -USR2 $(cat ${buildout:directory}/var/instance2.pid)  
+            endscript  
+        }  
+          
+        ${buildout:directory}/var/log/zeoserver.log {  
+            postrotate  
+                /bin/kill -USR2 $(cat ${buildout:directory}/var/zeoserver.pid)  
+            endscript  
+        }  
+          
+        ${buildout:directory}/var/log/nginx*.log {  
+            sharedscripts  
+            postrotate  
+                /bin/kill -USR1 $(cat ${nginx-instance:run-directory}/nginx.pid)  
+            endscript  
+        }  
+      
+      
+    
+
+<http://plone.org/documentation/tutorial/buildout/a-deployment-configuration>
+
+<http://www.martinaspeli.net/articles/an-uber-buildout-for-a-production-plone-
+server>
+
+

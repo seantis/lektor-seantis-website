@@ -1,0 +1,24 @@
+
+title: Libres - Python Reservation Library
+---
+pub_date: 2015-2-17
+---
+author: seantis
+---
+description: Python library to reserve stuff in a calendar.
+---
+body:
+
+Not a replacement for Outlook or Google Calendar, but a library to manage
+reservations in the following use cases:
+
+  * Manage meeting rooms in a company. Users reserve the rooms themselves without an authority confirming/denying their reservations.
+  * Manage nursery spots. Parents apply for a spot in the nursery for their kid. Someone at the nursery goes through the applicants and decides who gets the spot. Parents may add an application to the waitinglist.
+  * Manage community facilities. Citizens see the availability of facilities online and call the municipality to reserve a facility. The management is done internally (maybe through an already existing software). A readonly calendar shows the state on the website.
+
+ Libres as such does not provide any user interface for reservations. That is
+the job of other projects depending on Libres.
+
+**[Documentation](http://libres.readthedocs.org/en/latest/) | [Source](http://github.com/seantis/libres/) | [Bugs](http://github.com/seantis/libres/issues)**
+
+

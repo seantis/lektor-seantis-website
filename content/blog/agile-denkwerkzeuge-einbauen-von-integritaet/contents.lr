@@ -1,0 +1,78 @@
+
+title: Agile Denkwerkzeuge: «Integrität einbauen»
+---
+pub_date: 2015-3-5
+---
+author: seantis
+---
+description: «Einbauen von Integrität» (build integrity in) ist eines der «Lean» Denkwerkzeuge (thinking tool).
+---
+body:
+
+> Perceived integrity means that the totality of the product achieves a
+balance of function, usablity, and economy that delights customers. Conceptual
+inegrity means that the system’s central concepts work together as a smooth,
+cohesive whole. (Poppendieck 2003)
+
+Integrität (integrity) ist ein breiter Begriff und beinhaltet viele Aspekte
+wie Unversehrtheit, Intaktheit, Vollständigkeit, Richtigkeit oder Seriosität.
+
+Es lassen sich zwei Dimensionen von Integrität eines Produktes herausarbeiten:
+konzenzeptionelle Integrität (conceptual integrity) und perzeptierte
+Integrität (perceived integrity).
+
+### Konzeptionelle Integrität
+
+Konzeptionelle Integrität meint, dass die einzelnen Komponenten eines System
+ganzheitlich aufeinander abgestimmt sind und im Zusammenspiel optimal
+funktionieren. Das System soll flexibel, wartbar, effizient und
+anpassungsfähig sein. Das Desgin und die Bedienbarkeit sollen durchgängig
+konsistent sein und die Software muss den fachlichen Anforderungen (business
+problems) gerecht werden.
+
+### Perzeptierte Integrität
+
+Die pezeptierte Integrität umschreibt die Wahrnehmung des Systems durch den
+Anwender. Dazu zählt alles was der Nutzer in der Interakeraktion mit dem
+System erlebt; von der Funktionalität, über die Benutzerfreundlichkeit bis zu
+den nicht-funktionalen Aspekten.
+
+### Interne perzeptierte Integrität
+
+Programmierer sehen sofort und wissen instinktiv, ob eine Software integer ist
+(free from flaw, defect, and decay). Die interne perzeptierte Integrität lässt
+sich durch XP Praktiken bewahren (test driven development, refactoring,
+continous integration, eliminating code smells and antipatterns).
+
+### Externe perzeptierte Integrität
+
+Der Benutzer des Systems nimmt bewusst und unterbewusst wahr, ob eine Software
+integer ist. Ganz zentral für ein gutes Benutzererlebnis sind nicht-
+funktionale Anforderungen wie Performance (maximum response time) und
+Benutzerführung (user flow). Für die externe pezeptierte Integrität wichtig
+ist auch eine gute Informationsarchitektur sowie die sorgfältige und
+konsistente Verwendung von Begrifflichkeiten und Bezeichnungen.
+
+### Konzeptionelle Integrität als Voraussetzung
+
+Konzeptionelle Integrität ist die notwenige aber nicht hinreichende Bedingung
+für perzeptierte Integrität. Es ist also nicht möglich eine Software zu
+entwickeln, welche als integer wahrgenommen wird (perceived integrity), ohne
+dass sie auf der konzeptionellen Ebene (conceptual integrity) die
+Anforderungen erfüllt.
+
+Integrität lässt sich nicht im Nachhinein in eine Software einbauen. Sie
+entwickelt sich zu einem Wesensmerkmal des Systems. Das Einbauen von
+Integrität muss über den gesamten Entstehungs- und Entwicklungsprozess einer
+Software im Fokus stehen.
+
+Wir entwicklen qualitativ hochstehende Software. Dazu setzen wir auf die
+besten Open Source Entwickler-Tools und arbeiten gemäss [Agiler
+Methodik](http://nohost/seantis/portrait/agile-softwareentwicklung "" ).
+
+### Literatur
+
+  * Poppendieck Mary, Poppendieck Tom (2003): Lean Software Development: An Agile Toolkit
+  * Andrew Stellman, Jennifer Greene (2014): Learning Agile
+
+

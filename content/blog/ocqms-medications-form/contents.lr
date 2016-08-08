@@ -1,0 +1,23 @@
+
+title: OCQMS - Medications Form
+---
+pub_date: 2012-2-10
+---
+author: seantis
+---
+description: Meet the new medications form in OCQMS. The form is shown in two contexts: during the step "Patient History" and "Care Plan".
+---
+body:
+
+![Medicaitons Form
+OCQMS](Medications_Form_OCQMS.png)
+
+![Medication Form Overlay](Medication_form_overlay.png)
+
+![Medication Form Overlay](medication_overlay.png)
+
+Learn more about the ideas behind the design of the medications form:
+[http://www.seantis.ch/blog/designing-a-medication-
+form](http://nohost/seantis/blog/designing-a-medication-form)
+
+

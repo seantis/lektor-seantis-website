@@ -1,0 +1,28 @@
+
+title: Pyramid Web Application Framework
+---
+pub_date: 2010-12-2
+---
+author: seantis
+---
+description: "Pylons" und "repoze.bfg" bündeln ihre Kräfte und bringen mit "Pyramid" ein neues Framework. 
+---
+body:
+
+repoze.bfg ist ein mächtiges zugleich aber einfaches Framework und wir freuen
+uns daher sehr auf Pyramid.  
+Ganz in der repoze.bfg-Tradition bietet Pyramid eine umfassende, stets
+aktuelle Dokumentation: <http://docs.pylonshq.com/pyramid/dev>
+
+Die nächsten Projekte werden wir bereits auf Pyramid starten und unsere
+bisherigen repoze.bfg Applikationen nach dem Erscheinen von Pyramid 1.0 auf
+die neue code base umstellen.
+
+Die Ankündigung von Pyramid: <http://lists.repoze.org/pipermail/repoze-
+dev/2010-November/003619.html>
+
+P.S. Offenbar wurden auch unwahre Gerüchte verbreitet, welchen das Pyramid-
+Team mit aller Entschiedenheit entgegen tritt **:-)**:
+<http://docs.pylonsproject.org/denials/pyramid.html>
+
+

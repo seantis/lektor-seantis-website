@@ -1,0 +1,74 @@
+
+title: Connecting to MSSQL with pyodbc
+---
+pub_date: 2011-2-3
+---
+author: seantis
+---
+description: How to connect to a MSSQL database sever from a debian server via pyodbc.
+---
+body:
+
+First, you need to install some packages.
+
+    
+    
+    $ sudo aptitude install unixodbc unixodbc-dev freetds-dev sqsh tdsodbc
+
+With FreeTDS installed configure it like this:
+
+    
+    
+    /etc/freetds/freetds.conf
+    
+    [myServer]
+    
+    # host configuration is in /etc/odbcinst.ini
+    
+    tds version = 7.0
+
+Testing FreeTDS is not too hard:
+
+    
+    
+    $ sqsh -S myServer -U USERNAME -P PASSWORD
+
+Next up it’s necessary to configure ODBC:
+
+    
+    
+    /etc/odbcinst.ini  
+    [FreeTDS]  
+    Description     = TDS driver (Sybase/MS SQL)  
+    Driver          = /usr/lib/odbc/libtdsodbc.so  
+    Setup           = /usr/lib/odbc/libtdsS.so  
+    CPTimeout       =  
+    CPReuse         =  
+    FileUsage       = 1 
+    
+    
+    /etc/odbc.ini  
+    [myServer]  
+    Driver          = FreeTDS  
+    Description     = ODBC connection via FreeTDS  
+    Trace           = No  
+    Servername      = myServer  
+    Database        = DATABASENAME  
+
+Now you want to install pyodbc
+
+    
+    
+    $ easy_install pyodbc
+
+and use it in python:
+
+    
+    
+    import pyodbc  
+    cnxn = pyodbc.connect('DSN=myServer;UID=USERNAME;PWD=PASSWORD')
+
+See: <http://lambie.org/2008/02/28/connecting-to-an-mssql-database-from-ruby-
+on-ubuntu/>
+
+

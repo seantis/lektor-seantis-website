@@ -1,0 +1,42 @@
+
+title: Plone 3.0 Buch
+---
+pub_date: 2010-6-28
+---
+author: seantis
+---
+description: 
+---
+body:
+
+Martin Aspeli - sicher einer der grossen Plone-Insider - hat ein Buch über die
+Entwicklung von Webapplikationen mit Plone 3.0 geschrieben.
+
+Das Werk heisst "Professional Plone Development" und ist bei Packt Publishing
+erschienen: <http://www.packtpub.com/Professional-Plone-web-applications-
+CMS/book>
+
+  
+
+"This book aims to teach best practices of Plone development, focusing on
+Plone 3.0. It covers setting up a suitable development environment,
+customizing Plone’s look and feel, creating new content types and forms,
+connecting to external databases, and managing users and groups intelligently.
+It also shows how to configure a production-ready server, with LDAP
+authentication and caching.
+
+  * How to set up a suitable development environment
+  * The importance of automated testing of any code you write
+  * How to perform Plone customizations in a manageable, re-usable fashion
+  * Techniques for branding Plone and changing its look and feel
+  * How to safely install and manage third-party add-on components
+  * How to create your own content types
+  * How to create new forms and templates
+  * Ways of interacting with external relational databases
+  * Techniques for managing users and custom user metadata
+  * Using Plone’s new AJAX framework to build dynamic user interfaces
+  * How to set up Zope and Plone in a production environment 
+  * How to connect to an LDAP/Active Directory repository for authentication
+  * How to configure a caching proxy to improve Plone's performance"
+
+

@@ -1,0 +1,26 @@
+
+title: Open Source in the Enterprise: Plone @ Novell
+---
+pub_date: 2010-6-28
+---
+author: seantis
+---
+description: 
+---
+body:
+
+Die Präsentation auf [plone.tv](http://plone.tv/) gibt einen Einblick in die
+Hintergründe der Migration von [Novell](http://novell.com/) auf Plone. Novell
+hatte eine ganze Reihe von proprietären CMS  - wie TeamSite und Vignette - im
+Einsatz. Allerdings waren diese System kostspielig und nur mit grossem Aufwand
+an besondere Anforderungen anpassbar. Aus diesem Grund hat sich Novell für
+Plone entschieden und scheint damit ausgezeichnete Erfahrungen zu machen.
+
+<http://plone.tv/media/1838007412/view>
+
+Nachtrag: Ein weiteres interessantes Video befasst sich mit Themen wie High
+Availability, Load Balancing und  Single Sign-On:  
+  
+<http://plone.tv/media/1142075512/view>
+
+

@@ -1,6 +1,7 @@
+
 title: Ticketing-System für Dienstleistungen der Gemeindeverwaltung
 ---
-pub_date: 2015-07-17
+pub_date: 2015-7-17
 ---
 author: seantis
 ---
@@ -8,21 +9,25 @@ description: Die OneGov Cloud bietet ein Ticketing-System für alle über Online
 ---
 body:
 
-Der Ablauf ist klar definiert und basiert auf den Prozessen in der Gemeindeverwaltung:
+Der Ablauf ist klar definiert und basiert auf den Prozessen in der
+Gemeindeverwaltung:
 
-1. Zuweisung des Tickets an die zuständige Dienststelle in der Verwaltung
-2. Bearbeiten des Tickets durch die zuständige Person
-3. Schliessen des Tickets durch die verantwortliche Person
-4. (Wiedereröffnen des Tickets durch die Verwaltung)
+  1. Zuweisung des Tickets an die zuständige Dienststelle in der Verwaltung
+  2. Bearbeiten des Tickets durch die zuständige Person
+  3. Schliessen des Tickets durch die verantwortliche Person
+  4. (Wiedereröffnen des Tickets durch die Verwaltung)
 
-Ein zentraler Eingang für Formulardaten mit Ticketing-System bietet folgende Vorteile:
+Ein zentraler Eingang für Formulardaten mit Ticketing-System bietet folgende
+Vorteile:
 
-- Es geht keine Anfrage (z.B. in einem persönlichen Email-Postfach) verloren
-- Überblick über alle offenen Tickets in Echtzeit 
-- Nachvollziehbarkeit (inkl. Suche in Tickets)
-- Automatische Benachrichtigung des Kunden (Ticketeingang, Statusänderung) 
-- Automatischer Puffer dank Pull-System
+  * Es geht keine Anfrage (z.B. in einem persönlichen Email-Postfach) verloren
+  * Überblick über alle offenen Tickets in Echtzeit 
+  * Nachvollziehbarkeit (inkl. Suche in Tickets)
+  * Automatische Benachrichtigung des Kunden (Ticketeingang, Statusänderung) 
+  * Automatischer Puffer dank Pull-System
 
-**Mehr Infos zur OneGov Cloud: https://onegovcloud.ch**
+**Mehr Infos zur OneGov Cloud: <https://onegovcloud.ch>**
 
 ![Tickets](Tickets.png)
+
+

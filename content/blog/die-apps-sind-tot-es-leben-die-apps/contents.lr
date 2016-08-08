@@ -1,0 +1,48 @@
+
+title: Die Apps sind tot, es leben die Apps!
+---
+pub_date: 2010-6-19
+---
+author: seantis
+---
+description: Nach dem Hype um all die Apps - gerade auch im Zusammenhang mit dem iPad - wird es Zeit mal grundsätzlich über Apps nachzudenken.
+---
+body:
+
+Apps sind toll und jeder hat eine Menge davon auf seinem Handy. Doch Apps sind
+böse, denn sie zerstören das Internet. Das Internet mit offenen Standards
+(HTML, CSS, JavaScript) ist eine echte Errungenschaft die hart erkämpft werden
+musste. Für Besucher ist es möglich eine Website mit allen möglichen
+Endgeräten anzuschauen. Die Seite muss dazu nur einmal in HTML geschrieben
+werden. Natürlich war auch dies lange Zeit die Idealvorstellung, weil gewisse
+Browser (Internet Explorer) sich nicht an die Standards hielten. Dies war
+weniger auf Unvermögen zurückzuführen als vielmehr auf strategische
+Überlegungen. Microsoft wehrte sich gegen das offene Internet und erhoffte
+sich durch den Einbau von proprietären Elementen seine Marktmacht zu sichern.  
+  
+Mit der neusten Generation von Browsern wären wir endlich soweit, dass die
+Web-Standards von allen Browsern vernünftig unterstützt werden. Gerade jetzt
+kommen die Apps! Apps sind das pure Gegenteil von offenen Standards: ich kann
+meine App nur auf dem iPhone, dem Android Phone oder dem Blackberry verwenden.
+Wer eine iPhone-App baut, baut für das iPhone. Wer eine Android-App baut, baut
+für Android.  
+  
+Glücklicherweise gäbe es jedoch einen Weg zurück zu echten Web-Standards: mit
+HTML5 und CSS3 stehen eine Vielzahl von Funktionen wie local storage zur
+Verfügung, die bisher Apps vorenthalten haben. Wer eine HTML5-App baut, baut
+für alle Systeme mit Browsern, die HTML5 unterstützen oder unterstützen
+werden.  
+  
+Das in letzter Zeit viel gescholtene Google könnte ein Vorreiter auf dem Weg
+zurück zu einem offenen Web sein.  Mit seinem geplanten chrome webstore will
+google installierbare Web-Anwendungen, die direkt über den Browser aufgerufen
+werden, gegenüber den geschlossenen Apps besser in Position bringen. Denn
+Googles Erfolg baut auf dem offenen Internet und seit iAds ist klar, dass es
+für Google gefährlich wird, wenn Apple die Welt weiterhin mit Apps
+überschwemmt.  
+  
+Wir alle wollen ein offenes Internet. Apps sind tot, es leben die HTML5-Apps!  
+  
+http://www.w3.org/TR/offline-webapps/
+
+

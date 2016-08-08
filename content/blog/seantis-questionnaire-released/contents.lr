@@ -1,0 +1,39 @@
+
+title: seantis Questionnaire released 
+---
+pub_date: 2010-6-22
+---
+author: seantis
+---
+description: 
+---
+body:
+
+Der seantis Questionnaire ist released als open source.
+
+Seantis Questionnaire ist eine django Applikation zur Erstellung von online
+Questionnaires und Befragungen. seantis Questionnaire lässt sich einfach an
+Benutzerwünsche anpassen und eignet sich auch für fortgeschrittene
+Abhängigkeiten innerhalb des Fragebogens.
+
+Es wurde als Teil einer medizinischen Studie mit jährlichen Follow-Up-
+Fragebögen designt und enthält daher features zum automatischen Versand von e
+-mail-Einladungen.
+
+## Features
+
+  * Multiple Questionnaires, multiple pages (QuestionSets) per questionnaire, multiple runs of same questionnaire per subject (eg. for annual surveys)
+  * Multilingual using the django transmeta application.
+  * Questions (ie. _6_) &amp; SubQuestions (ie. 6_a_), with appropriate layout tweaks. 
+  * Email Invitations (direct URL to Questionnaire)
+  * Does _not_ require Django’s authentication system to answer questionnaires
+  * CSV export of answers.
+  * Complex dependencies utilising a full Boolean Expression Parser, and Javascript support. eg. (6a=yes and 6b=yes) OR 5=no
+  * Easily extensible question types (Question Processor + Template, and Answer Processor)
+  * Built-in Question types include Open (single line), Open (text area), Yes/No, Yes/No/Dont Know, Yes/No/Comment, Single Choice, Single Choice + Freeform Option, Multiple Choice, Multiple Choice + Freeform Option(s), Number Range, Time Period.
+  * [Django Signals](http://docs.djangoproject.com/en/1.0/topics/signals/) on completion of QuestionSets and Questionnaires 
+
+  
+**<http://wiki.github.com/rmt/seantis-questionnaire>**
+
+

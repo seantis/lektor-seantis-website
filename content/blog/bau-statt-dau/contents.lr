@@ -1,0 +1,40 @@
+
+title: BAU statt DAU
+---
+pub_date: 2013-5-27
+---
+author: seantis
+---
+description: Das Konzept des «dümmsten anzunehmender Users» (DAU) hat mich nie wirklich überzeugt. Ein sinnvolleres Konzept scheint der «betrunken anzunehmende User» (BAU).
+---
+body:
+
+Die Idee hinter dem DAU ist, dass ein Programm auch ohne Hintergrundwissen der
+zukünftigen Anwender benutzbar und von ihnen intuitiv anwendbar ist
+[<http://de.wikipedia.org/wiki/D%C3%BCmmster_anzunehmender_User>]. Ich finde
+das Konzept aus drei Gründen nicht überzeugend:
+
+  1. Der DAU ist ein theoretisches Konstrukt, das in der Realität gar nicht vorkommt.
+  2. Weil man den DAU in der freien Wildbahn nicht beobachten kann, hat jeder seine eigene Vorstellung vom DAU. Argumentationen, die auf den DAU Bezug nehmen, sind daher immer äusserst subjektiv.
+  3. Software für den DAU zu designen ist eine Frechheit gegenüber allen anderen Benutzern. Für sie wird es nämlich mühsam und sie fühlen sich nicht ernst genommen. Alle Benutzer werden für dumm verkauft.
+
+
+
+![BAU](BAU.png)
+
+Der «betrunken anzunehmende User» BAU hat alle diese Nachteile nicht
+
+  1. Der BAU ist real und die entsprechende Situation mit genügend Alkohol jederzeit reproduzierbar.
+  2. Der BAU ist beobachtbar. Er ist ein realer Benutzer mit gewissen Einschränkungen.
+  3. Wenn ich Software für den BAU baue, dann muss ich mir stets bewusst sein, dass der BAU zwar betrunken aber nicht dumm ist!
+
+  
+Warum aber überhaupt an den BAU denken und nicht einfach nur an den nüchtern
+Benutzer? Vielleicht weil alle User durch eine Vielzahl Faktoren abgelenkt
+sind und durch Multitasking ihre Sinne vernebelt werden.
+
+Die Idee ist von Will Dayble
+([@](https://twitter.com/willdayble)[willdayble](https://twitter.com/willdayble)):
+«The User is Drunk»
+
+

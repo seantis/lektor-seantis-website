@@ -1,0 +1,25 @@
+
+title: Visualisierung Krankenkassenprämien 2014
+---
+pub_date: 2014-2-18
+---
+author: seantis
+---
+description: Wir haben unsere App zur räumlichen Visualisierung der Krankenkassen aktualisiert und die Daten für das Jahr 2014 ergänzt.
+---
+body:
+
+Die interaktive Karte mit allen Krankenkassenprämien der Schweiz wurde vor gut
+einem Jahr am Swiss Open Data Hackday in Basel entwickelt.
+
+**Die interaktive Karte ist leider nicht mehr online verfügbar.**
+
+Für Entwickler dürfte unser Python Package SHIP interessant sein. Es bietet
+einfachen Zugriff auf den konsolidierten Prämiensatz des BAGs.
+
+SHIP - Swiss Healthcare Insurance Premiums:
+<https://pypi.python.org/pypi/ship>
+
+![](ship2014.png)
+
+

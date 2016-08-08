@@ -1,0 +1,42 @@
+
+title: OCQMS - Full History of Changes and Notes
+---
+pub_date: 2011-7-27
+---
+author: seantis
+---
+description: The OCQMS prototype includes a context menu where notes can be added and where you get a full description of the field and its history of changes.
+---
+body:
+
+![OCQMS Exams](Bildschirmfoto20110727um16.33.08.png)
+
+![context menu
+open](Bildschirmfoto20110727um16.35.39.png)
+
+Notes can be added for each field. To keep the UI clean, the link to open
+notes is placed in a context menu. The menu unfolds when clicking on the icon
+next to the fields name. From the menu, notes can be added ("Add note"),
+additional information ("Information") about the field can be displayed and
+the the full history ("History") can be accessed.
+
+Notes are added in a nice overlay window. After a note has been added, the
+note icon next to the field's label changes its color.
+
+![OCQMS Notes](Bildschirmfoto20110727um16.41.52.png)
+
+We think it's important to provide information to users including images with
+instructions or references to scentific publications.
+
+![OCQMS Information
+Overlay](Bildschirmfoto20110727um17.23.09.png)
+
+
+
+From the context menu you can access the full history of all changes on the
+field level.
+
+![OCQMS History
+Overlay](Bildschirmfoto20110727um17.28.55.png)
+
+

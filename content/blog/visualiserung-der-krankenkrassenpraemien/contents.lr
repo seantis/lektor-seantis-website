@@ -1,0 +1,126 @@
+
+title: Visualiserung der Krankenkassenprämien
+---
+pub_date: 2012-9-28
+---
+author: seantis
+---
+description: Am Swiss Open Data Hackday arbeiten wir an einer Visualisierung der Krankenkassenprämien der Schweiz.
+---
+body:
+
+Nachdem wir den Prämiendatensatz vom BAG erhalten haben und diesen [mittels
+einem kleinen Tool (SHIP) in eine Datenbank gebracht
+haben](http://nohost/seantis/blog/ship-swiss-healthcare-insurance-premiums),
+sind wir nun dabei die Prämiendaten zu visualisieren. Es ist allgemein
+bekannt, dass die Prämienunterschiede zwischen einzelnen Kantonen sehr gross
+sind.
+
+![ship.png](ship.png)
+
+Wir möchten die Daten auf einer interaktiven Karte darzustellen, so dass sich
+regionale Unterschiede einfach erkennen lassen. Für die Karte sollen sich dann
+dynamische Filter setzen lassen. Interessant könnten hier gewisse
+"Kovariablen" wie Ärzte- oder Spitaldichte sein. Auch die Entwicklung über
+Zeit ist sicherlich nicht uninteressant.
+
+![SHIP
+Map](SHIPMockup.png)
+
+
+Für die interaktive Karten-App bauen wir auf die Applikation "[Swiss Train
+Flows](http://flows.transport.opendata.ch/)", welche am letzten Swiss Open
+Data Hackday in Zürich entstanden ist.
+
+Im Team "SHIP" Swiss Open Data Hackday:
+
+  * Denis Krienbühl (<https://github.com/href>)
+  * Colin Frei (<https://github.com/colinfrei>)
+  * Patrick Staehlin (<https://github.com/packi>)
+  * Oliver Egger (<https://github.com/oliveregger>)
+  * Fabian Reinhard (<https://github.com/freinhard>)
+
+
+
+**Last but not least das GitHub Repository: <https://github.com/seantis/ship>[
+](https://github.com/seantis/ship)**
+
+* * *
+
+###
+Stand der Arbeiten
+
+_Update FR 28.09.2012 17:30_: Kantonsgrenzen auf die Karte zeichnen mit
+GeoJSON
+
+![Geo
+JSON](geo_json.png)
+
+
+
+* * *
+
+
+
+_Update FR 28.09.2012 18:48_: Wir werden definitiv ein schönes Farbschema
+brauchen! Hier ein verdammt schönes Beispiel von
+<http://mbostock.github.com/d3/talk/20111018/choropleth.html>
+
+![Unemployment
+USA](Bildschirmfoto20120928um18.49.28.png)
+
+
+
+* * *
+
+
+
+_Update FR 28.09.2012 19:24_: Ich habe gerade die kleine Python Webapp auf
+meinem Notebook installiert:
+
+  * Die Karte wird geladen
+  * Die Kantonsgrenzen sehr ordentlich eingezeichnet!
+
+![Kantonsgrenzen](Bildschirmfoto20120928um19.23.12.png)
+
+
+
+* * *
+
+
+_Update FR 28.09.2012 19:46_: Wir haben erste Farben! Wow!!
+
+![Map
+Colors](Bildschirmfoto20120928um19.44.16.png)
+
+
+
+* * *
+
+
+
+_Update FR 28.09.2012 21:02_: Wie visualisieren wir die Ärztedichte pro
+Kanton?
+
+![aerzte_pro_10T.png](aerzte_pro_10T.png)
+
+
+
+* * *
+
+
+
+_Update SA 29.09.2012 10:15_: Tag zwei der Hackdays. Wir haben nun neue Farben
+mit mehr Bedeutung: rot = über den CH-Durchschnitt / grün = unter dem CH-
+Durchschnit
+
+![CH-
+Durchschnitt](Bildschirmfoto20120929um10.19.54.png)
+
+
+
+* * *
+
+
+
+**_Update SA 29.09.2012 10:50_: Eine erste Version unserer interaktiven Karten-App ist online: <http://ship.seantis.ch>**

@@ -1,6 +1,7 @@
+
 title: Intelligente Volltextsuche OneGov Cloud
 ---
-pub_date: 2015-09-25
+pub_date: 2015-9-25
 ---
 author: seantis
 ---
@@ -8,12 +9,22 @@ description: Die intelligente Volltextsuche bietet dank Navigation per Tastatur 
 ---
 body:
 
-Dank Suchvervollständigung wird bereits beim Eintippen angezeigt welche Suchbegriffe mindestens ein Resultat versprechen.
+Dank Suchvervollständigung wird bereits beim Eintippen angezeigt welche
+Suchbegriffe mindestens ein Resultat versprechen.
 
 ![Suchvervollständigung](search.gif)
 
-Auch die schnelle Navigation per Tastatur ist sichergestellt: Pfeil runter/rauf wählt die Resultate aus, Enter führt die Suche aus und Pfeil rechts macht wie Google eine „Auf gut Glück!“ Anfrage, d.h. das erste Resultat wird direkt geöffnet. Dies ist besonders nützlich, wenn man beispielsweise die Ticketnummer eingibt und direkt auf das entsprechende Ticket springen möchte (und nicht zuerst alle Suchresultate sehen will).
+Auch die schnelle Navigation per Tastatur ist sichergestellt: Pfeil
+runter/rauf wählt die Resultate aus, Enter führt die Suche aus und Pfeil
+rechts macht wie Google eine „Auf gut Glück!“ Anfrage, d.h. das erste Resultat
+wird direkt geöffnet. Dies ist besonders nützlich, wenn man beispielsweise die
+Ticketnummer eingibt und direkt auf das entsprechende Ticket springen möchte
+(und nicht zuerst alle Suchresultate sehen will).
 
-Ausserdem aktiviert jeder beliebige Tastendruck direkt die Suche. So ist es möglich, direkt einen Suchbegriff einzugeben, ohne erst auf den Suchfeld klicken zu müssen.
+Ausserdem aktiviert jeder beliebige Tastendruck direkt die Suche. So ist es
+möglich, direkt einen Suchbegriff einzugeben, ohne erst auf den Suchfeld
+klicken zu müssen.
 
-**Alle Infos zu OneGov Cloud: https://www.onegovcloud.ch**
+**Alle Infos zu OneGov Cloud: <https://www.onegovcloud.ch>**
+
+

@@ -1,0 +1,88 @@
+
+title: Google trends
+---
+pub_date: 2010-6-22
+---
+author: seantis
+---
+description: 
+---
+body:
+
+Nach der Erweiterung von "Google Trends" zu "Google Hot Trends", lohnt es sich
+wieder einmal etwas mit Google Trends zu spielen. Das Tool liefert eine
+spannende Aufbereitung der Verteilung bestimmter Suchabfragen über einen
+Zeitraum von zweieinhalb Jahren. Auch der direkte Vergleich zweier
+unterschiedlicher Begriffe ist damit möglich.
+
+[www.google.com/trends](http://www.google.com/trends)
+
+Let's go (die Interpretation bleibt dabei natürlich nach wie vor dem user
+überlassen...):
+
+  
+  
+
+**krankenkasse (blau), krankenversicherung (rot) **[link](http://www.google.com/trends?q=krankenkasse%2C+krankenversicherung&ctab=0&geo=CH&date=all&sort=0)
+
+  
+
+![googletrends_krankenkasse](krankenkasse.png)
+
+  
+Auch nach dem Namenswechsel von Krankenkasse zu Krankenversicherung, suchen
+Schweizerinnen und Schweizer nach wie vor nach dem Begriff "Krankenkasse".
+Auch in der Grafik ersichtlich sind die jeweiligen Ausschläge Ende Jahr, wenn
+viele Versicherte im Begriff sind ihre Krankenkasse (pardon
+Krankenversicherung) zu wechseln.
+
+  
+  
+
+**oscar (blau), cannes (rot) **[link](http://www.google.com/trends?q=oscar%2C+cannes&ctab=0&geo=all&date=all&sort=0)
+
+  
+![googletrends_oscar](oscar.png)  
+  
+
+  
+Mega-Events wie die Oscarverleihungen oder im Vergleich dazu das Filmfestival
+von Cannes führen zu einem markanten Anstieg der Suchanfragen.
+
+  
+
+**obama (blau), clinton (rot), mccain (gelb), giuliani (grün)** [link](http://www.google.com/trends?q=obama%2C+clinton%2C+mccain%2C+giuliani&ctab=0&geo=US&geor=all&date=2007&sort=0)
+
+![googletrends_obama](obama.png)
+
+
+
+"Googlein, Googlein an der Wand, wer wird Präsident im US-Land?" Die
+Ergebnisse sind bei dieser Auswertung auf die USA eingeschränkt. Allerdings
+bleibt den zurückliegenden Kandidaten ja noch etwas Zeit.  
+  
+
+  
+
+**e-mail (blau), spam (rot) **[link](http://www.google.com/trends?q=e-mail%2C+spam&ctab=0&geo=all&date=all&sort=0)
+
+![googletrends_email](email.png)
+
+  
+Etablierte Internet-Technologien wie e-mail scheinen im Suchvolumen eher
+rückläufig zu sein; auch der lästige spam hat - zumindest bei den Suchanfragen
+-  einen negativen Trend.  
+  
+
+**ajax (blau)** [link](http://www.google.com/trends?q=ajax&ctab=0&geo=all&date=all&sort=0)
+
+![googletrends_ajax](ajax.png)
+
+  
+Will man dem letzten Internet Hype "AJAX" nachspüren, so zeigt sich eine
+eindeutige Schwäche des Tools. Es wird nämlich nicht unterschieden, ob sich
+der Begriff auf den Fussballverein aus Amsterdam oder auf das Akronym
+**"A**synchronous **J**avaScript **a**nd **X**ML" bezieht (eigentlich könnte
+ja auch noch der griechische Held namens Ajax gemeint sein...).
+
+

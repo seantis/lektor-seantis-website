@@ -1,0 +1,28 @@
+
+title: System Integration via APIs
+---
+pub_date: 2014-9-29
+---
+author: seantis
+---
+description: In medical IT systems interoperability is key.
+---
+body:
+
+[OCQMS](https://www.seantis.ch/portfolio/ocqms "" ) offers APIs to integrate
+the application into different software environments. Application programming
+interfaces (API) are widely considered to be the most flexible and robust way
+to integrate different software applications.
+
+![OCQMS-APIs](SolutionDesign.png)
+
+  * WAF: Web Application Firewall
+  * IAM: Identity and Access Management
+  * DMS: Document Management System
+  * MPI: Master Patient Index
+  * AD: Active Directory
+  * ERP: Enterprise Resource Planning
+
+**Learn more about OCQMS: [www.ocqm.org](http://www.ocqm.org "" )**
+
+

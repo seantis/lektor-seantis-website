@@ -1,0 +1,33 @@
+
+title: Microsoft lanciert Live Search
+---
+pub_date: 2010-6-22
+---
+author: seantis
+---
+description: 
+---
+body:
+
+Mit dem neuen Dienst wird eine weitere Initiative gegen Marktführer Google
+unternommen. „Live Search“ war bisher als Testversion verfügbar und wird nun
+offizieller Nachfolger der bisherigen Microsoft-Suche "MSN Search".
+
+Die Site ist im Allgemeinen recht nett anzuschauen, wobei die Bildersuche
+besonders gelungen scheint.
+
+Ein Blick auf die Log-files unserer Server zeigt, dass msnbot.msn.com sehr
+aktiv beim Crawlen und Indizieren unserer  Websites ist. Wie sich die
+Suchresultate entwickeln lässt sich im Moment noch nicht abschätzen.
+
+Wie auch immer: in Plone gibt es „LiveSearch“ schon seit Version 2.1. Damit
+zeigt sich ein weiteres Mal, dass Microsoft nicht gerade der "innovator
+maximus" ist, nicht einmal bei der Namensgebung für neue Services.
+
+[www.live.com](http://www.live.com/)
+
+<http://search.live.com/results.aspx?q=LiveSearch+plone>
+
+<http://plone.org/documentation/whatsnew/2.1/livesearch>
+
+

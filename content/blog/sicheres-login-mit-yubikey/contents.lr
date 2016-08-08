@@ -1,0 +1,68 @@
+
+title: Sicheres Login mit YubiKey
+---
+pub_date: 2013-1-23
+---
+author: seantis
+---
+description: Webapplikationen mit schützenswerten Daten verlangen nach einer sicheren Authentifizierungslösung.
+---
+body:
+
+### Was ist ein YubiKey?
+
+Ein YubiKey funktioniert wie eine externe Tastatur und kann einfach per USB an
+Ihr PC/Mac angeschlossen werden. Der YubiKey funktioniert auf allen
+Betriebsystemen ohne zusätzliche  Software/Treiber-Installation.
+
+![YubiKey](yubikeyonkeyring.jpg)
+
+###  
+Wie funktioniert der YubiKey?
+
+Der YubiKey ist nichts anderes als eine USB-Tastatur. Der Clou: er hat nur
+einen (goldenen) Kopf und eine Funktionalität. Der YubiKey erzeugt ein
+OneTime-Token. Das erzeugte Einmalpasswort wird serverseitig validiert und
+authentifiziert den Benutzer.
+
+### Der Login-Prozess
+
+Jedes Mal, wenn der Benutzer den Knopf drückt, wird ein neues OneTime Token
+erzeugt. Auf dem Login-Formular müssen daher ein persönliches Passwort und das
+YubiKey Token eingegeben werden. Auf das Eintippen des Benutzernames (eMail-
+Adresse) kann verzichtet werden, da der YubiKey automatisch eine eindeutige
+YubiKey ID mitschickt.
+
+![YubiKey Demo](yubikeydemo.png)
+
+Angenehmer Nebeneffekt: andere bekannte Zwei-Faktor-Authenfizierungen machen
+den Prozess für den Benutzer mühsamer: ich muss z.B. das Token von meinem
+Handy ablesen und dieses dann in das entsprechende Formularfeld übertragen.
+YubiKey hingegen erspart dem User Tippen und macht den Login-Prozess bequemer.
+
+### Der YubiKey in Ihrer Organisation
+
+Um die Authentifikation für Ihre Webapplikation sicher zu machen, werden alle
+Ihre Mitarbeiter mit YubiKeys ausgerüstet.  
+  
+Der Prozess dazu könnte wie folgt aussehen:
+
+  1. seantis bestellt für Sie die YubiKeys
+  2. Jedem Benutzeraccount wird ein YubiKey zugeordnet
+  3. seantis schickt die YubiKeys per Post an Ihre Mitarbeiter
+  4. Ihre Mitarbeiter können sich sofort mit ihrem persönlichen YubiKey sicher einloggen.
+
+  
+Sie können organisatorisch sicherstellen, dass alle Mitarbeiter ihre YubiKeys
+sicher in den Büroräumlichkeiten verwahren. So besteht eine erweiterte
+Kontrolle wer wo und wann Zugriff auf sensible Daten hat.  
+Persönliche YubiKeys lassen sich mit sofortiger Wirkung entziehen.  
+Ein YubiKey lässt sich damit bei einer personellen Mutation einfach von einem
+Benutzer einziehen und an einen anderen weitergeben.
+
+### Ein YubiKey verloren
+
+Geht ein Schlüssel verloren oder wird gestohlen, so lässt sich dieser mit
+sofortiger Wirkung für ungültig erklären (revozieren).
+
+

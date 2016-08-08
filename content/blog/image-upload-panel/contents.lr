@@ -1,0 +1,37 @@
+
+title: Image upload panel
+---
+pub_date: 2010-6-22
+---
+author: seantis
+---
+description: 
+---
+body:
+
+We just released a project including a nice image upload panel. The approach
+allows to upload images in a very convenient way.
+
+![image_preview_panel](copy_of_image_preview.png)
+
+
+
+  * upload images in jpg, png or gif format
+
+  * file size limit
+  * resize the image
+  * ajax upload: page is not reloaded
+  * change oder of images by drag and drop
+  * delete uploaded images
+  * works in all browsers 
+
+
+
+**Technical background**
+
+  * [grok](http://grok.zope.org/) based web application
+  * [PIL](http://www.pythonware.com/products/pil/) (Python Image Libary) for the image resizing
+  * [AJAX Upload](http://valums.com/ajax-upload/)
+  * [JQuery UI](http://jqueryui.com/) for drag and drop
+
+

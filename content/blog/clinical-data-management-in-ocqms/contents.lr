@@ -1,0 +1,43 @@
+
+title: Clinical Data Management in OCQMS
+---
+pub_date: 2014-5-26
+---
+author: seantis
+---
+description: Clinical Data Management is critical for establishing high standards over the entire process from data generation to data extraction and statistical analysis.
+---
+body:
+
+### Data Entry
+
+Data is entered at the contributing hospitals by study nurses and medical
+docters. The data entry forms have a clear structure that makes them easy to
+use for all users.
+
+### Data Validation
+
+Data validation happens during data entry with validation rules on the online
+forms. Addition verification steps for the data can take place at the hospital
+level by requiring a user with a special role (signer) to sign and close a
+data entry (visit).
+
+### Data Cleaning / Discrepancy Management
+
+For data that does not pass post-signing validation rules a request for
+clarification can be issued by the study monitor. The responsible user at the
+hospital level will be notified about this request. The whole communication on
+the request for clarification is tracked in the database.
+
+### Data Extraction / Research
+
+Data of finalized visits are ready for download as CSV files. All data of the
+registry is mirrored to a separate export format (research database). During
+the transfer process data transformations take place to bring the data into a
+tabular structure and to anonymize personal subject data. To ensure full
+reproducability of data queries we create periodic snapshots of the research
+database. A snapshot is a complete immutable set of CSV files with a
+consistent naming convention (YYYY-MM-DD: e.g. 2014-01-01).  
+  
+
+

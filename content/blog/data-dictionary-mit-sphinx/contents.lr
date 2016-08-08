@@ -1,0 +1,31 @@
+
+title: Data Dictionary mit Sphinx
+---
+pub_date: 2011-3-8
+---
+author: seantis
+---
+description: Sphinx - Python Documentation Generator
+---
+body:
+
+![Psaraas Sphinx
+Overview](Bildschirmfoto20110308um13.35.24.png)
+
+Die [SCQM-Rheumadatenbank](http://nohost/seantis/portfolio/swiss-clinical-
+quality-management-in-rheumatic-diseases) umfasst hunderte von Fragen und
+damit Datenbankfelder. Um den Überblick über alle Felder sowie deren
+Bezeichnungen, Werte und Enumerationen zu behalten, erstellen wir die
+Dokumentation aller Felder mit Sphinx.
+
+Sphinx gereneriert den Data Dictionary automatisch aus den Interfaces im Code.
+So stellen wir sicher, dass die Dokumentation auch bei Weiterentwicklungen
+stets up-to-date bleibt.
+
+![Psaraas Sphinx Image](Bildschirmfoto20110308um13.35.21.png)
+
+Die Dokumentation wird bei jedem Release online veröffentlich, so dass
+Forschende einfach Zugriff auf diese Informationen haben:
+<http://docs.scqm.ch>
+
+

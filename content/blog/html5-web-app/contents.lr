@@ -1,0 +1,65 @@
+
+title: HTML5 Web App
+---
+pub_date: 2011-6-7
+---
+author: seantis
+---
+description: Die Financial Times macht ernst und publiziert ihre Inhalte ab sofort in einer HTML5 Web App.
+---
+body:
+
+Interessant ist schon mal die Bezeichung "App" welche man bei der Financial
+Times gewählt hat (<http://app.ft.com>). Offenbar kommt man um das Buzzword
+"App" nicht mehr herum.
+
+Zweitens fällt ins Auge, wie aktiv komumniziert wird, wie der Besucher, die
+Seite zu seinem Home Screen hinzufügen kann.
+
+![FT
+Homescreen](Bildschirmfoto20110607um21.22.09.png)
+
+
+
+Ich hatte auch schon die Vermutung, dass nach einer App schreiende Kunden im
+Prinzip nichts anderes wollen, als ein schönes Icon auf dem Home Screen. Eine
+App ist in diesem Fall dann nicht viel mehr als ein Bookmark auf eine Website.
+
+Die FT erläutert sehr gelungen, warum sie sich gegen eine native App
+entschieden hat:
+
+> **Why did the FT decide to create an HTML5 web app?**  
+>  Creating an HTML5 app is innovative and breaks new ground – the FT is the
+first major news publisher to launch an app of this type. There are clear
+benefits.  Firstly, the HTML5 FT Web App means users can see new changes and
+features immediately. There is no extended release process through an app
+store and users are always on the latest version.
+
+> Secondly, developing multiple ‘native’ apps for various products is
+logistically and financially unmanageable. By having one core codebase, we can
+roll the FT app onto multiple platforms at once.
+
+> We believe that in many cases, native apps are simply a bridging solution
+while web technologies catch up and are able to provide the rich user
+experience demanded on new platforms. As these improve we expect to see more
+HTML5 apps and fewer native apps, but there is always likely to be a market
+for native apps for specific brands or when deeper integration with the
+hardware or super fast performance are required (games are the most obvious
+example).
+
+> <http://aboutus.ft.com/2011/06/07/ft-web-app-technical-qa/>
+
+Ein wichtiger Grund dürften aber sicherlicher die strengen Richlinien im App
+Store von Apple sein, welche die Verlage zwingen ihre Abos über die In-App-
+Schnittstelle zu vertreiben. Dabei verlieren die Verlage nicht nur den
+direkten Kontakt zu ihren Abonnenten sondern geben satte 30% an Apple ab.
+
+> Die native App is tot! Lange lebe die HTML5 Web App
+
+Die native App ist tot! Lang lebe die **HTML5** Web **Cloud App** (womit wir
+gleich drei inhaltlich sehr unscharfe Buzzword aneinander gereiht haben.)!
+
+<http://techcrunch.com/2011/06/07/ft-bypasses-apples-itunes-launches-html5
+-web-app-free-access-first-week/>
+
+

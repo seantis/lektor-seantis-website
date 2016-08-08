@@ -1,0 +1,52 @@
+
+title: Cloud Computing
+---
+pub_date: 2010-6-28
+---
+author: seantis
+---
+description: 
+---
+body:
+
+Die nächste digitale Revolution steht an: Cloud Computing. Anwendungen und
+Daten sind nicht mehr auf einem lokalen Rechner gespeichert, sondern sind in
+entfernten Systemen verteilt. Basis bildet ein schnelles Netzwerk, der Zugriff
+auf die Applikationen erfolgt über Standart-Clients wie Webbrowser.
+
+Damit schliess sich der Kreis: In den frühen Tagen der Informatik lief
+Software auf sogenannten zentralen Mainframes, danach kamen die PCs womit
+Software dezentral auf einzelnen Arbeitstationen installiert wurde. In Zeiten
+der Mobile Devices findet nun die Software mehr und mehr zurück auf zentrale
+Server.
+
+Cloud Computing hat das Potential die IT-Welt nachhaltig zu verändern:
+
+  * Clientseitig: mobile devices werden immer wichtiger (vgl. IPhone) und der Webbrower wird zum eigentlichen Standart-Client mit welchem sich eine Vielzahl von Webapplikationen bedienen lässt.
+  * Serverseitig: Rechenleistung wird nicht mehr auf lokalen Server bereitgestellt, sondern wird eingekauft. Die Zeiten in welchen man für Software einen Rechner (Server) aufstellen musste sind damit vorbei. Datacenters sind eigentliche Rechenleistungs-Kraftwerke. Damit wird Rechenleistung - wie Strom - aus der Steckdose bezogen. Bereits der Begriff Server-Farm zeigt ja, dass da ein Rohstoff – in diesem Falle Rechenleistung - produziert wird
+
+  
+Wenn Software zum Service – also nicht mehr lokal auf einem PC installiert
+werden muss - so könnte das der Tod traditioneller clientseitiger Programme
+sein. Exemplarisch dafür wäre Microsoft Office welches durch das webbased
+Google Docs bedrängt wird.  
+  
+Natürlich sind auch wir im Cloud Computing angekommen. Aktuell entwickeln wir
+zum einen ein Lead-Management- Tool für eine renommierte Bank. Die Software
+wird voll webbased sein, das heisst es muss keine clientseitige Software mehr
+installiert werden. Zum anderen schliessen wir gerade ein Projekt ab, welches
+ein Software-Aktivierungs-Portal mit Webservice-Schnittstelle (SOAP)
+bereitstellt.  
+  
+Die Vorteile solcher Lösung sind offensichtlich:
+
+  * keine komplizierten Installationen auf den Client-PCs
+  * grössere Flexibilität, da Anpassungen ausschliesslich auf dem Server gemacht werden müssen
+  * Zugriff auf das Tool von jedem Arbeitsplatz über Webbrowser
+
+  
+  
+<http://www.economist.com/business/displayStory.cfm?story_id=11413148>  
+<http://www.economist.com/business/displaystory.cfm?story_id=11614315>
+
+

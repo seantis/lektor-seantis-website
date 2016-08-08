@@ -1,0 +1,98 @@
+
+title: Research Data Repository
+---
+pub_date: 2014-7-15
+---
+author: seantis
+---
+description: We have built an infrastructure for our research databases to manage and process research data.
+---
+body:
+
+There are best practices for data processing and exchange:
+<https://github.com/jtleek/datasharing>
+
+### Repeatability
+
+Repeatability is the cornerstone of scientific data processing and analysis.
+All results must be repeatable in future and independent of the persons
+involved. In addition, both the data record (raw data) and the steps taken
+during data processing must be available in a suitable and documented form.
+
+### Version Control
+
+Version control is a system that records changes to a file or set of files
+over time so that you can recall specific versions later. Git (<http://git-
+scm.com>) is a free software for distributed version management of files. For
+our customers we are making a Git server available for managing and processing
+research data.
+
+  * 100% repeatable anytime
+  * Change log (who changed what when and why?)
+  * Cooperation including conflict management
+
+### Data processing
+
+Pre-processing contains data cleaning, normalization, and transformation.
+Python scripts are for pre-processing.
+
+### Data exchange
+
+Manual steps should no longer be necessary to transform the data into the
+import format of another database. The transformation steps are all programmed
+in Python scripts so that the data can be exchanged anytime without additional
+effort.
+
+### Data analysis / Statistics
+
+Usually, the researcher carries out the data analysis personally. In addition,
+he uses his own statistics software. We support researchers during data
+processing and, as needed, during data analysis.
+
+### Data Documentation (Metadata)
+
+The database comprises hundreds of questions and database fields. In order to
+maintain an overview of all fields, as well as their descriptions, values, and
+enumerations, we automatically create documentation of all arrays.  
+  
+Sphinx (<http://sphinx-doc.org>) automatically regenerates the data dictionary
+from the interfaces in the code. Thus, we guarantee that the documentation is
+always up-to-date even when further developments occur. The documentation is
+published online at the time of each release so that researchers easily have
+access to the information.
+
+### Exemplary research project
+
+A new Git repository is created for each research project. Due to the model,
+folder structure and certain contents are created from a template.
+
+  * Naming convention: Researcher-Topic-Year (e.g. Hofer-TNFSwitching-2014)
+  * Predefined folder
+    * Data snapshot: While creating a new repository, the raw data (CSV files) of the most recent snapshot are automatically copied into the folder. As the need arises, these data can obviously be overwritten and checked-in afresh.
+    * Preprocessing scripts: Python scripts created from models. Alterable and 'isolated' within the project
+    * Processed data: CSV files of processed data
+  * README.txt: while creating a new research repository, a README.txt file is automatically created.
+
+### Research snapshots
+
+The exported data are archived on the server as CSV files. The repository with
+the pseudonymized data has a simple predefined structure.  
+  
+The data repository is write-protected. The new CSV files are automatically
+created on the server on the first day of each month. A conceivable option
+would also be to install an SQL database server (PostgreSQL) on the server so
+that SQL requests can be made directly on the server.
+
+### Pre-processing scripts
+
+Python scripts are available for data processing. For instance, they offer a
+method of completing data fields.
+
+### IPython notebook
+
+The interactive IPython notebook (<http://ipython.org/notebook.html>) can be
+for exploratory data analysis.
+
+![](datapreprocessing.png)
+
+

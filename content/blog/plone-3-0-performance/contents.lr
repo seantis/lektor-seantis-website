@@ -1,0 +1,27 @@
+
+title: Plone 3.0 Performance
+---
+pub_date: 2010-6-28
+---
+author: seantis
+---
+description: 
+---
+body:
+
+Weitere good news zum kommenden Plone Release: Performance-Tests zeigen
+signifikante Verbesserungen gegenüber der aktuellen Version 2.5. Die Anzahl
+HTTP requests für das Rendering einer Page konnte halbiert werden. Auch im
+Backend kommt es dank des Einsatzes von AJAX zu einer Verbesserung der
+Performance.
+
+![plone_performance](copy2_of_image_preview.png)  
+
+Die Benchmark-Tests wurden alle ohne vorgestellte Caching-Proxy oder Webserver
+durchgeführt; d.h. in einer Hosting-Umgebung mit Proxy und Apache ist eine
+Plone-Site im Livebetrieb noch um ein vielfaches performanter.
+[http://limi.net/articles/some-preliminary-plone-3.0-benchmark-
+results](http://limi.net/articles/some-preliminary-plone-3.0-benchmark-
+results/)
+
+

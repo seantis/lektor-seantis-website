@@ -1,0 +1,34 @@
+
+title: Shared Access to Medical Records
+---
+pub_date: 2014-1-31
+---
+author: seantis
+---
+description: Complementing its fine grained security model, OCQMS now supports shared data access between hospitals.
+
+Giving physicians from different hospitals shared access to patient health records increases the ease of collaboration and decision-making, resulting in better care.
+
+---
+body:
+
+![](dataaccess.png)
+
+### Permission Levels
+
+  * Granting access results in the sharing of all data - not just part of a patients record (e.g. a single visit).
+  * Access permissions are managed on the patient level.
+  * Access is granted to an institution and not to a single doctor within a hospital.
+
+### Granting access
+
+  * Institutions will see all patient data since the inclusion of the patient.
+  * Visits are not shared between hospitals: to add data a new visit must be opened.
+  * Any user may be given access permissions. 
+
+### Revoking Access
+
+  * If an access permission is revoked the users in the removed institution will still have access to historic data, but can no longer edit patient information (e.g. opening a new visit).
+  * All users may revoke granted permissions (e.g. on patient's request).
+
+**More information about OCQMS: [www.ocqm.org](http://www.ocqm.org "" )**

@@ -1,0 +1,84 @@
+
+title: Git for Reproducibility in Scientific Research
+---
+pub_date: 2013-8-15
+---
+author: seantis
+---
+description: Together with the SCQM research team we introduced tools and established processes to facilitating collaboration among researchers and increase transparency and reproducibility.
+---
+body:
+
+**«Reproducibility is the hallmark of good science.»  
+**<http://www.scfbm.org/content/8/1/7/>**  
+**
+
+### Git (Version Control System)
+
+Git is a decentralized and distributed version control system (VCS). It's
+widely used in the software industry to maintain code repositories.[  
+http://git-scm.com](http://git-scm.com)
+
+### LaTeX (Typesetting)
+
+LaTeX is a high-quality typesetting system. LaTeX is the de facto standard for
+the publication of scientific documents.[  
+http://www.latex-project.org](http://www.latex-project.org)
+
+latex-git-log can be used to type­set the complete Git version history as
+table written in LaTeX. The typeset output (PDF document) includes the Git
+revisions (short SHA-1 hash).[  
+http://www.ctan.org/tex-archive/support/latex-git-log ](http://www.ctan.org
+/tex-archive/support/latex-git-log)
+
+### SQL Research Database (Snapshots)
+
+All data of the registry is mirrored to a separate SQL database (research
+database). During the transfer process data transformations take place to
+bring the data into a tabular structure and to anonymize personal subject
+data. To ensure full reproducibility of SQL queries we create periodic
+snapshots of the research database. A snapshot is a complete immutable SQL
+database with a consistent naming convention (YYYY-MM-DD: e.g. 2013-12-29)
+
+### Sweave (R in LaTeX)
+
+Sweave combines R codes and LaTeX documents for reproducing results. It makes
+it easy to embed R code into LaTeX.
+
+### Project Templates
+
+For each new research project a template based Git repository is  created. The
+template contains a common folder layout, scripts and LaTeX templates. The
+deployment of new repositories is managed with Puppet.  
+[https://puppetlabs.com ](https://puppetlabs.com)
+
+### Secure Shell Access (SSH)
+
+Access control to the Git research repositories and to the SQL server with the
+research snapshot database is managed with SSH public/private keys.
+
+### GitWeb (Git Server)
+
+Git repositories on a Git server have a URL and could be opened to the public
+by submitting links to the Git repository alongside manuscripts sharing them
+with reviewers. To lower technical barrier (installing and maintaining a Git
+server) web-based hosting service for Git repositories such as GitHub or
+Bitbucket could be used for the collaboration as well.
+
+<http://git-scm.com/book/ch4-6.html>
+
+
+
+> About SCQM  
+>  
+> The SCQM Foundation runs a scientific platform for prospective long-term
+studies on inflammatory rheumatic diseases  
+> <http://www.scqm.ch>
+
+
+
+![PHD-Revision](phd101212s.gif)
+
+
+
+

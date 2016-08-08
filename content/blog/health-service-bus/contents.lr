@@ -1,0 +1,21 @@
+
+title: Health Data Service Bus
+---
+pub_date: 2015-2-4
+---
+author: seantis
+---
+description: The health data service bus offers a set of webservices to interconnect and interoperate diverse applications, thereby enabling aggregation of services.
+---
+body:
+
+The health data service bus is based on a service oriented architecture (SOA).
+It exposes webservices such as SOAP or REST as service providers. The message
+format can inlcude all forms of common data exchange formats such als XML (HL7
+V3) or JSON.
+
+![HSB](HSB.png)
+
+**Learn more about OCQMS: [www.ocqm.org](http://www.ocqm.org "" )**
+
+

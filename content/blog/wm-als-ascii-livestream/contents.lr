@@ -1,0 +1,24 @@
+
+title: WM als Ascii-Livestream
+---
+pub_date: 2010-6-28
+---
+author: seantis
+---
+description: 
+---
+body:
+
+Für alle Unix-Freaks und Technikpuristen, die sich nur auf der Konsole so
+richtig wohlfühlen, gibt's jetzt Live-Übertragungen der WM-Spiele im Ascii-
+Zeichensatz. Die Darstellung ist für HDTV verwöhnte Augen zwar etwas
+gewöhnungsbedürftig, mit etwas Fantasie lassen sich die Spielzüge jedoch ganz
+gut lesen.
+
+Damit kommt auch der seantis Serveradmin zum Fussballschauen.
+
+Konsole:  telnet ascii-wm.net 2006
+
+<http://www.ascii-wm.net/>
+
+

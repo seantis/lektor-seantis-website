@@ -1,0 +1,42 @@
+
+title: Too Cool for Internet Explorer!
+---
+pub_date: 2010-6-28
+---
+author: seantis
+---
+description: 
+---
+body:
+
+Wer wie wir gerade wieder einmal gegen die Tücken des Microsoft Internet
+Explorer (IE) kämpft kann sich mit dem coolen 2.0-Badge trösten.  
+Es muss wieder einmal gesagt sein: Wir haben den IE6 gar nicht lieb!
+
+Hintergrund für die neuen Antipathie-Welle bei seantis  ist ein derzeitiges
+Projekt im Bereich online Beratung. Das Tool setzt ganz im Stil des Web 2.0
+auf interaktive AJAX-Elemente. Und da zeigen sich einmal mehr die Schwächen
+des IE6. Um die allerseits bekannten Darstellungsfehler (css etc.) des IE6 in
+den Griff zu bekommen gibt es ja mittlerweile eine ganze Reihe von Fix und
+Hacks.  
+Mit AJAX gibt's da wieder neue Fallstricke, und damit werden weitere eine
+work-arounds fällig.
+
+Mit dem IE7 ist zwar Besserung in Sicht, aber die Crux: MSIE 6.x hat nach wie
+vor ca. 50 Marktanteil1. Version 7 des IEs legt zwar zu, ist jedoch noch nicht
+über 20%.  Firefox, der Liebling aller Webentwickler kommt mittlerweile auf
+13%.  
+  
+Also weiter darauf warten, dass sich der IE7 weiter verbreitet, oder noch
+besser, dass der Firefox weiter Boden gut macht. Oder so langsam folgende
+Banner auf die Pages einbauen: To cool for IE!  
+  
+[
+http://www.w3junkies.com/toocool/index.php](http://www.w3junkies.com/toocool/index.php)  
+[
+http://www.w3junkies.com/toocool/join.php](http://www.w3junkies.com/toocool/join.php)
+
+  
+1 <http://www.thecounter.com/stats/2007/September/browser.php>
+
+

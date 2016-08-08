@@ -1,0 +1,37 @@
+
+title: Import- / Export-Funktionalitäten in Plone
+---
+pub_date: 2010-6-22
+---
+author: seantis
+---
+description: 
+---
+body:
+
+Zope/Plone lassen sich dank der umfangreichen Funktionalitäten gut als DMS
+einsetzen. Eine zentrale Anfordung dabei sind Import- bez. Export-
+Funktionalitäten.
+
+Dazu gibt es in Plone unterschiedliche Ansätze:
+
+  * WebDAV
+    * Plone Desktop1
+  * Export als Zip-File
+  * Import von Zip-Files
+
+Bei all den technischen Möglichkeiten zum schnellen Upload grösser Mengen an
+Inhalten - wie bespielsweise Bilder - sollte jedoch darauf geachtet werden,
+dass die entsprechenden Inhalte in jedem Falle noch zu klassifizieren sind. So
+kann sichergestellt werden, dass sich beispielsweise Bilder im Portal über die
+Suche finden lassen.
+
+Plone WebDAV <http://plone.org/documentation/faq/webdav-ftp/>  
+PloneFilesZip   <http://plone.org/products/plonefileszip/>  
+MassLoader     <http://plone.org/products/massloader/>
+
+1 nicht open Source, sondern unter einer kommerziellen Lizenz bei Enfold
+erhältlich: [http://www.enfoldsystems.com/Products/Desktop
+](http://www.enfoldsystems.com/Products/Desktop)
+
+

@@ -1,0 +1,38 @@
+
+title: Handy soll Fussgänger vor Autos warnen
+---
+pub_date: 2010-6-22
+---
+author: seantis
+---
+description: 
+---
+body:
+
+Ein japanisches Unternehmen hat den Prototypen eines Handys vorgestellt, dass
+die Verkehrssicherheit für Fußgänger erhöhen soll. Ermöglicht wird dies durch
+die Verbindung von GPS und DSRC. Die DSRC-Technologie kommt in Fahrzeugen zum
+Einsatz und dient unter anderem der Unfallvermeidung. GPS ist der Handy-
+Standart. Das Sicherheits-Handy soll nun den Fußgänger warnen, falls ihm ein
+Auto zu nahe kommt.
+
+Über das DSRC-Modul registriert das Telefon alle Fahrzeuge in der Umgebung,
+die ebenfalls mit einem DSRC-Chip ausgerüstet sind. Dazu senden die Chips in
+regelmäßigen Intervallen Signale aus. Kommt ein Auto in einen zuvor um das
+Telefon festgelegten Bereich, so wird die Position beider und deren Abstand
+zueinander laufend überwacht. Mithilfe von GPS-Daten wird die Geschwindigkeit
+gemessen, mit der sich der Handybesitzer und die erfassten Autos aufeinander
+zubewegen und eine Unfallwahrscheinlichkeit errechnet. Sobald der Fußgänger
+einem Wagen zu nahe kommt, wird er durch einen Vibrationsalarm beziehungsweise
+durch eine Meldung gewarnt.
+
+  
+"80 Prozent der Bevölkerung in Japan besitzen ein Mobiltelefon. Unser Ziel ist
+es, mit Handys die Sicherheit von besonders gefährdeten Verkehrsteilnehmern
+wie Fußgänger oder Radfahrer zu erhöhen", sagt Masao Miyashita,
+Verantwortlicher für System Solutions im Konzern. "Wir werden unsere Produkte
+in enger Kooperation mit den Automobilherstellern entwickeln."
+
+<http://www.20min.ch/digital/handy/story/30402990>
+
+

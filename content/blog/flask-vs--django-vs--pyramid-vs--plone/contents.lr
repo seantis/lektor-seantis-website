@@ -1,0 +1,17 @@
+
+title: Flask vs. Django vs. Pyramid vs. Plone 
+---
+pub_date: 2013-5-13
+---
+author: seantis
+---
+description: Python Web Frameworks im Vergleich
+---
+body:
+
+Wir entwickeln Web Applikationen mit unterschiedlichen Python Frameworks.
+Unterschiedliche Anforderungen verlangen nach unterschiedlichen Werkzeugen.  
+Einen direkten Vergleich zwischen den Python Web Frameworks Flask, Django,
+Pyramid und Plone gibt es hier: <http://blog.stacktrace.ch/post/49178654214>
+
+

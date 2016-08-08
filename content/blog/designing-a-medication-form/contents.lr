@@ -1,0 +1,78 @@
+
+title: Designing a Medication Form
+---
+pub_date: 2010-6-22
+---
+author: seantis
+---
+description: 
+---
+body:
+
+For the online version of the national database of rheumatological diseases we
+had to design a web form to manage information about tions or more
+specifically prescriptions of tions. The database is used for l research,
+therefore consistent data is a key requirement.
+
+The requirements for such a form are:
+
+  1. Prevent double entries of drugs.
+  2. Give an overview over the on-going tions.
+  3. Show the 'medication history' of a patient.
+  4. The responsible physician might decide to change the dose of a drug during the treatment.
+  5. If a drug isn't effective or even an adverse affect occurs the drug will be stopped and in case of the later the adverse event has to be reported.
+  6. Incorrect or missing data needs to be fixed.
+
+
+
+First we took a look at [Google Health](http://www.google.com/health) and
+their implementation of the medication part. What they basically have is a
+table with a row for each medication with an 'edit' option for each entry.
+
+![mediaction_form_1](1.png)
+
+That's a good starting point. In our 'medication' tab we show a simular table
+of the on-going medications. The responsible physician gets a fast overview
+over the prescribed drugs.
+
+![tion_form_2](2.png)
+
+
+
+To keep the picture clear we hide the dose adjustments. The adjustments unfold
+if one clicks on the '+' in the first column of each prescription.
+
+![tion_form_3](3.png)
+
+
+
+After checking the existing data the doctor can add new drugs, stop current
+tions or adjust the dose of prescribed medications.  
+For the edit part we had _in-place editing _in mind but came to the conclusion
+that it doesn't work here. First, each change of the data needs to be
+confirmed (e.g., by clicking a 'save' button). And second, viewing and editing
+the data is not the same and therefore asks for different representations of
+the data. The application has 'edit' views as shown below.
+
+![tion_form_4](4.png)
+
+After stopping a medication it will be moved to the table 'Discontinued
+medication'.  
+
+Starting a new treatment is always in the context of the currently prescribed
+drugs. Therefore, the panel for adding new tion is placed below the current
+medication table. With the drop-down we avoid double entries as the options
+are filtered.
+
+![tion_form_5](5.jpg)
+
+  
+One word about widgets used on forms. We decided not to use any fancy widgets
+(e.g., a date picker widget). Instead a simple mix between input fields and a
+drop-down for the month is used. With this "hybrid" date widget we show the
+date format (dd/mm/yy) without any further explanation and keep data entry
+simple.
+
+![tion_form_6](6.jpg)
+
+

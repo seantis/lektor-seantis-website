@@ -1,0 +1,51 @@
+
+title: Vom „semantic web“ zum „web of data“
+---
+pub_date: 2010-6-22
+---
+author: seantis
+---
+description: 
+---
+body:
+
+Nach der Vision des „semantic web“ werden Web-Inhalte so mit Metadaten
+ergänzt, dass die Bedeutung der Inhalte auch in maschinenlesbarer Form
+erschlossen werden kann und somit die Daten automatisiert verarbeitet und
+kombiniert werden können.
+
+Allerdings ist diese Vision des Web 3.0 auch schon etwas in die Jahre gekommen
+und so  
+scheint das „web of data“ das neue Paradigma für das Web vom morgen.  
+Waren in den Anfangszeiten des Internets die Informationen noch direkt in
+HTML-Seiten gespeichert, so sind im heutigen Web die Daten grösstenteils in
+Datenbanken gespeichert und werden für erst für die Präsentation im Web als
+HTML-Textdokumente umgewandelt.  
+Könnte man auf die Datenbank im Hintergrund direkt zugreifen, liessen sich die
+Informationen ganz neu verknüpfen und somit interessante Zusammenhänge
+erkennen.  
+Als beispielhaftes Projekt kann ein Dbpedia gelten, das Informationen aus
+Wikipedia extrahiert und über die Abfragesprache Sparql zugänglich macht.
+Mittels Linked-Data-Browsern kann nun auf die Daten von Wikipedia zugegriffen
+werden.  
+  
+
+    
+    
+    SELECT ?name ?description_en ?description_de ?musician WHERE {  
+                     ?musician skos:subject <http://dbpedia.org/resource/Category:German_musicians> .  
+                     ?musician foaf:name ?name .  
+                     OPTIONAL {  
+                         ?musician rdfs:comment ?description_en .  
+                         FILTER (LANG(?description_en) = 'en') .  
+                     }  
+    
+
+<http://wiki.dbpedia.org/OnlineAccess>
+
+  
+
+<http://www.nzz.ch/nachrichten/medien/das_grosse_aufraeumen_im_hypertext-
+haufen_1.2216427.html>
+
+

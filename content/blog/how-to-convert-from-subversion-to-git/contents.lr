@@ -1,0 +1,36 @@
+
+title: How to convert from Subversion to Git
+---
+pub_date: 2010-10-19
+---
+author: seantis
+---
+description: I know this is pretty easy to find with a google search, but still nice to write it down.
+---
+body:
+
+On mac you want to install git svn:
+
+    
+    
+    "sudo port install git-core +svn"
+
+Next you create an authors file (authors.txt) to convert the svn contributors
+and keep the full history:
+
+    
+    
+    buck = Buck Mulligan <buck@seantis.ch>  
+    hans = Hans Castrop <hans@seantis.ch>
+
+The simplest command if only want to convert your trunk:
+
+    
+    
+    git svn clone --no-metadata -A authors.txt https://svn.example.com/code/trunk   
+
+To convert branches/tags see: [http://pauldowman.com/2008/07/26/how-to-
+convert-from-subversion-to-git/ ](http://pauldowman.com/2008/07/26/how-to-
+convert-from-subversion-to-git/)
+
+

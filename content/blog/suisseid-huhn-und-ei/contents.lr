@@ -1,0 +1,29 @@
+
+title: SuisseID: Huhn und Ei
+---
+pub_date: 2010-6-28
+---
+author: seantis
+---
+description: 
+---
+body:
+
+Mit der zunehmenden Verbreitung von Online-Applikationen wird ein
+elektronischer Identitätsnachweis und damit verbunden eine rechtsgültige
+elektronische Signatur sowie ein sicheres Login immer wichtiger.
+
+Ab Montag kann die [SuisseID](http://www.suisseid.ch/) bei Quo Vadis ([https
+://suisseid-shop.ch](https://suisseid-shop.ch/)) oder SwissSign
+([http://swisssign.com](http://swisssign.com/)) bestellt werden.
+
+Um den viel zitierten "Huhn-Ei-Effekt" (Endkunden kaufen keine elektronischen
+IDs, weil es keine Anwendungen dafür gibt und Anbieter programmieren keine
+Anwendungen dafür, weil die Kunden die ID nicht haben) zu überwinden werden im
+Rahmen des Konjunkturprogramms nun einerseits Pilotprojekte gefördert und
+andererseits Endkunden mit einem Cashback ein Teil der Kosten zurückerstattet.
+
+seantis entwickelt zur Zeit zusammen mit AVIONIS GmbH eine Anbindung der
+SuisseID an das Online-Flugbuch [**Flight Log**](https://flight-log.ch/).
+
+

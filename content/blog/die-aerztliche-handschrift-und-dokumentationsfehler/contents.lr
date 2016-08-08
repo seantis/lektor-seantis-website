@@ -1,0 +1,61 @@
+
+title: Die ärztliche Handschrift und Dokumentationsfehler
+---
+pub_date: 2012-9-19
+---
+author: seantis
+---
+description: Werden Verschreibungen von Medikamenten von Hand erledigt, kommt es oft zu Fehlern bei der Medikamentenabgabe.
+---
+body:
+
+![unleserlich1.jpg](unleserlich1.jpg)
+
+Eine Studie über den Verschreibungsprozess auf einer Station des
+Universitätsspitals Bern kam zum Schluss, dass Verschreibungsfehler wegen
+fehlender oder zweideutiger Angaben des Arztes häufig sind
+[[http://www.nzz.ch/aktuell/schweiz/die-handschrift-der-halbgoetter-in-
+weiss-1.12848707](http://www.nzz.ch/aktuell/schweiz/die-handschrift-der-
+halbgoetter-in-weiss-1.12848707)].  
+  
+Unter folgenden Bedingungen sind Fehler bei der Medikamentenabgabe
+wahrscheinlicher:
+
+  * die Schrift der Verschreibung ist unleserlich
+  * die Angaben des Arztes sind unvollständig (es fehlen z.B. Informationen zur Dosis eines Medikaments)
+  * die Verschreibung enthält widersprüchliche Angaben
+
+  
+Aus diesen Gründen empfiehlt es sich, handschriftliche Dokumentationsprozesse
+durch elektronische Systeme zu ersetzen.
+
+Mit [OCQMS](http://nohost/seantis/portfolio/ocqms) entwickeln wir eine
+modulare webbasierte Software für ein "Clinical Quality Management System".
+Das System unterstützt den praktizierenden Arzt in seiner täglichen klinischen
+Arbeit (automatische Generierung von ärztlichen Berichten) und stellt dabei
+eine strukturierte Ablage der Daten sicher.
+
+  
+![Medikation.png](Medikation.png)  
+  
+Dabei werden nicht nur medikamentöse Verschreibungen, sondern der gesamte
+Dokumentationsprozess in einem wohlstruktutrierten elektronischen System
+abgebildet.  
+  
+OCQMS legt zudem grossen Wert auf eine geeignete Visualisierung der Daten, so
+dass sich Fehler oder Inkonsistenzen (z.B. bei der Medikation) leichter
+erkennen lassen.  
+  
+![medicationtimeline.png](medicationtimeline.png)  
+  
+Die erfassten Daten werden dank Report Generator als Textbausteine bzw.
+tabellarische Darstellung in den ärztlichen Bericht (Arztbrief) übertragen.
+
+![Bericht.png](Bericht.png)  
+  
+Gefährliche Fehler aufgrund einer unleserlichen Handschrift können so komplett
+vermieden werden.
+
+![font.jpg](font.jpg)
+
+

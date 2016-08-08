@@ -1,0 +1,72 @@
+
+title: Über das Problem sprechen statt über die Lösung!
+---
+pub_date: 2013-4-6
+---
+author: seantis
+---
+description: Wir alle neigen dazu, voreilig über Lösungen zu sprechen, anstatt zuerst das zugrundeliegende Problem gründlich zu analysieren.
+---
+body:
+
+Die perzipierte Lösung ohne ausführlichere Beschreibung des zugrunde liegenden
+Problems (im Sinne von zu lösender Aufgabe) kann für das Projekt zum Risiko
+werden. Das Denken in vorgespurten Lösungskategorien verengt vorzeitig den
+Möglichkeitsraum für die zu entwickelnde Lösung. Gut möglich, dass es
+passendere und bessere Lösungen gibt.  
+  
+Das Nachdenken über das Problem an sich darf nicht übersprungen werden.  
+  
+**1) Beschreibung des Problems**  
+Ein paar wenige Sätze zur Beschreibung des Problems. Sätze und nicht Bullet
+Points! Also auch kein Power Point bitte.  
+  
+**2) Ursachen des Problems**  
+Verschiedene Erklärungsversuche (Arbeitshypothesen) sollen aufgestellt werden.  
+  
+**3) Quantifizierung des Problems**  
+Wie gross ist das Problem relativ gesehen: haben 5 von 1'000 Benutzern ein
+Problem oder sind es 500 von 1'000? Die Relationen abschätzen zu können hilft.  
+  
+**4) Abgrenzungen (Scope)**  
+Es soll beschrieben werden, was nicht Teil des Problems ist. Es mag paradox
+erscheinen, aber das explizite Benennen von Elementen, die nicht Teil des
+Problems sind, macht durchaus Sinn.  
+  
+**5) Begrifflichkeiten klären **  
+Für Personen mit unterschiedlichem Hintergrund darf nicht davon ausgegangen
+werden, dass sie unter einem verwendeten Begriff das Gleiche verstehen.  
+  
+**6) Quick Fix**  
+Gibt es eine einfache Möglichkeit, das Problem rasch aus der Welt zu schaffen?
+Können bestehende Prozesse so angepasst werden, dass sich das Problem mit
+kleinem Aufwand - so genannt "administrativ" - bewältigen lässt.  
+  
+Die Schritte 2)-6) kann man sich auch sparen. Sie sollen lediglich
+illustrieren, dass die gründliche Analyse eines Problems mehr bringt, als die
+voreilige Zuflucht zu eine bekannte Lösung.
+
+### Probleme zu finden ist schwierig genug
+
+Warum haben viele Leute die Tendenz voreilig über die Lösung sprechen zu
+wollen, statt zuerst gründlich über das zugrundeliegende Problem nachzudenken?  
+Es wird zu wenig anerkannt, dass allein schon das Finden und Beschreiben von
+Problemen wertvoll und keinesfalls trivial ist!
+
+  
+[..] I’ve learned one of the biggest mistakes “nontechnical” people make when
+communicating to great hackers about product is that we try and tell them the
+solutions before we ever tell them the problem.  It’s like we don’t trust them
+to be able to think through and reach their own solution.  When in reality
+their solution is usually 10-100x better than ours because they are the ones
+building it!!  
+  
+I started thinking about this and realized maybe its because nontechnical
+people don’t realize the value they’ve created just by finding the problem.
+Truly, just being able to find and articulate the problem is really valuable
+when building a product.
+
+<http://katgleason.tumblr.com/post/47257463324/talk-about-the-problem-not-the-
+solution>
+
+

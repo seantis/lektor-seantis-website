@@ -1,0 +1,55 @@
+
+title: Warum Open Source Code qualitativ besser ist
+---
+pub_date: 2010-9-5
+---
+author: seantis
+---
+description: Open Source bietet eine bessere Code-Qualität und damit eine bessere Zuverlässigkeit und Performance. Die Erklärung dafür liegt auf der Mikroebene, sprich beim Programmierer.
+---
+body:
+
+Auch ein Heer von Businessanalysten, Software-Architekten und der Trend zu
+Outsourcing in Niedriglohnländer (Indien, China) ändern nichts daran, dass
+Software von Programmieren geschrieben wird. Wenn wir nach Gründen für die
+bessere Qualität von Open Source Code suchen, müssen wir uns auf die
+Programmierer konzentrieren:
+
+  * **Freude, Leidenschaft**   
+Open Source Programmierer arbeiten aus Freude und Leidenschaft an einem
+Projekt, sie werden nicht von ihrem Chef dazu verknurrt.
+
+  * **Handwerk  
+**Programmierer in der Open Source Welt verstehen sich als Handwerker und wollen eine Sache ihrer selbst willen gut machen. In einem Open Source Projekt haben sie die nötige Muse (sprich Zeit) dafür. Die Arbeitsweise des Software-Handwerkers ist durch das zeitgleiche Lösen und Finden von neuen Problemen gekennzeichnet. Er ist kein Akkord-Maurer, der - ohne grosse gedankliche Eigenleistung - die vom Architekten geplante Mauer in möglichst kurzer Zeit hochzieht.
+  * **Peer Review**  
+Das Argument ist hinlänglich diskutiert: Da der Quellcode offen liegt werden
+Fehler viel schneller erkannt.
+
+  * **Erfahrung: "**Programmieren als Jugendsünde"   
+Leider scheint es so, dass Programmieren der Jugend vorbehalten ist.
+Programmierer mit grauen Schläfen sind teurer als ihre jüngeren Kollegen. Da
+Arbeitgeber offenbar nicht bereit sind, Erfahrung im Programmieren mit einem
+höheren Lohn zu würdigen,  wechseln Programmierer nach ein paar Jahren in
+einen Management-Job. Die [NZZ schreibt
+dazu](http://www.nzz.ch/nachrichten/digital/programmieren_als_jugendsuende_1.7418667.html):
+"Dass ein Programmierer bei der Lösung von grösseren Problemen in der Regel
+keine zweite Chance erhält, vermag vielleicht zu erklären, warum sich aus der
+Sicht des Anwenders Software oftmals unfertig, unausgereift, unstabil anfühlt,
+pubertär."  
+Seinem Open Source Projekt bleibt man jahrelang verbunden.
+
+  * **Code steht im Zentrum**  
+Bei Open Source steht der Code im Zentrum, man konzentriert sich auf guten
+Code. Elegante Lösungen eines Problems werden in der Community entsprechend
+gewürdigt.
+
+  * **Kein Outsourcing**  
+Würde ein Open Source Projekt je auf die Idee kommen seine Kern-Aktivität,
+also das Programmieren, auszulagern?
+
+Dies führt dazu, dass der Einsatz von Open Source in Unternehmen nicht mehr in
+erster Linie aus Kostengründen sondern aufgrund besserer Qualität geschieht.
+
+<http://www.silicon.de/cio/strategie/0,39038989,41536153,00/qualitaet_hauptargument_fuer_open_source.htm>
+
+

@@ -1,0 +1,71 @@
+
+title: PDF View in Plone with z3c.rml
+---
+pub_date: 2010-6-28
+---
+author: seantis
+---
+description: 
+---
+body:
+
+Use z3c.rml to add a PDF view in Plone: <http://pypi.python.org/pypi/z3c.rml>
+
+First you add the z3c.rml package to the eggs section in your buildout.cfg:
+
+    
+    
+    # Add additional eggs here  
+    # elementtree is required by Plone  
+    eggs =  
+        z3c.rml  
+    
+
+Next you write a new view class for the PDF view. A nifty way is to subclass
+the view class already in use for the (standard html) view
+
+    
+    
+    from zope.app.pagetemplate.viewpagetemplatefile import ViewPageTemplateFile  
+    from z3c.rml.rml2pdf import parseString  
+      
+    class NiceViewPDF(NiceView):  
+          
+        def __call__(self):  
+            self.request.response.setHeader('content-type', 'application/pdf')  
+            rml_doc = ViewPageTemplateFile('templates/nice_view_pdf.pt')(self)  
+            return parseString(rml_doc.encode('utf-8')).read()  
+    
+
+The last thing you need is a 'nice_view_pdf.pt' template file.
+
+    
+    
+    <?xml version="1.0" encoding="UTF-8" ?>  
+    <!DOCTYPE document SYSTEM "http://www.reportlab.com/docs/rml.dtd">  
+    <document filename="template.pdf"  
+              xmlns:tal="http://xml.zope.org/namespaces/tal"  
+              xmlns:i18n="http://xml.zope.org/namespaces/i18n"  
+              i18n:domain="mydomain">  
+      
+        <template pageSize="A4" author="www.seantis.ch" title="Title">  
+            <pageTemplate id="main">  
+               <frame id="first" x1="72" y1="70" width="451" height="600"/>  
+           </pageTemplate>  
+        </template>  
+          
+        <story>  
+              
+            <h1 tal:content="python: context.Title()">Title</h1>  
+              
+        </story>  
+          
+    </document>  
+    
+
+(example from: <http://svn.zope.org/z3c.rml/trunk/src/z3c/rml/tests/input/>)
+
+"RML Reference": <http://svn.zope.org/z3c.rml/trunk/src/z3c/rml/rml-
+reference.pdf?view=auto>
+
+

@@ -1,0 +1,32 @@
+
+title: Übersichtliches Formular für die Familienanamnese
+---
+pub_date: 2014-10-10
+---
+author: seantis
+---
+description: Die Familienanamnese gibt Hinweise auf das genetische Risiko eines Patienten und seine Prädisposition für bestimmte vererbliche Erkrankungen.
+---
+body:
+
+![](FamilienAnamnese.png)  
+In der neuen Version von OCQMS wurde die Familienanamnese noch übersichtlicher
+gestaltet.  
+  
+Die Anforderungen an ein Formular zur Familienanamnese:
+
+  * Erkrankungen Vater, Mutter, Geschwister, Gruselten, Kinder
+  * Das Formular ist nach Krankheiten strukturiert.
+  * Es kann erfasst werden, wenn eine Krankheit nicht aufgetreten ist.
+  * Ist eine Krankheit aufgetreten, so wird dazu eine Alterskategorie erfasst.
+  * Das Formular bietet einer Liste von Krankheiten, deren Auftreten erfasst werden soll. Fehlende Angaben werden markiert.
+  * Zu jeder Krankheit kann eine Notiz erfasst werden.
+  * Es können weitere Erkrankungen, welche nicht auf der definierten Liste sind hinzugefügt werden.
+
+![](EintragFamilie.png)
+
+  
+  
+
+
+
