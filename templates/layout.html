@@ -57,7 +57,6 @@
         <div class="row">
           <div class="large-8 columns">
             <ul class="breadcrumbs">
-              <!-- todo:  breadcrumbs -->
               <li><a href="#"><i class="icon-home"></i></a></li>
               {% if this != root %}
                 {% if this.parent != root %}
@@ -101,8 +100,7 @@
             </ul>
             <div id="right-column">
                 <div>
-                    <!-- todo: should we display the blog post navigation -->
-                    {% if this != root and this._model != 'blog' and this._model != 'blog-post'%}
+                    {% if this != root %}
                         <dl class="portletNavigationTree" >
                             <dt class="hiddenStructure">Navigation</dt>
                             <dd>
