@@ -8,6 +8,7 @@ from lektor.db import F
 from lektor.pluginsystem import Plugin
 from lektor.sourceobj import VirtualSourceObject
 from lektor.utils import build_url
+from bs4 import BeautifulSoup
 
 
 PY2 = sys.version_info[0] == 2
@@ -71,12 +72,15 @@ class TipueBuilderProgram(BuildProgram):
                 value = page[field]
                 if type(value) == text_type:
                     result += ' ' + value
+                elif hasattr(value, 'html'):
+                    soup = BeautifulSoup(value.html, "html.parser")
+                    result += ' ' + soup.text
                 elif hasattr(value, 'source'):
                     result += ' ' + text_type(value.source)
             except KeyError:
                 pass
 
-        return result
+        return ' '.join(result.split())
 
     def build_artifact(self, artifact):
         pages = [self.source.parent]
