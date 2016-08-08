@@ -1,6 +1,11 @@
-_model: page
----
+
 title: News
+---
+pub_date: 2010-6-19
+---
+author: seantis
+---
+description: 
 ---
 body:
 ---

@@ -5,6 +5,7 @@
 {% block banner_background %}{% if this.banner_background %}{{ this.banner_background }}{% else %}scqm.png{% endif %}{% endblock %}
 {% block title %}{{ this.title }}{% endblock %}
 {% block body %}
+    <div class="actionDate">{{ this.pub_date }}</div>
     <h1>{{ this.title }}</h1>
     <div class="documentDescription">{{ this.description }}</div>
     {{ this.body }}
