@@ -13,6 +13,13 @@ task:
 Wahlen und Abstimmungen sind die Ecksteine demokratischer Systeme. Die Transparenz und Nachvollziehbarkeit von Resultaten politischer Willensäusserungen ist für die Legitimität politischer Entscheidungen vital. Aus diesem Grund müssen Wahl- und Abstimmungsergebnisse einfach öffentlich zugänglich sein.
 
 ---
+solution:
+
+Zusammen mit den Kantonen Graubünden, Schwyz und Zug hat seantis ein Online-Portal zu Publikation von Wahl- und Abstimmungsergebnissen entwickelt. Die Applikation ist Open Source verfügbar und basiert auf der Lösung «OneGov Cloud». Somit seht die Lösung ohne Zusatzaufwand für weitere Kantone zur Verfügung.
+
+---
 benefit:
 
 Die Zugänglichkeit der Daten ist oberstes Gebot. Daten werden grundsätzlich in Tabellen publiziert. Wo sinnvoll werden die Resultate auf einer interaktiven Karte dargestellt. Bei aller Attraktivität grafischer Darstellung wird nicht vergessen, dass alle Daten immer im Rohformat exportierbar sein müssen. Als Exportformate stehen JSON, CSV sowie Excel zur Verfügung. Zum Datensatz gehört eine Formatbeschreibung.
+
+![Portal Wahlen & Abstimmungen](Portale.png)
