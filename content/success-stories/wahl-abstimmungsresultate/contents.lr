@@ -1,0 +1,18 @@
+title: Wahl- und Abstimmungsresultate
+---
+pub_date: 2016-01-13
+---
+author: seantis
+---
+description: Auf den neuen Datenportalen der Kantone Graubünden, Schwyz und Zug werden die Ergebnisse der Wahlen und Abstimmungen publiziert.
+---
+customer: Kanton Zug, Kanton Schwyz, Kanton Graubünden
+---
+task:
+
+Wahlen und Abstimmungen sind die Ecksteine demokratischer Systeme. Die Transparenz und Nachvollziehbarkeit von Resultaten politischer Willensäusserungen ist für die Legitimität politischer Entscheidungen vital. Aus diesem Grund müssen Wahl- und Abstimmungsergebnisse einfach öffentlich zugänglich sein.
+
+---
+benefit:
+
+Die Zugänglichkeit der Daten ist oberstes Gebot. Daten werden grundsätzlich in Tabellen publiziert. Wo sinnvoll werden die Resultate auf einer interaktiven Karte dargestellt. Bei aller Attraktivität grafischer Darstellung wird nicht vergessen, dass alle Daten immer im Rohformat exportierbar sein müssen. Als Exportformate stehen JSON, CSV sowie Excel zur Verfügung. Zum Datensatz gehört eine Formatbeschreibung.
