@@ -1,0 +1,23 @@
+title: Sicher authentifiziert mit der suisseID
+---
+pub_date: 2011-02-12
+---
+author: seantis
+---
+description: healthinsurance.opendata.ch ist eine Visualiserung aller Krankenkassenprämien auf einer interaktiven Karte
+---
+customer: Verein Opendata.ch
+---
+task:
+
+Die suisseID ist der erste standardisierte elektronische Identitätsnachweis der Schweiz, mit dem sowohl eine rechtsgültige elektronische Signatur wie auch eine sichere Authentifizierung (Log-in) möglich sind.
+
+---
+solution:
+
+Ab sofort steht unsere suisseID-Erweiterung für Plone als Open Source Komponente zum Download bereit.
+
+---
+benefit:
+
+Dank unserer Erweiterung kann nun jede Plone-Seite einfach um eine sichere Authentifizierung mit der suisseID erweitert werden.

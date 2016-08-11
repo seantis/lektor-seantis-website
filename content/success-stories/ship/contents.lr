@@ -1,0 +1,23 @@
+title: Zeig mir wo die Krankenkassenprämien am billigsten sind
+---
+pub_date: 2011-02-12
+---
+author: seantis
+---
+description: healthinsurance.opendata.ch ist eine Visualiserung aller Krankenkassenprämien auf einer interaktiven Karte
+---
+customer: Verein Opendata.ch
+---
+task:
+
+…
+
+---
+solution:
+
+Der Projekt entstand innerhalb von nur 2 Tagen am Swiss Open Data Hackday in Basel und zeigt eine interaktive Karte mit allen Krankenkassenprämien des KVG der Schweiz.
+
+---
+benefit:
+
+Die grossen regionalen Disparitäten lassen sich auf einen Blick erkennen. Für die Karte können dynamische Filter gesetzt werden. Interessant sind gewisse "erklärende Kovariablen" wie Ärzte- oder Spitaldichte. Auch die Entwicklung über Zeit ist sicherlich nicht uninteressant.
