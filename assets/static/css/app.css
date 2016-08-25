@@ -265,6 +265,7 @@ footer p {
 
 .description {
     margin-bottom: 1em;
+    font-size: inherit;
 }
 
 #content ul, #content ol {
@@ -359,6 +360,12 @@ div.listingBar a {
 
 div.listingBar a:hover {
   background:  #ce3817;
+}
+
+.pagination.listingBar {
+    margin-top: 1.5rem;
+    border-top: 1px solid #eaeef1;
+    padding-top: 1.5rem;
 }
 
 #banner h4 {
