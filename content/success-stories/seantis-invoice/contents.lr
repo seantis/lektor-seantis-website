@@ -1,18 +1,19 @@
 title: Gratis und franko fakturiert
 ---
-pub_date: 2010–01-02
+pub_date: 2012-04-11
 ---
 author: seantis
 ---
-description: …
+description: Open Source Webapplikation für die einfache Fakturierung
 ---
 customer: Open Source
-
 ---
 task:
 
 ---
 solution:
+
+seantisinvoice ist eine schlanke Online-Applikation zur Rechnungstellung und der Verwaltung von Zahlungseingängen für KMUs. Die Lösung ist konsequent auf einfache Bedienbarkeit ausgelegt. seantisinvoice ist kein vollwertiges Customer Relationship Management (CRM) sondern beschränkt sich auf die Kernfunktionalitäten.
 
 ---
 benefit:
