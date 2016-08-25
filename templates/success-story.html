@@ -21,6 +21,7 @@
 
     {% set images = this.attachments.images.all() %}
     {% if images %}
+    <hr />
     {% for image in images %}
       <div class="image">
         <img src="{{ image.thumbnail(1600)|url }}" alt="">
