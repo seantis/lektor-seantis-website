@@ -10,10 +10,15 @@
     <div class="documentDescription">{{ this.description }}</div>
     {% for child in this.pagination.items %}
         <div class="blogListingEntry">
-            <div <span class="actionDate">{{ child.pub_date }}</div>
+
+            {% set image = child.attachments.images.first() %}
+                 {% if image %}
+                   <img src="{{ image.thumbnail(400)|url }}" alt="">
+            {% endif %}
+            <div class="actionDate">{{ child.pub_date|dateformat }}</div>
             <h2><a href="{{ child|url }}">{{ child.title }}</a></h2>
-            <div class="documentDescription">{{ child.description }}</div>
-            <div><a href="{{ child|url }}">mehr…</a></div>
+            <div class="description">{{ child.description }}</div>
+            <div class="more"><a href="{{ child|url }}">mehr…</a></div>
         </div>
     {% endfor %}
     {{ render_pagination(this.pagination) }}
