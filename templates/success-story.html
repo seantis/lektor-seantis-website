@@ -8,6 +8,7 @@
     <div <span class="actionDate">{{ this.pub_date }}</div>
     <h1>{{ this.title }}</h1>
     <div class="documentDescription">{{ this.description }}</div>
+
     <h2>Customer</h2>
     <p>{{ this.customer }}</p>
     <h2>Task</h2>
@@ -16,5 +17,24 @@
     {{ this.solution }}
     <h2>Customer Benefit</h2>
     {{ this.benefit }}
+
+
+    {% set images = this.attachments.images.all() %}
+    {% if images %}
+    {% for image in images %}
+      <div class="image">
+        <img src="{{ image.thumbnail(1600)|url }}" alt="">
+        {% if image.exif %}
+        <p class=meta>
+          {{ image.exif.camera }}
+          {% if image.exif.created_at %}
+            ({{ image.exif.created_at|dateformat }})
+          {% endif %}
+        {% endif %}
+      </div>
+    {% endfor %}
+    {% endif %}
+
+
 {% endblock %}
 {% block portlet %}{{ this.portlet }}{% endblock %}
