@@ -4,13 +4,13 @@ pub_date: 2011-02-12
 ---
 author: seantis
 ---
-description: healthinsurance.opendata.ch ist eine Visualiserung aller Krankenkassenprämien auf einer interaktiven Karte
+description: Die suisseID ist der erste standardisierte elektronische Identitätsnachweis der Schweiz.
 ---
-customer: Verein Opendata.ch
+customer: [Trägerverein SuisseID](http://suisseid.ch)
 ---
 task:
 
-Die suisseID ist der erste standardisierte elektronische Identitätsnachweis der Schweiz, mit dem sowohl eine rechtsgültige elektronische Signatur wie auch eine sichere Authentifizierung (Log-in) möglich sind.
+Mit der suisseID ist sowohl eine rechtsgültige elektronische Signatur wie auch eine sichere Authentifizierung (Log-in) möglich sind.
 
 ---
 solution:

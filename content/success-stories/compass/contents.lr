@@ -4,9 +4,9 @@ pub_date: 2016-03-30
 ---
 author: seantis
 ---
-description: Ein elektronisches Tagebuch für Patienten
+description: Patienten erfassen ihre Krankheitsaktivität in einem elektronischen Tagebuch und ermöglichen Ärzten damit eine besser Behandlung.
 ---
-customer: SCQM Foundation
+customer: [SCQM Foundation](http://www.scqm.ch)
 ---
 task:
 https://www.rheumaliga.ch/blog/2016/compass-2
