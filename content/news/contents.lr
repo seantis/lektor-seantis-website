@@ -11,5 +11,3 @@ description:
 body:
 ---
 portlet:
-<a class="twitter-timeline" href="https://twitter.com/seantis" data-tweet-limit="3">Tweets by seantis</a>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
