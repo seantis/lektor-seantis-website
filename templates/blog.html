@@ -10,7 +10,7 @@
     <div class="documentDescription">{{ this.description }}</div>
     {% for child in this.pagination.items %}
         <div class="blogListingEntry">
-            <div <span class="actionDate">{{ child.pub_date }}</div>
+            <div <span class="actionDate">{{ child.pub_date|dateformat }}</div>
             <h2><a href="{{ child|url }}">{{ child.title }}</a></h2>
             <div class="documentDescription">{{ child.description }}</div>
             {{ child.body }}
