@@ -21,3 +21,10 @@ Zusammen mit den Kantonen Graubünden, Schwyz und Zug hat seantis ein Online-Por
 benefit:
 
 Die Zugänglichkeit der Daten ist oberstes Gebot. Daten werden grundsätzlich in Tabellen publiziert. Wo sinnvoll werden die Resultate auf einer interaktiven Karte dargestellt. Bei aller Attraktivität grafischer Darstellung wird nicht vergessen, dass alle Daten immer im Rohformat exportierbar sein müssen. Als Exportformate stehen JSON, CSV sowie Excel zur Verfügung. Zum Datensatz gehört eine Formatbeschreibung.
+
+---
+links:
+
+- Kanton Graubünden: https://abstimmungen.gr.ch
+- Kanton Schwyz: https://abstimmungen.sz.ch
+- Kanton Zug: https://wab.zug.ch
