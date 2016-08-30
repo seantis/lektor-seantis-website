@@ -9,16 +9,19 @@
     <h1>{{ this.title }}</h1>
     <div class="documentDescription">{{ this.description }}</div>
     {% for child in this.pagination.items %}
-        <div class="blogListingEntry">
-
-            {% set image = child.attachments.images.first() %}
-                 {% if image %}
-                   <img src="{{ image.thumbnail(400)|url }}" alt="">
-            {% endif %}
-            <div class="actionDate">{{ child.pub_date|dateformat }}</div>
-            <h2><a href="{{ child|url }}">{{ child.title }}</a></h2>
-            <div class="description">{{ child.description }}</div>
-            <div class="more"><a href="{{ child|url }}">mehr…</a></div>
+        <div class="row blogListingEntry">
+            <div class="large-4 columns">
+                {% set image = child.attachments.images.first() %}
+                     {% if image %}
+                       <img src="{{ image.thumbnail(400)|url }}" alt="">
+                {% endif %}
+            </div>
+            <div class="large-8 columns">
+                <div class="actionDate">{{ child.pub_date|dateformat }}</div>
+                <h2><a href="{{ child|url }}">{{ child.title }}</a></h2>
+                <div class="description">{{ child.description }}</div>
+                <div class="more"><a href="{{ child|url }}">mehr…</a></div>
+            </div>
         </div>
     {% endfor %}
     {{ render_pagination(this.pagination) }}
