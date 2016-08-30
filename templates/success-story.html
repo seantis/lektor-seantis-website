@@ -23,21 +23,23 @@
     {% if images %}
     <hr />
     {% for image in images %}
-      <div class="image">
+    <div class="image">
         <img src="{{ image.thumbnail(1600)|url }}" alt="">
         {% if image.exif %}
         <p class=meta>
-          {{ image.exif.camera }}
-          {% if image.exif.created_at %}
+            {{ image.exif.camera }}
+            {% if image.exif.created_at %}
             ({{ image.exif.created_at|dateformat }})
-          {% endif %}
-        {% endif %}
-      </div>
-    {% endfor %}
+            {% endif %}
+            {% endif %}
+        </div>
+        {% endfor %}
     {% endif %}
 
-    <h2>Links</h2>
-    {{ this.links }}
+    {% if this.links %}
+        <h2>Links</h2>
+        {{ this.links }}
+    {% endif %}
 
 {% endblock %}
 {% block portlet %}{{ this.portlet }}{% endblock %}
