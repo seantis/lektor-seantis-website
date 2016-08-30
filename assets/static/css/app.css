@@ -591,7 +591,9 @@ fieldset {
 ul.pagination {
     font-size: 13px;
     height: initial;
+    margin-top: 1.6rem;
 }
+
 ul.pagination li.current {
     padding: 10px 17px 11px 17px;
     background: #f6f6f6;
@@ -619,6 +621,7 @@ ul.pagination li a {
     margin-right: 7px;
     text-align: center;
     height: initial;
+    font-family: 'Open Sans', sans-serif;
 }
 ul.pagination li a:hover {
     background: #f6f6f6;
