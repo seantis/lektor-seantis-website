@@ -5,3 +5,6 @@ locale = de_CH
 
 [packages]
 lektor-htmlmin = 0.2
+
+[servers.ghpages]
+target = ghpages+https://seantis/seantis.github.io
