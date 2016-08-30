@@ -85,11 +85,11 @@ class TipueBuilderProgram(BuildProgram):
                 value = page[field]
                 if type(value) == text_type:
                     result += ' ' + value
+                elif hasattr(value, 'source'):
+                    result += ' ' + text_type(value.source)
                 elif hasattr(value, 'html'):
                     soup = BeautifulSoup(value.html, "html.parser")
                     result += ' ' + soup.text
-                elif hasattr(value, 'source'):
-                    result += ' ' + text_type(value.source)
             except KeyError:
                 pass
 
