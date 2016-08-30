@@ -172,8 +172,8 @@
             $(document).foundation();
             $(document).ready(function() {
                 $('#tipue_search_input').tipuesearch({
-                    'mode': 'json',
-                    'contentLocation': '/static/js/tipuesearch_content.json'
+                  'mode': 'json',
+                  'contentLocation': "{{ tipue_search_content()|url }}"
                 });
             });
         </script>
