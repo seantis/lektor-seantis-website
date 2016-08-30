@@ -6,9 +6,9 @@ author: seantis
 ---
 description: Die ILO betreibt ein Knowledge Management Portal auf der Basis des Content Management Systems Plone.
 ---
-customer: Privatklinikgruppe Hirslanden
+customer: [UN ILO](http://www.ilo.org)
 ---
-task: 
+task:
 Im Rahmen einer internationalen Ausschreibung wurde ein erfahrener Dienstleister für das Knowledge Management Portals der ILO gesucht. seantis unterstützt die ILO in der Weiterentwicklung und im Betrieb ihres kollaborativen Wissensportals. Die gesamte Umgebung besteht aus mehr als 40 themenspezifischen Portalen mit mehr als 4’300 registrierten Nutzern.
 
 ---
