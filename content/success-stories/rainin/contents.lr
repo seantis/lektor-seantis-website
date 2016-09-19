@@ -1,23 +1,24 @@
+
 title: Pipetten weltweit online kaufen
 ---
+
 pub_date: 2005-02-12
 ---
+
 author: seantis
 ---
-description: https://en.wikipedia.org/wiki/Mettler_Toledo#RAININ_Instrument
----
-customer: RAININ Instrument
----
-task:
 
-…
+description: Die Ländererkennung stellt sicher, dass alle Benutzer die passenden Pipetten finden.
+---
+
+customer: [RAININ Instrument](http://www.rainin.com)
+---
+task: Das Produktesortiment von Rainin ist je nach Land unterschiedlich. Um Besuchern online das passende Sortiment von Pipetten anzeigen zu können, müssen diese je Ländern segementiert werden.
 
 ---
 solution:
-
-…
+Die Ländererkennung von Benutzern stellt sicher, dass jeder Benutzer das passende Sortiment präsentiert bekommt. Die Ländererkennung geschieht anhand der IP eines Benutzers. Kann kein Land erkannt werden, so macht der Besucher selbst eine entsprechende Auswahl. Die Ländererkennung ist dem Content Management System vorgeschaltet.
 
 ---
 benefit:
-
-…
+Mit der Ländererkennung ist sichergestellt, dass alle Benutzer Online das passende Angebot und die passenden Preise finden.
