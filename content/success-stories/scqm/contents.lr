@@ -1,23 +1,28 @@
+
 title: Rheumaforschung und Qualitätsmanagement
 ---
+
 pub_date: 2009-03-02
 ---
+
 author: seantis
 ---
+
 description:  Die SCQM Foundation betreibt eine Forschungsplattform für Langzeitstudien im Bereich entzündlich rheumatischer Erkrankungen. 
 ---
+
 customer: [SCQM Foundation](http://www.scqm.ch)
 ---
 task:
 
-…
+Die SCQM Foundation berteibt seit mehr als 15 Jahren die Nationale Rheumakohortendatenbank der Schweiz. Die Datenbank sammelt umfassende Datensätze von Patienten. Weltweit einzigartig führt SCQM eine Langzeit-Röntgendokumentation und ein Rückmeldesystem, welches den Arzt bei Therapieentscheidungen unterstützt.
 
 ---
 solution:
 
-…
+Über die entwickelte Webapplikation werden in mehr als 300 Institutionen (Spitäler und Arztpraxen) Daten zum Krankheitsverlauf von Rheumapatienten erfasst. Der Arzt erfasst dabei umfassende Daten zur Krankheitsaktivität und Medikation und schliesst Patienten in eine zentrale Biobank ein.  Das biologische Material wird in der SCQM Biobank aufbewahrt und für biomedizinische Forschung verwendet. Auch die Patienten verfügen über ein Login und damit Zugriff auf ihre Daten. Sie erfassen selbst Verlaufsdaten zur subjektiven Krankheitsaktivität.
 
 ---
 benefit:
 
-…
+Der Krankheitsverlauf und die Medikation werden für jeden einzelnen Patienten visualisiert. Auf aggegierter Ebene werden die pseudonymisierten Daten für Forschungsprojekte verwendet. Die forschenden Mediziner der SCQM Foundation publizieren regelmässig in führenden internationalen Publikationen.
