@@ -1,23 +1,28 @@
+
 title: Eine Bibliothek voller Bücher
 ---
+
 pub_date: 2005-05-24
 ---
+
 author: seantis
 ---
-description: 
+
+description: Für den Online-Shop des Buchverlags NZZ Libro wurde der Katalog in eine neue Datenbank migriert.
 ---
+
 customer: [NZZ Libro – Buchverlag Neue Zürcher Zeitung](http://www.nzz-libro.ch)
 ---
 task:
 
-…
+Im neuen Online-Shop des Buchverlages Neue Zürcher Zeitung können die Bücher des gesamten Kataloges bestellt werden. Dazu musste der Datenbestand der Datenbank konsolidiert und in eine neue Datenbanklösung migriert werden.
 
 ---
 solution:
 
-…
+Die Daten des Bücherkataloges wurden aus unterschiedlichen Quellen konsolidiert und einer Qualitätskontrolle unterzogen. Fehlende oder fehlerhafte Information musste korrigiert bzw. nacherfasst werden.
 
 ---
 benefit:
 
-…
+Der Katalog von NZZ Libro ist im neuen Online-Shop korrekt abgebildet. Die Qualität der Daten entspricht den hohen Anfoderungen des Verlages.
