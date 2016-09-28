@@ -1,16 +1,11 @@
-
 title: Libres - Python Reservation Library
 ---
-
 pub_date: 2015-02-17
 ---
-
 author: seantis
 ---
-
 description: Die Programmbibliothek bietet eine Basis für Reservationssysteme.
 ---
-
 customer: Verein OneGov.ch
 ---
 task:
@@ -23,6 +18,6 @@ solution:
 …
 
 ---
-benefit:
-
-…
+benefit: …
+---
+_hidden: yes

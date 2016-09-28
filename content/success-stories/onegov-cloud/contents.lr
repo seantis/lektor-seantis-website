@@ -8,14 +8,13 @@ description: Im Online-Schalter für Gemeindeverwaltungen sind alle elektronisch
 ---
 customer: Gemeinde Rüti ZH, Gemeinde Dürrenäsch
 ---
-task:
-
+task: 
 ---
 solution:
 
 …
 
 ---
-benefit:
-
-…
+benefit: …
+---
+_hidden: yes

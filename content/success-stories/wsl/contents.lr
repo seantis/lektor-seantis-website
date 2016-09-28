@@ -8,12 +8,10 @@ description: …
 ---
 customer: Eidg. Forschungsanstalt für Wald, Schnee und Landschaft (WSL)
 ---
-task:
-
+task: 
 ---
-solution:
-
+solution: 
 ---
-benefit:
-
-…
+benefit: …
+---
+_hidden: yes

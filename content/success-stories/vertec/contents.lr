@@ -8,12 +8,10 @@ description: …
 ---
 customer: Vertec
 ---
-task:
-
+task: 
 ---
-solution:
-
+solution: 
 ---
-benefit:
-
-…
+benefit: …
+---
+_hidden: yes

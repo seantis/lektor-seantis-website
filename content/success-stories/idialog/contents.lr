@@ -4,7 +4,7 @@ pub_date: 2016-03-30
 ---
 author: seantis
 ---
-description:  iDialog monthly unterstützt das Krankheitsmonitoring sowie die Kommunikation zwischen Arzt und Patient.
+description: iDialog monthly unterstützt das Krankheitsmonitoring sowie die Kommunikation zwischen Arzt und Patient.
 ---
 customer: MSD Merck
 ---
@@ -18,6 +18,6 @@ solution:
 iDialog monthly ist eine Plattform für Patienten mit einer entzündlich rheumatischen Erkrankung (Rheumatoide Arthritis, Axiale Spondyloarthritis, Psoriasis Arthritis), die in SCQM registriert sind. Die Plattform wurde in enger Zusammenarbeit mit SCQM und MSD entwickelt. iDialog monthly unterstützt das Krankheitsmonitoring sowie die Kommunikation zwischen Arzt und Patient.
 
 ---
-benefit:
-
-…
+benefit: …
+---
+_hidden: yes

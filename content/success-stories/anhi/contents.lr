@@ -4,16 +4,14 @@ pub_date: 2013-01-05
 ---
 author: seantis
 ---
-description: Das Portal bietet Informationen für Anästhesisten und Intensivmediziner.
+description: Das Portal bietet Informationen für Anästhesisten und Intensivmediziner.
 ---
 customer: [Privatklinikgruppe Hirslanden](https://www.hirslanden.ch)
 ---
-task:
-
+task: 
 ---
-solution:
-
+solution: 
 ---
-benefit:
-
-…
+benefit: …
+---
+_hidden: yes

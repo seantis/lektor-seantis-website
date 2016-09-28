@@ -4,7 +4,9 @@ pub_date: 2013-11-19
 ---
 author: seantis
 ---
-description: Das "Amtsblatt des Kantons Zug" ist das bedeutendste Informationsmedium der Region und das Amtliche Publikationsorgan des Kantons Zug. 
+description:
+
+Das "Amtsblatt des Kantons Zug" ist das bedeutendste Informationsmedium der Region und das Amtliche Publikationsorgan des Kantons Zug. 
 ---
 customer: Speck Medien AG
 ---
@@ -18,6 +20,6 @@ solution:
 …
 
 ---
-benefit:
-
-…
+benefit: …
+---
+_hidden: yes

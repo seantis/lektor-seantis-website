@@ -8,12 +8,10 @@ description: Lösung für die Gemeindeverwaltung, GWR Schnittstelle
 ---
 customer: BühlerPublic
 ---
-task:
-
+task: 
 ---
-solution:
-
+solution: 
 ---
-benefit:
-
-…
+benefit: …
+---
+_hidden: yes
