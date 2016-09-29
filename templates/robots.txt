@@ -1,0 +1,3 @@
+Sitemap:  {{ site.root.url_to(this, external=True) }}
+User-agent: *
+Disallow:
