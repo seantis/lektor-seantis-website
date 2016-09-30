@@ -62,7 +62,7 @@
                 {% if this.parent != root %}
                     <li><a href="{{ this.parent.path }}">{{ this.parent.title }}</a></li>
                 {% endif %}
-                <li class="current"><a href="{{ this.path }}">{{ this.title }}</a></li>
+                <li class="current">{{ this.title }}</li>
               {% endif %}
             </ul>
           </div>

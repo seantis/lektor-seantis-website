@@ -19,17 +19,17 @@ innerhalb eines kurzen Zeitraumes übermässig viele fehlgeschlagene Login-
 Versuche machen, werden vom System für eine gewisse Zeit automatisch
 blockiert. Damit ist es einem Angreifer nicht mehr möglich, sich mittels
 «wahllosem» Ausprobieren  von Passwörtern Zugriff zu verschaffen.  
-  
-Fail2ban scannt die Logfiles des Webservers ([nginx](http://nginx.org/ "" ))
+
+Fail2ban scannt die Logfiles des Webservers ([nginx](http://nginx.org))
 und aktualisiert die Firewall-Regeln des Linux Kernel Firewalls
-([iptables](http://www.netfilter.org/projects/iptables/ "" )). Damit steht das
+([iptables](http://www.netfilter.org/projects/iptables)). Damit steht das
 Intrusion Prevention System ([Fail2ban](http://www.fail2ban.org "" )) vor der
-Webapplikation ([Pyramid](http://www.pylonsproject.org/projects/pyramid/about
-"" )) und schafft so eine weitere Schicht zum Einbruchsschutz.  
-  
+Webapplikation ([Pyramid](http://www.pylonsproject.org/projects/pyramid/about))
+und schafft so eine weitere Schicht zum Einbruchsschutz.
+
 Mit Fail2Ban lässt sich die Rate der Anmeldeversuche einschränken, es schützt
 aber nicht vor Risiken einer schwachen Authentifizierungsmethode. Der Zugriff
 auf unsere Webapplikation erfolgt daher zweistufig: nach dem Login mit
 Benutzername und Passwort muss sich der Benutzer mit seinem persönlichen
-[YubiKey](https://www.seantis.ch/blog/sicheres-login-mit-2-faktor-
-authentifizierung) identifizieren.
+[YubiKey](https://www.seantis.ch/blog/sicheres-login-mit-2-faktor-authentifizierung)
+identifizieren.
