@@ -11,7 +11,7 @@ body:
 
 Nachdem wir den Prämiendatensatz vom BAG erhalten haben und diesen [mittels
 einem kleinen Tool (SHIP) in eine Datenbank gebracht
-haben](http://nohost/seantis/blog/ship-swiss-healthcare-insurance-premiums),
+haben](https://www.seantis.ch/blog/ship-swiss-healthcare-insurance-premiums),
 sind wir nun dabei die Prämiendaten zu visualisieren. Es ist allgemein
 bekannt, dass die Prämienunterschiede zwischen einzelnen Kantonen sehr gross
 sind.

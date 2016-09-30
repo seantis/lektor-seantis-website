@@ -12,9 +12,9 @@ body:
 In den Datenbanken für die medizinische Forschung werden sensitive
 Patientendaten gespeichert. Der Zugriff auf die personenbezogenen Daten setzt
 eine sichere Authentifizierung der Benutzer voraus.
-[OCQMS](http://nohost/seantis/portfolio/ocqms "" ) bietet ein sicheres Login
+[OCQMS](https://www.seantis.ch/portfolio/ocqms) bietet ein sicheres Login
 mit 2-Faktor-Authentifizierung. Die Benutzer verwenden dazu
-[YubiKeys](http://nohost/seantis/blog/sicheres-login-mit-yubikey "" ).
+[YubiKeys](https://www.seantis.ch/blog/sicheres-login-mit-yubikey).
 
 ### Unterschiedliche Arten von Tokens
 
@@ -42,5 +42,3 @@ Das „Wissen“ kann gestohlen werden, ohne dass der Eigentümer es bemerkt
 missbraucht werden. Beim Einsatz von Hardware-Tokens (wie dem YubiKey) ist
 dieses Risiko jedoch deutlich kleiner, da ein YubiKey nicht kopiert werden
 kann und der Verlust schnell bemerkt wird (Schlüsselbund weg).
-
-

@@ -31,7 +31,5 @@ Mit Fail2Ban lässt sich die Rate der Anmeldeversuche einschränken, es schützt
 aber nicht vor Risiken einer schwachen Authentifizierungsmethode. Der Zugriff
 auf unsere Webapplikation erfolgt daher zweistufig: nach dem Login mit
 Benutzername und Passwort muss sich der Benutzer mit seinem persönlichen
-[YubiKey](http://nohost/seantis/blog/sicheres-login-mit-2-faktor-
-authentifizierung "" ) identifizieren.
-
-
+[YubiKey](https://www.seantis.ch/blog/sicheres-login-mit-2-faktor-
+authentifizierung) identifizieren.
