@@ -40,7 +40,7 @@ unser kompletter Code auf der Kollaborationsplattform «GitHub» verfügbar
 ### Continous Integration Server
 
 Für die kontinuierliche Integration und für das Ausführen der automatisierten
-Tests verwenden wir «Jenkins» ([ww.jenkins-ci.org](http://ww.jenkins-ci.org ""
+Tests verwenden wir «Jenkins» ([www.jenkins-ci.org](http://www.jenkins-ci.org ""
 )) bzw. «Travis» ([www.travis-ci.org](http://www.travis-ci.org "" )) für Open
 Source Projekte. Es ist auf einen Blick erkennbar welches Commit zu einem
 fehlerhaften Build geführt hat.
