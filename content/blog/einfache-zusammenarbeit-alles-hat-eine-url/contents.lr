@@ -15,8 +15,8 @@ ein einfaches Prinzip: alles hat eine URL.
 
 ### LaTeX und Git für Dokumente
 
-Konzepte (Offerten) schreiben wir in LaTeX ([www.latex-project.org](http://www
-.latex-project.org "" )). Dokumente sind immer in einem Git Repository
+Konzepte (Offerten) schreiben wir in LaTeX ([www.latex-project.org](http://www.latex-project.org "" )).
+Dokumente sind immer in einem Git Repository
 versioniert und schliessen ein Changelog ein. Damit können einfach mehrere
 Personen an einem Konzept schreiben. Nie mehr Microsoft Word!
 
@@ -65,5 +65,3 @@ Was verbindet alle diese Tools? Ein einfaches Prinzip: alles hat eine URL.
 Konzepte, Tickets, Chats haben alle eine eigene URL. Dies stellt sicher, dass
 der Zugang für alle Berechtigten jederzeit gewährleistest ist, Inhalte
 durchsuchbar sind über Links einfach miteinander verknüpft werden können.
-
-

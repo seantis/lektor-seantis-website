@@ -22,8 +22,8 @@ during data processing must be available in a suitable and documented form.
 ### Version Control
 
 Version control is a system that records changes to a file or set of files
-over time so that you can recall specific versions later. Git (<http://git-
-scm.com>) is a free software for distributed version management of files. For
+over time so that you can recall specific versions later. Git (<http://git-scm.com>)
+is a free software for distributed version management of files. For
 our customers we are making a Git server available for managing and processing
 research data.
 
@@ -94,5 +94,3 @@ The interactive IPython notebook (<http://ipython.org/notebook.html>) can be
 for exploratory data analysis.
 
 ![](datapreprocessing.png)
-
-

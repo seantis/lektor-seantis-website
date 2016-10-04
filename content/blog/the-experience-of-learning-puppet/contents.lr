@@ -1,16 +1,16 @@
 
-title: The Experience of Learning Puppet 
+title: The Experience of Learning Puppet
 ---
 pub_date: 2012-6-13
 ---
 author: seantis
 ---
-description: 
+description:
 ---
 body:
 
 About a month ago I started introducing puppet to our infrastructure at
-[seantis](http://nohost/seantis/). After ploughing through [Pro
+[seantis](https://www.seantis.ch). After ploughing through [Pro
 Puppet](http://www.apress.com/9781430230571) I was able to declare our basic
 configuration needs, setup the basic infrastructure and deploy two servers in
 no time.
@@ -124,5 +124,3 @@ for changing. And what do I know, really?
 
 Also visit my personal blog:
 [**http://blog.stacktrace.ch**](http://blog.stacktrace.ch)
-
-

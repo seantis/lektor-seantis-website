@@ -10,7 +10,7 @@ description: uWSGI supports setting up sys.path with the paths of a virtualenv. 
 body:
 
 Setting up our first production server with
-[ocqms](http://nohost/seantis/search?SearchableText=ocqms) proved to be
+[ocqms](https://www.seantis.ch/search?SearchableText=ocqms) proved to be
 somewhat tricky, as my own understanding of uWSGI, Pyramid and buildout was
 limited to say the least. We always run our python projects in virtual
 environments, but we often use it for nothing more than a container from which

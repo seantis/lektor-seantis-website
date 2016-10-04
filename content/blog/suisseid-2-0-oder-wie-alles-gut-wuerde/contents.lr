@@ -11,7 +11,7 @@ body:
 
 Unsere Kritik an der Art und Weise wie Service-Provider die suisseID in ihre
 Internet-Applikationen integrieren kann man [hier
-nachlesen](http://nohost/seantis/blog/suisseid-ad-absurdum).
+nachlesen](https://www.seantis.ch/blog/suisseid-ad-absurdum).
 
 Die eigentlichen Stärken der suisseID liessen sich nützen, wenn man sich
 konsequent an der Kernidee einer Authentifizierung mittels einer Trusted Third
@@ -33,7 +33,7 @@ suisseID](http://www.suisseid.ch/unternehmen/einsatzszenarien/zertifikat/index.h
 zulässig.  
 Für Internet-Applikationen scheint uns dies nicht der richtige Weg, weil:
 
-  1. Der Endbenutzer sein Zertifikat nicht einfach jeder Internetseite zeigen sollte (vgl. [unseren Beitrag dazu](http://nohost/seantis/blog/suisseid-ad-absurdum)).
+  1. Der Endbenutzer sein Zertifikat nicht einfach jeder Internetseite zeigen sollte (vgl. [unseren Beitrag dazu](https://www.seantis.ch/blog/suisseid-ad-absurdum)).
   2. Der Service Provider gar nicht zu wissen braucht, auf welche Art sich der Benutzer beim IdP identifiziert.
 
 ###  

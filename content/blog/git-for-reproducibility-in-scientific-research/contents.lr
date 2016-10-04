@@ -27,9 +27,8 @@ http://www.latex-project.org](http://www.latex-project.org)
 
 latex-git-log can be used to type­set the complete Git version history as
 table written in LaTeX. The typeset output (PDF document) includes the Git
-revisions (short SHA-1 hash).[  
-http://www.ctan.org/tex-archive/support/latex-git-log ](http://www.ctan.org
-/tex-archive/support/latex-git-log)
+revisions (short SHA-1 hash).[
+http://www.ctan.org/tex-archive/support/latex-git-log ](http://www.ctan.org/tex-archive/support/latex-git-log)
 
 ### SQL Research Database (Snapshots)
 
@@ -78,7 +77,3 @@ studies on inflammatory rheumatic diseases
 
 
 ![PHD-Revision](phd101212s.gif)
-
-
-
-
