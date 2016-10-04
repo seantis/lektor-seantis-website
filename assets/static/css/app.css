@@ -156,6 +156,14 @@ button.postfix {
   font-weight: bold
 }
 
+.vcard .zip {
+    margin-right: 4px;
+}
+
+.vcard .email .icon-at {
+    margin-right: 4px;
+}
+
 .portletItemDetails {
   display: block;
   color: #6f6f6f;
