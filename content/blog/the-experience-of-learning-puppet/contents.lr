@@ -88,11 +88,10 @@ needs are really basic). But I also encountered a number of modules which just
 didn’t seem like the kind of modules I would want to use on our
 infrastructure.
 
-For example [Puppetlabs’ own Nginx module](https://github.com/puppetlabs
-/puppetlabs-nginx) which has a listen_port parameter in the vhost resource
+For example [Puppetlabs’ own Nginx module](https://github.com/puppetlabs/puppetlabs-nginx)
+which has a listen_port parameter in the vhost resource
 which does nothing. A bug which was fixed in another fork months ago and has
-since been sitting around [waiting to be pulled](https://github.com/puppetlabs
-/puppetlabs-nginx/pull/15).
+since been sitting around [waiting to be pulled](https://github.com/puppetlabs/puppetlabs-nginx/pull/15).
 
 I mean I know that Puppetlabs’ modules are not an official part of puppet, but
 as someone who is starting out it is still kinda surprising to me that a bug
