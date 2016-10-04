@@ -1,3 +1,9 @@
+html {
+    @media not print {
+        margin-left: calc(100vw - 100%);
+    }
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
 }
