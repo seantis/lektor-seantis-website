@@ -1,7 +1,10 @@
+
 title: Rheumatoide Arthritis möglichst früh erkennen
 ---
+
 pub_date: 2013-08-11
 ---
+
 author: seantis
 ---
 description:
@@ -9,7 +12,8 @@ description:
 SNF-Studie zur Früherkennung der Rheumatoiden Arthritis
 
 ---
-customer: 
+
+customer: Schweizerischer Nationalfonds (SNF)
 ---
 task:
 
@@ -29,8 +33,10 @@ Die Applikation umfasst ebenfalls ein reminder-System, das die Studienteilnehmer
 Die Applikation ist mehrsprachig und steht zur Zeit in deutscher, englischer und französischer Version zur Verfügung. Die Web-Applikation wurde zur Anwendung im medizinischen Bereich entwickelt, kann aber leicht an andere Anwendungsbereiche angepasst werden.
 
 ---
+
 benefit: 
 ---
+
 links: Arthritis-Checkup: [www.arthritis-checkup.ch](http://www.arthritis-checkup.ch)
 ---
 _hidden: no
