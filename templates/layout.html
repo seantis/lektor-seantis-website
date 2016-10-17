@@ -127,6 +127,16 @@
                             </dd>
                         </dl>
                     {% endif %}
+
+                    <dl class="porletNews">
+                        <dt>News</dt>
+                        {% for news in site.get('/news').children.limit(3) %}
+                            <dd class="newsItem">
+                                <a href="{{ news|url }}">{{ news.title }}</a></li>
+                            </dd>
+                        {% endfor %}
+                    </dt>
+
                 </div>
                 <div>{% block portlet %}{% endblock %}</div>
             </div>

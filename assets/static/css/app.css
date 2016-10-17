@@ -87,7 +87,7 @@ hr.noline {
 
 #navigation ul {
   list-style: none;
-    margin-top: 25px;
+  margin-top: 25px;
 }
 
 #navigation ul li {
@@ -295,8 +295,10 @@ footer p {
   list-style: none;
 }
 
-.portletNews, .portletTwitterPortlet {
+dd.newsItem {
+  display: block;
   border-bottom: 1px solid #eaeef1;
+  padding-bottom: 0.5em;
 }
 
 .portletNavigationTree ul {
