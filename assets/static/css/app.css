@@ -301,6 +301,10 @@ dd.newsItem {
   padding-bottom: 0.5em;
 }
 
+.porletNews dt a {
+    color: #222;
+}
+
 .portletNavigationTree ul {
   list-style: none
 }
