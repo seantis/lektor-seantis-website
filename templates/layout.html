@@ -129,8 +129,13 @@
                     {% endif %}
 
                     <dl class="porletNews">
-                        <dt>News</dt>
-                        {% for news in site.get('/news').children.limit(3) %}
+                        <dt><a href="{{ '/news'|url }}">News </a> & <a href="{{ '/blog'|url }}"> Blog</a></dt>
+                        {% for news in site.get('/news').children.limit(2) %}
+                            <dd class="newsItem">
+                                <a href="{{ news|url }}">{{ news.title }}</a></li>
+                            </dd>
+                        {% endfor %}
+                        {% for news in site.get('/blog').children.limit(2) %}
                             <dd class="newsItem">
                                 <a href="{{ news|url }}">{{ news.title }}</a></li>
                             </dd>
