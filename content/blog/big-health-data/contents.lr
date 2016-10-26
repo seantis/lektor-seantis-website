@@ -1,0 +1,27 @@
+
+title: Big Health Data
+---
+
+pub_date: 2016-10-26
+---
+
+author: seantis
+---
+
+description: Die Präsentation versucht das Potential von Big Data im Gesundheitsbereich aufzuzeigen.
+---
+body:
+
+ ![Cover-Slide](Cover-Slide.png)
+
+Folgende drei Thesen werden in den Raum gestellt:
+
+- Big Health Data sind besonders komplexe Daten.
+- Im Gesundheitssektor ist IT weit davon entfernt ihr volles Potential zu entfalten.
+- Tools zur Verarbeitung von Big Data - besonders Deep Machine Learning - wird in der medizinischen Informatik einen Quantensprung bringen.
+
+Wird dank Big Data Alchemy aus „garbage in - garbage out“ gar „garbage in - gold out“?
+
+Vortrag im Rahmen des [Rotary Club Luzern](http://www.rotaryclubluzern.ch) in der Reihe „Horizonte und Perspektiven“.
+
+**[Foliensatz [PDF - 19MB]](Big-Health-Data.pdf)**
