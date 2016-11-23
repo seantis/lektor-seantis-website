@@ -96,16 +96,19 @@ In Folge kommt es zu Stornierungen, was weiter dazu führt dass bestimmte Durchf
 Stabilität ist sicher ein wichtiges Merkmal einer Zuweisung, aber die resultierende Zufriedenheit ist nicht zu vernachlässigen. Je zufriedener die Teilnehmer, desto erfolgreicher der Ferienpass in der Zukunft.
 Nun ist die Zufriedenheit eine kaum messbare und abstrakte Grösse. Vereinfacht lässt sich aber folgende Annahme treffen:
 
-- Ein Teilnehmer ist 100% Zufrieden wenn alle Wünsche angenommen wurden.
-- Ein Teilnehmer ist 0% Zufrieden wenn keine Wünsche angenommen wurden.
-- Ein Teilnehmer mit zwei Wünschen ist 66% Zufrieden wenn die 1. Priorität angenommen und die 2. Priorität abgelehnt wurde.
-- Ein Teilnehmer mit zwei Wünschen ist 33% Zufrieden wenn die 1. Priorität abgelehnt und die 2. Priorität angenommen wurde.
+- Ein Teilnehmer ist 100% zufrieden wenn alle Wünsche angenommen wurden.
+- Ein Teilnehmer ist 0% zufrieden wenn keine Wünsche angenommen wurden.
+- Ein Teilnehmer mit zwei Wünschen ist 66% zufrieden wenn die 1. Priorität angenommen und die 2. Priorität abgelehnt wurde.
+- Ein Teilnehmer mit zwei Wünschen ist 33% zufrieden wenn die 1. Priorität abgelehnt und die 2. Priorität angenommen wurde.
 
 Daraus lässt sich eine relativ kompakte Formel kreieren, welche die Zufriedenheit von 0-100% errechnet:
 
 (2 x P1a + P2a) / (2 x P1 + P2)
 
-**P1a** Anzahl Angenommene Wünsche der Priorität 1 **P2a**	Anzahl Angenommene Wünsche der Priorität 2 **P1** 	Anzahl Wünsche der Priorität 1 **P2** 	Anzahl Wünsche der Priorität 2
+**P1a** Anzahl Angenommene Wünsche der Priorität 1  
+**P2a** Anzahl Angenommene Wünsche der Priorität 2  
+**P1** Anzahl Wünsche der Priorität 1  
+**P2** Anzahl Wünsche der Priorität 2
 
 Im Prinzip teilen wir schlicht die angenommenen Wünsche mit der Gesamtzahl Wünsche, wobei wir Favoriten stärker Gewichten.
 
