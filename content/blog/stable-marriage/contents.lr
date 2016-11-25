@@ -109,9 +109,9 @@ Daraus lässt sich eine relativ kompakte Formel aufstellen, welche die Zufrieden
 
 (2 x P1a + P2a) / (2 x P1 + P2)
 
-**P1a** Anzahl Angenommene Wünsche der Priorität 1
- **P2a**	Anzahl Angenommene Wünsche der Priorität 2 
-**P1** 	Anzahl Wünsche der Priorität 1 
+**P1a** Anzahl Angenommene Wünsche der Priorität 1  
+ **P2a**	Anzahl Angenommene Wünsche der Priorität 2   
+**P1** 	Anzahl Wünsche der Priorität 1   
 **P2** 	Anzahl Wünsche der Priorität 2
 
 Im Prinzip teilen wir schlicht die angenommenen Wünsche mit der Gesamtzahl Wünsche, wobei wir Favoriten stärker Gewichten.
