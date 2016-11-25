@@ -11,7 +11,7 @@ author: seantis
 ---
 
 
-description: Zusammen mit Netcetera entwickelt seantis für Pro Juventute eine neue Plattform zur Verwaltung von betreuten Ferienangeboten (Ferienpass). Die Zuteilung der Kinder auf die Angebote erfolgt dabei gemäss dem Stable-Marriage-Algorithmus von Gale und Shapely.
+description: Zusammen mit Netcetera entwickelt seantis eine neue Plattform zur Verwaltung von betreuten Ferienangeboten (Ferienpass). Die Zuteilung der Kinder auf die Angebote erfolgt dabei gemäss dem Stable-Marriage-Algorithmus von Gale und Shapely.
 ---
 body:
 
@@ -23,7 +23,7 @@ Keine einfache Ausgangslage also für Kinder, Eltern und Organisatoren.
 
 ## Stable Marriages
 
-Auf der neuen Plattform Pro Juventute wird die Zuteilung von Teilnehmern zu Angeboten mit einer modifizierten Version des Gale und Shapely Stable-Marriage-Algorithmus umgesetzt.
+Auf der neuen Ferienpass-Plattform wird die Zuteilung von Teilnehmern zu Angeboten mit einer modifizierten Version des Gale und Shapely Stable-Marriage-Algorithmus umgesetzt.
 
 Um die neue Zuteilung zu verstehen ist es nützlich, das Grundprinzip dahinter zu kennen. Der Mechanismus löst nämlich ein anderes Problem als die Zuteilung bei Ferienpässen. Das gelöste Problem nennt sich “Stable Marriages Problem”, auf Deutsch das Problem der «Stabilen Ehen».
 
@@ -66,7 +66,7 @@ Das könnten zum Beispiel Studenten sein, die sich für eine Vorlesung anmelden.
 
 Ein anderes Beispiel ist die Zuweisung von Medizinstudenten auf Kliniken. Oder die Zuweisung von Kindern zu Kinderkrippen. Oder die Zuweisung von Teilnehmern zu Durchführungen in einem Ferienpass.
 
-## Die Zuweisung auf der Plattform von Pro Juventute
+## Die Zuweisung auf der Ferienpass-Plattform
 
 Im Feriennet werden Teilnehmer zu Angeboten zugeteilt. Teilnehmer haben dabei eine Wunschliste, von der sie bis zu drei Einträge als Favoriten markieren können. Die Angebote oder Durchführungen auf der anderen Seite haben implizit ebenfalls eine Wunschliste.
 
