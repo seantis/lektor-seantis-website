@@ -60,7 +60,7 @@ Nun ist das so beschriebene Beispiel abstrakt und mathematisch - im realen Leben
 
 Das könnten zum Beispiel Studenten sein, die sich für eine Vorlesung anmelden. Die Studenten wählen die Vorlesungen aus, die sie am liebsten besuchen würden, und die Professoren wählen die Studenten aus, welche sie am liebsten in der Klasse hätten. Das Resultat ist stabil, da kein Student eine bessere Klasse finden kann welche ihn aufnehmen würde.
 
-![Stable Marriage nature.com](/Users/fabian/Projects/lektor/lektor-seantis-website/content/blog/stable-marriage/nature.jpg)
+![Stable Marriage nature.com](nature.jpg)
 
 *Bild: NOBEL 2012 Economics: Stable allocations and market design: http://www.nature.com/nature/journal/v492/n7427/fig_tab/492054a_F1.html*
 
@@ -152,6 +152,6 @@ Die erzielten Resultate deuten darauf hin, dass wir mit dem neuen Algorithmus ei
 
 Für weitere Informationen zu Stable Marriages (in Deutsch auch oft unter dem Namen “Sekretärinnenproblem” bekannt) und zu allgemeinen Zuweisungs-Ansätzen sind folgende Artikel lesenswert:
 
-- http://www.nature.com/nature/journal/v492/n7427/fig_tab/492054a_F1.html
+- http://www.nature.com/nature/journal/v492/n7427/full/492054a.html
 - https://de.wikipedia.org/wiki/Sekretärinnenproblem
 - https://de.wikipedia.org/wiki/Globales_Matching
