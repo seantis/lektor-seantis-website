@@ -15,9 +15,9 @@ description: Zusammen mit Netcetera entwickelt seantis eine neue Plattform zur V
 ---
 body:
 
-Alle Eltern von Kindern, die an einem Ferienpass teilnehmen, kennen das Problem. In jedem einzelnen Angebote gibt es nur eine beschränkte Anzahl Plätze. Das eigene Kind macht es extrem unglücklich, wenn es nicht an seinen favorisierten Angeboten teilnehmen kann. Der Kurs bei der Feuerwehr oder auf dem Ponyhof ist immer viel zu schnell ausgebucht.
+Alle Eltern von Kindern, die an einem Ferienpass teilnehmen, kennen das Problem. In jedem einzelnen Angebot gibt es nur eine beschränkte Anzahl Plätze. Das eigene Kind macht es extrem unglücklich, wenn es nicht an seinen favorisierten Angeboten teilnehmen kann. Der Kurs bei der Feuerwehr oder auf dem Ponyhof ist immer viel zu schnell ausgebucht.
 
-Auf der anderen Seite stehen die Organisatoren eines lokalen Ferienpassangebotes, die ehrlich darum bemüht sind, die Zuteilung der Kinder auf die Kurse möglichst fair vorzunehmen. Dabei sind auch  sie mit den Restriktion der beschränkten Anzahl Plätze konfrontiert. Erschwerend kommt für die Organisatoren hinzu, dass sie neben der Maximalanzahl Kinder in einem Kurs auch eine Minimalanzahl pro Kurs zu erfüllen haben, damit ein Angebot überhaupt durchgeführt werden kann.
+Auf der anderen Seite stehen die Organisatoren eines lokalen Ferienpassangebotes, die ehrlich darum bemüht sind, die Zuteilung der Kinder auf die Kurse möglichst fair vorzunehmen. Dabei sind auch  sie mit der Restriktion der beschränkten Anzahl Plätze konfrontiert. Erschwerend kommt für die Organisatoren hinzu, dass sie neben der Maximalanzahl Kinder in einem Kurs auch eine Minimalanzahl pro Kurs zu erfüllen haben, damit ein Angebot überhaupt durchgeführt werden kann.
 
 Keine einfache Ausgangslage also für Kinder, Eltern und Organisatoren.
 
@@ -25,7 +25,7 @@ Keine einfache Ausgangslage also für Kinder, Eltern und Organisatoren.
 
 Auf der neuen Ferienpass-Plattform wird die Zuteilung von Teilnehmern zu Angeboten mit einer modifizierten Version des Gale und Shapely Stable-Marriage-Algorithmus umgesetzt.
 
-Um die neue Zuteilung zu verstehen ist es nützlich, das Grundprinzip dahinter zu kennen. Der Mechanismus löst nämlich ein anderes Problem als die Zuteilung bei Ferienpässen. Das gelöste Problem nennt sich “Stable Marriages Problem”, auf Deutsch das Problem der «Stabilen Ehen».
+Um die neue Zuteilung zu verstehen ist es nützlich, das Grundprinzip dahinter zu kennen. Der Mechanismus löst nämlich ein anderes Problem als die Zuteilung bei Ferienpässen. Das gelöste Problem nennt sich “Stable Marriages Problem”, auf Deutsch, das Problem der «Stabilen Ehen».
 
 Stellen wir uns vor, wir haben eine Gruppe unverheirateter Männer und eine gleich grosse Gruppe unverheirateter Frauen:
 
@@ -52,13 +52,13 @@ Nehmen wir an, Anna mag Billy lieber, dann ist Alfred nun wieder Single und frag
 
 Die Männer fragen also alle Frauen in der Reihenfolge ihrer Präferenz und die Frauen akzeptieren zuerst den ersten Antrag und entscheiden sich dann jeweils anders, wenn sich jemand besseres findet.
 
-Das Resultat, bei dem alle verheiratet sind, ist eine Gruppe von Ehen welche stabil sind. Denn alle Männer haben die beste Frau gefunden, welche bereit ist Ja zu sagen. Und alle Frauen haben den jeweils besten Mann behalten.
+Das Resultat, bei dem alle verheiratet sind, ist eine Gruppe von Ehen, die stabil sind. Denn alle Männer haben die beste Frau gefunden, welche bereit ist Ja zu sagen. Und alle Frauen haben den jeweils besten Mann behalten.
 
 ## Weitere Anwendungen des Algorithmus
 
-Nun ist das so beschriebene Beispiel abstrakt und mathematisch - im realen Leben heiratet man nicht einfach auf biegen und brechen - aber es löst eine generelle Klasse von Problemen. Nämlich das Problem wenn zwei Gruppen miteinander stabil verknüpft werden sollen.
+Nun ist das so beschriebene Beispiel abstrakt und mathematisch - im realen Leben heiratet man nicht einfach auf biegen und brechen - aber es löst eine generelle Klasse von Problemen. Nämlich das Problem, wenn zwei Gruppen miteinander stabil verknüpft werden sollen.
 
-Das könnten zum Beispiel Studenten sein, die sich für eine Vorlesung anmelden. Die Studenten wählen die Vorlesungen aus, die sie am liebsten besuchen würden, und die Professoren wählen die Studenten aus, welche sie am liebsten in der Klasse hätten. Das Resultat ist stabil, da kein Student eine bessere Klasse finden kann welche ihn aufnehmen würde.
+Das könnten zum Beispiel Studenten sein, die sich für eine Vorlesung anmelden. Die Studenten wählen die Vorlesungen aus, die sie am liebsten besuchen würden, und die Professoren wählen die Studenten aus, welche sie am liebsten in der Klasse hätten. Das Resultat ist stabil, da kein Student eine bessere Klasse finden kann, welche ihn aufnehmen würde.
 
 ![Stable Marriage nature.com](nature.jpg)
 
@@ -103,7 +103,7 @@ Nun ist die Zufriedenheit eine kaum messbare und abstrakte Grösse. Vereinfacht 
 - Ein Teilnehmer ist 100% zufrieden, wenn alle Wünsche angenommen wurden.
 - Ein Teilnehmer ist 0% zufrieden, wenn keine Wünsche angenommen wurden.
 - Ein Teilnehmer mit zwei Wünschen ist 66% zufrieden, wenn die 1. Priorität angenommen und die 2. Priorität abgelehnt wurde.
-- Ein Teilnehmer mit zwei Wünschen ist 33% zufrieden wenn die 1. Priorität abgelehnt und die 2. Priorität angenommen wurde.
+- Ein Teilnehmer mit zwei Wünschen ist 33% zufrieden, wenn die 1. Priorität abgelehnt und die 2. Priorität angenommen wurde.
 
 Daraus lässt sich eine relativ kompakte Formel aufstellen, welche die Zufriedenheit von 0-100% errechnet:
 
@@ -114,7 +114,7 @@ Daraus lässt sich eine relativ kompakte Formel aufstellen, welche die Zufrieden
 **P1** 	Anzahl Wünsche der Priorität 1   
 **P2** 	Anzahl Wünsche der Priorität 2
 
-Im Prinzip teilen wir schlicht die angenommenen Wünsche mit der Gesamtzahl Wünsche, wobei wir Favoriten stärker Gewichten.
+Im Prinzip teilen wir schlicht die angenommenen Wünsche mit der Gesamtzahl Wünsche, wobei wir Favoriten stärker gewichten.
 
 ## Das Experiment
 
@@ -127,7 +127,7 @@ Die Resultate sprechen für sich. Bei 100 Angeboten und 100 Teilnehmern mit jewe
 
 ![](results-1.png)
 
-Auf der rechten Seite des Diagramms sehen wir, dass 20 Teilnehmer 90-100% zufrieden sind. 11 Teilnehmer sind 80-90% Zufrieden, 9 Teilnehmer sind 70-80% zufrieden und so weiter.
+Auf der rechten Seite des Diagramms sehen wir, dass 20 Teilnehmer 90-100% zufrieden sind. 11 Teilnehmer sind 80-90% zufrieden, 9 Teilnehmer sind 70-80% zufrieden und so weiter.
 Auf der linken Seite sehen wir das 12 Teilnehmer nur 0-10% zufrieden sind.
 
 Oben rechts ist ersichtlich, dass die globale Zufriedenheit sich auf 61.88% beläuft und 56% der Durchführungen genug Teilnehmer haben. Die Standardabweichung gibt an, was sich anhand der Balken zeigt: die Zufriedenheit ist pro Teilnehmer sehr unterschiedlich.
