@@ -12,7 +12,7 @@ body:
 In den Datenbanken für die medizinische Forschung werden sensitive
 Patientendaten gespeichert. Der Zugriff auf die personenbezogenen Daten setzt
 eine sichere Authentifizierung der Benutzer voraus.
-[OCQMS](https://www.ocqm.org) bietet ein sicheres Login
+[OCQMS](https://www.healthdata.ai) bietet ein sicheres Login
 mit 2-Faktor-Authentifizierung. Die Benutzer verwenden dazu
 [YubiKeys](https://www.seantis.ch/blog/sicheres-login-mit-yubikey).
 

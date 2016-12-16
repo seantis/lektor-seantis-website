@@ -31,4 +31,4 @@ body:
   * If an access permission is revoked the users in the removed institution will still have access to historic data, but can no longer edit patient information (e.g. opening a new visit).
   * All users may revoke granted permissions (e.g. on patient's request).
 
-**More information about OCQMS: [www.ocqm.org](http://www.ocqm.org "" )**
+**More information about OCQMS: [www.healthdata.ai](https://www.healthdata.ai)**
