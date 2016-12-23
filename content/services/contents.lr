@@ -8,7 +8,7 @@ Wir übernehmen die Betreuung und den Betrieb Ihrer IT-Lösung nach dem Rollout.
 
 ### Server Management
 
-seantis verwaltet alle Server mit **Konfigurationsmanagement Tools** (u.a. [Puppet](http://puppetlabs.com/)und [Ansible](http://www.ansible.com/)). Damit ist sichergestellt, dass die Konfiguration eines jeden Servers explizit gemacht und dokumentiert ist. Auch bieten uns die Konfigurationsmanagement Tools die Möglichkeit Konfigurationsänderungen und Updates kontrollierbar über alle Server sicher auszurollen.
+seantis verwaltet alle Server mit **Konfigurationsmanagement Tools** (u.a. [Puppet](http://puppetlabs.com/) und [Ansible](http://www.ansible.com/)). Damit ist sichergestellt, dass die Konfiguration eines jeden Servers explizit gemacht und dokumentiert ist. Auch bieten uns die Konfigurationsmanagement Tools die Möglichkeit Konfigurationsänderungen und Updates kontrollierbar über alle Server sicher auszurollen.
 
 ![Server Health](serverhealth.png)
 
