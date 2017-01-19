@@ -8,7 +8,7 @@ Wir übernehmen die Betreuung und den Betrieb Ihrer IT-Lösung nach dem Rollout.
 
 ### Server Management
 
-seantis verwaltet alle Server mit **Konfigurationsmanagement Tools** (u.a. [Puppet](http://puppetlabs.com/)und [Ansible](http://www.ansible.com/)). Damit ist sichergestellt, dass die Konfiguration eines jeden Servers explizit gemacht und dokumentiert ist. Auch bieten uns die Konfigurationsmanagement Tools die Möglichkeit Konfigurationsänderungen und Updates kontrollierbar über alle Server sicher auszurollen.
+seantis verwaltet alle Server mit **Konfigurationsmanagement Tools** (u.a. [Puppet](http://puppetlabs.com/) und [Ansible](http://www.ansible.com/)). Damit ist sichergestellt, dass die Konfiguration eines jeden Servers explizit gemacht und dokumentiert ist. Auch bieten uns die Konfigurationsmanagement Tools die Möglichkeit Konfigurationsänderungen und Updates kontrollierbar über alle Server sicher auszurollen.
 
 ![Server Health](serverhealth.png)
 
@@ -27,7 +27,7 @@ Folgende Parameter der **Server werden proaktiv überwacht** und auf einem zen
 
 ### Service Monitoring (Ping)
 
-Das Monitoring Tool ruft die Seiten periodisch auf und überwacht so deren Status. Ist eine Seite nicht erreichbar, weil der Webserver nicht richtig läuft, oder weil es ein Problem in der Applikation gibt, so schlägt das **Monitoring Tool Alarm** und ein Kreis von Personen wird per E-Mail/SMS in definierten **Eskalationsstufen**benachrichtigt.
+Das Monitoring Tool ruft die Seiten periodisch auf und überwacht so deren Status. Ist eine Seite nicht erreichbar, weil der Webserver nicht richtig läuft, oder weil es ein Problem in der Applikation gibt, so schlägt das **Monitoring Tool Alarm** und ein Kreis von Personen wird per E-Mail/SMS in definierten **Eskalationsstufen** benachrichtigt.
 
 Das Monitoring geschieht auf Applikationsebene (analog zu einem direkten Zugriff via Browser). Damit werden Ausfälle bzw. Probleme sofort direkt erkannt. Falls gewünscht können Verantwortliche des Kunden ab einer erhöhten Eskalationsstufe (z.B. 1h «down time») ebenfalls automatisch benachrichtigt werden.
 
@@ -47,7 +47,7 @@ Der Backup Plan sieht sieht folgende **inkrementelle Backups** vor:
 - wöchentliche Rotation: 4 Wochen Retension
 - monatliche Rotation: 3 Monate Retension
 
-Der tägliche Backup-Prozess wird automatisch überwacht und seantis informiert, sollte es zu Problemen gekommen sein. seantis überprüft die Integrität der Daten auf der Harddisk (ZFS Scrape). Während des *seantis Backup Days* werden die Backups auf virtuellen Servern eingespielt und damit überprüft, dass die Backups auch wirklich verwendbar sind. Die regelmässige Überprüfung auf**Wiederherstellbarkeit (Restore Tests)** ist somit auch sichergestellt.
+Der tägliche Backup-Prozess wird automatisch überwacht und seantis informiert, sollte es zu Problemen gekommen sein. seantis überprüft die Integrität der Daten auf der Harddisk ([ZFS](http://de.wikipedia.org/wiki/ZFS_(Dateisystem)) Scrape). Während des *seantis Backup Days* werden die Backups auf virtuellen Servern eingespielt und damit überprüft, dass die Backups auch wirklich verwendbar sind. Die regelmässige Überprüfung auf **Wiederherstellbarkeit (Restore Tests)** ist somit auch sichergestellt.
 
 ### Service Level Agreement (SLA)
 
