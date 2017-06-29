@@ -7,7 +7,7 @@ author: seantis
 ---
 description: myControl.aero macht seine Datensätze für Flugzeuge und Flughäfen als Open Data verfügbar.
 ---
-body: [myControl.aero](https://www.mycontrol.aero) - unser Logbook für Piloten - macht sämtliche Daten zu Flugzeugtypen, zivilen Luftfahrzeugen und Flughäfen öffentlich zugänglich. Die Daten können über die API von myControl.aero abgefragt werden.
+body: [myControl.aero](https://www.mycontrol.aero) - unser Logbook für Piloten - macht sämtliche Daten zu Flugzeugtypen, zivilen Luftfahrzeugen und Flughäfen öffentlich zugänglich. Die Daten können über die API von [myControl.aero](https://www.mycontrol.aero) abgefragt werden.
 
 Unser Open Aviation Datensatz umfasst:
 
