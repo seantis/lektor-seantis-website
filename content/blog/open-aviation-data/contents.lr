@@ -19,20 +19,19 @@ Unser Open Aviation Datensatz umfasst:
 
 Die Daten werden durch die User von [myControl.aero](https://www.mycontrol.aero) gepflegt und auf dem neusten Stand gehalten. Lizenziert sind die Daten unter einer "[Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/)". Diese Lizenz bedeutet, dass die Daten wie folgt frei verwendet werden dürfen:
 
-- **Teilen** — das Material in jedwedem Format oder Medium vervielfältigen und weiterverbreiten
+- **Teilen** — das Material in jedwedem Format oder Medium vervielfältigen und weiterverbreiten.
 - **Bearbeiten** — das Material remixen, verändern und darauf aufbauen und zwar für beliebige Zwecke, sogar kommerziell.
-- **Unter der einzigen Bedingung der Namensnennung** — Sie müssen [angemessene Urheber- und Rechteangaben machen](https://creativecommons.org/licenses/by/4.0/deed.de#), einen Link zur Lizenz beifügen und angeben, ob [Änderungen vorgenommen](https://creativecommons.org/licenses/by/4.0/deed.de#) wurden.
+- **Unter der einzigen Bedingung der Namensnennung** — Sie müssen angemessene Urheber- und Rechteangaben machen, einen Link zur Lizenz beifügen und angeben, ob Änderungen vorgenommen wurden.
 
-## Dokumentation
+## Links
 
-Die Dokumentation und direkte Einstiegspunkte finden sich hier:
+Die Dokumentation findet sich hier: [https://docs.mycontrol.aero/api/v10/public_data.html](https://docs.mycontrol.aero/api/v10/public_data.html).
 
-- Dokumentation [https://docs.mycontrol.aero/api/v10/public_data.html](https://docs.mycontrol.aero/api/v10/public_data.html)
-- Direkte Einstiegspunkte: [https://mycontrol.aero/api/latest/types](https://mycontrol.aero/api/latest/types), [https://mycontrol.aero/api/latest/aircrafts](https://mycontrol.aero/api/latest/aircrafts), [https://mycontrol.aero/api/latest/airports](https://mycontrol.aero/api/latest/airports)
+Die direkten Einstiegspunkte der API sind hier:
+- [https://mycontrol.aero/api/latest/types](https://mycontrol.aero/api/latest/types)
+- [https://mycontrol.aero/api/latest/aircrafts](https://mycontrol.aero/api/latest/aircrafts)
+- [https://mycontrol.aero/api/latest/airports](https://mycontrol.aero/api/latest/airports)
 
-Oder besser direkt ein Fancy Query?
-
-- [https://mycontrol.aero/api/latest/aircrafts?year_built=2016](https://mycontrol.aero/api/latest/aircrafts?year_built=2016)
-- [https://mycontrol.aero/api/latest/airports?latitude=47&timezone=asia](https://mycontrol.aero/api/latest/airports?latitude=47&timezone=asia)
-
-
+Beispiele:
+- Alle Flugzeugtypen, welche 2016 gebaut wurden: [https://mycontrol.aero/api/latest/aircrafts?year_built=2016](https://mycontrol.aero/api/latest/aircrafts?year_built=2016)
+- Alle Flughäfen mit asiatischer Zeitzone und einem Breitengrad von 47.xxxx: [https://mycontrol.aero/api/latest/airports?latitude=47&timezone=asia](https://mycontrol.aero/api/latest/airports?latitude=47&timezone=asia)
