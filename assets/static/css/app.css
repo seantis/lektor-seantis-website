@@ -5,11 +5,11 @@ html {
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Fira Sans', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Open Sans', sans-serif;
+  font-family: 'Fira Sans', sans-serif;
 }
 h1 {
   font-size: 1.6875em;
@@ -26,6 +26,7 @@ h4, h5, h6 {
 
 p {
   font-family: 'Droid Serif', serif;
+
 }
 
 a {
@@ -70,7 +71,7 @@ hr.noline {
   text-align: right;
 }
 #logo img {
-  height: 4em;
+  height: 3.6em;
 }
 
 #navigation .selected a {
@@ -87,12 +88,12 @@ hr.noline {
 
 #navigation ul {
   list-style: none;
-  margin-top: 25px;
+  margin-top: 20px;
 }
 
 #navigation ul li {
   float: left;
-  margin-right: 15px;
+  margin-right: 30px;
   margin-top: 1em;
   font-weight: bold
 }
@@ -212,7 +213,7 @@ ul.contentViews li, ul#contentActionMenus li {
 /* Footer */
 /* ------ */
 footer p {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
     color: #6f6f6f;
 }
 
@@ -273,7 +274,7 @@ footer p {
   color: #555;
   margin-top: 0.2em;
   margin-bottom: 1.5rem;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Fira Sans', sans-serif;
   font-size: 1.125em;
 }
 
