@@ -1,0 +1,21 @@
+title: Verbesserte Kartenansicht in myControl.aero
+---
+
+pub_date: 2017-9-26
+---
+author: seantis
+---
+description: Die aktuellste Version von myControl.aero optimiert die Kartenansicht mit Hilfe geodätischer Linien.
+---
+
+body:
+
+Flüge werden neu als geodätische Linien (https://de.wikipedia.org/wiki/Geodäte) angezeigt. Der geodätischer Weg stellt auf der Karte eine näherungsweise korrekte Darstellung transatlantischer Flüge sicher. Zudem werden Flughäfen je nach Anzahl Starts und Landungen in unterschiedlicher Grösse dargestellt. So ist auf einen Blick ersichtlich, welche Flughäfen öfters angeflogen wurden.
+
+Die Neuerungen sind ab sofort für alle User von myControl.aero verfügbar. Wir danken für das wertvolle Feedback all unserer User.
+
+**myControl.aero - Pilot Logbook in the Cloud: https://mycontrol.aero**
+
+![map](map.png)
+
+
