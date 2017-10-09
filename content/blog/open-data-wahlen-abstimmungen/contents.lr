@@ -15,11 +15,11 @@ Die Datensätze von Wahl- und Abstimmungsresultaten werden auf dem Portal [opend
 -  Die Datenportale der Kantone stellen jeweils einen "catalog endpoint“ zur Verfügung (z.B. https://abstimmungen.gr.ch/catalog.rdf)
 -  Der "catalog endpoint“ ist ein Verzeichnis aller Datensätze mit Links zu den Daten.
 -  Der Harvester von [opendata.swiss](https://opendata.swiss) "erntet" die Daten gemäss "catalog endpoint“ automatisch periodisch.
--  [opendata.swiss](https://opendata.swiss) listet die die Datensätze auf dem eigenen Portal auf uns verlinkt diese auf die Datenportale der Kantone.
+-  [opendata.swiss](https://opendata.swiss) listet die die Datensätze auf dem eigenen Portal auf und verlinkt diese auf die Datenportale der Kantone.
 
-Dies alles geschieht automatisch ohne Zutun der Kantonsverantwortlichen. Neue Abstimmungs bzw. Wahlresultate werden nach der Publikation auf der OneGov Cloud automatisch auch auf [opendata.swiss](https://opendata.swiss) publiziert.
+Dies alles geschieht automatisch ohne Zutun der Kantonsverantwortlichen. Neue Abstimmungs- bzw. Wahlresultate werden nach der Publikation auf der OneGov Cloud automatisch auch auf [opendata.swiss](https://opendata.swiss) publiziert.
 
-Die Endepoints können neben dem Portal des Bundes auch von beliebigen anderen Services als Katalog im RDF-Format für alle Datensätze eines OneGov Cloud Datenportals verwendet werden.
+Die Endpoints können neben dem Portal des Bundes auch von beliebigen anderen Services als Katalog im RDF-Format für alle Datensätze eines OneGov Cloud Datenportals verwendet werden.
 
 - **OneGov Cloud: https://www.onegovcloud.ch**
 - Wahlen & Abstimmungen Kanton Zug: https://wab.zug.ch/
