@@ -1,0 +1,30 @@
+title:  Open Data für Wahl- und Abstimmungsresultate
+---
+
+pub_date: 2017-10-09
+---
+author: seantis
+---
+description: Die Datensätze für Wahl- und Abstimmungsresultate werden über eine Schnittstelle im Open Government Data Portal des Bundes indexiert.
+---
+
+body: Das Thema Open Government Data (OGD) gewinnt politisch an Gewicht. Der Bund hat das Portal [opendata.swiss](https://opendata.swiss) lanciert. Das Portal soll als Verzeichnis von ODG-Datensätzen dienen. In Zusammenarbeit mit der Betreiberin des OGD-Portals des Bundes hat seantis eine Schnittstelle zur automatischen Publikation bzw. Registrierung als Linked Open Data der Wahl- und Abstimmungsdaten der Kantone Graubünden und Zug auf [opendata.swiss](https://opendata.swiss) entwickelt.
+
+Die Datensätze von Wahl- und Abstimmungsresultaten werden auf dem Portal [opendata.swiss](https://opendata.swiss) aufgelistet. Der Ablauf des Datenaustausches sieht wie folgt aus:
+
+-  Die Datenportale der Kantone stellen jeweils einen "catalog endpoint“ zur Verfügung (z.B. https://abstimmungen.gr.ch/catalog.rdf)
+-  Der "catalog endpoint“ ist ein Verzeichnis aller Datensätze mit Links zu den Daten.
+-  Der Harvester von [opendata.swiss](https://opendata.swiss) "erntet" die Daten gemäss "catalog endpoint“ automatisch periodisch.
+-  [opendata.swiss](https://opendata.swiss) listet die die Datensätze auf dem eigenen Portal auf uns verlinkt diese auf die Datenportale der Kantone.
+
+Dies alles geschieht automatisch ohne Zutun der Kantonsverantwortlichen. Neue Abstimmungs bzw. Wahlresultate werden nach der Publikation auf der OneGov Cloud automatisch auch auf [opendata.swiss](https://opendata.swiss) publiziert.
+
+Die Endepoints können neben dem Portal des Bundes auch von beliebigen anderen Services als Katalog im RDF-Format für alle Datensätze eines OneGov Cloud Datenportals verwendet werden.
+
+- **OneGov Cloud: https://www.onegovcloud.ch**
+- Wahlen & Abstimmungen Kanton Zug: https://wab.zug.ch/
+- Wahlen & Abstimmungen Kanton St. Gallen: https://abstimmungen.gr.ch
+
+
+
+![Catalog RDF](catalog.png)
