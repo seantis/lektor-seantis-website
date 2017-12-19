@@ -39,7 +39,7 @@ Der Web Monitor wird für den Kunden aufgesetzt und die entsprechenden Konfigura
 
 ### Backup Services
 
-Backups werden auf der **Backup Infrastruktur** von seantis gemacht. Das Backup erfolgt inkrementell, wird auf dem Quellsystem (Server) komprimiert und über eine sichere verschlüsselte Netzwerkverbindung auf einen dezidierten Offsite Backup Root-Server übertragen.
+Backups werden auf der **Backup Infrastruktur** von seantis gemacht. Das Backup erfolgt inkrementell, wird auf dem Quellsystem (Server) komprimiert und über eine sichere verschlüsselte Netzwerkverbindung auf einen dezidierten **Offsite Backup** Root-Server übertragen.
 
 Der Backup Plan sieht sieht folgende **inkrementelle Backups** vor:
 
@@ -47,7 +47,11 @@ Der Backup Plan sieht sieht folgende **inkrementelle Backups** vor:
 - wöchentliche Rotation: 4 Wochen Retension
 - monatliche Rotation: 3 Monate Retension
 
-Der tägliche Backup-Prozess wird automatisch überwacht und seantis informiert, sollte es zu Problemen gekommen sein. seantis überprüft die Integrität der Daten auf der Harddisk ([ZFS](http://de.wikipedia.org/wiki/ZFS_(Dateisystem)) Scrape). Während des *seantis Backup Days* werden die Backups auf virtuellen Servern eingespielt und damit überprüft, dass die Backups auch wirklich verwendbar sind. Die regelmässige Überprüfung auf **Wiederherstellbarkeit (Restore Tests)** ist somit auch sichergestellt.
+Der tägliche Backup-Prozess wird automatisch überwacht und seantis informiert, sollte es zu Problemen gekommen sein. seantis überprüft die Integrität der Daten auf der Harddisk ([ZFS](http://de.wikipedia.org/wiki/ZFS_(Dateisystem)) Scrape). 
+
+Vom Offsite Backup Server werden die Daten einmal wöchentlich auf einen verschlüsselten Datenträger übertragen. Dieser Datenträger wird in einem Tresorfach bei einer Schweizer  Bank hinterlegt. Die Datenträger im Schliessfach sind komplett entkoppelt und haben natürlich keine Netzwerk- bzw. Internetverbindung (**Airgap Backup**).
+
+Während des *seantis Backup Days* werden die Backups auf virtuellen Servern eingespielt und damit überprüft, dass die Backups auch wirklich verwendbar sind. Die regelmässige Überprüfung auf **Wiederherstellbarkeit (Restore Tests)** ist somit auch sichergestellt.
 
 ### Service Level Agreement (SLA)
 
