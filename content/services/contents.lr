@@ -47,6 +47,8 @@ Der Backup Plan sieht sieht folgende **inkrementelle Backups** vor:
 - wöchentliche Rotation: 4 Wochen Retension
 - monatliche Rotation: 3 Monate Retension
 
+Für besonders kritische Services nutzen wir für die Datenbanken *Write Ahead Logs* um Daten laufend vom Server auf externe *Object Storage Services* zu spiegeln. Damit verlieren selbst bei einem Totalausfall eines Servers nie mehr als 30 Minuten an Daten. Die Daten liegen immer in der Schweiz und werden zudem bereits vor der Übertragung auf den Storage Service sicher verschlüsselt.
+
 Der tägliche Backup-Prozess wird automatisch überwacht und seantis informiert, sollte es zu Problemen gekommen sein. seantis überprüft die Integrität der Daten auf der Harddisk ([ZFS](http://de.wikipedia.org/wiki/ZFS_(Dateisystem)) Scrape). 
 
 Vom Offsite Backup Server werden die Daten einmal wöchentlich auf einen verschlüsselten Datenträger übertragen. Dieser Datenträger wird in einem Tresorfach bei einer Schweizer  Bank hinterlegt. Die Datenträger im Schliessfach sind komplett entkoppelt und haben natürlich keine Netzwerk- bzw. Internetverbindung (**Airgap Backup**).
