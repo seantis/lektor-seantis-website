@@ -1,0 +1,231 @@
+body {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 500;
+}
+
+h4 {
+    font-weight: 500;
+}
+
+a {
+    color: #0077C8;
+}
+
+p {font-size: 110%;}
+
+.header {
+    margin: 20px 0
+}
+
+.contact {
+    margin-left: 30px;
+    font-weight: bold;
+    border-left: 1px solid #6A778B;
+}
+
+@media screen and (max-width: 39.9375em) {
+    .header {text-align: center}
+    .top-bar input {max-width: initial}
+    .menu {display: block}
+    .contact {border-left: none; margin-left: 0px; padding-right: 10px}
+    #square {margin: 80px 0 40px 0;}
+}
+
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+    #square {margin: 200px 0 40px 0;}
+}
+
+.contact a {
+    color: #41B6E6 !important;
+    font-weight: bold !important;
+}
+
+.title-bar-right a {
+    border-left: 1px solid #6A778B;
+    padding-left: 20px;
+}
+
+.top-bar, .top-bar .menu {
+    background-color: inherit;
+}
+
+.top-bar-left .menu li a {
+    color: #6A778B
+}
+
+.top-bar .input-group {
+    margin-bottom: 0
+}
+
+.top-bar input {
+    margin-right: 0
+}
+
+.top {
+    background: #002641;
+    color: #fff
+}
+
+.title-bar {
+    background: #002641;
+    height: 60px;
+}
+
+.title-bar a {
+    margin-left: 15px;
+    color: #6A778B;
+    font-weight: normal;
+}
+
+.top a {
+    color: #fff
+}
+
+#logo {
+    width: 226px;
+
+}
+
+#hero h1 {
+    font-weight: 500;
+    line-height: 1.15;
+}
+
+#splash {
+    margin-top: 30px;
+    background: url('../../static/img/brain.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 90px;
+}
+
+.intro {
+    margin-bottom: 40px;
+}
+
+.intro h3 {
+    margin-bottom: 20px;
+}
+
+#square {
+    background: #004B87;
+    padding: 40px;
+    color: #fff;
+    border-radius: 2px;
+        min-height: 450px;
+}
+
+#square a {
+    color: #41B6E6
+}
+
+#square h3 {
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+#square p {
+    line-height: 1.88889;
+    font-size: 110%;
+}
+
+.subheading {
+    color: #6A778B;
+}
+
+.discreet {
+    color: #6A778B;
+}
+
+#solution {
+    background: #F7FAFC;
+    margin-top: 70px;
+    padding: 30px 0;
+}
+
+#platform {
+    margin-top: 40px;
+}
+
+#platform h5 {
+    font-weight: 500;
+}
+
+#customers {
+    margin: 60px 0;
+    background: #F7FAFC;
+    padding: 40px 0;
+}
+
+#customers .card {
+    padding: 15px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    padding: 40px 0;
+    margin-top: 70px;
+    background: #002641;
+    min-height: 200px;
+}
+
+footer h4, footer h5 {
+    color: #fff;
+}
+
+footer p {
+    color: #6A778B;
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+    color: #6A778B;
+    font-size: 110%;
+}
+
+footer .button {
+    margin-top: 20px;
+}
+
+#copyright {
+    margin-top: 20px;
+    color: #6A778B;
+}
+
+.listing {
+    margin-bottom: 50px;
+}
+
+.listing h3 {
+    margin-bottom: 40px;
+}
+
+.team .card {
+    background: #004B87;
+    border: none;
+    color: #fff;
+}
+
+.team i {
+    margin-right: 8px;
+}
+
+.team .card .card-section {
+    padding: 30px;
+}
+
+.team a {
+    color: #41B6E6
+}
+
+img.full{
+    margin: 50px 0;
+}

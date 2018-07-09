@@ -1,208 +1,447 @@
 <!doctype html>
-<html class="no-js" lang="en">
-    <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-      <title>{% block title %}{% endblock %}</title>
-      <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-      <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-      <link rel="stylesheet" href="{{ '/static/css/normalize.min.css'|url }}">
-      <link rel="stylesheet" href="{{ '/static/css/foundation.min.css'|url }} ">
-      <link rel="stylesheet" href="{{ '/static/css/ionicons.min.css'|url }} ">
-      <link rel="stylesheet" href="{{ '/static/css/app.css'|url }}">
-      <link rel="stylesheet" href="{{ '/static/css/prism.css'|url }}" />
-      <script src="{{ '/static/js/custom.modernizr.js'|url }}"></script>
-    </head>
+<html class="no-js" lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>seantis gmbh</title>
+    <link rel="stylesheet" href="{{ '/static/css/foundation.min.css'|url }} ">
+    <link rel="stylesheet" href="{{ '/static/css/custom.css'|url }} ">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+</head>
 
-    <body>
-        {% set root = site.get('/') %}
-        <!-- Header and Nav -->
-        <div class="row">
-          <div class="large-3 push-9 columns">
-            <div id="logo">
-              <a id="brand" class="brand" href="{{ '/'|url }}">
-                <img src="{{ '/static/img/logo.svg'|url }}" alt="seantis gmbh">
-              </a>
+<body>
+    <div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="medium">
+        <button class="menu-icon" type="button" data-toggle="responsive-menu"></button>
+        <div class="title-bar-title"> <a href="">Home</a></div>
+        <div class="title-bar-right contact"><a href="">Kontakt</a></div>
+    </div>
+
+    <div class="top" id="responsive-menu">
+        <div class="grid-container">
+            <div class="top-bar">
+              <div class="top-bar-left">
+                  <ul class="menu hide-for-small-only">
+                      <li><a href="{{ '/'|url }}">Home</a></li>
+                  </ul>
+              </div>
+              <div class="top-bar-right">
+                  <ul class="menu" data-dropdown-menu>
+                      <li><a href="{{ '/portrait'|url }}">Über uns</a></li>
+                      <li><a href="{{ '/engineering'|url }}">Engineering</a></li>
+                      <li><a href="{{ '/services'|url }}">Services</a></li>
+                      <li><a href="{{ '/success-stories'|url }}">Erfolgsgeschichten</a></li>
+                      <li><a href="{{ '/news'|url }}">News</a></li>
+                      <li class="contact"><a href="#">Kontakt</a></li>
+                  </ul>
+              </div>
             </div>
-          </div>
-          <div class="large-9 pull-3 columns">
-            <div id="navigation">
-              <ul class="left" id="nav-tabs">
-                <li><a href="{{ '/portrait'|url }}">Portrait</a></li>
-                <li><a href="{{ '/engineering'|url }}">Engineering</a></li>
-                <li><a href="{{ '/services'|url }}">Services</a></li>
-                <li><a href="{{ '/success-stories'|url }}">Erfolgsgeschichten</a></li>
-                <li><a href="{{ '/news'|url }}">News</a></li>
-                <li><a href="{{ '/blog'|url }}">Blog</a></li>
-              </ul>
+        </div>
+    </div>
+
+    <div class="grid-container">
+        <div class="header">
+            <div class="top-bar">
+                <div class="top-bar-left">
+                    <a href=""><img id="logo" src="{{ '/static/img/logo.svg'|url }}" alt="Zur Startseite"/></a>
+                </div>
+
+                <div class="top-bar-right">
+                    <div class="input-group show-for-medium">
+                        <input class="input-group-field" type="search">
+                        <div class="input-group-button">
+                            <input type="submit" class="button" value="Suche">
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
+        </div>
+    </div>
+
+    <div id="hero">
+        <div class="grid-container">
+            <!-- <div class="grid-x grid-margin-x">
+                <div class="large-7 large-offset-1 cell">
+                    <h1>Data Driven Web Applications</h1>
+                    <h3 class="subheading">Daten werden komplexer.<br /> Unsere Lösungen bleiben einfach.</h3>
+                </div>
+            </div> -->
+            <div id="splash">
+                <div class="grid-x grid-margin-x">
+                    <div class="large-5 large-offset-6 cell">
+                        <div id="square">
+                            <h3>Daten werden komplexer. Unsere Lösungen bleiben einfach.</h3>
+                            <p>Für die medizinische Forschung nutzen wir Deep Learning zum Scoring von Röntgenbildern.</p>
+                            <p><a href="#">&rarr; Projekt DeepXray</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="grid-container">
+        <div class="grid-x grid-margin-x">
+            <div class="large-5 large-offset-1 cell">
+                <div id="intro">
+                    <h3>Data Driven Web Applications</h3>
+                    <p>Wir entwickeln Webapplikationen für die <a href="">medizinische Forschung</a>, <a href="">die öffentliche Verwaltung</a> sowie für die <a href="">Aviatik</a>.</p>
+                    <p>Bei unseren Projekten geht es um die Verarbeitung und Aufbereitung komplexer Daten. Wir sorgen für die einfache und korrekte Erfassung der Daten, deren statistische Auswertung und Visualisierung.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="solution">
+        <div class="grid-container">
+            <div class="grid-x grid-padding-x align-center">
+                <div class="large-7 large-offset-1 cell">
+                    <h4><small>HealthData.ai</small></h4>
+                    <h3>Bridging the gap between clinical practice and medical research</h3>
+                    <p><a href="">&rarr; mehr erfahren</a>
+                </div>
+                <div class="large-9 cell">
+                    <img src="{{ '/static/img/notebook.png'|url }}">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="platform">
+        <div class="grid-container">
+            <div class="grid-x grid-padding-x">
+                <div class="large-7 large-offset-1 cell">
+                    <h4><small>Agile Mindset - Open Source Toolset</small></h4>
+                    <h3>Softwareentwicklung mit hohem Qualitätsanspruch nach Agiler Methodik</h3>
+                </div>
+            </div>
+            <div class="grid-x grid-padding-x">
+                <div class="large-7 large-offset-1 cell">
+                    <p>Wir arbeiten seit mehr als zehn Jahren mit Open Source Software und sind aktiv in mehreren Open Source Communities. Mit Open Source verbinden wir mehr als einfach «Gratis-Software». Der Ansatz entspringt vielmehr einer Geisteshaltung und damit verbundenen Idealen auf dem Weg zu besseren IT-Lösungen. Wir entwicklen qualitativ hochstehende Software. Dazu setzen wir auf die besten Open Source Entwickler-Tools und arbeiten gemäss Agiler Methodik.</p>
+                    <p>Für unsere Webapplikationen durften wir <a href="">Preise und Auszeichnungen</a> entgegennehmen.</p>
+
+                </div>
+            </div>
         </div>
 
-        <!-- First Band (Image) -->
-        <div class="row hide-for-small">
-          <div class="large-12 columns">
-            <div id="banner" style="background-image: url({{ '/static/img/'|url }}{% block banner_background %}{% endblock %});">
-              <div class="large-5 large-offset-7 columns">
-                <h4 class="subheader">{% block banner_title %}{% endblock %}</h4>
-                <p>{% block banner_body %}{% endblock %}</p>
-                <a href="{% block banner_link %}{% endblock %}">mehr &rarr;</a>
-              </div>
+        <div class="grid-container">
+            <div class="grid-x grid-padding-x">
+                <div class="cell">
+                    <img class="full" src="{{ '/static/img/team/team.jpg'|url }}">
+                </div>
             </div>
-            <div id="portlets-in-header"></div>
-          </div>
         </div>
+    </div>
 
-        <!-- Second Band (Breadcrumbs & Search) -->
-        <div class="row">
-          <div class="large-8 columns">
-            <ul class="breadcrumbs">
-              <li><a href="#"><i class="icon-home"></i></a></li>
-              {% if this != root %}
-                {% if this.parent != root %}
-                    <li><a href="{{ this.parent.path }}">{{ this.parent.title }}</a></li>
-                {% endif %}
-                <li class="current">{{ this.title }}</li>
-              {% endif %}
-            </ul>
-          </div>
-          <div class="large-4 columns" id="search">
-            <form id="searchbox" action="{{ '/search'|url }}">
-              <div class="row collapse">
-                <div class="small-10 columns">
-                  <input type="text" name="q" id="tipue_search_input" autocomplete="off" requiredclass="search-query" placeholder="Suche">
+
+    <div class="listing">
+        <div class="grid-container">
+            <div class="grid-x grid-padding-x">
+                <div class="large-5 cell">
+                    <h4><small>Gemeinsam zum Erfolg</small></h4>
+                    <h3>Erfolgsgeschichten</h3>
                 </div>
-                <div class="small-2 columns">
-                <button type="submit" class="postfix"><i class="icon-search"></i></button>
-                </div>
-              </div>
             </div>
-          </form>
+            <div class="grid-x grid-padding-x" data-equalizer data-equalize-on="medium" id="test-eq">
+                <div class="large-4 cell">
+                    <div class="card" data-equalizer-watch>
+                        <img src="{{ '/static/img/success-stories/wab.jpg'|url }}">
+                        <div class="card-section">
+                            <img src="" />
+                            <h4>Besser Informiert am Wahlsonntag</h4>
+                            <p>Auf den neuen Datenportalen der Kantone Graubünden, Schwyz und Zug werden die Ergebnisse der Wahlen und Abstimmungen publiziert.</p>
+                            <a href="">&rarr; mehr erfahren</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="large-4 cell">
+                    <div class="card" data-equalizer-watch>
+                        <img src="{{ '/static/img/success-stories/feriennet.jpg'|url }}" />
+                        <div class="card-section">
+                            <h4>Ein Nobelpreis, stabile Ehen und die Zuteilung von Kindern auf Ferienpassangebote</h4>
+                            <p>Im Auftrag von Pro Juventute hat seantis zusammen mit Netcetera eine neue Plattform zur Verwaltung von betreuten Ferienangeboten (Ferienpässe) entwickelt.</p>
+                            <a href="">&rarr; mehr erfahren</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="large-4 cell">
+                    <div class="card" data-equalizer-watch>
+                        <img src="{{ '/static/img/success-stories/concordia.jpg'|url }}">
+                        <div class="card-section">
+                            <h4>Effiziente und sichere Rücklaufverarbeitung von Mailings</h4>
+                            <p>Die CONCORDIA verarbeitet den Rücklauf aus Mailings Neukundenakquisition sicher und effizient.</p>
+                            <a href="">&rarr; mehr erfahren</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+    </div>
 
-        <!-- Third Band (Content) -->
-        <div class="row">
-          <div class="large-8 columns">
-            <div id="content">
-                {% block body %}{% endblock %}
-                <div id="tipue_search_content"></div>
-            </div>
-          </div>
-          <div class="large-4 columns">
-            <ul class="vcard">
-              <li class="fn">seantis gmbh</li>
-              <li class="street-address">Unter der Egg 5</li>
-              <li><span class="zip">CH-6004</span> <span class="state">Luzern</span></li>
-              <li class="phone"><i class="icon-ios7-telephone"></i>
-              +41 41 511 22 50</li>
-              <li class="email"><i class="icon-at"></i>
-              <a href="mailto:info@seantis.ch">info@seantis.ch</a></li>
-            </ul>
-            <div id="right-column">
-                <div>
-                    {% if this != root and this._model != 'news' and this._model != 'news-post'
-                       and this._model != 'success-stories' and this._model != 'success-story'
-                       and this._model != 'blog' and this._model != 'blog-post' %}
-                        <dl class="portletNavigationTree" >
-                            <dt class="hiddenStructure">Navigation</dt>
-                            <dd>
-                                <ul class="navTree navTreeLevel0">
-                                    {% for child in this.children %}
-                                        {% if not child.hidden %}
-                                            <li class="navTreeItem">
-                                                <a href="{{ child.path }}">{{ child.title }}</a>
-                                            </li>
-                                        {% endif %}
-                                    {% endfor %}
-                                    {% if not this.parent == root %}
-                                        {% for child in this.parent.children %}
-                                            {% if not child.hidden %}
-                                                <li class="navTreeItem">
-                                                    <a href="{{ child.path }}">{{ child.title }}</a>
-                                                </li>
-                                            {% endif %}
-                                        {% endfor %}
-                                    {% endif %}
-                                </ul>
-                            </dd>
-                        </dl>
-                    {% endif %}
-
-                    <dl class="porletNews">
-                        <dt><a href="{{ '/news'|url }}">News </a> & <a href="{{ '/blog'|url }}"> Blog</a></dt>
-                        {% for news in site.get('/news').children.limit(2) %}
-                            <dd class="newsItem">
-                                <a href="{{ news|url }}">{{ news.title }}</a></li>
-                            </dd>
-                        {% endfor %}
-                        {% for news in site.get('/blog').children.limit(2) %}
-                            <dd class="newsItem">
-                                <a href="{{ news|url }}">{{ news.title }}</a></li>
-                            </dd>
-                        {% endfor %}
-                    </dt>
-
+    <div id="customers">
+        <div class="grid-container">
+            <div class="grid-x grid-padding-x">
+                <div class="large-6 large-offset-1 cell">
+                    <div class="intro">
+                        <h4><small>Gemeinsam zum Erfolg</small></h4>
+                        <h3>Erfolgreiche Lösungen - zufriedene Kunden</h3>
+                        <p>Der Kunde steht immer im Zentrum. Mit unseren langjährigen Kunden pflegen wir offene und vertrauensvolle Beziehungen.</p>
+                        <p><a href="">&rarr; mehr erfahren</a></p>
+                    </div>
                 </div>
-                <div>{% block portlet %}{% endblock %}</div>
             </div>
-          </div>
+
+            <div class="grid-x grid-padding-x">
+                <div class="large-3 small-6 medium-3 cell">
+                    <div class="card">
+                        <a href=""><img src="{{ '/static/img/customers/usz.png'|url }}" alt=""></a>
+                    </div>
+                </div>
+                <div class="large-3 small-6 medium-3 cell">
+                    <div class="card">
+                        <a href=""><img src="{{ '/static/img/customers/zg.svg'|url }}"></a>
+                    </div>
+                </div>
+                <div class="large-3 small-6 medium-3 cell">
+                    <div class="card">
+                        <a href=""><img src="{{ '/static/img/customers/hug.png'|url }}"></a>
+                    </div>
+                </div>
+                <div class="large-3 small-6 medium-3 cell">
+                    <div class="card">
+                        <a href=""><img src="{{ '/static/img/customers/ilo.png'|url }}"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-x grid-padding-x">
+                <div class="large-3 small-6 medium-3 cell">
+                    <div class="card">
+                        <a href=""><img src="{{ '/static/img/customers/sg.svg'|url }}"></a>
+                    </div>
+                </div>
+                <div class="large-3 small-6 medium-3 cell">
+                    <div class="card">
+                        <a href=""><img src="{{ '/static/img/customers/sz.svg'|url }}"></a>
+                    </div>
+                </div>
+                <div class="large-3 small-6 medium-3 cell">
+                    <div class="card">
+                        <a href=""><img src="{{ '/static/img/customers/chuv.png'|url }}"></a>
+                    </div>
+                </div>
+                <div class="large-3 small-6 medium-3 cell">
+                    <div class="card">
+                        <a href=""><img src="{{ '/static/img/customers/gr.svg'|url }}"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-x grid-padding-x">
+                <div class="large-3 small-6 medium-3 cell">
+                    <div class="card">
+                        <a href=""><img src="{{ '/static/img/customers/pro-juventute.svg'|url }}"></a>
+                    </div>
+                </div>
+                <div class="large-3 small-6 medium-3 cell">
+                    <div class="card">
+                        <a href=""><img src="{{ '/static/img/customers/mt.svg'|url }}"></a>
+                    </div>
+                </div>
+                <div class="large-3 small-6 medium-3 cell">
+                    <div class="card">
+                        <a href=""><img src="{{ '/static/img/customers/concordia.svg'|url }}"></a>
+                    </div>
+                </div>
+                <div class="large-3 small-6 medium-3 cell">
+                    <div class="card">
+                        <a href=""><img src="{{ '/static/img/customers/msd.svg'|url }}"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-x grid-padding-x">
+                <div class="large-3 small-6 medium-3 cell">
+                    <div class="card">
+                        <a href=""><img src="{{ '/static/img/customers/scqm.svg'|url }}"></a>
+                    </div>
+                </div>
+                <div class="large-3 small-6 medium-3 cell">
+                    <div class="card">
+                        <a href=""><img src="{{ '/static/img/customers/rueti.svg'|url }}"></a>
+                    </div>
+                </div>
+                <div class="large-3 small-6 medium-3 cell">
+                    <div class="card">
+                        <a href=""><img src="{{ '/static/img/customers/baar.png'|url }}"></a>
+                    </div>
+                </div>
+                <div class="large-3 small-6 medium-3 cell">
+                    <div class="card">
+                        <a href=""><img src="{{ '/static/img/customers/swisshelicopter.svg'|url }}"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-x grid-padding-x">
+                <div class="large-3 small-6 medium-3 cell">
+                    <div class="card">
+                        <a href=""><img src="{{ '/static/img/customers/duerrenaesch.svg'|url }}"></a>
+                    </div>
+                </div>
+                <div class="large-3 small-6 medium-3 cell">
+                    <div class="card">
+                        <a href=""><img src="{{ '/static/img/customers/musikschule-rontal.svg'|url }}"></a>
+                    </div>
+                </div>
+                <div class="large-3 small-6 medium-3 cell">
+                    <div class="card">
+                        <a href=""><img src="{{ '/static/img/customers/ebikon.png'|url }}"></a>
+                    </div>
+                </div>
+                <div class="large-3 small-6 medium-3 cell">
+                    <div class="card">
+                        <a href=""><img src="{{ '/static/img/customers/winterthur.svg'|url }}"></a>
+                    </div>
+                </div>
+            </div>
         </div>
+    </div>
 
-        <!-- Footer -->
-        <footer class="row">
-          <div class="large-12 columns">
-            <hr />
+    <div class="listing team">
+        <div class="grid-container">
+            <div class="grid-x grid-padding-x">
+                <div class="large-10 large-offset-1 cell">
+                    <h4><small>Wir machen es möglich</small></h4>
+                    <h3>Unser Team</h3>
+                </div>
+            </div>
+            <div class="grid-x grid-padding-x" data-equalizer data-equalize-on="medium" id="test-eq">
+                <div class="large-5 cell large-offset-1">
+                    <div class="card" data-equalizer-watch>
+                        <img src="{{ '/static/img/team/Fabian-Reinhard.jpg'|url }}">
+                        <div class="card-section">
+                            <h4>Fabian Reinhard</h4>
+                            <p>M A UZH</p>
+                            <p><strong>Managing Partner<br />
+                                Solution Architect</strong>
+                            </p>
+                            <p class="bio">Fabian studierte Politikwissenschaften, VWL und Allgemeines Staatsrecht an der <a href="">Universität Zürich</a> und hat sich an der <a href="">Harvard University</a> weitergebildet. Er hat langjährige Erfahrung als Projektleiter und Business Analyst.</p>
+                            <p>Hermes 5 Foundation, ITIL
+                            </p>
+                            </p>
+                            <p>
+                                <a href=""><i class="far fa-envelope"></i></i>fabian.reinhard@seantis.ch<br /></a>
+                                <a href=""><i class="far fa-key"></i> PGP Public Key</a></p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="large-5 cell">
+                    <div class="card" data-equalizer-watch>
+                        <img src="{{ '/static/img/team/Tobias-Reinhard.jpg'|url }}">
+                        <div class="card-section">
+                            <h4>Dr. Tobias Reinhard</h4>
+                            <p>dipl. inform. UZH</p>
+                            <p><strong>Partner<br />
+                                Software Engineer</strong>
+                            </p>
+                            <p class="bio">Tobias studierte Informatik an der <a href="">Universität Zürich</a> und promovierte ebenda im Bereich Requirements Engineering. Tobias Reinhard ist verantwortlich für die Bereiche technische Spezifikation sowie Entwicklung.</p>
+                            <p>
+                                <a href=""><i class="far fa-envelope"></i></i>tobias.reinhard@seantis.ch<br /></a>
+                                <a href=""><i class="far fa-key"></i> PGP Public Key</a></p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-x grid-padding-x" style="padding-top: 60px;" data-equalizer data-equalize-on="medium" id="test-eq">
+                <div class="large-5 cell large-offset-1">
+                    <div class="card" data-equalizer-watch>
+                        <img src="{{ '/static/img/team/Denis-krienbuehl.jpg'|url }}">
+                        <div class="card-section">
+                            <h4>Denis Krienbühl</h4>
+                            <p>Inform. eidg. FA</p>
+                            <p><strong>Software Engineer</strong></p>
+                            <p class="bio">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                            <p>
+                                <a href=""><i class="far fa-envelope"></i></i>denis.krienbuehl@seantis.ch<br /></a>
+                                <a href=""><i class="far fa-key"></i> PGP Public Key</a></p>
+                                <a href=""><i class="fab fa-github"></i> Github</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="large-5 cell">
+                    <div class="card" data-equalizer-watch>
+                        <img src="{{ '/static/img/team/Marc-Sommerhalder.jpg'|url }}">
+                        <div class="card-section">
+                            <h4>Marc Sommerhalder</h4>
+                            <p>dipl. Ing. FH, B A</p>
+                            <p><strong>Software Engineer</strong></p>
+                            <p class="bio">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Curabitur blandit tempus porttitor. Fusce dapibus, tellus ac cursus commodo sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+                            <p>
+                                <a href=""><i class="far fa-envelope"></i></i>marc.sommerhalder@seantis.ch<br /></a>
+                                <a href=""><i class="far fa-key"></i> PGP Public Key</a></p>
+                                <a href=""><i class="fab fa-github"></i> Github</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-            <div id="portlets-in-footer" class="row">
-              <div class="large-12 columns">
-                <div class="row">
-                  <div id="portlets-in-footer-1" class="large-4 columns"></div>
-                  <div id="portlets-in-footer-2" class="large-4 columns"></div>
-                  <div id="portlets-in-footer-3" class="large-4 columns"></div>
+    <footer>
+        <div class="grid-container">
+            <div class="grid-x grid-padding-x">
+                <div class="large-7 large-offset-1 cell">
+                    <h4>Building data-driven web applications with an open-source toolset and an agile mindset</h4>
+                    <p>Wir entwicklen qualitativ hochstehende Software. Dazu setzen wir auf die besten Open Source Entwickler-Tools und arbeiten gemäss Agiler Methodik.</p>
                 </div>
-                <div class="row">
-                  <div id="portlets-in-footer-4" class="large-12 columns"></div>
+                <div class="large-4 cell">
+                    <h5>Cloud Platform</h5>
+                    <ul>
+                        <li><a href="http://www.healthdata.ai">HealthData.ai</a></li>
+                        <li><a href="http://www.onegovcloud.ch">OneGov Cloud</a></li>
+                        <li><a href="http://www.mycontrol.aero">myControl.aero</li>
+                    </ul>
+                    <a class="button" href="">Kontakt</a>
                 </div>
-              </div>
             </div>
 
-            <div class="row">
-              <div class="large-8 columns">
-                <p>&copy; 2005 - 2018 by seantis gmbh | <a href="https://www.getlektor.com">Lektor</a> powered &amp; built with <a href="https://www.python.org">Python</a></p>
-              </div>
-              <div class="large-4 columns">
-                <ul class="inline-list right">
-                  <li id="siteaction-webmail"><a href="https://webmail.seantis.ch" accesskey="" title="Webmail">Webmail</a></li>
-                </ul>
-              </div>
+            <div class="grid-x grid-padding-x">
+                <div class="large-10 large-offset-1 cell">
+                    <div id="copyright">© 2005 - 2018 by seantis gmbh | Lektor powered & built with Python</div>
+                </div>
             </div>
-          </div>
-        </footer>
 
-        <script src="{{ '/static/js/jquery.min.js'|url }}"></script>
-        <script src="{{ '/static/js/foundation.min.js'|url }}"></script>
-        <script src="{{ '/static/js/prism.min.js'|url }}"></script>
-        <script src="{{ '/static/js/tipuesearch_set.js'|url }}"></script>
-        <script src="{{ '/static/js/tipuesearch.min.js'|url }}"></script>
-        <script>
-            $(document).foundation();
-            $(document).ready(function() {
-                $('#tipue_search_input').tipuesearch({
-                  'mode': 'json',
-                  'contentLocation': "{{ tipue_search_content()|url }}"
-                });
+        </div>
+    </footer>
+
+    <script src="{{ '/static/js/jquery.js'|url }}"></script>
+    <script src="{{ '/static/js/what-input.js'|url }}"></script>
+    <script src="{{ '/static/js/foundation.min.js'|url }}"></script>
+    <script src="{{ '/static/js/tipuesearch_set.js'|url }}"></script>
+    <script src="{{ '/static/js/tipuesearch.min.js'|url }}"></script>
+    <script src="{{ '/static/js/app.js'|url }}"></script>
+
+    <script>
+        $(document).foundation();
+        $(document).ready(function() {
+            $('#tipue_search_input').tipuesearch({
+              'mode': 'json',
+              'contentLocation': "{{ tipue_search_content()|url }}"
             });
+        });
 
-            var _paq = _paq || [];
-            _paq.push(['trackPageView']);
-            _paq.push(['enableLinkTracking']);
-            (function() {
-                var u="//stats.seantis.ch/";
-                _paq.push(['setTrackerUrl', u+'piwik.php']);
-                _paq.push(['setSiteId', '15']);
-                var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-                g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-            })();
-        </script>
-    </body>
+        var _paq = _paq || [];
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function() {
+            var u="//stats.seantis.ch/";
+            _paq.push(['setTrackerUrl', u+'piwik.php']);
+            _paq.push(['setSiteId', '15']);
+            var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+            g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+        })();
+    </script>
+</body>
 </html>
