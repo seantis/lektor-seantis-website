@@ -79,36 +79,18 @@
                 </div>
             </div>
             <div class="grid-x grid-padding-x" data-equalizer data-equalize-on="medium">
-                <div class="large-4 cell">
-                    <div class="card" data-equalizer-watch>
-                        <img src="{{ '/static/img/success-stories/wab.jpg'|url }}">
-                        <div class="card-section">
-                            <h4>Besser Informiert am Wahlsonntag</h4>
-                            <p>Auf den neuen Datenportalen der Kantone Graubünden, Schwyz und Zug werden die Ergebnisse der Wahlen und Abstimmungen publiziert.</p>
-                            <a href="">&rarr; mehr erfahren</a>
+                {% for child in site.get('/success-stories').children.filter(F.frontpage==True).order_by('sort_key') %}
+                    <div class="large-4 cell">
+                        <div class="card" data-equalizer-watch>
+                            <img src="{{ child.attachments.images.first()|url }}" alt="{{ child.title }}">
+                            <div class="card-section">
+                                <h4>{{ child.title }}</h4>
+                                <p>{{ child.description }}</p>
+                                <a href="{{ child|url }}">&rarr; mehr erfahren</a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="large-4 cell">
-                    <div class="card" data-equalizer-watch>
-                        <img src="{{ '/static/img/success-stories/feriennet.jpg'|url }}" />
-                        <div class="card-section">
-                            <h4>Ein Nobelpreis, stabile Ehen und die Zuteilung von Kindern auf Ferienpassangebote</h4>
-                            <p>Im Auftrag von Pro Juventute hat seantis zusammen mit Netcetera eine neue Plattform zur Verwaltung von betreuten Ferienangeboten (Ferienpässe) entwickelt.</p>
-                            <a href="">&rarr; mehr erfahren</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="large-4 cell">
-                    <div class="card" data-equalizer-watch>
-                        <img src="{{ '/static/img/success-stories/concordia.jpg'|url }}">
-                        <div class="card-section">
-                            <h4>Effiziente und sichere Rücklaufverarbeitung von Mailings</h4>
-                            <p>Die CONCORDIA verarbeitet den Rücklauf aus Mailings Neukundenakquisition sicher und effizient.</p>
-                            <a href="">&rarr; mehr erfahren</a>
-                        </div>
-                    </div>
-                </div>
+                {% endfor %}
             </div>
         </div>
     </div>

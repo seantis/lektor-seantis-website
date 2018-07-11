@@ -1,16 +1,13 @@
 title: Ein Nobelpreis, stabile Ehen und die Zuteilung von Kindern auf Ferienpassangebote
 ---
-
 pub_date: 2017-06-12
 ---
 author: seantis
 ---
 description: Im Auftrag von Pro Juventute hat seantis zusammen mit Netcetera eine neue Plattform zur Verwaltung von betreuten Ferienangeboten (Ferienpässe) entwickelt.
 ---
-
 customer: [Pro Juventute](https://www.projuventute.ch)
 ---
-
 task:
 
 Die wenigsten Familien können während der gesamten Ferienzeit verreisen. Und was machen Kinder, wenn ihre Eltern arbeiten? Die betreuten Ferienprogramme von Pro Juventute bieten Kindern von 6 bis 16 Jahren mehr als 7500 verschiedene Möglichkeiten für tolle Ferienerlebnisse.
@@ -28,6 +25,6 @@ Auf der anderen Seite stehen die Organisatoren eines lokalen Ferienpassangebotes
 Auf der neuen Plattform erfolgt die Zuteilung der Kinder auf die Angebote gemäss einem ["Matching Problem"-Algorithmus](https://seantis.ch/blog/stable-marriage/). Für einmal dürfen wir also behaupten, dass wir mit Algorithmen Kinder glücklich machen.
 
 ---
-links:
-
-Betreute Ferienprogramme für Kinder und Jugendliche von Pro Juventute: [https://feriennet.projuventute.ch](https://feriennet.projuventute.ch)
+links: Betreute Ferienprogramme für Kinder und Jugendliche von Pro Juventute: [https://feriennet.projuventute.ch](https://feriennet.projuventute.ch)
+---
+frontpage: yes

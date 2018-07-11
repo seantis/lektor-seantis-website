@@ -6,10 +6,8 @@ author: seantis
 ---
 description: Die CONCORDIA verarbeitet den Rücklauf aus Mailings Neukundenakquisition sicher und effizient.
 ---
-
 customer: [CONCORDIA](https://www.concordia.ch)
 ---
-
 task:
 
 Die Verarbeitung des Rücklaufs aus Mailings Neukundenakquisition muss zeitnah, effizient und möglichst fehlerfrei erfolgen. Mit einer optimierten Lösung zur Rücklaufverabeitung kann die Verarbeitungszeit verkürzt werden.
@@ -25,6 +23,6 @@ benefit:
 Die entwickelte Lösung stellt eine hohe Datenqualität und einen sicheren und fehlerfreien Datentransfer an die weiterverabeitenden Aussenstellen sicher. Das Tool bietet Möglichkeiten zum spezifischen Datenexport und somit einfache Schnittstellen zu Umsystemen.
 
 ---
-links:
-
-CONCORDIA: [www.concordia.ch](https://www.concordia.ch)
+links: CONCORDIA: [www.concordia.ch](https://www.concordia.ch)
+---
+frontpage: yes
