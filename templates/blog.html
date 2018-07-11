@@ -7,12 +7,12 @@
                 <h1>{{ this.title }}</h1>
                 <p class="lead">{{ this.description }}</p>
                 {% for child in this.pagination.items %}
-                    <div class="listingEntry">
-                        <div class="h4"><small>{{ child.pub_date|dateformat }}</small></div>
-                        <h2 class="h3"><a href="{{ child|url }}">{{ child.title }}</a></h2>
+                    <article class="listingEntry">
+                        <div class="h2"><small>{{ child.pub_date|dateformat }}</small></div>
+                        <h1><a href="{{ child|url }}">{{ child.title }}</a></h1>
                         <p>{{ child.description }}</p>
                         {{ child.body }}
-                    </div>
+                    </article>
                 {% endfor %}
                 {{ render_pagination(this.pagination) }}
             </div>
