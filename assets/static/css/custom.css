@@ -229,3 +229,13 @@ footer .button {
 img.full{
     margin: 50px 0;
 }
+
+.listingEntry .h4,
+.tipue_search_content_url {
+    margin-top: 2em;
+    margin-bottom: 0;
+}
+
+#tipue_search_foot {
+    margin-top: 3em;
+}

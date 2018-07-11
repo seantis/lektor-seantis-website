@@ -1,21 +1,20 @@
 {% extends "layout.html" %}
-{% block banner_title %}{% if this.banner_title %}{{ this.banner_title }}{% else %}Clinical Quality Management System{% endif %}{% endblock %}
-{% block banner_body %}{% if this.banner_title %}{{ this.banner_body }}{% else %}Die interdisziplinäre medizinische Patientenakte unterstützt Ärzte bei der medizinischen Dokumentation über den gesamten Behandlungsverlauf.{% endif %}{% endblock %}
-{% block banner_link %}{% if this.banner_title %}{{ this.banner_link }}{% else %}https://www.healthdata.ai{% endif %}{% endblock %}
-{% block banner_background %}{% if this.banner_background %}{{ this.banner_background }}{% else %}healthdata.png{% endif %}{% endblock %}
 {% from "macros/pagination.html" import render_pagination %}
-{% block title %}{{ this.title }}{% endblock %}
-{% block body %}
-    <h1>{{ this.title }}</h1>
-    <div class="documentDescription">{{ this.description }}</div>
-    {% for child in this.pagination.items %}
-        <div class="blogListingEntry">
-            <div <span class="actionDate">{{ child.pub_date|dateformat }}</div>
-            <h2><a href="{{ child|url }}">{{ child.title }}</a></h2>
-            <div class="documentDescription">{{ child.description }}</div>
-            <div><a href="{{ child|url }}">mehr…</a></div>
+{% block content %}
+    <div class="grid-container">
+        <div class="grid-x grid-margin-x">
+            <div class="large-9 large-offset-1 cell">
+                <h1>{{ this.title }}</h1>
+                <p class="lead">{{ this.description }}</p>
+                {% for child in this.pagination.items %}
+                    <div class="listingEntry">
+                        <div class="h4"><small>{{ child.pub_date|dateformat }}</small></div>
+                        <h2 class="h3"><a href="{{ child|url }}">{{ child.title }}</a></h2>
+                        <p>{{ child.description }}</p>
+                    </div>
+                {% endfor %}
+                {{ render_pagination(this.pagination) }}
+            </div>
         </div>
-    {% endfor %}
-    {{ render_pagination(this.pagination) }}
+    </div>
 {% endblock %}
-{% block portlet %}{{ this.portlet }}{% endblock %}

@@ -1,19 +1,3 @@
-
+_model: frontpage
+---
 title: Data Driven Web Applications
----
-
-
-description: Daten werden komplexer. Unsere Lösungen bleiben einfach.
----
-body:
-
-Wir entwickeln Webapplikationen für die [medizinische Forschung](http://www.healthdata.ai), die [öffentliche Verwaltung](https://onegovcloud.ch/) sowie für die [Aviatik](https://mycontrol.aero/).
-
-Bei unseren Projekten geht es um die Verarbeitung und Aufbereitung komplexer Daten. Wir sorgen für die einfache und korrekte Erfassung der Daten, deren statistische Auswertung und Visualisierung.
-
-Wir verbinden [Open Source](https://www.seantis.ch/portrait/open-mind-open-source) mit [Agiler Methodik](https://www.seantis.ch/portrait/agile-softwareentwicklung) und entwickeln Software mit höchstem Qualitätsanspruch. Nach dem Rollout übernehmen wir die Wartung und den [Betrieb (DevOps)](https://www.seantis.ch/services) von komplexen IT-Lösung.
-
-> Zu unseren Kunden zählen:  [UNO ILO](http://ilo.org/), [Kanton Zug](http://zg.ch/), [Kanton Schwyz](http://www.sz.ch/), [Kanton Graubünden](http://www.gr.ch/), [Kanton St. Gallen,](http://www.sg.ch) [SCQM Foundation](http://scqm.ch/), [MSD Merck](http://msd.com/), [METTLER TOLEDO](http://mt.com/), [Centre Hospitalier Universitaire Vaudois](http://www.chuv.ch/), [Bundesamt für Zivilluftfahrt (BAZL)](http://www.bazl.admin.ch/), [Swiss Helicopter](http://www.swisshelicopter.ch/), [AstraZeneca](http://www.astrazeneca.com/), [Medizinische Universität Innsbruck](http://www.i-med.ac.at/), [Gemeinde Risch](http://www.rischrotkreuz.ch/), [Eidg. Forschungsanstalt für Wald, Schnee und Landschaft](http://www.wsl.ch/), [Privatklinikgruppe Hirslanden](http://www.hirslanden.ch/), [Pro Juventute](http://www.projuventute.ch), [CONCORDIA](https://www.concordia.ch)
-
----
-portlet: ![swiss made software](/static/img/bosw.svg)

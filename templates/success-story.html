@@ -1,45 +1,29 @@
 {% extends "layout.html" %}
-{% block banner_title %}{% if this.banner_title %}{{ this.banner_title }}{% else %}Clinical Quality Management System{% endif %}{% endblock %}
-{% block banner_body %}{% if this.banner_title %}{{ this.banner_body }}{% else %}Die interdisziplinäre medizinische Patientenakte unterstützt Ärzte bei der medizinischen Dokumentation über den gesamten Behandlungsverlauf.{% endif %}{% endblock %}
-{% block banner_link %}{% if this.banner_title %}{{ this.banner_link }}{% else %}https://www.healthdata.ai{% endif %}{% endblock %}
-{% block banner_background %}{% if this.banner_background %}{{ this.banner_background }}{% else %}healthdata.png{% endif %}{% endblock %}
-{% block title %}{{ this.title }}{% endblock %}
-{% block body %}
-    <div <span class="actionDate">{{ this.pub_date|dateformat }}</div>
-    <h1>{{ this.title }}</h1>
-    <div class="documentDescription">{{ this.description }}</div>
-
-    <h2>Kunde</h2>
-    <p>{{ this.customer }}</p>
-    <h2>Aufgabe</h2>
-    {{ this.task }}
-    <h2>Umsetzung</h2>
-    {{ this.solution }}
-    <h2>Kundennutzen</h2>
-    {{ this.benefit }}
-
-
-    {% set images = this.attachments.images.all() %}
-    {% if images %}
-    <hr />
-    {% for image in images %}
-    <div class="image">
-        <img src="{{ image.thumbnail(1600)|url }}" alt="">
-        {% if image.exif %}
-        <p class=meta>
-            {{ image.exif.camera }}
-            {% if image.exif.created_at %}
-            ({{ image.exif.created_at|dateformat }})
-            {% endif %}
-            {% endif %}
+{% block content %}
+    <div class="grid-container">
+        <div class="grid-x grid-margin-x">
+            <div class="large-9 large-offset-1 cell">
+                <div class="h2"><small>{{ this.pub_date|dateformat }}</small></div>
+                <h1>{{ this.title }}</h1>
+                <p class="lead">{{ this.description }}</p>
+                {% for image in this.attachments.images.all() %}
+                    <div>
+                        <img src="{{ image.thumbnail(1600)|url }}" alt="">
+                    </div>
+                {% endfor %}
+                <h2>Kunde</h2>
+                <p>{{ this.customer }}</p>
+                <h2>Aufgabe</h2>
+                {{ this.task }}
+                <h2>Umsetzung</h2>
+                {{ this.solution }}
+                <h2>Kundennutzen</h2>
+                {{ this.benefit }}
+                {% if this.links %}
+                    <h2>Links</h2>
+                    {{ this.links }}
+                {% endif %}
+            </div>
         </div>
-        {% endfor %}
-    {% endif %}
-
-    {% if this.links %}
-        <h2>Links</h2>
-        {{ this.links }}
-    {% endif %}
-
+    </div>
 {% endblock %}
-{% block portlet %}{{ this.portlet }}{% endblock %}
