@@ -27,12 +27,3 @@ cd lektor-seantis-website
 lektor server
 ```
 Now open http://127.0.0.1:5000
-
-## Update development installation
-
-Sometimes, the plugins need to be reinstalled:
-
-```
-lektor plugins reinstall
-```
-
