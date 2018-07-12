@@ -240,3 +240,14 @@ article .h2,
 #tipue_search_foot {
     margin-top: 3em;
 }
+
+.main-content h1:first-child {
+    margin-top: 40px;
+}
+
+.main-content .lead {
+    font-size: 150%;
+    font-weight: 500;
+    color: #6A778B;
+    margin-bottom: 50px;
+}

@@ -2,19 +2,21 @@
 {% block content %}
     <div class="grid-container">
         <div class="grid-x grid-margin-x">
-            <div class="large-9 large-offset-1 cell">
-                <h1>{{ this.title }}</h1>
-                <p class="lead">{{ this.description }}</p>
-                {{ this.body }}
-                {% if this.children %}
-                    <ul class="menu">
-                        {% for child in this.children if not child.hidden %}
-                            {% if not child.hidden %}
-                                <li><a href="{{ child.path }}">{{ child.title }}</a></li>
-                            {% endif %}
-                        {% endfor %}
-                    </ul>
-                {% endif %}
+            <div class="large-7 large-offset-1 cell">
+                <div class="main-content">
+                    <h1>{{ this.title }}</h1>
+                    <p class="lead">{{ this.description }}</p3>
+                    {{ this.body }}
+                    {% if this.children %}
+                        <ul class="menu">
+                            {% for child in this.children if not child.hidden %}
+                                {% if not child.hidden %}
+                                    <li><a href="{{ child.path }}">{{ child.title }}</a></li>
+                                {% endif %}
+                            {% endfor %}
+                        </ul>
+                    {% endif %}
+                </div>
             </div>
         </div>
 
