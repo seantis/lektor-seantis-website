@@ -82,7 +82,7 @@
                 {% for child in site.get('/success-stories').children.filter(F.frontpage==True).order_by('sort_key') %}
                     <div class="large-4 cell">
                         <div class="card" data-equalizer-watch>
-                            <img src="{{ child.attachments.images.first().thumbnail(300)|url }}" alt="{{ child.title }}">
+                            <img src="{{ child.attachments.images.first().thumbnail(600)|url }}" alt="{{ child.title }}">
                             <div class="card-section">
                                 <h4>{{ child.title }}</h4>
                                 <p>{{ child.description }}</p>
@@ -276,7 +276,7 @@
                             <h4>Denis Krienbühl</h4>
                             <p>Inform. eidg. FA</p>
                             <p><strong>Software Engineer</strong></p>
-                            <p class="bio">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                            <p class="bio">Denis hat mehr als ... Jahre Erfahrung als Python Entwickler. Er hat eine ... Denis is Mitbegründer und Mitorganisator des <a href="">Swiss Python Summit</a>.</p>
                             <p>
                                 <a href=""><i class="far fa-envelope"></i>denis.krienbuehl@seantis.ch<br /></a>
                                 <a href=""><i class="far fa-key"></i> PGP Public Key</a><br />
