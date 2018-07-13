@@ -2,7 +2,7 @@
 banner_title: Luzerner Softwareschmiede
 ---
 
-banner_body: Softwareentwicklung ist unser Handwerk. Wir entwickeln Webapplikationen nach der Methodik der Agilen Softwareentwicklung.
+banner_body: 
 ---
 
 banner_link: https://www.seantis.ch/portrait/agile-softwareentwicklung
@@ -14,7 +14,7 @@ banner_background: panorama.png
 title: Portrait
 ---
 
-description: Auf Ihre besonderen Begebenheiten eingehen.
+description: Softwareentwicklung ist unser Handwerk. Wir entwickeln Webapplikationen nach der Methodik der Agilen Softwareentwicklung.
 ---
 body:
 

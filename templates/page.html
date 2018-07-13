@@ -1,11 +1,26 @@
 {% extends "layout.html" %}
 {% block content %}
+
+    <div id="hero">
+        <div class="grid-container">
+            <div id="splash">
+                <div class="grid-x grid-margin-x">
+                    <div class="large-5 large-offset-6 cell">
+                        <div id="square">
+                            <h1>{{ this.title }}</h1>
+                            <p class="lead">{{ this.description }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="grid-container">
         <div class="grid-x grid-margin-x">
             <div class="large-7 large-offset-1 cell">
                 <div class="main-content">
-                    <h1>{{ this.title }}</h1>
-                    <p class="lead">{{ this.description }}</p3>
+                    <p class="lead"></p3>
                     {{ this.body }}
                     {% if this.children %}
                         <div class="subnavigation">

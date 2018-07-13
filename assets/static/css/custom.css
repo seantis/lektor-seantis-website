@@ -15,6 +15,8 @@ a {
     color: #0077C8;
 }
 
+.main-content ul {font-size: 110%;}
+
 p {font-size: 110%;}
 
 .header {
@@ -245,11 +247,13 @@ article .h2,
     margin-top: 40px;
 }
 
-.main-content .lead {
+.main-content {
+    margin-top: 80px;
+}
+
+.lead {
     font-size: 150%;
     font-weight: 500;
-    color: #6A778B;
-    margin-bottom: 50px;
 }
 
 .subnavigation {
