@@ -265,3 +265,9 @@ article .h2,
     padding: 10px 0;
     font-weight: bold;
 }
+
+.pagination {
+    margin-top: 50px;
+}
+
+.pagination li {font-size: 110%;}
