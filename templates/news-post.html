@@ -2,12 +2,15 @@
 {% block content %}
     <div class="grid-container">
         <div class="grid-x grid-margin-x">
-            <div class="large-9 large-offset-1 cell">
-                <div class="h2"><small>{{ this.pub_date|dateformat }}</small></div>
-                <h1>{{ this.title }}</h1>
-                <p class="lead">{{ this.description }}</p>
-                {{ this.body }}
+            <div class="large-7 large-offset-1 cell">
+                <div class="main-content">
+                    <h5 class="subheader"><small>{{ this.pub_date|dateformat }}</small></h5>
+                    <h1>{{ this.title }}</h1>
+                    <p class="lead">{{ this.description }}</p>
+                    {{ this.body }}
+                </div>
             </div>
         </div>
     </div>
+
 {% endblock %}
