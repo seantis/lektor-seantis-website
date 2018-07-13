@@ -4,30 +4,32 @@
     <div class="grid-container">
         <div class="grid-x grid-margin-x">
             <div class="large-9 large-offset-1 cell">
-                <h1>{{ this.title }}</h1>
-                <p class="lead">{{ this.description }}</p>
-                {% for child in this.pagination.items %}
-                    <div>
-                        <div class="grid-container">
-                            <div class="grid-x grid-padding-x grid-padding-y align-center">
-                                <div class="large-4 cell">
-                                    {% set image = child.attachments.images.first() %}
-                                         {% if image %}
-                                            <a href="{{ child|url }}">
-                                                <img src="{{ image.thumbnail(400)|url }}" alt="">
-                                            </a>
-                                    {% endif %}
-                                </div>
-                                <div class="large-8 cell">
-                                    <div class="h4"><small>{{ child.pub_date|dateformat }}</small></div>
-                                    <h2 class="h3"><a href="{{ child|url }}">{{ child.title }}</a></h2>
-                                    <p>{{ child.description }}</p>
+                <div class="main-content">
+                    <h1>{{ this.title }}</h1>
+                    <p class="lead">{{ this.description }}</p>
+                    {% for child in this.pagination.items %}
+                        <div>
+                            <div class="grid-container">
+                                <div class="grid-x grid-padding-x grid-padding-y align-center">
+                                    <div class="large-4 cell">
+                                        {% set image = child.attachments.images.first() %}
+                                             {% if image %}
+                                                <a href="{{ child|url }}">
+                                                    <img src="{{ image.thumbnail(400)|url }}" alt="">
+                                                </a>
+                                        {% endif %}
+                                    </div>
+                                    <div class="large-8 cell">
+                                        <div class="h4"><small>{{ child.pub_date|dateformat }}</small></div>
+                                        <h2 class="h3"><a href="{{ child|url }}">{{ child.title }}</a></h2>
+                                        <p>{{ child.description }}</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                {% endfor %}
-                {{ render_pagination(this.pagination) }}
+                    {% endfor %}
+                    {{ render_pagination(this.pagination) }}
+                </div>
             </div>
         </div>
     </div>

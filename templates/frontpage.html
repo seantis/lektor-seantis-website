@@ -1,309 +1,296 @@
 {% extends "layout.html" %}
 {% block content %}
-    <div id="hero">
+
+    <div class="main-content">
         <div class="grid-container">
-            <div id="splash">
-                <div class="grid-x grid-margin-x">
-                    <div class="large-5 large-offset-6 cell">
-                        <div id="square">
-                            <h3>Daten werden komplexer. Unsere Lösungen bleiben einfach.</h3>
-                            <p>Für die medizinische Forschung nutzen wir Deep Learning zum Scoring von Röntgenbildern.</p>
-                            <p><a href="#">&rarr; Projekt DeepXray</a></p>
+            <div class="grid-x grid-margin-x">
+                <div class="large-5 large-offset-1 cell">
+                    <div id="intro">
+                        <h1>Data Driven Web Applications</h1>
+                        <p>Wir entwickeln Webapplikationen für die <a href="">medizinische Forschung</a>, <a href="">die öffentliche Verwaltung</a> sowie für die <a href="">Aviatik</a>.</p>
+                        <p>Bei unseren Projekten geht es um die Verarbeitung und Aufbereitung komplexer Daten. Wir sorgen für die einfache und korrekte Erfassung der Daten, deren statistische Auswertung und Visualisierung.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="solution">
+            <div class="grid-container">
+                <div class="grid-x grid-padding-x align-center">
+                    <div class="large-7 large-offset-1 cell">
+                        <h4><small>HealthData.ai</small></h4>
+                        <h3>Bridging the gap between clinical practice and medical research</h3>
+                        <p><a href="">&rarr; mehr erfahren</a>
+                    </div>
+                    <div class="large-9 cell">
+                        <img src="{{ '/static/img/notebook.png'|url }}" alt="OCQMS">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="platform">
+            <div class="grid-container">
+                <div class="grid-x grid-padding-x">
+                    <div class="large-7 large-offset-1 cell">
+                        <h4><small>Agile Mindset - Open Source Toolset</small></h4>
+                        <h3>Softwareentwicklung mit hohem Qualitätsanspruch nach Agiler Methodik</h3>
+                    </div>
+                </div>
+                <div class="grid-x grid-padding-x">
+                    <div class="large-7 large-offset-1 cell">
+                        <p>Wir arbeiten seit mehr als zehn Jahren mit Open Source Software und sind aktiv in mehreren Open Source Communities. Mit Open Source verbinden wir mehr als einfach «Gratis-Software». Der Ansatz entspringt vielmehr einer Geisteshaltung und damit verbundenen Idealen auf dem Weg zu besseren IT-Lösungen. Wir entwicklen qualitativ hochstehende Software. Dazu setzen wir auf die besten Open Source Entwickler-Tools und arbeiten gemäss Agiler Methodik.</p>
+                        <p>Für unsere Webapplikationen durften wir <a href="">Preise und Auszeichnungen</a> entgegennehmen.</p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-container">
+                <div class="grid-x grid-padding-x">
+                    <div class="cell">
+                        <img class="full" src="{{ '/static/img/team/team.jpg'|url }}" alt="Team">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="listing">
+            <div class="grid-container">
+                <div class="grid-x grid-padding-x">
+                    <div class="large-5 cell">
+                        <h4><small>Gemeinsam zum Erfolg</small></h4>
+                        <h3>Erfolgsgeschichten</h3>
+                    </div>
+                </div>
+                <div class="grid-x grid-padding-x" data-equalizer data-equalize-on="medium">
+                    {% for child in site.get('/success-stories').children.filter(F.frontpage==True).order_by('sort_key') %}
+                        <div class="large-4 cell">
+                            <div class="card" data-equalizer-watch>
+                                <img src="{{ child.attachments.images.first().thumbnail(600)|url }}" alt="{{ child.title }}">
+                                <div class="card-section">
+                                    <h4>{{ child.title }}</h4>
+                                    <p>{{ child.description }}</p>
+                                    <a href="{{ child|url }}">&rarr; mehr erfahren</a>
+                                </div>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+
+        <div id="customers">
+            <div class="grid-container">
+                <div class="grid-x grid-padding-x">
+                    <div class="large-6 large-offset-1 cell">
+                        <div class="intro">
+                            <h4><small>Gemeinsam zum Erfolg</small></h4>
+                            <h3>Erfolgreiche Lösungen - zufriedene Kunden</h3>
+                            <p>Der Kunde steht immer im Zentrum. Mit unseren langjährigen Kunden pflegen wir offene und vertrauensvolle Beziehungen.</p>
+                            <p><a href="">&rarr; mehr erfahren</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid-x grid-padding-x">
+                    <div class="large-3 small-6 medium-3 cell">
+                        <div class="card">
+                            <a href=""><img src="{{ '/static/img/customers/usz.png'|url }}" alt="UniversitätsSpital Zürich"></a>
+                        </div>
+                    </div>
+                    <div class="large-3 small-6 medium-3 cell">
+                        <div class="card">
+                            <a href=""><img src="{{ '/static/img/customers/chuv.png'|url }}" alt="Centre hospitalier universitaire vaudois"></a>
+                        </div>
+                    </div>
+                    <div class="large-3 small-6 medium-3 cell">
+                        <div class="card">
+                            <a href=""><img src="{{ '/static/img/customers/hug.png'|url }}" alt="Hôpitaux Universitaires Gèneve"></a>
+                        </div>
+                    </div>
+                    <div class="large-3 small-6 medium-3 cell">
+                        <div class="card">
+                            <a href=""><img src="{{ '/static/img/customers/scqm.svg'|url }}" alt="Swiss Clinical Quality Management in Rheumatic Diseases"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-x grid-padding-x">
+                    <div class="large-3 small-6 medium-3 cell">
+                        <div class="card">
+                            <a href=""><img src="{{ '/static/img/customers/zg.svg'|url }}" alt="Kanton Zug"></a>
+                        </div>
+                    </div>
+                    <div class="large-3 small-6 medium-3 cell">
+                        <div class="card">
+                            <a href=""><img src="{{ '/static/img/customers/gr.svg'|url }}" alt="Kanton Graubünden"></a>
+                        </div>
+                    </div>
+                    <div class="large-3 small-6 medium-3 cell">
+                        <div class="card">
+                            <a href=""><img src="{{ '/static/img/customers/sg.svg'|url }}" alt="Kanton St.Gallen"></a>
+                        </div>
+                    </div>
+                    <div class="large-3 small-6 medium-3 cell">
+                        <div class="card">
+                            <a href=""><img src="{{ '/static/img/customers/sz.svg'|url }}" alt="Kanton Schwyz"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-x grid-padding-x">
+                    <div class="large-3 small-6 medium-3 cell">
+                        <div class="card">
+                            <a href=""><img src="{{ '/static/img/customers/winterthur.svg'|url }}" alt="Stadt Winterthur"></a>
+                        </div>
+                    </div>
+                    <div class="large-3 small-6 medium-3 cell">
+                        <div class="card">
+                            <a href=""><img src="{{ '/static/img/customers/duerrenaesch.svg'|url }}" alt="Gemeinde Dürrenäsch"></a>
+                        </div>
+                    </div>
+                    <div class="large-3 small-6 medium-3 cell">
+                        <div class="card">
+                            <a href=""><img src="{{ '/static/img/customers/rueti.svg'|url }}" alt="Gemeinde Rüti ZH"></a>
+                        </div>
+                    </div>
+                    <div class="large-3 small-6 medium-3 cell">
+                        <div class="card">
+                            <a href=""><img src="{{ '/static/img/customers/ebikon.png'|url }}" alt="Gemeinde Ebikon"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-x grid-padding-x">
+                    <div class="large-3 small-6 medium-3 cell">
+                        <div class="card">
+                            <a href=""><img src="{{ '/static/img/customers/baar.png'|url }}" alt="Gemeinde Baar"></a>
+                        </div>
+                    </div>
+                    <div class="large-3 small-6 medium-3 cell">
+                        <div class="card">
+                            <a href=""><img src="{{ '/static/img/customers/musikschule-rontal.svg'|url }}" alt="Musikschule Rontal"></a>
+                        </div>
+                    </div>
+                    <div class="large-3 small-6 medium-3 cell">
+                        <div class="card">
+                            <a href=""><img src="{{ '/static/img/customers/ilo.png'|url }}" alt="International Labour Organization"></a>
+                        </div>
+                    </div>
+                    <div class="large-3 small-6 medium-3 cell">
+                        <div class="card">
+                            <a href=""><img src="{{ '/static/img/customers/swisshelicopter.svg'|url }}" alt="Swiss Helicopter"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-x grid-padding-x">
+                    <div class="large-3 small-6 medium-3 cell">
+                        <div class="card">
+                            <a href=""><img src="{{ '/static/img/customers/pro-juventute.svg'|url }}" alt="Pro Juventute"></a>
+                        </div>
+                    </div>
+                    <div class="large-3 small-6 medium-3 cell">
+                        <div class="card">
+                            <a href=""><img src="{{ '/static/img/customers/msd.svg'|url }}" alt="MSD"></a>
+                        </div>
+                    </div>
+                    <div class="large-3 small-6 medium-3 cell">
+                        <div class="card">
+                            <a href=""><img src="{{ '/static/img/customers/concordia.svg'|url }}" alt="Concordia"></a>
+                        </div>
+                    </div>
+                    <div class="large-3 small-6 medium-3 cell">
+                        <div class="card">
+                            <a href=""><img src="{{ '/static/img/customers/mt.svg'|url }}" alt="Mettler Toledo"></a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <div class="grid-container">
-        <div class="grid-x grid-margin-x">
-            <div class="large-5 large-offset-1 cell">
-                <div id="intro">
-                    <h3>Data Driven Web Applications</h3>
-                    <p>Wir entwickeln Webapplikationen für die <a href="">medizinische Forschung</a>, <a href="">die öffentliche Verwaltung</a> sowie für die <a href="">Aviatik</a>.</p>
-                    <p>Bei unseren Projekten geht es um die Verarbeitung und Aufbereitung komplexer Daten. Wir sorgen für die einfache und korrekte Erfassung der Daten, deren statistische Auswertung und Visualisierung.</p>
+        <div class="listing team">
+            <div class="grid-container">
+                <div class="grid-x grid-padding-x">
+                    <div class="large-10 large-offset-1 cell">
+                        <h4><small>Wir machen es möglich</small></h4>
+                        <h3>Unser Team</h3>
+                    </div>
                 </div>
-            </div>
-        </div>
-    </div>
-
-    <div id="solution">
-        <div class="grid-container">
-            <div class="grid-x grid-padding-x align-center">
-                <div class="large-7 large-offset-1 cell">
-                    <h4><small>HealthData.ai</small></h4>
-                    <h3>Bridging the gap between clinical practice and medical research</h3>
-                    <p><a href="">&rarr; mehr erfahren</a>
-                </div>
-                <div class="large-9 cell">
-                    <img src="{{ '/static/img/notebook.png'|url }}" alt="OCQMS">
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div id="platform">
-        <div class="grid-container">
-            <div class="grid-x grid-padding-x">
-                <div class="large-7 large-offset-1 cell">
-                    <h4><small>Agile Mindset - Open Source Toolset</small></h4>
-                    <h3>Softwareentwicklung mit hohem Qualitätsanspruch nach Agiler Methodik</h3>
-                </div>
-            </div>
-            <div class="grid-x grid-padding-x">
-                <div class="large-7 large-offset-1 cell">
-                    <p>Wir arbeiten seit mehr als zehn Jahren mit Open Source Software und sind aktiv in mehreren Open Source Communities. Mit Open Source verbinden wir mehr als einfach «Gratis-Software». Der Ansatz entspringt vielmehr einer Geisteshaltung und damit verbundenen Idealen auf dem Weg zu besseren IT-Lösungen. Wir entwicklen qualitativ hochstehende Software. Dazu setzen wir auf die besten Open Source Entwickler-Tools und arbeiten gemäss Agiler Methodik.</p>
-                    <p>Für unsere Webapplikationen durften wir <a href="">Preise und Auszeichnungen</a> entgegennehmen.</p>
-
-                </div>
-            </div>
-        </div>
-
-        <div class="grid-container">
-            <div class="grid-x grid-padding-x">
-                <div class="cell">
-                    <img class="full" src="{{ '/static/img/team/team.jpg'|url }}" alt="Team">
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="listing">
-        <div class="grid-container">
-            <div class="grid-x grid-padding-x">
-                <div class="large-5 cell">
-                    <h4><small>Gemeinsam zum Erfolg</small></h4>
-                    <h3>Erfolgsgeschichten</h3>
-                </div>
-            </div>
-            <div class="grid-x grid-padding-x" data-equalizer data-equalize-on="medium">
-                {% for child in site.get('/success-stories').children.filter(F.frontpage==True).order_by('sort_key') %}
-                    <div class="large-4 cell">
+                <div class="grid-x grid-padding-x" data-equalizer data-equalize-on="medium">
+                    <div class="large-5 cell large-offset-1">
                         <div class="card" data-equalizer-watch>
-                            <img src="{{ child.attachments.images.first().thumbnail(600)|url }}" alt="{{ child.title }}">
+                            <img src="{{ '/static/img/team/Fabian-Reinhard.jpg'|url }}" alt="Fabian Reinhard">
                             <div class="card-section">
-                                <h4>{{ child.title }}</h4>
-                                <p>{{ child.description }}</p>
-                                <a href="{{ child|url }}">&rarr; mehr erfahren</a>
+                                <h4>Fabian Reinhard</h4>
+                                <p>M A UZH</p>
+                                <p><strong>Managing Partner<br />
+                                    Solution Architect</strong>
+                                </p>
+                                <p class="bio">Fabian studierte Politikwissenschaften, VWL und Allgemeines Staatsrecht an der <a href="">Universität Zürich</a> und hat sich an der <a href="">Harvard University</a> weitergebildet. Fabian entwickelt Ideen und schreibt Konzepte und wenn immer möglich selbst Programmcode um nicht die technische Bodenhaftung zu verlieren und zu sehr auf der konzeptionellen Ebene zu schweben.</p>
+                                <p>
+                                    <ul>
+                                        <li>Hermes 5 Foundation</li>
+                                        <li>ITIL V3 Foundation</li>
+                                    </ul>
+                                <p>
+                                    <a href=""><i class="far fa-envelope"></i>fabian.reinhard@seantis.ch<br /></a>
+                                    <a href=""><i class="fas fa-key"></i> PGP Public Key</a><br />
+                                    <a href="https://github.com/freinhard"><i class="fab fa-github"></i> Github</a>
+                                </p>
                             </div>
                         </div>
                     </div>
-                {% endfor %}
-            </div>
-        </div>
-    </div>
-
-    <div id="customers">
-        <div class="grid-container">
-            <div class="grid-x grid-padding-x">
-                <div class="large-6 large-offset-1 cell">
-                    <div class="intro">
-                        <h4><small>Gemeinsam zum Erfolg</small></h4>
-                        <h3>Erfolgreiche Lösungen - zufriedene Kunden</h3>
-                        <p>Der Kunde steht immer im Zentrum. Mit unseren langjährigen Kunden pflegen wir offene und vertrauensvolle Beziehungen.</p>
-                        <p><a href="">&rarr; mehr erfahren</a></p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="grid-x grid-padding-x">
-                <div class="large-3 small-6 medium-3 cell">
-                    <div class="card">
-                        <a href=""><img src="{{ '/static/img/customers/usz.png'|url }}" alt="UniversitätsSpital Zürich"></a>
-                    </div>
-                </div>
-                <div class="large-3 small-6 medium-3 cell">
-                    <div class="card">
-                        <a href=""><img src="{{ '/static/img/customers/chuv.png'|url }}" alt="Centre hospitalier universitaire vaudois"></a>
-                    </div>
-                </div>
-                <div class="large-3 small-6 medium-3 cell">
-                    <div class="card">
-                        <a href=""><img src="{{ '/static/img/customers/hug.png'|url }}" alt="Hôpitaux Universitaires Gèneve"></a>
-                    </div>
-                </div>
-                <div class="large-3 small-6 medium-3 cell">
-                    <div class="card">
-                        <a href=""><img src="{{ '/static/img/customers/scqm.svg'|url }}" alt="Swiss Clinical Quality Management in Rheumatic Diseases"></a>
-                    </div>
-                </div>
-            </div>
-            <div class="grid-x grid-padding-x">
-                <div class="large-3 small-6 medium-3 cell">
-                    <div class="card">
-                        <a href=""><img src="{{ '/static/img/customers/zg.svg'|url }}" alt="Kanton Zug"></a>
-                    </div>
-                </div>
-                <div class="large-3 small-6 medium-3 cell">
-                    <div class="card">
-                        <a href=""><img src="{{ '/static/img/customers/gr.svg'|url }}" alt="Kanton Graubünden"></a>
-                    </div>
-                </div>
-                <div class="large-3 small-6 medium-3 cell">
-                    <div class="card">
-                        <a href=""><img src="{{ '/static/img/customers/sg.svg'|url }}" alt="Kanton St.Gallen"></a>
-                    </div>
-                </div>
-                <div class="large-3 small-6 medium-3 cell">
-                    <div class="card">
-                        <a href=""><img src="{{ '/static/img/customers/sz.svg'|url }}" alt="Kanton Schwyz"></a>
-                    </div>
-                </div>
-            </div>
-            <div class="grid-x grid-padding-x">
-                <div class="large-3 small-6 medium-3 cell">
-                    <div class="card">
-                        <a href=""><img src="{{ '/static/img/customers/winterthur.svg'|url }}" alt="Stadt Winterthur"></a>
-                    </div>
-                </div>
-                <div class="large-3 small-6 medium-3 cell">
-                    <div class="card">
-                        <a href=""><img src="{{ '/static/img/customers/duerrenaesch.svg'|url }}" alt="Gemeinde Dürrenäsch"></a>
-                    </div>
-                </div>
-                <div class="large-3 small-6 medium-3 cell">
-                    <div class="card">
-                        <a href=""><img src="{{ '/static/img/customers/rueti.svg'|url }}" alt="Gemeinde Rüti ZH"></a>
-                    </div>
-                </div>
-                <div class="large-3 small-6 medium-3 cell">
-                    <div class="card">
-                        <a href=""><img src="{{ '/static/img/customers/ebikon.png'|url }}" alt="Gemeinde Ebikon"></a>
-                    </div>
-                </div>
-            </div>
-            <div class="grid-x grid-padding-x">
-                <div class="large-3 small-6 medium-3 cell">
-                    <div class="card">
-                        <a href=""><img src="{{ '/static/img/customers/baar.png'|url }}" alt="Gemeinde Baar"></a>
-                    </div>
-                </div>
-                <div class="large-3 small-6 medium-3 cell">
-                    <div class="card">
-                        <a href=""><img src="{{ '/static/img/customers/musikschule-rontal.svg'|url }}" alt="Musikschule Rontal"></a>
-                    </div>
-                </div>
-                <div class="large-3 small-6 medium-3 cell">
-                    <div class="card">
-                        <a href=""><img src="{{ '/static/img/customers/ilo.png'|url }}" alt="International Labour Organization"></a>
-                    </div>
-                </div>
-                <div class="large-3 small-6 medium-3 cell">
-                    <div class="card">
-                        <a href=""><img src="{{ '/static/img/customers/swisshelicopter.svg'|url }}" alt="Swiss Helicopter"></a>
-                    </div>
-                </div>
-            </div>
-            <div class="grid-x grid-padding-x">
-                <div class="large-3 small-6 medium-3 cell">
-                    <div class="card">
-                        <a href=""><img src="{{ '/static/img/customers/pro-juventute.svg'|url }}" alt="Pro Juventute"></a>
-                    </div>
-                </div>
-                <div class="large-3 small-6 medium-3 cell">
-                    <div class="card">
-                        <a href=""><img src="{{ '/static/img/customers/msd.svg'|url }}" alt="MSD"></a>
-                    </div>
-                </div>
-                <div class="large-3 small-6 medium-3 cell">
-                    <div class="card">
-                        <a href=""><img src="{{ '/static/img/customers/concordia.svg'|url }}" alt="Concordia"></a>
-                    </div>
-                </div>
-                <div class="large-3 small-6 medium-3 cell">
-                    <div class="card">
-                        <a href=""><img src="{{ '/static/img/customers/mt.svg'|url }}" alt="Mettler Toledo"></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="listing team">
-        <div class="grid-container">
-            <div class="grid-x grid-padding-x">
-                <div class="large-10 large-offset-1 cell">
-                    <h4><small>Wir machen es möglich</small></h4>
-                    <h3>Unser Team</h3>
-                </div>
-            </div>
-            <div class="grid-x grid-padding-x" data-equalizer data-equalize-on="medium">
-                <div class="large-5 cell large-offset-1">
-                    <div class="card" data-equalizer-watch>
-                        <img src="{{ '/static/img/team/Fabian-Reinhard.jpg'|url }}" alt="Fabian Reinhard">
-                        <div class="card-section">
-                            <h4>Fabian Reinhard</h4>
-                            <p>M A UZH</p>
-                            <p><strong>Managing Partner<br />
-                                Solution Architect</strong>
-                            </p>
-                            <p class="bio">Fabian studierte Politikwissenschaften, VWL und Allgemeines Staatsrecht an der <a href="">Universität Zürich</a> und hat sich an der <a href="">Harvard University</a> weitergebildet. Fabian entwickelt Ideen und schreibt Konzepte und wenn immer möglich selbst Programmcode um nicht die technische Bodenhaftung zu verlieren und zu sehr auf der konzeptionellen Ebene zu schweben.</p>
-                            <p>
-                                <ul>
-                                    <li>Hermes 5 Foundation</li>
-                                    <li>ITIL V3 Foundation</li>
-                                </ul>
-                            <p>
-                                <a href=""><i class="far fa-envelope"></i>fabian.reinhard@seantis.ch<br /></a>
-                                <a href=""><i class="fas fa-key"></i> PGP Public Key</a><br />
-                                <a href="https://github.com/freinhard"><i class="fab fa-github"></i> Github</a>
-                            </p>
+                    <div class="large-5 cell">
+                        <div class="card" data-equalizer-watch>
+                            <img src="{{ '/static/img/team/Tobias-Reinhard.jpg'|url }}" alt="Tobias Reinhard">
+                            <div class="card-section">
+                                <h4>Dr. Tobias Reinhard</h4>
+                                <p>dipl. inform. UZH</p>
+                                <p><strong>Partner<br />
+                                    Software Engineer</strong>
+                                </p>
+                                <p class="bio">Tobias studierte Informatik an der <a href="">Universität Zürich</a> und promovierte ebenda im Bereich Requirements Engineering. Er ist verantwortlich für die Bereiche technische Spezifikation sowie Entwicklung. Tobias ist der Kopf hinter unserer Plattform <a href="http://www.healthdata.ai">HealthData.ai</a>. Tobias programmiert selbst, weil es für ihn keine Theorie ohne Praxis und vice versa geben kann.
+                                <p>
+                                    <a href=""><i class="far fa-envelope"></i>tobias.reinhard@seantis.ch<br /></a>
+                                    <a href=""><i class="fas fa-key"></i> PGP Public Key</a><br />
+                                    <a href="https://github.com/treinhard"><i class="fab fa-github"></i> Github</a>
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="large-5 cell">
-                    <div class="card" data-equalizer-watch>
-                        <img src="{{ '/static/img/team/Tobias-Reinhard.jpg'|url }}" alt="Tobias Reinhard">
-                        <div class="card-section">
-                            <h4>Dr. Tobias Reinhard</h4>
-                            <p>dipl. inform. UZH</p>
-                            <p><strong>Partner<br />
-                                Software Engineer</strong>
-                            </p>
-                            <p class="bio">Tobias studierte Informatik an der <a href="">Universität Zürich</a> und promovierte ebenda im Bereich Requirements Engineering. Er ist verantwortlich für die Bereiche technische Spezifikation sowie Entwicklung. Tobias ist der Kopf hinter unserer Plattform <a href="http://www.healthdata.ai">HealthData.ai</a>. Tobias programmiert selbst, weil es für ihn keine Theorie ohne Praxis und vice versa geben kann.
-                            <p>
-                                <a href=""><i class="far fa-envelope"></i>tobias.reinhard@seantis.ch<br /></a>
-                                <a href=""><i class="fas fa-key"></i> PGP Public Key</a><br />
-                                <a href="https://github.com/treinhard"><i class="fab fa-github"></i> Github</a>
-                            </p>
+                <div class="grid-x grid-padding-x" style="padding-top: 60px;" data-equalizer data-equalize-on="medium">
+                    <div class="large-5 cell large-offset-1">
+                        <div class="card" data-equalizer-watch>
+                            <img src="{{ '/static/img/team/Denis-krienbuehl.jpg'|url }}" alt="Denis Krienbühl">
+                            <div class="card-section">
+                                <h4>Denis Krienbühl</h4>
+                                <p>Inform. eidg. FA</p>
+                                <p><strong>Software Engineer</strong></p>
+                                <p class="bio">Denis hat einen Lehrabschluss als Informatiker. Denis ist als Softwarearchitekt und als Full Stack Developer verantwortlich für die Entwicklung der <a href="http://www.onegovcloud.ch">OneGov Cloud</a>.
+                                    Dank konsequentem Einsatz von DevOps Tools orchestriert und administiert Denis eine Flotte von mehr als 50 Servern. Denis is Mitbegründer und Mitorganisator des <a href="https://www.python-summit.ch">Swiss Python Summit</a>.</p>
+                                <p>
+                                    <a href=""><i class="far fa-envelope"></i>denis.krienbuehl@seantis.ch<br /></a>
+                                    <a href=""><i class="fas fa-key"></i> PGP Public Key</a><br />
+                                    <a href="https://github.com/href"><i class="fab fa-github"></i> Github</a>
+                                </p>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="grid-x grid-padding-x" style="padding-top: 60px;" data-equalizer data-equalize-on="medium">
-                <div class="large-5 cell large-offset-1">
-                    <div class="card" data-equalizer-watch>
-                        <img src="{{ '/static/img/team/Denis-krienbuehl.jpg'|url }}" alt="Denis Krienbühl">
-                        <div class="card-section">
-                            <h4>Denis Krienbühl</h4>
-                            <p>Inform. eidg. FA</p>
-                            <p><strong>Software Engineer</strong></p>
-                            <p class="bio">Denis hat einen Lehrabschluss als Informatiker. Denis ist als Softwarearchitekt und als Full Stack Developer verantwortlich für die Entwicklung der <a href="http://www.onegovcloud.ch">OneGov Cloud</a>.
-                                Dank konsequentem Einsatz von DevOps Tools orchestriert und administiert Denis eine Flotte von mehr als 50 Servern. Denis is Mitbegründer und Mitorganisator des <a href="https://www.python-summit.ch">Swiss Python Summit</a>.</p>
-                            <p>
-                                <a href=""><i class="far fa-envelope"></i>denis.krienbuehl@seantis.ch<br /></a>
-                                <a href=""><i class="fas fa-key"></i> PGP Public Key</a><br />
-                                <a href="https://github.com/href"><i class="fab fa-github"></i> Github</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="large-5 cell">
-                    <div class="card" data-equalizer-watch>
-                        <img src="{{ '/static/img/team/Marc-Sommerhalder.jpg'|url }}" alt="Marc Sommerhalder">
-                        <div class="card-section">
-                            <h4>Marc Sommerhalder</h4>
-                            <p>dipl. Ing. FH, B A</p>
-                            <p><strong>Software Engineer</strong></p>
-                            <p class="bio">Marc studierte Elektrotechnik an der <a href="http://www.zhaw.ch">Zürcher Hochschule für Angewandte Wissenschaften (ZHAW)</a> und anschliessend Kulturwissenschaften an der <a href="http://www.unilu.ch">Universität Luzern</a>. Er ist verantwortlich für die Weiterentwicklung von <a href="http://www.mycontrol.aero">myControl.aero</a>. Vor zwei Jahren hat Marc auch noch ein Psychologiestudium angefangen, denn man hat nie ausgelernt.
-                            </p>
-                            <p>
-                                <a href=""><i class="far fa-envelope"></i>marc.sommerhalder@seantis.ch<br /></a>
-                                <a href=""><i class="fas fa-key"></i> PGP Public Key</a><br />
-                                <a href="https://github.com/msom"><i class="fab fa-github"></i> Github</a>
-                            </p>
+                    <div class="large-5 cell">
+                        <div class="card" data-equalizer-watch>
+                            <img src="{{ '/static/img/team/Marc-Sommerhalder.jpg'|url }}" alt="Marc Sommerhalder">
+                            <div class="card-section">
+                                <h4>Marc Sommerhalder</h4>
+                                <p>dipl. Ing. FH, B A</p>
+                                <p><strong>Software Engineer</strong></p>
+                                <p class="bio">Marc studierte Elektrotechnik an der <a href="http://www.zhaw.ch">Zürcher Hochschule für Angewandte Wissenschaften (ZHAW)</a> und anschliessend Kulturwissenschaften an der <a href="http://www.unilu.ch">Universität Luzern</a>. Er ist verantwortlich für die Weiterentwicklung von <a href="http://www.mycontrol.aero">myControl.aero</a>. Vor zwei Jahren hat Marc auch noch ein Psychologiestudium angefangen, denn man hat nie ausgelernt.
+                                </p>
+                                <p>
+                                    <a href=""><i class="far fa-envelope"></i>marc.sommerhalder@seantis.ch<br /></a>
+                                    <a href=""><i class="fas fa-key"></i> PGP Public Key</a><br />
+                                    <a href="https://github.com/msom"><i class="fab fa-github"></i> Github</a>
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
