@@ -68,7 +68,9 @@
                     {% for child in site.get('/success-stories').children.filter(F.frontpage==True).order_by('sort_key') %}
                         <div class="large-4 cell">
                             <div class="card" data-equalizer-watch>
-                                <img src="{{ child.attachments.images.first().thumbnail(600)|url }}" alt="{{ child.title }}">
+                                <div class="card-head">
+                                    <img src="{{ child.attachments.images.first().thumbnail(600)|url }}" alt="{{ child.title }}">
+                                </div>
                                 <div class="card-section">
                                     <h4>{{ child.title }}</h4>
                                     <p>{{ child.description }}</p>
