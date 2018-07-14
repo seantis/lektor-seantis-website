@@ -291,3 +291,10 @@ article .h2,
 .project p {
     display: inline
 }
+
+.card-head {
+    padding: 15px;
+    height: 200px;
+    overflow: hidden;
+    background: #F7FAFC;
+}

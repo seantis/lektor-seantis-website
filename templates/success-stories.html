@@ -15,13 +15,14 @@
                     {% for child in this.pagination.items %}
                         <div class="large-4 cell">
                             <div class="card" data-equalizer-watch>
-                                {% set image = child.attachments.images.first() %}
-                                {% if image %}
-                                    <a href="{{ child|url }}">
-                                        <img src="{{ image.thumbnail(400)|url }}" alt="">
-                                    </a>
-                                {% endif %}
-
+                                <div class="card-head">
+                                    {% set image = child.attachments.images.first() %}
+                                    {% if image %}
+                                        <a href="{{ child|url }}">
+                                            <img src="{{ image.thumbnail(400)|url }}" alt="">
+                                        </a>
+                                    {% endif %}
+                                </div>
                                 <div class="card-section">
                                     <h5 class="subheader"><small>{{ child.pub_date|dateformat }}</small></h5>
                                     <h4>{{ child.title }}</h4>
