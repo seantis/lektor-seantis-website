@@ -6,8 +6,11 @@ author: seantis
 ---
 description: Im Auftrag von Pro Juventute hat seantis zusammen mit Netcetera eine neue Plattform zur Verwaltung von betreuten Ferienangeboten (Ferienpässe) entwickelt.
 ---
-customer: [Pro Juventute](https://www.projuventute.ch)
+customer: Pro Juventute
 ---
+customer_url: https://www.projuventute.ch
+---
+
 task:
 
 Die wenigsten Familien können während der gesamten Ferienzeit verreisen. Und was machen Kinder, wenn ihre Eltern arbeiten? Die betreuten Ferienprogramme von Pro Juventute bieten Kindern von 6 bis 16 Jahren mehr als 7500 verschiedene Möglichkeiten für tolle Ferienerlebnisse.

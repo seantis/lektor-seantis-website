@@ -19,7 +19,7 @@ a {
     color: #0077C8;
 }
 
-.main-content ul {font-size: 110%;}
+.main-content ul, .main-content ol  {font-size: 110%;}
 
 p {font-size: 110%;}
 
@@ -273,3 +273,21 @@ article .h2,
 }
 
 .pagination li {font-size: 110%;}
+
+.listing .card {
+    margin-bottom: 30px;
+}
+
+.image-band {
+    background: #F7FAFC;
+    margin: 40px 0;
+    padding: 30px 0;
+}
+
+.fas, .fab, .far {
+    width: 30px;
+}
+
+.project p {
+    display: inline
+}

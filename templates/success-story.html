@@ -1,28 +1,45 @@
 {% extends "layout.html" %}
 {% block content %}
-    <div class="grid-container">
-        <div class="grid-x grid-margin-x">
-            <div class="large-7 large-offset-1 cell">
-                <h5 class="subheader"><small>{{ this.pub_date|dateformat }}</small></h5>
-                <h1>{{ this.title }}</h1>
-                <p class="lead">{{ this.description }}</p>
-                {% for image in this.attachments.images.all() %}
-                    <div>
-                        <img src="{{ image.thumbnail(1600)|url }}" alt="">
+    <div class="main-content">
+        <div class="grid-container">
+            <div class="grid-x grid-margin-x">
+                <div class="large-7 large-offset-1 cell">
+                    <h5 class="subheader"><small>{{ this.pub_date|dateformat }}</small></h5>
+                    <h1>{{ this.title }}</h1>
+                    <p class="lead">{{ this.description }}</p>
+                    <div class="project"><strong><p>Kunde:</p> {{ this.customer }}</strong><br />
+                    </i> <p>Technologie: OneGov Cloud</p></div>
+                </div>
+            </div>
+        </div>
+        <div class="image-band">
+            <div class="grid-container">
+                <div class="grid-x grid-padding-x">
+                    <div class="large-7 large-offset-1 cell">
+                        {% for image in this.attachments.images.all() %}
+                            <div>
+                                <img src="{{ image.thumbnail(1600)|url }}" alt="">
+                            </div>
+                        {% endfor %}
                     </div>
-                {% endfor %}
-                <h2>Kunde</h2>
-                <p>{{ this.customer }}</p>
-                <h2>Aufgabe</h2>
-                {{ this.task }}
-                <h2>Umsetzung</h2>
-                {{ this.solution }}
-                <h2>Kundennutzen</h2>
-                {{ this.benefit }}
-                {% if this.links %}
-                    <h2>Links</h2>
-                    {{ this.links }}
-                {% endif %}
+                </div>
+            </div>
+        </div>
+
+        <div class="grid-container">
+            <div class="grid-x grid-margin-x">
+                <div class="large-7 large-offset-1 cell">
+                    <h2>Aufgabe</h2>
+                    {{ this.task }}
+                    <h2>Umsetzung</h2>
+                    {{ this.solution }}
+                    <h2>Kundennutzen</h2>
+                    {{ this.benefit }}
+                    {% if this.links %}
+                        <h2>Links</h2>
+                        {{ this.links }}
+                    {% endif %}
+                </div>
             </div>
         </div>
     </div>
