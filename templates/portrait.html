@@ -1,0 +1,78 @@
+{% extends "layout.html" %}
+{% from "macros/team.html" import render_team %}
+{% block content %}
+
+    <div class="main-content">
+        <div class="grid-container">
+            <div class="grid-x grid-margin-x">
+                <div class="large-7 large-offset-1 cell">
+                    <h1>Portrait</h1>
+                    <p class="lead">
+                            Softwareentwicklung ist unser Handwerk.
+                            Wir entwickeln Webapplikationen nach der Methodik
+                            der Agilen Softwareentwicklung.
+                    </p>
+                    <p>
+                        Offen für neue Herausforderungen suchen wir in enger
+                        Zusammenarbeit mit unseren Kunden neue Wege. Möglich
+                        macht dies ein vielseitiges Team mit breitem Know-how
+                        und mehr als zehn Jahren Erfahrung in der Entwicklung
+                        von Webapplikationen und Internetservices. Für unsere
+                        Webapplikationen durften wir
+                        <a href="https://www.seantis.ch/portrait/awards">Preise und Auszeichnungen</a>
+                        entgegennehmen.
+                    </p>
+                    <p>
+                        Agile ist für uns ein Mindset. 
+                        <a href="https://www.seantis.ch/portrait/agile-softwareentwicklung">Agile als Grundeinstellung</a>
+                        prägt unser Denken und Handeln. Hypothesen für neue
+                        Geschäftsideen und neuste Technologien testen wir mit
+                        unseren <a href="https://www.seantis.ch/portrait/ventures">Ventures</a>.
+                    </p>
+                    <p>
+                        Ein direkter Draht zur Universität Zürich eröffnet uns
+                        den Zugang zu einem grossen Pool an Know-how. Unser
+                        Antrieb sind interessante Projekte, welche unsere
+                        Kunden und uns selbst weiterbringen. Mit unseren
+                        langjährigen Kunden pflegen wir offene und
+                        vertrauensvolle Beziehungen.
+                    </p>
+                    <p>
+                        Wir entwicklen Webapplikationen mit den besten 
+                        <a href="https://www.seantis.ch/portrait/open-mind-open-source">Open Source (Web-)Technologien</a>.
+                        Unseren Mitarbeitenden («Hackers») bieten wir ein
+                        optimales Arbeitsumfeld: «<a href="https://www.seantis.ch/blog/we-support-the-hacker-pledge">We support the Hacker Pledge</a>»
+                </div>
+            </div>
+        </div>
+
+        {{ render_team() }}
+
+        <div class="grid-container">
+            <div class="grid-x grid-margin-x">
+                <div class="large-12 cell">
+                    <h3>Unser Standort</h3>
+                    <iframe width="100%" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.ch/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;aq=&amp;sll=47.038829,8.287943&amp;sspn=0.034687,0.052485&amp;ie=UTF8&amp;hq=&amp;t=h&amp;ll=47.051115,8.306624&amp;spn=0.002481,0.003433&amp;z=18&amp;output=embed"></iframe>
+                </div>
+            </div>
+        </div>
+
+        {% if this.children %}
+        <div class="grid-container">
+            <div class="grid-x grid-margin-x">
+                <div class="large-7 large-offset-1 cell">
+                    <div class="subnavigation">
+                        <ul class="vertical menu">
+                            {% for child in this.children if not child.hidden %}
+                                {% if not child.hidden %}
+                                    <li><a href="{{ child.path }}">{{ child.title }}</a></li>
+                                {% endif %}
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+    </div>
+{% endblock %}

@@ -1,4 +1,5 @@
 {% extends "layout.html" %}
+{% from "macros/team.html" import render_team %}
 {% block content %}
 
     <div class="main-content">
@@ -209,98 +210,7 @@
             </div>
         </div>
 
-        <div class="listing team">
-            <div class="grid-container">
-                <div class="grid-x grid-padding-x">
-                    <div class="large-10 large-offset-1 cell">
-                        <h4><small>Wir machen es möglich</small></h4>
-                        <h3>Unser Team</h3>
-                    </div>
-                </div>
-                <div class="grid-x grid-padding-x" data-equalizer data-equalize-on="medium">
-                    <div class="large-5 cell large-offset-1">
-                        <div class="card" data-equalizer-watch>
-                            <img src="{{ '/static/img/team/Fabian-Reinhard.jpg'|url }}" alt="Fabian Reinhard">
-                            <div class="card-section">
-                                <h4>Fabian Reinhard</h4>
-                                <p>M A UZH</p>
-                                <p><strong>Managing Partner<br />
-                                    Solution Architect</strong>
-                                </p>
-                                <p class="bio">Fabian studierte Politikwissenschaften, VWL und Allgemeines Staatsrecht an der <a href="">Universität Zürich</a> und hat sich an der <a href="">Harvard University</a> weitergebildet. Fabian entwickelt Ideen und schreibt Konzepte und wenn immer möglich selbst Programmcode um nicht die technische Bodenhaftung zu verlieren und zu sehr auf der konzeptionellen Ebene zu schweben.</p>
-                                <p>
-                                    <ul>
-                                        <li>Hermes 5 Foundation</li>
-                                        <li>ITIL V3 Foundation</li>
-                                    </ul>
-                                <p>
-                                    <a href="mailto:fabian.reinhard@seantis.ch"><i class="far fa-envelope"></i>fabian.reinhard@seantis.ch<br /></a>
-                                    <a href="https://www.seantis.ch/portrait/pgp-keys/58C1BF15.asc"><i class="fas fa-key"></i>PGP Public Key</a><br />
-                                    <a href="https://github.com/freinhard"><i class="fab fa-github"></i>Github</a><br />
-                                    <a href="https://keybase.io/freinhard"><i class="fab fa-keybase"></i>Keybase</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="large-5 cell">
-                        <div class="card" data-equalizer-watch>
-                            <img src="{{ '/static/img/team/Tobias-Reinhard.jpg'|url }}" alt="Tobias Reinhard">
-                            <div class="card-section">
-                                <h4>Dr. Tobias Reinhard</h4>
-                                <p>dipl. inform. UZH</p>
-                                <p><strong>Partner<br />
-                                    Software Engineer</strong>
-                                </p>
-                                <p class="bio">Tobias studierte Informatik an der <a href="">Universität Zürich</a> und promovierte ebenda im Bereich Requirements Engineering. Er ist verantwortlich für die Bereiche technische Spezifikation sowie Entwicklung. Tobias ist der Kopf hinter unserer Plattform <a href="http://www.healthdata.ai">HealthData.ai</a>. Tobias programmiert selbst, weil es für ihn keine Theorie ohne Praxis und vice versa geben kann.
-                                <p>
-                                    <a href="mailto:tobias.reinhard@seantis.ch"><i class="far fa-envelope"></i>tobias.reinhard@seantis.ch<br /></a>
-                                    <a href="https://www.seantis.ch/portrait/pgp-keys/BDFA49D2.asc"><i class="fas fa-key"></i>PGP Public Key</a><br />
-                                    <a href="https://github.com/treinhard"><i class="fab fa-github"></i>Github</a><br />
-                                    <a href="https://keybase.io/treinhard"><i class="fab fa-keybase"></i>Keybase</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="grid-x grid-padding-x" style="padding-top: 60px;" data-equalizer data-equalize-on="medium">
-                    <div class="large-5 cell large-offset-1">
-                        <div class="card" data-equalizer-watch>
-                            <img src="{{ '/static/img/team/Denis-krienbuehl.jpg'|url }}" alt="Denis Krienbühl">
-                            <div class="card-section">
-                                <h4>Denis Krienbühl</h4>
-                                <p>Inform. eidg. FA</p>
-                                <p><strong>Software Engineer</strong></p>
-                                <p class="bio">Denis hat einen Lehrabschluss als Informatiker. Denis ist als Softwarearchitekt und als Full Stack Developer verantwortlich für die Entwicklung der <a href="http://www.onegovcloud.ch">OneGov Cloud</a>.
-                                    Dank konsequentem Einsatz von DevOps Tools orchestriert und administiert Denis eine Flotte von mehr als 50 Servern. Denis is Mitbegründer und Mitorganisator des <a href="https://www.python-summit.ch">Swiss Python Summit</a>.</p>
-                                <p>
-                                    <a href="mailto:denis.krienbuehl@seantis.ch"><i class="far fa-envelope"></i>denis.krienbuehl@seantis.ch<br /></a>
-                                    <a href="https://www.seantis.ch/portrait/pgp-keys/A4FE6299.asc"><i class="fas fa-key"></i>PGP Public Key</a><br />
-                                    <a href="https://github.com/href"><i class="fab fa-github"></i>Github</a><br />
-                                    <a href="https://keybase.io/href"><i class="fab fa-keybase"></i>Keybase</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="large-5 cell">
-                        <div class="card" data-equalizer-watch>
-                            <img src="{{ '/static/img/team/Marc-Sommerhalder.jpg'|url }}" alt="Marc Sommerhalder">
-                            <div class="card-section">
-                                <h4>Marc Sommerhalder</h4>
-                                <p>dipl. Ing. FH, B A</p>
-                                <p><strong>Software Engineer</strong></p>
-                                <p class="bio">Marc studierte Elektrotechnik an der <a href="http://www.zhaw.ch">Zürcher Hochschule für Angewandte Wissenschaften (ZHAW)</a> und anschliessend Kulturwissenschaften an der <a href="http://www.unilu.ch">Universität Luzern</a>. Er ist verantwortlich für die Weiterentwicklung von <a href="http://www.mycontrol.aero">myControl.aero</a>. Vor zwei Jahren hat Marc auch noch ein Psychologiestudium angefangen, denn man hat nie ausgelernt.
-                                </p>
-                                <p>
-                                    <a href="mailto:marc.sommerhalder@seantis.ch"><i class="far fa-envelope"></i>marc.sommerhalder@seantis.ch<br /></a>
-                                    <a href="https://www.seantis.ch/portrait/pgp-keys/C2FE713E.asc"><i class="fas fa-key"></i>PGP Public Key</a><br />
-                                    <a href="https://github.com/msom"><i class="fab fa-github"></i>Github</a><br />
-                                    <a href="https://keybase.io/msom"><i class="fab fa-keybase"></i>Keybase</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        {{ render_team() }}
+
     </div>
 {% endblock %}
