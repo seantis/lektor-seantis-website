@@ -314,3 +314,7 @@ article .h2,
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {
     #square {margin: 200px 0 40px 0;}
 }
+
+.top-bar .input-group-field {
+    min-width: 120px;
+}
