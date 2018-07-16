@@ -12,15 +12,14 @@
                 </div>
             </div>
         </div>
-        <div class="image-band">
+        {% set image = this.attachments.images.first() %}
+        <div class="image-band {{ 'padded' if image.path.endswith('.png') else '' }}">
             <div class="grid-container">
                 <div class="grid-x grid-padding-x">
                     <div class="large-7 large-offset-1 cell">
-                        {% for image in this.attachments.images.all() %}
-                            <div>
-                                <img src="{{ image.thumbnail(1600)|url }}" alt="">
-                            </div>
-                        {% endfor %}
+                        <div>
+                            <img src="{{ image.thumbnail(1600)|url }}" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
