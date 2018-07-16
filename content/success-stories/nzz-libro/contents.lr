@@ -13,6 +13,8 @@ description: Für den Online-Shop des Buchverlags NZZ Libro wurde der Katalog in
 
 customer: [NZZ Libro – Buchverlag Neue Zürcher Zeitung](http://www.nzz-libro.ch)
 ---
+technology: [PostgreSQL](https://www.postgresql.org)
+---
 task:
 
 Im neuen Online-Shop des Buchverlages Neue Zürcher Zeitung können die Bücher des gesamten Kataloges bestellt werden. Dazu musste der Datenbestand der Datenbank konsolidiert und in eine neue Datenbanklösung migriert werden.

@@ -13,6 +13,8 @@ description: Die Ländererkennung stellt sicher, dass alle Benutzer die passende
 
 customer: [RAININ Instrument](http://www.rainin.com)
 ---
+technology: [PHP](http://php.net)
+---
 task: Das Produktesortiment von Rainin ist je nach Land unterschiedlich. Um Besuchern online das passende Sortiment von Pipetten anzeigen zu können, müssen diese je Ländern segementiert werden.
 
 ---

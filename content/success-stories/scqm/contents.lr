@@ -8,10 +8,12 @@ pub_date: 2009-03-02
 author: seantis
 ---
 
-description:  Die SCQM Foundation betreibt eine Forschungsplattform für Langzeitstudien im Bereich entzündlich rheumatischer Erkrankungen. 
+description:  Die SCQM Foundation betreibt eine Forschungsplattform für Langzeitstudien im Bereich entzündlich rheumatischer Erkrankungen.
 ---
 
 customer: [SCQM Foundation](http://www.scqm.ch)
+---
+technology: [Zope](http://www.zope.org)
 ---
 task:
 

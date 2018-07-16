@@ -4,9 +4,11 @@ pub_date: 2017-08-29
 ---
 author: seantis
 ---
-description: Die CONCORDIA verarbeitet den Rücklauf aus Mailings Neukundenakquisition sicher und effizient.
+description: Die Versicherung CONCORDIA verarbeitet den Rücklauf aus Mailings Neukundenakquisition sicher und effizient.
 ---
 customer: [CONCORDIA](https://www.concordia.ch)
+---
+technology: [Pyramid](https://trypyramid.com/)
 ---
 task:
 

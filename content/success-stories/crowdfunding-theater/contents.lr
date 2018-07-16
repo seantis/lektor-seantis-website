@@ -8,6 +8,8 @@ description: Die Website sammelt mittels Crowdfunding für ein neues Theaterhaus
 ---
 customer: [Verein Theater am See](https://www.theateramsee.ch)
 ---
+technology: [Pyramid](https://trypyramid.com/)
+---
 
 task:
 

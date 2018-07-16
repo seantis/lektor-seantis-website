@@ -13,6 +13,8 @@ description: cobal.eportfolio ist ein interaktives Forum, in dem Lernende sowohl
 customer:
 Landesinstitut für Schule Bremen
 ---
+technology: [Plone](http://www.plone.org)
+---
 task:
 Für jedes Projekt kann der Lehrende Kompetenzen definieren, die die Lernenden im Projekt erwerben sollen. Die Lernenden können dann für jede neu erworbene Kompetenz spezifische Indikatoren taggen. Auf dieses Weise behalten die Lernenden den Überblick über ihre individuellen Fortschritte und können diese mit den anderen Lernenden im Projekt teilen.
 

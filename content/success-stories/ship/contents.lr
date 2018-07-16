@@ -8,14 +8,14 @@ description: healthinsurance.opendata.ch ist eine Visualiserung aller Krankenkas
 ---
 customer: Verein Opendata.ch
 ---
+technology: [D3.js](https://d3js.org/)
+---
 task:
-
-…
+Das Projekt entstand innerhalb von nur 2 Tagen am Swiss Open Data Hackday in Basel und zeigt eine interaktive Karte mit allen Krankenkassenprämien des KVG der Schweiz.
 
 ---
 solution:
-
-Der Projekt entstand innerhalb von nur 2 Tagen am Swiss Open Data Hackday in Basel und zeigt eine interaktive Karte mit allen Krankenkassenprämien des KVG der Schweiz.
+Die Lösung wurde mit D3.js im Frontend und einem leichtgewichtigen Webframework entwickelt. 
 
 ---
 benefit:

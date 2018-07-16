@@ -6,9 +6,9 @@ author: seantis
 ---
 description: Im Auftrag von Pro Juventute hat seantis zusammen mit Netcetera eine neue Plattform zur Verwaltung von betreuten Ferienangeboten (Ferienpässe) entwickelt.
 ---
-customer: Pro Juventute
+customer: [Pro Juventute](http://www.projuventute.ch)
 ---
-customer_url: https://www.projuventute.ch
+technology: [OneGov Cloud](http://www.onegovcloud.ch)
 ---
 
 task:

@@ -8,6 +8,8 @@ description: Die suisseID ist der erste standardisierte elektronische Identität
 ---
 customer: [Trägerverein SuisseID](http://suisseid.ch)
 ---
+technology: [Plone](http://www.plone.org)
+---
 task:
 
 Mit der suisseID ist sowohl eine rechtsgültige elektronische Signatur wie auch eine sichere Authentifizierung (Log-in) möglich sind.

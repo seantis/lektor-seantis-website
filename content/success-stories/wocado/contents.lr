@@ -8,6 +8,8 @@ description: Online-Tool zur Abschätzung der Arbeitsfähigkeit bei PatientInnen
 ---
 customer: Verein Fit for Work
 ---
+technology: [Django](https://www.djangoproject.com)
+---
 task:
 
 Unterstützung der Grundversorger beim Festlegen der Arbeitsfähigkeit bei PatientInnen mit muskuloskelettalen Beschwerden unter Berücksichtigung von:

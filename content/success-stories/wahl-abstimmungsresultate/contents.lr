@@ -8,6 +8,8 @@ description: Auf den neuen Datenportalen der Kantone Graubünden, Schwyz und Zug
 ---
 customer: [Kanton Zug](http://www.zg.ch), [Kanton Schwyz](http://www.sz.ch), [Kanton Graubünden](http://www.gr.ch)
 ---
+technology: [OneGov Cloud](http://www.onegovcloud.ch)
+---
 task:
 
 Wahlen und Abstimmungen sind die Ecksteine demokratischer Systeme. Die Transparenz und Nachvollziehbarkeit von Resultaten politischer Willensäusserungen ist für die Legitimität politischer Entscheidungen vital. Aus diesem Grund müssen Wahl- und Abstimmungsergebnisse einfach öffentlich zugänglich sein.

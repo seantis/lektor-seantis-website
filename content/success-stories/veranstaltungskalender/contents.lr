@@ -13,6 +13,8 @@ description: Der Veranstaltungskalender zeigt das reichhaltige Kulturangebot ein
 
 customer: [Kanton Zug](http://www.zg.ch), [Berner Oberland](http://www.berneroberland.ch), [Stadt Thun](http://www.thun.ch), [Gemeinde Hünenberg](http://www.huenenberg.ch), [Gemeinde Risch Rotkreuz](http://www.rischrotkreuz.ch), [Gemeinde Steinhausen](http://www.steinhausen.ch)
 ---
+technology: [Plone](http://www.plone.org)
+---
 task:
 Musikkonzerte, Ausstellungen, Sportanlässe, Theateraufführungen, interessante Referate aus der Welt der Wirtschaft und viele weitere Einblicke in das reichhaltige Kulturangebot bietet der Online-Veranstaltungskalender.
 
