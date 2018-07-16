@@ -1,0 +1,27 @@
+title: Deep Learning zum Scoring von Röntgenbildern
+---
+
+pub_date: 2018-07-16
+---
+author: seantis
+---
+description: Zusammen mit der Zürcher Hochschule für Angewandte Wissenschaften (ZHAW) hat seantis ein Maschine Learning Modell für das Scoring von Röntgenbildern entwickelt.
+---
+customer: [SCQM Foundation](http://www.scqm.ch), [Zürcher Hochschule für Angewandte Wissenschaften (ZHAW)](http://www.zhaw.ch) 
+---
+
+task: Rheumatoide Arthritis kann irreversible Schäden an den Gelenken verursachen. Der Schweregrad dieser Knochenerosionen wird mit Hilfe von Röntgenbildern ermittelt. Dies wird in der Regel von einem ausgebildeten Rheumatologen oder Radiologen durchgeführt und dauert mehrere Minuten pro Patient. 
+
+---
+solution: Zusammen mit der ZHAW wurde eine automatisierte Methode entwickelt , um die Gelenke in Röntgenbildern mit sogenannten «Deep Convolutional Neural Networks» zu beurteilen. Dazu wurde ein Klassigfikations- sowie ein Regressionsmodell auf Röntgenaufnahmen von Gelenken aus der linken Hand trainiert, validiert und für Prognosen angewandt.
+
+---
+benefit: Ein automatisches Scoring der Knochenerosion könnte Rheumatologen helfen, weniger Zeit mit dem Scoring zu verbringen und mehr Zeit mit dem Patienten zu haben.
+
+---
+links:
+
+
+
+---
+frontpage: yes
