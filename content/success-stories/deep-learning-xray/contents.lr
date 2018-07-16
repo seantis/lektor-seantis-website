@@ -9,8 +9,10 @@ description: Zusammen mit der Zürcher Hochschule für Angewandte Wissenschaften
 ---
 customer: [SCQM Foundation](http://www.scqm.ch), [Zürcher Hochschule für Angewandte Wissenschaften (ZHAW)](http://www.zhaw.ch) 
 ---
+technology: [TensorFlow](https://www.tensorflow.org)
+---
 
-task: Rheumatoide Arthritis kann irreversible Schäden an den Gelenken verursachen. Der Schweregrad dieser Knochenerosionen wird mit Hilfe von Röntgenbildern ermittelt. Dies wird in der Regel von einem ausgebildeten Rheumatologen oder Radiologen durchgeführt und dauert mehrere Minuten pro Patient. 
+task: Rheumatoide Arthritis kann irreversible Schäden an den Gelenken verursachen. Der Schweregrad dieser Knochenerosionen wird mit Hilfe von Röntgenbildern ermittelt. Dies wird in der Regel von einem ausgebildeten Rheumatologen oder Radiologen durchgeführt und dauert mehrere Minuten pro Patient.
 
 ---
 solution: Zusammen mit der ZHAW wurde eine automatisierte Methode entwickelt , um die Gelenke in Röntgenbildern mit sogenannten «Deep Convolutional Neural Networks» zu beurteilen. Dazu wurde ein Klassigfikations- sowie ein Regressionsmodell auf Röntgenaufnahmen von Gelenken aus der linken Hand trainiert, validiert und für Prognosen angewandt.
