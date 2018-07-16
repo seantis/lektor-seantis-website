@@ -22,9 +22,9 @@ a {
     color: #0077C8;
 }
 
-.main-content ul, .main-content ol  {font-size: 110%;}
+p {font-size: 1.1rem;}
 
-p {font-size: 110%;}
+.main-content ul, .main-content ol  {font-size: 1.1rem;}
 
 .header {
     margin: 20px 0
@@ -34,18 +34,6 @@ p {font-size: 110%;}
     margin-left: 30px;
     font-weight: bold;
     border-left: 1px solid #6A778B;
-}
-
-@media screen and (max-width: 39.9375em) {
-    .header {text-align: center}
-    .top-bar input {max-width: initial}
-    .menu {display: block}
-    .contact {border-left: none; margin-left: 0px; padding-right: 10px}
-    #square {margin: 80px 0 40px 0;}
-}
-
-@media screen and (min-width: 40em) and (max-width: 63.9375em) {
-    #square {margin: 200px 0 40px 0;}
 }
 
 .contact a {
@@ -271,8 +259,11 @@ article .h2,
     font-weight: bold;
 }
 
-.pagination {
-    margin-top: 50px;
+.pager {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
 
 .pagination li {font-size: 110%;}
@@ -305,4 +296,21 @@ article .h2,
 }
 .card-head.padded {
     padding: 15px;
+}
+
+@media screen and (max-width: 39.9375em) {
+    .header {text-align: center}
+    .top-bar input {max-width: initial}
+    .menu {display: block}
+    .contact {border-left: none; margin-left: 0px; padding-right: 10px}
+    #square {
+        margin: 80px 0 0px 0;
+        min-height: auto;
+    }
+    .lead {font-size: 125%}
+    p {font-size: inherit;}
+}
+
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+    #square {margin: 200px 0 40px 0;}
 }
