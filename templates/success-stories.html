@@ -15,8 +15,8 @@
                     {% for child in this.pagination.items %}
                         <div class="large-4 cell">
                             <div class="card" data-equalizer-watch>
-                                <div class="card-head">
-                                    {% set image = child.attachments.images.first() %}
+                                {% set image = child.attachments.images.first() %}
+                                <div class="card-head {{ 'padded'  if image.path.endswith('.png') else '' }}">
                                     {% if image %}
                                         <a href="{{ child|url }}">
                                             <img src="{{ image.thumbnail(400)|url }}" alt="">

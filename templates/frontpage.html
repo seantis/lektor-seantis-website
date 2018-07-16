@@ -69,8 +69,9 @@
                     {% for child in site.get('/success-stories').children.filter(F.frontpage==True).order_by('sort_key') %}
                         <div class="large-4 cell">
                             <div class="card" data-equalizer-watch>
-                                <div class="card-head">
-                                    <img src="{{ child.attachments.images.first().thumbnail(600)|url }}" alt="{{ child.title }}">
+                                {% set image = child.attachments.images.first() %}
+                                <div class="card-head {{ 'padded'  if image.path.endswith('.png') else '' }}">
+                                    <img src="{{ image.thumbnail(600)|url }}" alt="{{ child.title }}">
                                 </div>
                                 <div class="card-section">
                                     <h4>{{ child.title }}</h4>

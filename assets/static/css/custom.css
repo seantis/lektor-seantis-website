@@ -293,8 +293,10 @@ article .h2,
 }
 
 .card-head {
-    padding: 15px;
     height: 180px;
     overflow: hidden;
     background: #F7FAFC;
+}
+.card-head.padded {
+    padding: 15px;
 }
