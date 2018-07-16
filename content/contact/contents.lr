@@ -18,8 +18,13 @@ description: Auf Ihre besonderen Begebenheiten eingehen.
 ---
 body:
 
-seantis gmbh
-Unter der Egg 5
-CH-6004 Luzern
-+41 41 511 22 50
-info@seantis.ch
+Wir freuen uns auf Sie. Sie erreichen uns per Telefon oder email oder besuchen Sie uns in Luzern. 
+
+<p>seantis gmbh<br />
+   Unter der Egg 5<br />
+   CH-6004 Luzern
+</p>
+<p>
+    <i class="far fa-phone"></i>+41 41 511 22 50<br />
+    <i class="fas fa-envelope"></i><a href="mailto:info@seantis.ch">info@seantis.ch</a>
+</p>
