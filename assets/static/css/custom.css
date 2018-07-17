@@ -150,7 +150,7 @@ p {font-size: 1.1rem;}
 }
 
 #solutions .card {
-    padding: 50px;
+    padding: 40px 50px 20px 50px;
     text-align: center;
 }
 
@@ -330,6 +330,9 @@ article .h2,
     }
     .lead {font-size: 125%}
     p {font-size: inherit;}
+    #solutions .card {
+        padding: 20px;
+    }
 }
 
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {
