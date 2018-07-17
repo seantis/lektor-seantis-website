@@ -144,6 +144,11 @@ p {font-size: 1.1rem;}
     padding-top: 30px;
 }
 
+#notebook {
+    background: #F7FAFC;
+    margin: 40px 0;
+}
+
 #solutions .card {
     padding: 50px;
     text-align: center;
