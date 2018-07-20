@@ -1,10 +1,12 @@
 language: python
-python: 2.7
+python: 3.6
 cache:
   directories:
     - $HOME/.cache/pip
     - $HOME/.cache/lektor/builds
-install: "pip install Lektor"
+install:
+  - pip install Lektor
+  - lektor plugins reinstall
 script: "lektor build"
 deploy:
   provider: script

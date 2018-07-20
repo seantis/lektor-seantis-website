@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-import sys
-
 from bs4 import BeautifulSoup
 from json import dumps
 from lektor.build_programs import BuildProgram
@@ -11,20 +8,12 @@ from lektor.sourceobj import VirtualSourceObject
 from lektor.utils import build_url
 
 
-PY2 = sys.version_info[0] == 2
-
-if PY2:
-    text_type = unicode
-else:
-    text_type = str
-
-
 def split_to_list(value):
     return [item.strip() for item in value.split(',') if item.strip()]
 
 
 def json_url(alt):
-    return '/static/js/tipuesearch_content_{}.json'.format(alt)
+    return f'/static/js/tipuesearch_content_{alt}.json'
 
 
 class TipueSource(VirtualSourceObject):
@@ -78,15 +67,15 @@ class TipueBuilderProgram(BuildProgram):
         return pages
 
     def join_fields(self, page, fields):
-        result = text_type()
+        result = ''
 
         for field in split_to_list(fields):
             try:
                 value = page[field]
-                if type(value) == text_type:
+                if isinstance(value, str):
                     result += ' ' + value
                 elif hasattr(value, 'source'):
-                    result += ' ' + text_type(value.source)
+                    result += ' ' + str(value.source)
                 elif hasattr(value, 'html'):
                     soup = BeautifulSoup(value.html, "html.parser")
                     result += ' ' + soup.text
