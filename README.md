@@ -11,3 +11,6 @@ pipenv install --python python3 Lektor
 pipenv run lektor plugins reinstall
 pipenv run lektor server
 ```
+
+## Build status
+[![Build Status](https://travis-ci.org/seantis/lektor-seantis-website.svg?branch=master)](https://travis-ci.org/seantis/lektor-seantis-website)
