@@ -3,7 +3,7 @@ from setuptools import setup
 setup(
     name='lektor-tipue',
     version='0.2',
-    author=u'seantis gmbh',
+    author='seantis gmbh',
     author_email='info@seantis.ch',
     license='MIT',
     install_requires=[

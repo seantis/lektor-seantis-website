@@ -102,7 +102,7 @@ class TipueBuilderProgram(BuildProgram):
 
 
 class TipuePlugin(Plugin):
-    name = u'lektor-tipue'
+    name = 'lektor-tipue'
 
     defaults = {
         'models': 'page',
