@@ -1,0 +1,57 @@
+
+title: OneGov Cloud – Government as a Platform
+---
+
+pub_date: 2018-07-30
+---
+author: seantis
+---
+description: Die OneGov Cloud wurde basierend auf dem Prinzip „Government as a Platform“ entwickelt. Das Plattform-Prinzip soll dadurch für die öffentliche Hand nutzbar gemacht werden. Die Services der OneGov Cloud lassen sich modular zusammenstellen und über Webservice-Schnittstellen miteinander verbinden.
+---
+
+body:
+
+![Highway](highway.jpg)
+
+*Highway in Shanghai, China. Foto [Denys Nevozhai](https://unsplash.com/photos/7nrsVjvALnA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) auf [Unsplash](https://unsplash.com/search/photos/highway?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)*
+
+## Government as a Platform
+
+Der Technologie-Publizist Tim O’Reilly – seines Zeichens Vater des Begriffs „Web 2.0“ – hat bereits im Jahr 2011 die Idee von „Government as a Platform“ ausgerufen. Das traditionelle Regierungs- bzw. Verwaltungsmodell versinnbildlicht O’Reilly als „Vending Machine Government“. Wie am Verkaufsautomaten bezahlen wir und bekommen dafür einen standardisierten Service. Wenn wir nicht bekommen, was wir erwarten, ist unsere Form der Partizipation auf das Schütteln des Verkaufsautomaten beschränkt.
+
+Die neuen Technologien im Zeitalter des Internets ermöglichen es die weitgehend monolithische Struktur des Regierungs- und Verwaltungshandelns aufzubrechen. Öffentliche Dienstleistungen können so viel besser an die vielfältigen und individuellen Bedürfnisse aller Beteiligten angepasst werden. Im Gegensatz dazu bleibt das Sortiment des Selecta-Verkaufsautomaten auf wenige Artikel beschränkt.
+
+Die Idee von Plattformen ist für die öffentliche Hand natürlich keineswegs neu. O’Reilly zeigt dies exemplarisch am Beispiel der Strassen-Infrastruktur, mit welcher eine Plattform für die Mobilität geschaffen wurde. Plattformen sind aus der digitalen Welt nicht wegzudenken. Der Personal Computer (PC) war eine Plattform. Apple veränderte mit dem iPhone die Spielregeln der gesamtem Telefonindustrie. Vor dem iPhone operierten die Telekommunikationsanbieter nach dem Verkaufsautomaten-Modell. Nach der Öffnung der Plattform für iPhone Entwickler konnte plötzlich jedermann seine eigene Smartphone App entwickeln. Apple könnte für „Government as a Platform“ als ein interessantes Beispiel dienen: die Plattform von Apple ist zwar offen, aber keineswegs unreguliert. Apple übt auf seiner iOS Plattform aktiven Einfluss aus, um Innovation zu fördern, aber auch dafür zu sorgen, dass die Regeln eingehalten werden. Nach einem analogen Prinzip funktionieren die extrem erfolgreichen Plattformbetreiber wie Google, Facebook oder Amazon.
+
+Das Beispiel von Amazon ist besonders interessant. Wie konnte ein Online-Warenhaus zum weltweit grössten Anbieter von Cloud Dienstleistungen (Amazon Web Services) werden? Beim Aufbau seiner technischen Plattform gab sich Amazon selbst die strikte Vorgabe, dass die unterschiedlichen technischen Services über klar definierte Schnittstellen (APIs) miteinander verbunden werden.
+
+## Shared Services und APIs
+
+Im Internet-Zeitalter sind Application Programming Interfaces (API) als öffentliche Webservice-Schnittstellen realisierbar. Eine konkrete technische Umsetzung stellen Public Representational State Transfer (REST) APIs dar. APIs schaffen niederschwellige Möglichkeiten für die Integrationen von Services. Die OneGov Cloud ist konzeptionell mit genau solchen Shared Services aufgebaut, welche über APIs miteinander verbunden werden können. Die Basis-Services der OneGov Cloud bieten folgende Funktionalität:
+
+- Identity- & Access-Management
+- Workflows
+- Service Ticketing
+- Payments
+- Email & SMS Delivery Infrastructure
+- Content Management System
+
+Webservice APIs schaffen zudem die Möglichkeit der Anbindung von Softwarelösungen anderer Softwareentwickler. Ein Beispiel dafür ist eine Smartphone-App oder eine Schnittstelle zur Publikation von Wahl- und Abstimmungsdaten direkt aus einer Fachapplikation.
+
+## Eine offene Plattform für unterschiedliche Anwendungen
+
+Die OneGov Cloud schafft mit ihrer offenen Architektur die Basis für „Government as a Platform“. Auf der Plattform konnten bereits ganz unterschiedliche Lösungen entwickelt werden: ein Online-Schalter für Gemeinden, eine Publikationsplattform für Wahl- und Abstimmungsresultate sowie eine Buchungsplattform für Ferienpässe.
+
+Plattformen bergen die Gefahr, dass die Hüterin der Plattform ihre Macht missbraucht. Aus diesem Grund ist die OneGov Cloud Open Source; so kann verhindert werden, dass die öffentliche Hand in Abhängigkeiten eines Anbieters gerät.
+
+<hr />
+
+#### Links
+- OneGov Cloud – Smart Government Platform: https://www.onegovcloud.ch
+- [Open Source Studie 2018](Open-Source-Studie-2018.pdf) [PDF, 5MB]
+
+#### Literatur
+O'Reilly Tim (2011): Government as a Platform, in: Innovations: Technology, Governance, Globalization - MIT Press. https://www.mitpressjournals.org/doi/pdf/10.1162/INOV_a_00056
+
+#### Autor
+Fabian Reinhard ist Gründer und Geschäftsführer der seantis gmbh. Er hat an der Universität Zürich Politikwissenschaft, Volkswirtschaft sowie Allgemeines Staatsrecht studiert und hat sich an der Harvard University weitergebildet.
