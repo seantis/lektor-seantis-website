@@ -29,13 +29,18 @@
               </div>
               <div class="top-bar-right">
                   <ul class="menu" data-dropdown-menu>
-                      <li><a href="{{ '/portrait'|url }}">Über uns</a></li>
-                      <li><a href="{{ '/engineering'|url }}">Engineering</a></li>
-                      <li><a href="{{ '/services'|url }}">Services</a></li>
-                      <li><a href="{{ '/success-stories'|url }}">Erfolgsgeschichten</a></li>
-                      <li><a href="{{ '/news'|url }}">News</a></li>
-                      <li><a href="{{ '/blog'|url }}">Blog</a></li>
-                      <li class="contact"><a href="{{ '/contact'|url }}">Kontakt</a></li>
+                      {% set menu = [
+                          ['/portrait', 'Über uns', ''],
+                          ['/engineering', 'Engineering', ''],
+                          ['/services', 'Services', ''],
+                          ['/success-stories', 'Erfolgsgeschichten', ''],
+                          ['/news', 'News', ''],
+                          ['/blog', 'Blog', ''],
+                          ['/contact', 'Kontakt', 'contact']
+                      ] %}
+                      {% for href, title, class_ in menu %}
+                          <li class="{{ ' '.join([class_, 'active' if this.is_child_of(href) else '']) }}"><a href="{{ href|url }}">{{ title }}</a></li>
+                      {% endfor %}
                   </ul>
               </div>
             </div>
