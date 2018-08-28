@@ -58,6 +58,18 @@ p img {
     color: #6A778B
 }
 
+.menu li a:hover {
+    color: #41B6E6;
+}
+
+.menu li.active a {
+    color: #41B6E6;
+}
+
+.menu .active>a {
+    background: transparent
+}
+
 .top-bar .input-group {
     margin-bottom: 0
 }
