@@ -1,0 +1,39 @@
+title: Verbesserung der Datenqualität in medizinischen Studien
+---
+
+pub_date: 2018-09-04
+---
+author: seantis
+---
+description: Mit dem neuen 'Issue Tracker' werden die Tools zur Überprüfung und zur Qualitätskontrolle von medizinischen Daten direkt in die HealthData.ai Plattform integriert.
+---
+
+customer: [Fondation rhumatismes-enfants-suisse](http://www.fondationres.org)
+---
+
+technology: [HealthData.ai](http://www.healthdata.ai)
+---
+
+task: Um in medizischen Forschungsprojekten die Datenqulität sicherzustellen, müssen die Daten auf Abweichungen von den erwarteten Dateneingaben bzw. auf fehlende Datenpunkte überprüft werden.
+
+---
+solution: 'Issues' werden durch 'Data Monitors' im Falle von abweichenden, unklaren oder fehlenden Daten eröffnet. Ein Stanardbenutzer sieht die Übersicht und den Status der erfassten 'Issues'.
+
+![Open Issues](issues.png)
+
+Benutzer mit der Rolle 'Data Monitor' können neue 'Issues' erfassen. Die Benutzer sehen dabei keine sensitiven personenbezogenen Daten wie Patientennamen. Erfasste 'Issues' werden durch das medinische Fachpersonal bearbeitet und nach der Beantwortung geschlossen. Der  'Data Monitor' hat stets den Überblick über die offenen 'Issues' und den Status aller Tickets.
+
+---
+benefit: Die Daten müssen nicht länger in externe Listen und zurück in die Datenplattform überführt werden. Damit verbessert der 'Issue Tracker' die Datenqualität indem der Prozess der Datenüberprüfung signifikant weniger fehleranfällig wird.
+
+![Issue im Kontext](issue-context.png)
+
+---
+links:
+
+- HealthData.ai: [www.healthdata.ai](http://www.healthdata.ai)
+- Fondation rhumatismes-enfants-suisse: [www.fondationres.org](http://www.fondationres.org)
+- CHUV - Centre hospitalier universitaire vaudois: [www.chuv.ch](https://www.chuv.ch)
+
+---
+frontpage: yes
