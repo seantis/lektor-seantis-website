@@ -14,17 +14,17 @@ customer: [Fondation rhumatismes-enfants-suisse](http://www.fondationres.org)
 technology: [HealthData.ai](http://www.healthdata.ai)
 ---
 
-task: Um in medizischen Forschungsprojekten die Datenqulität sicherzustellen, müssen die Daten auf Abweichungen von den erwarteten Dateneingaben bzw. auf fehlende Datenpunkte überprüft werden.
+task: Um in medizischen Forschungsprojekten die Datenqualität sicherzustellen, müssen die Daten auf Abweichungen von den erwarteten Dateneingaben bzw. auf fehlende Datenpunkte überprüft werden.
 
 ---
-solution: 'Issues' werden durch 'Data Monitors' im Falle von abweichenden, unklaren oder fehlenden Daten eröffnet. Ein Stanardbenutzer sieht die Übersicht und den Status der erfassten 'Issues'.
+solution: 'Issues' werden bei abweichenden, unklaren oder fehlenden Daten durch 'Data Monitors' eröffnet. Andere Benutzer sehen eine Übersicht und den Status der 'Issues', die von ihnen erfasste Daten betreffen.
 
 ![Open Issues](issues.png)
 
-Benutzer mit der Rolle 'Data Monitor' können neue 'Issues' erfassen. Die Benutzer sehen dabei keine sensitiven personenbezogenen Daten wie Patientennamen. Erfasste 'Issues' werden durch das medinische Fachpersonal bearbeitet und nach der Beantwortung geschlossen. Der  'Data Monitor' hat stets den Überblick über die offenen 'Issues' und den Status aller Tickets.
+Benutzer mit der Rolle 'Data Monitor' können neue 'Issues' erfassen. Diese Benutzer sehen dabei keine sensitiven personenbezogenen Daten wie Patientennamen. Erfasste 'Issues' werden durch das medizinische Fachpersonal bearbeitet und nach der Beantwortung geschlossen. Der 'Data Monitor' hat stets den Überblick über die offenen 'Issues' und deren Status.
 
 ---
-benefit: Die Daten müssen nicht länger in externe Listen und zurück in die Datenplattform überführt werden. Damit verbessert der 'Issue Tracker' die Datenqualität indem der Prozess der Datenüberprüfung signifikant weniger fehleranfällig wird.
+benefit: Die Daten müssen nicht länger in externe Listen und zurück in die Datenplattform überführt werden. Damit verbessert der 'Issue Tracker' die Datenqualität da der Prozess der Datenüberprüfung bedeutend weniger fehleranfällig ist.
 
 ![Issue im Kontext](issue-context.png)
 
