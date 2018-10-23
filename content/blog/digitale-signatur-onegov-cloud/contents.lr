@@ -9,14 +9,14 @@ author: seantis
 description: In Zusammenarbeit mit der Swisscom bietet die OneGov Cloud eine elektronische Unterschrift zur rechtsgültigen Signatur von Dokumenten.
 ---
 
-body: 
+body:
 
 Amtliche Publikationen werden vermehrt digital verbreitet. Einwohnerinnen und Einwohner sehen sich den letzten Gemeinderatsbeschluss auf ihrem Handy an. Dokumente werden heruntergeladen oder per E-Mail verschickt.
 
 ### Rechtliche Bedeutung der elektronischen Signatur
 Elektronische Unterschriften bzw. digitale Signaturen ermöglichen die Sicherstellung der Integrität von Dokumenten und bestätigen deren Urheberschaft. Ergo kann damit sichergestellt werden, dass ein digital signiertes Dokument seit der Unterschrift nicht verändert wurde und dass es von einer bestimmten Person bzw. Organisation unterzeichnet wurde.
 
-Qualifizierte elektronische Signaturen, welche mit einem qualifizierten Zeitstempel verbunden sind, sind rechtlich der eigenhändigen Unterschrift gleichgestellt (Art. 14 Abs. 2bis OR, vgl. https://www.egovernment.ch/de/dokumentation/rechtliche-fragen/elektronische-signatur). 
+Qualifizierte elektronische Signaturen, welche mit einem qualifizierten Zeitstempel verbunden sind, sind rechtlich der eigenhändigen Unterschrift gleichgestellt (Art. 14 Abs. 2bis OR, vgl. https://www.egovernment.ch/de/dokumentation/rechtliche-fragen/elektronische-signatur).
 
 ### Eine verbesserte Dateiverwaltung
 Für die Integration der digitalen Signatur mussten entsprechende Vorarbeiten geleistet werden. Der erste Schritt war die Weiterentwicklung der Dateiverwaltung. Die weiterentwickelte Dateiverwaltung sieht nicht nur besser aus, sondern bietet auch zusätzliche Funktionen:
@@ -28,7 +28,7 @@ Für die Integration der digitalen Signatur mussten entsprechende Vorarbeiten ge
 
 ![Dateiverwaltung](Dateiverwaltung.png)
 
-### Workflow zur Publikationssteuerung 
+### Workflow zur Publikationssteuerung
 Dateien und Bilder sind auf der OneGov Cloud nach dem Upload grundsätzlich öffentlich. Allerdings sind Uploads praktisch unauffindbar. Man muss die Datei irgendwo auf der Webseite verlinken um diese auffindbar zu machen.
 
 Signierte Dateien sind nicht direkt öffentlich, sondern durchlaufen einen Publikationsworkflow. Der Publikationszeitpunkt kann über die Dateiverwaltung gesteuert werden. So kann man eine Datei beispielsweise bereits auf einer Themen-Seite verlinken, diese aber erst ab einem bestimmten Zeitpunkt veröffentlichen. Die Veröffentlichung ist dabei auf die Stunde exakt steuerbar.
@@ -48,7 +48,8 @@ Folgende Informationen werden für die Nachvollziehbarkeit permanent aufgezeichn
 - Der auslösende Benutzer
 - Der Fingerabdruck der Datei vor der Signatur
 - Der Fingerabdruck der Datei nach der Signatur
-- Selbst wenn die Datei später gelöscht wird, können wir weiterhin prüfen ob eine bestimmte Datei auf unserem System signiert wurde.
+
+Selbst wenn die Datei später gelöscht wird, können wir weiterhin prüfen ob eine bestimmte Datei auf unserem System signiert wurde.
 
 ### Amtliche Publikationen
 Elektronisch unterschriebene Dokumente erhalten einen speziellen Status als amtliche Publikationen. Amtliche Publikationen werden auf einer neuen Ansicht dargestellt, welche prominent von der der Startseite verlinkt ist.
@@ -63,7 +64,7 @@ Hierbei gruppieren wir die Dateien nach Zeitpunkt der Erstellung, also wann dies
 
 ![Publikationen](Publikationen.png)
 
-### Verifikation digitaler Signaturen 
+### Verifikation digitaler Signaturen
 Signierte Dateien können grundsätzlich im Adobe Acrobat Reader auf Ihre Signatur hin überprüft werden. Dafür muss das Programm Acrobat Reader auf dem Rechner installiert sein und der Benutzer muss wissen, wie die Überprüfung vorgenommen werden kann.
 
 Um die Überprüfung zu vereinfachen ist auf der Ansicht mit dem amtlichen Publikationen ein kleines Tool zur Verifizierung der signierten Dateien eingebaut. Hat ein User ein Dokument heruntergeladen oder auf anderem Weg erhalten, kann er die digitale Signatur direkt bei uns prüfen lassen. Dies geschieht im Browser, ohne dass die Datei auf dem Server hochgeladen wird.
