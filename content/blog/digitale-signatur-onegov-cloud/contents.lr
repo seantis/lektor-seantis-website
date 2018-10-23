@@ -34,7 +34,7 @@ Dateien und Bilder sind auf der OneGov Cloud nach dem Upload grundsätzlich öff
 Signierte Dateien sind nicht direkt öffentlich, sondern durchlaufen einen Publikationsworkflow. Der Publikationszeitpunkt kann über die Dateiverwaltung gesteuert werden. So kann man eine Datei beispielsweise bereits auf einer Themen-Seite verlinken, diese aber erst ab einem bestimmten Zeitpunkt veröffentlichen. Die Veröffentlichung ist dabei auf die Stunde exakt steuerbar.
 
 ### Digitale Signaturen
-Dokumente können in der OneGov Cloud rechtsgültig digital unterzeichnet werden. Der Prozess der digitalen Signatur stellt erhöhte Anforderungen an die Sicherheit. Nur Administratoren haben das Recht zum digitalen Signieren und selbst wenn sie bereits eingeloggt sind müssen sie zum Signieren immer ihren YubiKey verwenden. Damit wird verhindert, dass jemand unbefugt ein Dokument mit einer elektronischen Signatur erstellt. Für eine missbräuchliche Signatur müsste also nicht nur das Login und Passwort des Administrator in die falschen Hände geraten, sondern auch dessen physischer YubiKey gestohlen worden sein. Eine handschriftliche Unterschrift zu fälschen scheint uns einfacher.
+Dokumente können in der OneGov Cloud rechtsgültig digital unterzeichnet werden. Der Prozess der digitalen Signatur stellt erhöhte Anforderungen an die Sicherheit. Nur Administratoren haben das Recht zum digitalen Signieren und selbst wenn sie bereits eingeloggt sind müssen sie zum Signieren immer ihren YubiKey verwenden. Damit wird verhindert, dass jemand unbefugt ein Dokument mit einer elektronischen Signatur erstellt. Für eine missbräuchliche Signatur müssten also nicht nur das Login und Passwort des Administrators in falsche Hände geraten, sondern auch dessen physischer YubiKey gestohlen worden sein. Eine handschriftliche Unterschrift zu fälschen scheint uns einfacher.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EhZSS1maX2I" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
@@ -52,7 +52,7 @@ Folgende Informationen werden für die Nachvollziehbarkeit permanent aufgezeichn
 Selbst wenn die Datei später gelöscht wird, können wir weiterhin prüfen ob eine bestimmte Datei auf unserem System signiert wurde.
 
 ### Amtliche Publikationen
-Elektronisch unterschriebene Dokumente erhalten einen speziellen Status als amtliche Publikationen. Amtliche Publikationen werden auf einer neuen Ansicht dargestellt, welche prominent von der der Startseite verlinkt ist.
+Elektronisch unterschriebene Dokumente erhalten einen speziellen Status als amtliche Publikationen. Amtliche Publikationen werden auf einer neuen Ansicht dargestellt, welche prominent von der Startseite verlinkt ist.
 
 Auf der Ansicht Publikationen werden Dokumente angezeigt, welche folgende Eigenschaften haben:
 
@@ -65,11 +65,11 @@ Hierbei gruppieren wir die Dateien nach Zeitpunkt der Erstellung, also wann dies
 ![Publikationen](Publikationen.png)
 
 ### Verifikation digitaler Signaturen
-Signierte Dateien können grundsätzlich im Adobe Acrobat Reader auf Ihre Signatur hin überprüft werden. Dafür muss das Programm Acrobat Reader auf dem Rechner installiert sein und der Benutzer muss wissen, wie die Überprüfung vorgenommen werden kann.
+Signierte Dateien können grundsätzlich im Adobe Acrobat Reader auf ihre Signatur hin überprüft werden. Dafür muss das Programm Acrobat Reader auf dem Rechner installiert sein und der Benutzer muss wissen, wie die Überprüfung vorgenommen werden kann.
 
-Um die Überprüfung zu vereinfachen ist auf der Ansicht mit dem amtlichen Publikationen ein kleines Tool zur Verifizierung der signierten Dateien eingebaut. Hat ein User ein Dokument heruntergeladen oder auf anderem Weg erhalten, kann er die digitale Signatur direkt auf der OneGov Cloud überprüfen lassen. Dies geschieht im Browser, ohne dass die Datei auf dem Server hochgeladen wird.
+Um die Überprüfung zu vereinfachen ist auf der Ansicht mit dem amtlichen Publikationen ein kleines Tool zur Verifizierung der signierten Dateien eingebaut. Hat ein User ein Dokument heruntergeladen oder auf anderem Weg erhalten, kann er die digitale Signatur direkt auf der OneGov Cloud überprüfen lassen. Dies geschieht im Browser, ohne dass die Datei auf den Server hochgeladen wird.
 
-Für die Prüfung wird das zu prüfende signierte Dokument einfach  ins Prüffeld geladen. Das Ergebnis der Prüfung wird unmittelbar angezeigt.
+Für die Prüfung wird das zu prüfende signierte Dokument einfach  ins Prüffeld gezogen. Das Ergebnis der Prüfung wird unmittelbar angezeigt.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/OMnV8HTf8Lc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
