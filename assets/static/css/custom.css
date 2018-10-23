@@ -362,3 +362,7 @@ article .h2,
     width: 180px;
     margin-bottom: 30px;
 }
+
+iframe {
+    margin: 30px 0;
+}
