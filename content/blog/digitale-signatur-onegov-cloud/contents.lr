@@ -67,7 +67,7 @@ Hierbei gruppieren wir die Dateien nach Zeitpunkt der Erstellung, also wann dies
 ### Verifikation digitaler Signaturen
 Signierte Dateien können grundsätzlich im Adobe Acrobat Reader auf Ihre Signatur hin überprüft werden. Dafür muss das Programm Acrobat Reader auf dem Rechner installiert sein und der Benutzer muss wissen, wie die Überprüfung vorgenommen werden kann.
 
-Um die Überprüfung zu vereinfachen ist auf der Ansicht mit dem amtlichen Publikationen ein kleines Tool zur Verifizierung der signierten Dateien eingebaut. Hat ein User ein Dokument heruntergeladen oder auf anderem Weg erhalten, kann er die digitale Signatur direkt bei uns prüfen lassen. Dies geschieht im Browser, ohne dass die Datei auf dem Server hochgeladen wird.
+Um die Überprüfung zu vereinfachen ist auf der Ansicht mit dem amtlichen Publikationen ein kleines Tool zur Verifizierung der signierten Dateien eingebaut. Hat ein User ein Dokument heruntergeladen oder auf anderem Weg erhalten, kann er die digitale Signatur direkt auf der OneGov Cloud überprüfen lassen. Dies geschieht im Browser, ohne dass die Datei auf dem Server hochgeladen wird.
 
 Für die Prüfung wird das zu prüfende signierte Dokument einfach  ins Prüffeld geladen. Das Ergebnis der Prüfung wird unmittelbar angezeigt.
 
