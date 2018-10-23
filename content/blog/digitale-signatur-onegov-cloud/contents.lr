@@ -38,7 +38,7 @@ Dokumente können in der OneGov Cloud rechtsgültig digital unterzeichnet werden
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EhZSS1maX2I" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-Vor jedem digitalen Signieren wird also zur Sicherheit im Hintergrund das Login und der YubiKey geprüft. Ein sogenannter digitaler Fingerabdruck des Dokuments wird danach an den ‚All-in Signing Service‘ der Swisscom gesendet wo das Dokument digital signiert wird.
+Vor jedem digitalen Signaturvorgang wird also zur Sicherheit im Hintergrund das Login und der YubiKey geprüft. Ein sogenannter digitaler Fingerabdruck des Dokuments wird danach an den ‚All-in Signing Service‘ der Swisscom gesendet wo das Dokument digital signiert wird.
 
 Folgende Informationen werden für die Nachvollziehbarkeit permanent aufgezeichnet:
 
