@@ -36,7 +36,9 @@ Signierte Dateien sind nicht direkt öffentlich, sondern durchlaufen einen Publi
 ### Digitale Signaturen
 Dokumente können in der OneGov Cloud rechtsgültig digital unterzeichnet werden. Der Prozess der digitalen Signatur stellt erhöhte Anforderungen an die Sicherheit. Nur Administratoren haben das Recht zum digitalen Signieren und selbst wenn sie bereits eingeloggt sind müssen sie zum Signieren immer ihren YubiKey verwenden. Damit wird verhindert, dass jemand unbefugt ein Dokument mit einer elektronischen Signatur erstellt. Für eine missbräuchliche Signatur müssten also nicht nur das Login und Passwort des Administrators in falsche Hände geraten, sondern auch dessen physischer YubiKey gestohlen worden sein. Eine handschriftliche Unterschrift zu fälschen scheint uns einfacher.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/EhZSS1maX2I" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div class="responsive-embed">
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/EhZSS1maX2I" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
 
 Vor jedem digitalen Signaturvorgang wird also zur Sicherheit im Hintergrund das Login und der YubiKey geprüft. Ein sogenannter digitaler Fingerabdruck des Dokuments wird danach an den ‚All-in Signing Service‘ der Swisscom gesendet wo das Dokument digital signiert wird.
 
@@ -71,7 +73,9 @@ Um die Überprüfung zu vereinfachen ist auf der Ansicht mit dem amtlichen Publi
 
 Für die Prüfung wird das zu prüfende signierte Dokument einfach  ins Prüffeld gezogen. Das Ergebnis der Prüfung wird unmittelbar angezeigt.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/OMnV8HTf8Lc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div class="responsive-embed">
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/OMnV8HTf8Lc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
 
 ### Shared Signing Service
 Das Zertifikatsmanagement ist erfahrungsgemäss eine nicht ganz einfache Sache. In Zusammenarbeit mit der Swisscom bietet die OneGov Cloud allen Gemeinden einen ‚Shared Signing Service‘ ohne Zusatzkosten an. Einziger Nachteil: im Adobe Acrobat Reader wird das verwendete Zertifikat als ‚signed.onegovcloud.ch‘ angezeigt. Ist dies nicht gewünscht, so bezieht die Gemeinde bei der Swisscom ein eigenes Zertifikat. Auch dafür können wir in Zusammenarbeit mit der Swisscom ein sehr attraktives Angebot machen. Die OneGov Cloud bietet also auch bei der digitalen Signatur die ideale Lösung für alle Gemeinden, gross und klein.
