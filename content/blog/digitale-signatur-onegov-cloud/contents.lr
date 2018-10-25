@@ -83,6 +83,6 @@ Das Zertifikatsmanagement ist erfahrungsgemäss eine nicht ganz einfache Sache. 
 ### Volltextsuche für Dokumente
 Zu guter Letzt gibt es auch noch eine Verbesserung bei der Suche. Mit der neuen Version der OneGov Cloud werden die Inhalte von Dokumenten in den Index für die Volltextsuche aufgenommen. Angemeldete Benutzer können alle PDF Dateien durchsuchen, Besucher nur publizierte und signierte Dateien. Voraussetzung für die Indexierung ist, dass das PDF eingebetteten Text enthält. Ist im PDF lediglich ein Bild eines Dokumentes und kein Text gespeichert, können die Inhalte des Dokumentes nicht indexiert werden. Dokumente mit nur Bilddateien (z.B. aus einem Scanner) sind grundsätzlich zu vermeiden. Wenn das System die Textinhalte nicht auswerten kann, so ist nämlich auch die Barrierefreiheit z.B. für Sehbehinderte nicht gegeben.
 
-Die digitale Signatur ist ab sofort in der OneGov Cloud verfügbar. Mehr Informationen zur OneGov Cloud: [www.onegovcloud.ch](www.onegovcloud.ch)
+Die digitale Signatur ist ab sofort in der OneGov Cloud verfügbar. Mehr Informationen zur OneGov Cloud: [www.onegovcloud.ch](http://www.onegovcloud.ch)
 
 **Fabian Reinhard, [fabian.reinhard@seantis.ch](mailto:fabian.reinhard@seantis.ch), +41 41 511 22 50**
