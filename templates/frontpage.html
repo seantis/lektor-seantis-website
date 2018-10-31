@@ -56,6 +56,7 @@
 
         <div id="platform">
             <div class="grid-container">
+
                 <div class="grid-x grid-padding-x">
                     <div class="large-7 large-offset-1 cell">
                         <h4><small>Agile Mindset - Open Source Toolset</small></h4>
@@ -69,48 +70,13 @@
 
                     </div>
                 </div>
-            </div>
-
-            <div id="notebook">
-                <div class="grid-container">
-                    <div class="grid-x grid-padding-x">
-                        <div class="large-8 cell">
-                            <a href="http://www.healthdata.ai">
-                                <img class="full" src="{{ '/static/img/notebook.png'|url }}" alt="OneGov Cloud">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="listing">
-            <div class="grid-container">
                 <div class="grid-x grid-padding-x">
-                    <div class="large-5 large-offset-1 cell">
-                        <h4><small>Gemeinsam zum Erfolg</small></h4>
-                        <h3>Erfolgsgeschichten</h3>
+                    <div class="cell">
+                        <img class="full" src="{{ '/static/img/team/office.jpg'|url }}" alt="Team">
                     </div>
                 </div>
-                <div class="grid-x grid-padding-x" data-equalizer data-equalize-on="medium">
-                    {% for child in site.get('/success-stories').children.filter(F.frontpage==True).order_by('-pub_date') %}
-                        <div class="large-4 cell">
-                            <div class="card" data-equalizer-watch>
-                                {% set image = child.attachments.images.first() %}
-                                <div class="card-head {{ 'padded'  if image.path.endswith('.png') else '' }}">
-                                    <img src="{{ image.thumbnail(600)|url }}" alt="{{ child.title }}">
-                                </div>
-                                <div class="card-section">
-                                    <h4>{{ child.title }}</h4>
-                                    <p>{{ child.description }}</p>
-                                    <a href="{{ child|url }}">&rarr; mehr erfahren</a>
-                                </div>
-                            </div>
-                        </div>
-                    {% endfor %}
-                </div>
             </div>
+
         </div>
 
         <div id="customers">
@@ -261,7 +227,32 @@
             </div>
         </div>
 
-        {{ render_team() }}
-
+        <div class="listing">
+            <div class="grid-container">
+                <div class="grid-x grid-padding-x">
+                    <div class="large-5 large-offset-1 cell">
+                        <h4><small>Gemeinsam zum Erfolg</small></h4>
+                        <h3>Erfolgsgeschichten</h3>
+                    </div>
+                </div>
+                <div class="grid-x grid-padding-x" data-equalizer data-equalize-on="medium">
+                    {% for child in site.get('/success-stories').children.filter(F.frontpage==True).order_by('-pub_date') %}
+                        <div class="large-4 cell">
+                            <div class="card" data-equalizer-watch>
+                                {% set image = child.attachments.images.first() %}
+                                <div class="card-head {{ 'padded'  if image.path.endswith('.png') else '' }}">
+                                    <img src="{{ image.thumbnail(600)|url }}" alt="{{ child.title }}">
+                                </div>
+                                <div class="card-section">
+                                    <h4>{{ child.title }}</h4>
+                                    <p>{{ child.description }}</p>
+                                    <a href="{{ child|url }}">&rarr; mehr erfahren</a>
+                                </div>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
     </div>
 {% endblock %}
