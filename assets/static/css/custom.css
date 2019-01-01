@@ -112,10 +112,13 @@ p img {
 
 #splash {
     margin-top: 30px;
-    background: url('../../static/img/brain.jpg');
+    .background: url('../../static/img/brain.jpg');
+    background: url('../../static/img/meeting.jpg');
+    .background: url('../../static/img/code.jpg');
+    .background: url('../../static/img/coder.jpg');
     background-size: contain;
     background-repeat: no-repeat;
-    padding-top: 90px;
+    padding-top: 60px;
 }
 
 .intro {
@@ -141,6 +144,7 @@ p img {
 #square h3 {
     font-weight: 500;
     margin-bottom: 20px;
+    margin-top: 0;
 }
 
 #square p {
@@ -344,7 +348,7 @@ article .h2,
     .menu {display: block}
     .contact {border-left: none; margin-left: 0px; padding-right: 10px}
     #square {
-        margin: 80px 0 0px 0;
+        margin: 130px 0 0px 0;
         min-height: auto;
     }
     .lead {font-size: 125%}
