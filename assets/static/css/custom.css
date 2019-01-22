@@ -72,6 +72,10 @@ p img {
     background: transparent
 }
 
+.menu .button, .menu a {
+    padding: .7rem .8rem;
+}
+
 .top-bar .input-group {
     margin-bottom: 0
 }
