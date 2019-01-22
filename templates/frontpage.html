@@ -5,7 +5,7 @@
     <div class="main-content">
         <div class="grid-container">
             <div class="grid-x grid-margin-x">
-                <div class="large-7 large-offset-1 cell">
+                <div class="large-7 large-offset-1 medium-10 medium-offset-1 cell">
                     <div id="intro">
                         <h1>Data Driven Web Applications</h1>
                         <p>Wir entwickeln Webapplikationen für die <a href="http://www.healthdata.ai">medizinische Forschung</a>, <a href="http://www.onegovcloud.ch">die öffentliche Verwaltung</a> sowie für die <a href="http://www.mycontrol.aero">Aviatik</a>.</p>
@@ -19,7 +19,7 @@
             <div class="listing team">
                 <div class="grid-container">
                     <div class="grid-x grid-padding-x" data-equalizer data-equalize-on="small">
-                        <div class="large-4 cell">
+                        <div class="large-4 medium-4 cell">
                             <a href="http://www.healthdata.ai">
                                 <div class="card" data-equalizer-watch>
                                     <img src="{{ '/static/img/healthdata.svg'|url }}" alt="HealthData.ai">
@@ -29,7 +29,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="large-4 cell">
+                        <div class="large-4 medium-4 cell">
                             <a href="http://www.onegovcloud.ch">
                                 <div class="card" data-equalizer-watch>
                                     <img src="{{ '/static/img/onegovcloud.svg'|url }}" alt="OneGov Cloud">
@@ -39,7 +39,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="large-4 cell">
+                        <div class="large-4 medium-4 cell">
                             <a href="http://www.mycontrol.aero">
                                 <div class="card" data-equalizer-watch>
                                     <img src="{{ '/static/img/mycontrol.svg'|url }}" alt="myControl.aero">
@@ -58,13 +58,13 @@
             <div class="grid-container">
 
                 <div class="grid-x grid-padding-x">
-                    <div class="large-7 large-offset-1 cell">
+                    <div class="large-7 large-offset-1 medium-10 medium-offset-1 cell">
                         <h4><small>Agile Mindset - Open Source Toolset</small></h4>
                         <h3>Softwareentwicklung mit hohem Qualitätsanspruch nach Agiler Methodik</h3>
                     </div>
                 </div>
                 <div class="grid-x grid-padding-x">
-                    <div class="large-7 large-offset-1 cell">
+                    <div class="large-7 large-offset-1 medium-10 medium-offset-1 cell">
                         <p>Wir arbeiten seit mehr als zehn Jahren mit Open Source Software und sind aktiv in mehreren Open Source Communities. Mit Open Source verbinden wir mehr als einfach «Gratis-Software». Der Ansatz entspringt vielmehr einer Geisteshaltung und damit verbundenen Idealen auf dem Weg zu besseren IT-Lösungen. Wir entwicklen qualitativ hochstehende Software. Dazu setzen wir auf die besten Open Source Entwickler-Tools und arbeiten gemäss Agiler Methodik.</p>
                         <p>Für unsere Webapplikationen durften wir <a href="{{ '/portrait/awards'|url }}">Preise und Auszeichnungen</a> entgegennehmen.</p>
 
@@ -82,7 +82,7 @@
         <div id="customers">
             <div class="grid-container">
                 <div class="grid-x grid-padding-x">
-                    <div class="large-7 large-offset-1 cell">
+                    <div class="large-7 large-offset-1 medium-10 medium-offset-1 cell">
                         <div class="intro">
                             <h4><small>Gemeinsam zum Erfolg</small></h4>
                             <h3>Überzeugende Lösungen &ndash; erfolgreiche Kunden</h3>
@@ -230,14 +230,14 @@
         <div class="listing">
             <div class="grid-container">
                 <div class="grid-x grid-padding-x">
-                    <div class="large-5 large-offset-1 cell">
+                    <div class="large-5 large-offset-1 medium-10 medium-offset-1 cell">
                         <h4><small>Gemeinsam zum Erfolg</small></h4>
                         <h3>Erfolgsgeschichten</h3>
                     </div>
                 </div>
                 <div class="grid-x grid-padding-x" data-equalizer data-equalize-on="medium">
                     {% for child in site.get('/success-stories').children.filter(F.frontpage==True).order_by('-pub_date') %}
-                        <div class="large-4 cell">
+                        <div class="large-4 medium-6 cell">
                             <div class="card" data-equalizer-watch>
                                 {% set image = child.attachments.images.first() %}
                                 <div class="card-head {{ 'padded'  if image.path.endswith('.png') else '' }}">
