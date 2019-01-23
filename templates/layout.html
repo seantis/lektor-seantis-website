@@ -68,14 +68,18 @@
     </div>
 
     <div id="hero">
+        {% if this.attachments.images %}
+            {% set image = this.attachments.images.first() %}
+        {% else %}
+            {% set image = '' %}
+        {% endif %}
         <div class="grid-container">
-            <div id="splash">
+            <div id="splash" style="background: url({{ image|url }});">
                 <div class="grid-x grid-margin-x">
                     <div class="large-5 large-offset-6 cell">
                         <div id="square">
-                            <h3>Daten werden komplexer. Unsere Lösungen bleiben einfach.</h3>
-                            <p>Für die medizinische Forschung nutzen wir Deep Learning zum Scoring von Röntgenbildern.</p>
-                            <p><a href="{{ '/success-stories/deep-learning-xray'|url }}">&rarr; Projekt DeepXray</a></p>
+                            <h3>{{ this.title }}</h3>
+                            <p>{{ this.description }}</p>
                         </div>
                     </div>
                 </div>
