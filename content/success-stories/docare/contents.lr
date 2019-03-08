@@ -1,0 +1,48 @@
+title: docare.ch - Mehr Zeit, Effizienz und Sicherheit in der Arztpraxis
+---
+
+pub_date: 2019-03-08
+---
+author: seantis
+---
+description: Mit docare.ch registrieren sich Patienten ganz einfach vor dem Arztbesuch und erfassen online ihre Symptome. Die Plattform wurde in Zusammenarbeit mit MSD Merck Sharp & Dohme AG entwickelt.
+---
+
+customer: [MSD Merck Sharp & Dohme AG](http://www.msd.ch)
+---
+
+technology: [HealthData.ai](http://www.healthdata.ai)
+---
+
+task: [docare.ch](http://www.docare.ch) bietet nicht nur eine Online-Registerung, sondern vereinfacht den Prozess bei der Patientenaufnahme in der Praxis grundlegend.
+
+> “Meine neuen Patienten melden ihre Symptome, früheren Behandlungen, eingenommenen Medikamente und andere relevante Informationen noch vor der Konsultation. Das gibt mir mehr Zeit für die Hauptanliegen der Patienten, wodurch die Qualität der Sprechstunde sowohl für den Patienten, als auch den Arzt erhöht wird.“
+
+**Andreas Moser**, Facharzt Dermatologie und Venerologie, Affoltern am Albis
+
+---
+solution: [docare.ch](http://www.docare.ch) wurde auf Basis der Plattform HealthData.ai entwickelt und bietet eine nahtlose Schnittstelle für Praxisinformationssysteme. Die [Webservice API](https://seantis.github.io/docare-api-doc/#introduction) basiert auf dem internationalen [HL7® FHIR®](http://www.hl7.org/fhir/) Standard für den Austausch von Gesundheitsinformationen.
+
+---
+benefit:
+
+Die Patienten geben online ihre Adresse und Krankenversicherungsdaten ein und melden sich so gleich bei der Praxis an. Zur Validierung und Bestätigung des Versicherungsschutzes ist der [Covercard®-Service](http://www.covercard.ch) integriert.
+
+##### Erhöhte Qualität der Sprechstunde
+Vor der Konsultation bereiten sich die Patienten dank dem Online-Fragebogen auf die wichtigsten Anamnesefragen vor. Zusammen mit medizinischen Experten aus Ihrem therapeutischen Fachgebiet, haben wurde ein professionelles Voranamnese-Verfahren entwickelt.
+
+##### Mehr Zeit für die Patienten dank Voranamnese
+Auf einen Blick stehen in der Praxis alle beantworteten Krankheitsinformationen des Patienten zur Verfügung. Mit der integrierten Liste der Swissmedic zugelassenen Arzneimitteln, erfassen die Patienten die Informationen zu den eingenommenen Medikamenten.
+
+##### Über MSD Merck Sharp & Dohme AG
+MSD ist eines der weltweit führenden, forschenden biopharmazeutischen Unternehmen mit einer über 125-jährigen Geschichte. In der Schweiz beschäftigt MSD über 700 Mitarbeitende, weltweit sind es mehr als 69'000 Mitarbeitende.
+
+---
+links:
+
+- docare.ch: http://www.docare.ch
+- MSD Merck Sharp & Dohme AG: http://www.msd.ch
+- HealthData.ai: [www.healthdata.ai](http://www.healthdata.ai)
+
+---
+frontpage: yes
