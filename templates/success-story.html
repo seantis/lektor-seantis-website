@@ -1,26 +1,24 @@
 {% extends "layout.html" %}
 {% block content %}
     <div class="main-content">
-        <div class="grid-container">
-            <div class="grid-x grid-margin-x">
-                <div class="large-7 large-offset-1 medium-9 medium-offset-1 cell">
-                    <h5 class="subheader"><small>{{ this.pub_date|dateformat }}</small></h5>
-                    <h1>{{ this.title }}</h1>
-                    <p class="lead">{{ this.description }}</p>
-                    <div class="project"><strong><p>Kunde:</p> {{ this.customer }}</strong><br />
-                    Technologie: {{ this.technology }}</p></div>
+
+        <div class="head">
+            <div class="grid-container">
+                <div class="grid-x grid-padding-x">
+                    <div class="large-7 large-offset-1 medium-10 medium-offset-1 cell">
+                        <h5 class="subheader"><small>{{ this.pub_date|dateformat }}</small></h5>
+                        <h1>{{ this.title }}</h1>
+                        <p class="lead">{{ this.description }}</p>
+                    </div>
                 </div>
             </div>
         </div>
-        {% set image = this.attachments.images.first() %}
-        <div class="image-band {{ 'padded' if image.path.endswith('.png') else '' }}">
-            <div class="grid-container">
-                <div class="grid-x grid-padding-x">
-                    <div class="large-7 large-offset-1 cell">
-                        <div>
-                            <img src="{{ image.thumbnail(1600)|url }}" alt="">
-                        </div>
-                    </div>
+
+        <div class="grid-container">
+            <div class="grid-x grid-margin-x">
+                <div class="large-7 large-offset-1 medium-9 medium-offset-1 cell">
+                    <div class="project"><strong><p>Kunde:</p> {{ this.customer }}</strong><br />
+                    Technologie: {{ this.technology }}</p></div>
                 </div>
             </div>
         </div>
@@ -41,5 +39,19 @@
                 </div>
             </div>
         </div>
+
+        {% set image = this.attachments.images.first() %}
+        <div class="image-band {{ 'padded' if image.path.endswith('.png') else '' }}">
+            <div class="grid-container">
+                <div class="grid-x grid-padding-x">
+                    <div class="large-7 large-offset-1 cell">
+                        <div>
+                            <img src="{{ image.thumbnail(1600)|url }}" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
 {% endblock %}

@@ -1,12 +1,22 @@
 {% extends "layout.html" %}
 {% block content %}
+
+    <div class="head">
+        <div class="grid-container">
+            <div class="grid-x grid-padding-x">
+                <div class="large-7 large-offset-1 medium-10 medium-offset-1 cell">
+                    <h5 class="subheader"><small>{{ this.pub_date|dateformat }}</small></h5>
+                    <h1>{{ this.title }}</h1>
+                    <p class="lead">{{ this.description }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="grid-container">
         <div class="grid-x grid-margin-x">
             <div class="large-7 large-offset-1 medium-9 medium-offset-1 cell">
                 <div class="main-content">
-                    <h5 class="subheader"><small>{{ this.pub_date|dateformat }}</small></h5>
-                    <h1>{{ this.title }}</h1>
-                    <p class="lead">{{ this.description }}</p>
                     {{ this.body }}
                 </div>
             </div>

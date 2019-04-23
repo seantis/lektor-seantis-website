@@ -3,15 +3,25 @@
 {% block content %}
 
     <div class="main-content">
+
+        <div class="head">
+            <div class="grid-container">
+                <div class="grid-x grid-padding-x">
+                    <div class="large-7 large-offset-1 medium-10 medium-offset-1 cell">
+                        <h1>Portrait</h1>
+                        <p class="lead">
+                                Softwareentwicklung ist unser Handwerk.
+                                Wir entwickeln Webapplikationen nach der Methodik
+                                der Agilen Softwareentwicklung.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="grid-container">
             <div class="grid-x grid-margin-x">
                 <div class="large-7 large-offset-1 medium-9 medium-offset-1 cell">
-                    <h1>Portrait</h1>
-                    <p class="lead">
-                            Softwareentwicklung ist unser Handwerk.
-                            Wir entwickeln Webapplikationen nach der Methodik
-                            der Agilen Softwareentwicklung.
-                    </p>
                     <p>
                         Offen für neue Herausforderungen suchen wir in enger
                         Zusammenarbeit mit unseren Kunden neue Wege. Möglich
@@ -19,15 +29,15 @@
                         und mehr als zehn Jahren Erfahrung in der Entwicklung
                         von Webapplikationen und Internetservices. Für unsere
                         Webapplikationen durften wir
-                        <a href="https://www.seantis.ch/portrait/awards">Preise und Auszeichnungen</a>
+                        <a href="{{ '/portrait/awards'|url }}">Preise und Auszeichnungen</a>
                         entgegennehmen.
                     </p>
                     <p>
                         Agile ist für uns ein Mindset. 
-                        <a href="https://www.seantis.ch/portrait/agile-softwareentwicklung">Agile als Grundeinstellung</a>
+                        <a href="{{ '/portrait/agile-softwareentwicklung'|url }}">Agile als Grundeinstellung</a>
                         prägt unser Denken und Handeln. Hypothesen für neue
                         Geschäftsideen und neuste Technologien testen wir mit
-                        unseren <a href="https://www.seantis.ch/portrait/ventures">Ventures</a>.
+                        unseren <a href="{{ '/portrait/ventures'|url }}">Ventures</a>.
                     </p>
                     <p>
                         Ein direkter Draht zur Universität Zürich eröffnet uns
@@ -39,9 +49,9 @@
                     </p>
                     <p>
                         Wir entwicklen Webapplikationen mit den besten 
-                        <a href="https://www.seantis.ch/portrait/open-mind-open-source">Open Source (Web-)Technologien</a>.
+                        <a href="{{ '/portrait/open-mind-open-source'|url }}">Open Source (Web-)Technologien</a>.
                         Unseren Mitarbeitenden («Hackers») bieten wir ein
-                        optimales Arbeitsumfeld: «<a href="https://www.seantis.ch/blog/we-support-the-hacker-pledge">We support the Hacker Pledge</a>»
+                        optimales Arbeitsumfeld: «<a href="{{ '/blog/we-support-the-hacker-pledge'|url }}">We support the Hacker Pledge</a>»
                 </div>
             </div>
         </div>
