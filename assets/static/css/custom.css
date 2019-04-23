@@ -202,6 +202,12 @@ p img {
     padding: 40px 0;
 }
 
+#award {
+    background: #F7FAFC;
+    padding: 40px 0;
+    margin-bottom: -70px;
+}
+
 #customers .card {
     padding: 15px;
     height: 120px;
