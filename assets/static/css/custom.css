@@ -132,9 +132,7 @@ p img {
 }
 
 #square {
-    background: #004B87 url('../../static/img/neurons.svg');
-    background-repeat: no-repeat;
-    background-position: -300px -150px;
+    background: #004B87;
     padding: 40px;
     color: #fff;
     border-radius: 2px;
@@ -393,4 +391,13 @@ article .h2,
 
 iframe {
     margin: 30px 0;
+}
+
+.products .card {
+    background: #004B87 url('../../static/img/neurons.svg');
+    background-repeat: no-repeat;
+}
+
+.products:nth-child(1n) .card {
+    background-position: -100px -100px;
 }
