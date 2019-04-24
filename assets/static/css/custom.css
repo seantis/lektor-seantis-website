@@ -132,7 +132,9 @@ p img {
 }
 
 #square {
-    background: #004B87;
+    background: #004B87 url('../../static/img/neurons.svg');
+    background-repeat: no-repeat;
+    background-position: -300px -150px;
     padding: 40px;
     color: #fff;
     border-radius: 2px;
