@@ -370,6 +370,9 @@ article .h2,
     .lead {font-size: 125%}
     p {font-size: inherit;}
     .main-content ul, .main-content ol {font-size: inherit;}
+    .bosw {
+        margin-bottom: 20px;
+    }
 }
 
 .top-bar .input-group-field {
