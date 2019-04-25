@@ -398,6 +398,6 @@ iframe {
     background-repeat: no-repeat;
 }
 
-.products:nth-child(1n) .card {
-    background-position: -100px -100px;
+.products .card {
+    background-position: 70px 0px;
 }
