@@ -401,3 +401,13 @@ iframe {
 .products .card {
     background-position: 70px 0px;
 }
+
+.announcement {
+    background: #004B87;
+    text-align: center;
+    line-height: 60px;
+}
+
+.announcement a {
+    color: #41B6E6;
+}
