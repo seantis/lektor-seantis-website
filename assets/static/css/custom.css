@@ -403,11 +403,11 @@ iframe {
 }
 
 .announcement {
-    background: #004B87;
+    background: #41B6E6;
     text-align: center;
-    line-height: 60px;
+    line-height: 56px;
 }
 
 .announcement a {
-    color: #41B6E6;
+    color: #004B87;
 }
