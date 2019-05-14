@@ -419,12 +419,21 @@ iframe {
 
 #solutions .card img {
     width: 100%;
-    height: 50%;
+    height: 50px;
 }
 
 .team .card img {
     width: 100%;
     height: 100%;
+}
+
+#customers .card {
+    flex-shrink: 0;
+}
+
+_:-ms-lang(x), #customers .card img {
+    width: 200px;
+    height: 70px;
 }
 
 /* END Ugly IE11 bug  */
