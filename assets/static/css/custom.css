@@ -185,7 +185,6 @@ p img {
     text-align: center;
 }
 
-
 #solutions .card h5 {
     margin-top: 10px;
     border-top: 1px solid #fff;
@@ -411,3 +410,21 @@ iframe {
 .announcement a {
     color: #004B87;
 }
+
+/* BEGINNING Ugly IE11 bug  */
+
+#solutions .card, .team .card {
+    flex-shrink: 0;
+}
+
+#solutions .card img {
+    width: 100%;
+    height: 50%;
+}
+
+.team .card img {
+    width: 100%;
+    height: 100%;
+}
+
+/* END Ugly IE11 bug  */
