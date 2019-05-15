@@ -422,7 +422,7 @@ iframe {
     height: 50px;
 }
 
-.team .card img {
+_:-ms-lang(x), .team .card img {
     width: 100%;
     height: 100%;
 }
