@@ -31,7 +31,7 @@ Das Monitoring Tool ruft die Seiten periodisch auf und überwacht so deren Statu
 
 Das Monitoring geschieht auf Applikationsebene (analog zu einem direkten Zugriff via Browser). Damit werden Ausfälle bzw. Probleme sofort direkt erkannt. Falls gewünscht können Verantwortliche des Kunden ab einer erhöhten Eskalationsstufe (z.B. 1h «down time») ebenfalls automatisch benachrichtigt werden.
 
-Für das eigentliche Monitoring setzen wir auf einen externen Anbieter, welcher Websites dezentral mit Knoten verteilt über die ganze Welt überwacht ([https://www.nodeping.com](https://www.nodeping.com/)). Diese Monitoring-Infrastruktur selbst zu betreiben macht wenig Sinn, da diese so unabhängig wie möglich sein muss.
+Für das eigentliche Monitoring setzen wir auf einen externen Anbieter, welcher Websites dezentral mit Knoten verteilt über die ganze Welt überwacht ([https://nodeping.com](https://nodeping.com/)). Diese Monitoring-Infrastruktur selbst zu betreiben macht wenig Sinn, da diese so unabhängig wie möglich sein muss.
 
 Wir bieten bewusst ein minimalistisch gehaltenes **Management Dashboard**. Dieses ist direkt (ohne Login) über eine URL aufzurufen und bietet einen Überblick über alle aktiven Services sowie deren Status. Das Management Dashboard ist bewusst so konzipiert (Responsive Design), dass es problemlos von einem Smartphone aufgerufen werden kann.
 
