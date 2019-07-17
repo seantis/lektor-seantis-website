@@ -1,0 +1,38 @@
+title: FHIR 🔥 offene Schnittstelle für medizinische Daten 
+---
+
+pub_date: 2019-07-17
+---
+author: seantis
+---
+description: Die Plattform docare.ch bietet mit FHIR eine offene Schnittstelle für medizinschen Daten.
+---
+
+customer: [MSD Merck Sharp & Dohme AG](http://www.msd.ch)
+---
+
+technology: [HealthData.ai](http://www.healthdata.ai)
+---
+
+task: Für die Plattform [docare.ch](http://www.docare.ch) soll der dirkete Datenaustausch mittels Schnittstellen in Praxisinformationssysteme ermöglicht werden. Die API Schnittstelle legt darüber hinaus die Grundlage für eine digitale Datenplattform.
+
+---
+solution: Die Webservice API basiert auf dem internationalen [HL7® FHIR®](http://www.hl7.org/fhir/) Standard für den Austausch von Gesundheitsinformationen. Für den Zugriff auf einzelne Datenelemente beschreibt FHIR sogenannte „Ressourcen“. FHIR schafft damit eine Alternative zu dokumentenzentrierten Ansätzen, in dem es den direkten Zugriff auf einzelne Informationsfelder als Service ermöglicht. FHIR setzt auf bewährte  web-basierte  API Technologien wie das RESTful Protokoll oder OAUTH2 zur Authentifizierung.
+
+---
+benefit:
+
+Ein wesentliches Ziel von FHIR ist es, Gesundheitsdaten auch auf mobilen Endgeräten wie Tablet und Smartphone verarbeiten zu können und diese auf einfache Art und Weise in existierende Systeme einzubinden. Die FHIR Schnittstelle von HealthData.ai wird denn auch schon für die Anbindung einer Patient App genutzt. Als generische API ist FHIR aber eben nicht auf einzelne spezifische Use Cases beschränkt, sondern bietet eine offene Schnittstelle für medizinsche Datenplattformen.
+
+Die Dokumentation der FHIR API von docare.ch ist öffentlich und ein Testportal steht für Entwickler zu Verfügung: https://seantis.github.io/docare-api-doc
+
+---
+links:
+
+- docare.ch: http://www.docare.ch
+- MSD Merck Sharp & Dohme AG: http://www.msd.ch
+- HealthData.ai: [www.healthdata.ai](http://www.healthdata.ai)
+- Dokumentation docare FHIR API: https://seantis.github.io/docare-api-doc
+
+---
+frontpage: yes
