@@ -5,7 +5,7 @@ pub_date: 2019-07-17
 ---
 author: seantis
 ---
-description: Die Plattform docare.ch bietet mit FHIR eine offene Schnittstelle für medizinschen Daten.
+description: Die Plattform docare.ch bietet mit FHIR eine offene Schnittstelle für den Austausch medizinscher Daten.
 ---
 
 customer: [MSD Merck Sharp & Dohme AG](http://www.msd.ch)
