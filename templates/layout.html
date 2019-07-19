@@ -6,16 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %}seantis gmbh{% endblock %}</title>
     <meta name="description" content="seantis gmbh entwickelt Webapplikationen für die medizinische Forschung, die öffentliche Verwaltung sowie für die Aviatik.">
-    <link rel="stylesheet" href="{{ '/static/css/foundation.min.css'|asseturl }} ">
-    <link rel="stylesheet" href="{{ '/static/css/fira.css'|asseturl }} ">
-    <link rel="stylesheet" href="{{ '/static/css/fontawesome.min.css'|asseturl }} ">
-    <link rel="stylesheet" href="{{ '/static/css/custom.css'|asseturl }} ">
-
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="{{ '/static/css/foundation.min.css'|asseturl }}">
+    <link rel="stylesheet" href="{{ '/static/css/fira.css'|asseturl }}">
+    <link rel="stylesheet" href="{{ '/static/css/fontawesome.min.css'|asseturl }}">
+    <link rel="stylesheet" href="{{ '/static/css/custom.css'|asseturl }}">
+    <link rel="stylesheet" href="{{ '/static/css/aos.css'|asseturl }}" />
 
 </head>
 
 <body>
+
     <!-- <div class="announcement"><a href="{{ '/news/job-python-entwickler'|url }}">&rarr; Full Stack Python-Entwickler(in) (60-100%)<i class="fab fa-python"></i></a></div> -->
     <div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="medium" style="display:none">
         <button class="menu-icon" type="button" data-toggle="responsive-menu"></button>
@@ -110,6 +110,12 @@
     </footer>
 
     <script src="{{ '/static/js/jquery.min.js'|asseturl }}"></script>
+
+    <script src="{{ '/static/js/aos.js'|asseturl }}"></script>
+    <script>
+        AOS.init();
+    </script>
+
     <script src="{{ '/static/js/what-input.min.js'|asseturl }}"></script>
     <script src="{{ '/static/js/foundation.min.js'|asseturl }}"></script>
     <script src="{{ '/static/js/tipuesearch_set.js'|asseturl }}"></script>
@@ -131,11 +137,6 @@
         })();
 
         {% block scripts %}{% endblock %}
-    </script>
-
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-        AOS.init();
     </script>
 
 </body>
