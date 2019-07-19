@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="{{ '/static/css/fira.css'|asseturl }} ">
     <link rel="stylesheet" href="{{ '/static/css/fontawesome.min.css'|asseturl }} ">
     <link rel="stylesheet" href="{{ '/static/css/custom.css'|asseturl }} ">
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 </head>
 
 <body>
@@ -129,5 +132,11 @@
 
         {% block scripts %}{% endblock %}
     </script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
 </body>
 </html>
