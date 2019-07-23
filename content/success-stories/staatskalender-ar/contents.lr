@@ -1,0 +1,33 @@
+title: Ein elektronischer Staatskalender für den Kanton Appenzell Ausserrhoden
+---
+
+pub_date: 2019-07-23
+---
+author: seantis
+---
+description: Die Kantonskanzlei von Appenzell Ausserrhoden löst den gedruckten Staatskalender durch eine elektronische Version ab.
+---
+
+customer: [Kanton Appenzell Ausserrhoden](http://www.ar.ch)
+---
+
+technology: [OneGov Cloud](http://www.onegovcloud.ch)
+---
+
+task: Neu können Informationen zu Behördenmitgliedern oder Staatsangestellten
+sowie deren Funktionen bequem online abgerufen werden. Die Umstellung erfolgt im Zuge der Anpassung sämtlicher Publikationen der Kantonskanzlei an die Anforderungen des E-Government gemäss den Zielsetzungen des Regierungsprogramms 2016–2019. 
+
+---
+solution: Der Online Staatskalender des Kantons Appenzell Ausserrhoden läuft auf der OneGov Cloud. Damit ist der Kanton  Appenzell Ausserrhoden bereits der fünfte Kanton, welcher die OneGov Cloud im Einsatz hat.
+
+---
+benefit: Die Onlineversion bietet einen benutzerfreundlichen Zugriff auf aktuelle Daten der Behörden und Amtsstellen und wird laufend nachgeführt, was für die Besucherinnen und Besucher zu einem Mehrwert führt. Der Staatskalender kann als Gesamtausgabe oder als Auszug einer Organisationseinheit im PDF-Format abgespeichert oder ausgedruckt werden. Eine gedruckte Fassung wird nicht mehr produziert.
+
+---
+links:
+
+- Staatskalender Staatskalender Appenzell Ausserrhoden: http://staatskalender.ar.ch
+- OneGov Cloud: http://www.onegovcloud.ch
+
+---
+frontpage: yes
