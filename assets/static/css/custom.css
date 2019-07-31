@@ -437,3 +437,26 @@ _:-ms-lang(x), #customers .card img {
 }
 
 /* END Ugly IE11 bug  */
+
+.dotted img {
+    width: 98%;
+    margin-left: -85px;
+}
+
+.dotted {
+    margin: 40px 0 40px 85px;
+    background: url(../../static/img/dots-small.svg);
+    background-repeat: repeat;
+}
+
+
+@media screen and (max-width: 39.9375em) {
+    .dotted img {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .dotted {
+        margin: 30px 0 30px 0px;
+    }
+}
