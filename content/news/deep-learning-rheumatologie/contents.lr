@@ -1,0 +1,23 @@
+title: Wissenschaftliche Publikation zur Anwendung von Deep Learning in der Rheumatologie
+---
+pub_date: 2019-08-16
+---
+author: seantis
+---
+description: Eine gemeinsame wissenschaftliche Publikation von Forschenden der Zürcher Hochschule für Angewandte Wissenschaften, seantis,  der Universität Zürich, sowie der Hochschule Konstanz zeigt wie neuronale Netze in der Rheumatologie genutzt werden können.
+---
+body: 
+
+Rheumatoide Arthritis ist eine Autoimmunerkrankung, welche eine chronische Entzündung der Synovialgelenke verursacht. Die chronische Entzündung führt zu irreversiblen strukturellen Schäden der Gelenke. Der Verlauf der Krankheit wird durch klinische Untersuchungen, Labortests sowie durch Selbstbeurteilung der Patienten erfasst. 
+
+### Deep Convolutional Neural Networks
+
+Der Langzeitverlauf der Erkrankung wird mit Röntgenaufnahmen von Händen und Füßen beurteilt. Die Beurteilung von  Röntgenbildern durch geschultes medizinisches Personal erfordert mehrere Minuten pro Patient. Die Publikation zeigt, dass sogeannte Deep Convolutional Neural Networks für ein vollautomatisches, schnelles und reproduzierbares Röntgenbilder-Scoring von  Patienten mit rheumatoider Arthritis genutzt werden können. Bezüglich Qualität gibt es keinen signifikanten Unterschied zwischen der Beurteilung menschlicher Experten und des vollautomatischen Systems mit neuronalen Netzen.
+
+### Publikation
+
+Janick Rohrbach, Tobias Reinhard, Beate Sick, Oliver Dürr,
+Bone erosion scoring for rheumatoid arthritis with deep convolutional neural networks, Computers & Electrical Engineering, Volume 78, 2019, Pages 472-481,
+https://doi.org/10.1016/j.compeleceng.2019.08.003
+
+![deep-learning](deep-learning.jpg)
