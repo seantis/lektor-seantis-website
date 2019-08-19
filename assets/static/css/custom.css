@@ -404,7 +404,8 @@ iframe {
 .announcement {
     background: #41B6E6;
     text-align: center;
-    line-height: 56px;
+    line-height: 1.5em;
+    padding: 20px;
 }
 
 .announcement a {
