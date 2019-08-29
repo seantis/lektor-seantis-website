@@ -1,17 +1,19 @@
 <!doctype html>
 <html class="no-js" lang="de" dir="ltr">
 <head>
+    {%- block head %}
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %}seantis gmbh{% endblock %}</title>
     <meta name="description" content="seantis gmbh entwickelt Webapplikationen für die medizinische Forschung, die öffentliche Verwaltung sowie für die Aviatik.">
+    {{ open_graph.render_tags(this) }}
     <link rel="stylesheet" href="{{ '/static/css/foundation.min.css'|asseturl }}">
     <link rel="stylesheet" href="{{ '/static/css/fira.css'|asseturl }}">
     <link rel="stylesheet" href="{{ '/static/css/fontawesome.min.css'|asseturl }}">
     <link rel="stylesheet" href="{{ '/static/css/custom.css'|asseturl }}">
     <link rel="stylesheet" href="{{ '/static/css/aos.css'|asseturl }}" />
-
+    {%- endblock %}
 </head>
 
 <body>
