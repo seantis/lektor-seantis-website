@@ -1,0 +1,23 @@
+
+title: Der magische Feriennet-Algorithmus
+---
+
+pub_date: 2019-09-11
+---
+author: seantis
+---
+description: Vortrag am Netzwerktreffen Pro Juventute Feriennet zum Thema faire Zuteilung von Kinder auf Ferienpassangebote («Matching Problem»)
+---
+
+body:
+
+Der Vortrag zeigt, wie die Zuteilung von Kinder auf Ferienpassangebote als «Matching Problem» interpretiert werden kann. Die Anwendung des Gale–Shapley Algorithmus bzw. der wissenschaftlichen Theorie von Lloyd S. Shapley und Alvin E. Roth, für welche die beiden Wirschaftswissenschaftlter im Jahr 2012 einen Nobelpreis erhalten haben, garantiert für eine möglichst faire Zuteilung.
+
+Der Zuteilungs-Algorithmus ist für die Feriennetplattform implementiert und hat dort bereits die faire Zuteilung von mehr als 30'000 Kindern auf über 150'000 Angebote (Stand September 2019) sichergestellt.
+
+- [Foliensatz [PDF - 4MB]](feriennet.pdf)
+- Pro Juventute Feriennet: https://feriennet.projuventute.ch
+- OneGov Cloud: https://onegovcloud.ch
+
+
+
