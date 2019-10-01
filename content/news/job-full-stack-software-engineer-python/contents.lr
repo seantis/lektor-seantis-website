@@ -1,4 +1,4 @@
-title: Full-Stack Software Engineer (Python)
+title: Full-Stack Software Engineer
 ---
 pub_date: 2019-04-01
 ---
@@ -10,11 +10,13 @@ body: We are a small Python shop in the heart of Switzerland. We mainly develop 
 
 We have no regular meetings, are flexible, and try to let people do their work as much as possible. We also control our full stack by developing both front- and backend. Additionally, we configure our own server stack using Puppet and Suitable, our very own Ansible API for humans (https://suitable.readthedocs.io).
 
-If you join us you would primarily be working on OneGov Cloud, our set of open-source web-applications running with our own framework built on Morepath: https://docs.onegovcloud.ch
+If you join us you would be working on OneGov Cloud, our set of open-source web-applications running with our own framework built on Morepath: https://github.com/onegov/onegov-cloud
 
-However, you can get involved anywhere on the stack and you are free to introduce new languages and tools to get the job done.
+You would also shape our Linux server infrastructure, with Puppet as configuration language and containers as payload. Don't worry if you don't know Puppet or have not yet worked with containers, you can learn these things on the job.
 
 Also, we don’t do algorithm questions, work samples or any of that. If you’re passionate about your craft and your resumé indicates that you know things, then you’re good. Note that you should at least know basic German.
+
+We have also recently moved into a new office right next to the train station in Lucerne. Unlike other shops we have multiple small offices - no open space!
 
 - Here’s the job ad in German: https://seantis.ch/news/job-python-entwickler/
 - And here’s the contact you can use to get in touch: [fabian.reinhard@seantis.ch](mailto:fabian.reinhard@seantis.ch)
