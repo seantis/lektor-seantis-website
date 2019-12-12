@@ -472,3 +472,8 @@ _:-ms-lang(x), #customers .card img {
 .steps-startup {
     background: transparent;
 }
+
+.costs {
+    margin-top: 30px;
+    opacity: .5
+}
