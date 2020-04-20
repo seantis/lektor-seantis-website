@@ -5,7 +5,7 @@ pub_date: 2020-01-15
 ---
 author: seantis
 ---
-description: Die Fachstelle Sicherheit des Kantons Zug verwaltet regelmässige Schulungen für über 2’000 Mitarbeitende mit einer neuen digitalen Lösung. 
+description: Die Fachstelle Sicherheit des Kantons Zug verwaltet regelmässige Schulungen für über 2’000 Mitarbeitende mit einer neuen digitalen Lösung.
 ---
 
 customer: [Kanton Zug](http://www.zg.ch)
@@ -16,7 +16,7 @@ technology: [OneGov Cloud](http://www.onegovcloud.ch)
 
 task: Die Fachstelle Sicherheit (FSI) ist im Auftrag des Regierungsrats des Kantons Zug verantwortlich für die Überwachung und Umsetzung der betrieblichen Sicherheitsmassnahmen in der kantonalen Verwaltung sowie den Gerichten. Zu ihren Aufgaben und Kompetenzen gehört die Organisation und Durchführung aller obligatorischen dezentralen Sicherheitsschulungen.
 
-Insgesamt durchlaufen über 2’000 Personen die regelmässigen Schulungen. In den 60 Ämtern gibt es je einen Sicherheitsbeauftragter sowie einen definierten stellvertretenden Sicherheitsbeauftragten.
+Insgesamt durchlaufen über 2’000 Personen die regelmässigen Schulungen. In den 60 Ämtern gibt es je einen Sicherheitsbeauftragten sowie einen definierten stellvertretenden Sicherheitsbeauftragten.
 
 ---
 solution: Die Kurse für Sicherheitsschulungen, die Referenten und Teilnehmer, deren Rolle in der Sicherheitsorganisation sowie die Schulungsnachweise werden auf einer digitalen Plattform verwaltet. Mitarbeitende der kantonalen Verwaltung können sich über eine Intranet-Anwendung direkt für die Sicherheitskurse anmelden. Die Applikation untestützt die Überwachung der im rollenabhängigen Turnus stattfindenden Nachschulungen aller Verwaltungsmitarbeitenden. Eine automatische Synchronisation mit dem zentralen AD/LDAP-Verzeichnis der Kantonsverwaltung stellt sicher, dass der Personalbestand stets korrekt aktualisiert abgebildet ist.
