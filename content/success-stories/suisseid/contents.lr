@@ -23,3 +23,5 @@ Ab sofort steht unsere suisseID-Erweiterung für Plone als Open Source Komponent
 benefit:
 
 Dank unserer Erweiterung kann nun jede Plone-Seite einfach um eine sichere Authentifizierung mit der suisseID erweitert werden.
+
+_hidden: yes
