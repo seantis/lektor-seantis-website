@@ -488,7 +488,7 @@ _:-ms-lang(x), #customers .card img {
 }
 
 .direct-contact {
-    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 /* END Startup Page */
@@ -503,4 +503,8 @@ _:-ms-lang(x), #customers .card img {
 
 .card:hover img {
   transform: scale(1.06);
+}
+
+.model-startup .listing {
+    margin-bottom: 0;
 }
