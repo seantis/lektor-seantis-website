@@ -262,7 +262,9 @@
                             <div class="card" data-equalizer-watch>
                                 {% set image = child.attachments.images.first() %}
                                 <div class="card-head {{ 'padded'  if image.path.endswith('.png') else '' }}">
-                                    <img src="{{ image.thumbnail(600)|url }}" alt="{{ child.title }}">
+                                    <a href="{{ child|url }}">
+                                        <img src="{{ image.thumbnail(600)|url }}" alt="{{ child.title }}">
+                                    </a>
                                 </div>
                                 <div class="card-section">
                                     <h4>{{ child.title }}</h4>
