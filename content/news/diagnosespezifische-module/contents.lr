@@ -26,9 +26,7 @@ Verdachtsdiagnose. Je nach Auswahl für «Disease Module» werden andere
 Fragebögen (Items) angezeigt. Am Ende des Prozesses (unter «Assessment») steht
 die definitive (gesicherte) Diagnosestellung.
 
-![Disease-
-Modules.png](https://www.seantis.ch/blog/media/DiseaseModules.png)Diagnosen
-werden über eine tabellarische Ansicht erfasst und aktualisiert. Analog zu
+Diagnosen werden über eine tabellarische Ansicht erfasst und aktualisiert. Analog zu
 «Medication» gibt es auf der Ansicht «Diagnoses» zwei Tabellen: 1\. Active
 Diagnosis, 2\. History of Diagnoses.
 
@@ -37,5 +35,3 @@ der Diagnosen ein zweites Mal in der Visite. Verdachtsdiagnosen werden hier
 als gesicherte Diagnosen gespeichert.
 
 **Mehr Informationen zu OCQMS: [www.healthdata.ai](https://www.healthdata.ai)**
-
-

@@ -21,7 +21,3 @@ Authentifizierung mit der suisseID erweitert werden.
 Unsere Implementation bietet eine Authentifizierung via einen IdP (Identity
 Provider), inkl. der Möglichkeit zusätzliche personenbezogene Attribute vom
 IdP abzufragen.
-
-![SuisseID IdP](https://www.seantis.ch/blog/media/suisseid_idp.jpg)
-
-

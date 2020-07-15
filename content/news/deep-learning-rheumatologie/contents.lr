@@ -6,9 +6,9 @@ author: seantis
 ---
 description: Eine wissenschaftliche Publikation mit Beteiligung von seantis zeigt, wie neuronale Netze in der Rheumatologie genutzt werden können.
 ---
-body: 
+body:
 
-Rheumatoide Arthritis ist eine Autoimmunerkrankung, welche eine chronische Entzündung der Synovialgelenke verursacht. Die chronische Entzündung führt zu irreversiblen strukturellen Schäden der Gelenke. Der Verlauf der Krankheit wird durch klinische Untersuchungen, Labortests sowie durch Selbstbeurteilung der Patienten erfasst. 
+Rheumatoide Arthritis ist eine Autoimmunerkrankung, welche eine chronische Entzündung der Synovialgelenke verursacht. Die chronische Entzündung führt zu irreversiblen strukturellen Schäden der Gelenke. Der Verlauf der Krankheit wird durch klinische Untersuchungen, Labortests sowie durch Selbstbeurteilung der Patienten erfasst.
 
 ### Deep Convolutional Neural Networks
 
@@ -21,5 +21,3 @@ Die wissenschaftliche Publikation ist das Resultat einer Zusammenarbeit von Fors
 > Janick Rohrbach, Tobias Reinhard, Beate Sick, Oliver Dürr,
 > Bone erosion scoring for rheumatoid arthritis with deep convolutional neural networks, Computers & Electrical Engineering, Volume 78, 2019, Pages 472-481,
 > https://doi.org/10.1016/j.compeleceng.2019.08.003
-
-![deep learning](og_image.jpg)

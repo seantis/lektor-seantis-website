@@ -30,8 +30,3 @@ DICOM-Protokollen.
 Im Rahmen des Projektes wurde eine bestehende XRay-Datenbank migriert, sowie
 alle bestehenden digitalen Röntgenbilder (BMP, JPEG) ins DICOM-Format
 transformiert.
-
-![xray_process](../portfolio/swiss-clinical-quality-management-in-rheumatic-
-diseases/screenshots/xray_process.png/image_full)
-
-

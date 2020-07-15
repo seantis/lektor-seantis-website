@@ -14,8 +14,6 @@ Willensäusserungen ist für die Legitimität politischer Entscheidungen vital.
 Aus diesem Grund müssen Wahl- und Abstimmungsergebnisse einfach öffentlich
 zugänglich sein.
 
-![Kantone Abstimmungen](Kantone.png)
-
 ### Eine Lösung für drei Kantone
 
 Zusammen mit den Kantonen Graubünden, Schwyz und Zug hat seantis ein Online-
@@ -40,13 +38,11 @@ Interesse stossen, muss die Applikation mit Lastspitzen umgehen können. Dies
 ist im Rahmen der Entwicklung explizit beachtet und getestet worden. Mittels
 Load Testing wurden zu erwartende Lasten im effektiven Deployment simuliert.
 
-**Kanton Graubünden: <https://abstimmungen.gr.ch>**  
-**Kanton Schwyz: <https://abstimmungen.sz.ch>**  
+**Kanton Graubünden: <https://abstimmungen.gr.ch>**
+**Kanton Schwyz: <https://abstimmungen.sz.ch>**
 **Kanton Zug: <https://wab.zug.ch>**
 
 Source Code OneGov Election Day:
-<https://github.com/OneGov/onegov.election_day>[  
-](https://github.com/OneGov/onegov.election_day "" )  
+<https://github.com/OneGov/onegov.election_day>[
+](https://github.com/OneGov/onegov.election_day "" )
 OneGov Cloud: <https://onegovcloud.ch>
-
-

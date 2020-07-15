@@ -6,7 +6,7 @@ author: seantis
 ---
 description: Auf der digitalen Plattform der Nationalen Rheumadatenbank haben wir eine wissenschaftliche Studie zu COVID-19 realisiert.
 ---
-body: 
+body:
 
 Das neue Coronavirus stellt uns Menschen und die Gesellschaft vor grosse Herausforderungen. Noch wissen wir zu wenig über das Virus – insbesondere nicht über die Wechselwirkungen mit entzündlich rheumatischen Erkrankungen und deren Medikation.
 
@@ -27,5 +27,3 @@ Die Patienten erhalten einen sicheren Zugriffscode (mTAN) per SMS und erfassen i
 - **COVID-19 Studie SCQM: http://www.scqm.ch/covid19**
 - SCQM Foundation: http://www.scqm.ch
 - HealthData.ai - Digitale Plattform für Gesundheitsdaten: http://www.healthdata.ai
-
-![mySCQM App](mySCQM.png)

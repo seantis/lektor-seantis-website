@@ -13,7 +13,7 @@ Im Auftrag der Staatskanzlei des Kantons St. Gallen hat seantis das Online-Porta
 
 So zeigt eine interaktive Karte, mit welchem Prozentsatz welche Gemeinde eine Vorlage angenommen oder abgelehnt hat. Die Informationen gibt es für kantonale wie auch für eidgenössische Sachvorlagen. Bei Wahlen wiederum wird ersichtlich, welche Partei in welchem Wahlkreis wie viele Sitze gewonnen hat.
 
-Wer die Resultate so schnell wie möglich einsehen will, kann sich für den kostenlosen SMS-Service der Staatskanzlei anmelden. Sie informiert die registrierten Nutzerinnen und Nutzer, sobald die kantonalen Zwischenresultate, respektive die Endresultate auf dem Onlineportal aufgeschaltet sind. Anmelden kann man sich auf [wab.sg.ch](http://www.wab.sg.ch/). 
+Wer die Resultate so schnell wie möglich einsehen will, kann sich für den kostenlosen SMS-Service der Staatskanzlei anmelden. Sie informiert die registrierten Nutzerinnen und Nutzer, sobald die kantonalen Zwischenresultate, respektive die Endresultate auf dem Onlineportal aufgeschaltet sind. Anmelden kann man sich auf [wab.sg.ch](http://www.wab.sg.ch/).
 
 Die publizierten Daten können im Rohformat (JSON, CSV sowie Excel) heruntergeladen werden. Auch die interaktive Karte und andere Grafiken lassen sich für eine weitere Verwendung im Online-Bereich einbinden.
 
@@ -21,7 +21,3 @@ Der Kanton St. Gallen ist nach den Kantonen Zug, Schwyz und Graubünden bereits 
 
 - **Wahlen und Abstimmungen Kanton St. Gallen: [https://wab.sg.ch](https://wab.sg.ch)**
 - **OneGov Cloud: https://www.onegovcloud.ch**
-
-![wab-sg](wab-sg.png)
-
-
