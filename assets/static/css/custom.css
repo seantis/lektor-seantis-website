@@ -445,7 +445,7 @@ _:-ms-lang(x), #customers .card img {
 }
 
 .dotted {
-    margin: 40px 0 40px 85px;
+    margin: 0px 0 20px 85px;
     background: url(../../static/img/dots-small.svg);
     background-repeat: repeat;
 }
