@@ -32,6 +32,19 @@ p img {
 
 .main-content ul, .main-content ol  {font-size: 1.1rem;}
 
+.main-content ul {
+  list-style: none; /* Remove default bullets */
+}
+
+.main-content ul li::before {
+  content: "- ";
+  color: #0077C8;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
 .header {
     margin: 20px 0
 }
