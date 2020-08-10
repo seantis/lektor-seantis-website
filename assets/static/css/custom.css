@@ -333,6 +333,10 @@ article .h2,
     width: 100%;
 }
 
+ul.pagination li::before {
+    content: none;
+}
+
 .pagination li {font-size: 110%;}
 
 .listing .card {
