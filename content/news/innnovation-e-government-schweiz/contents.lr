@@ -15,7 +15,7 @@ description: Im Rahmen des Schwerpunktplan  Innovationen 2016/2017 hat die Gesch
 ---
 body:
 
-Das Projekt ist eines von vier unterstützten Projekten im Rahmen von Innovationen 2016/2017. Die drei Kantone Graubünden, Schwyz und Zug haben zusammen ein Online-Portal zur Publikation von Wahl- und Abstimmungsergebnissen entwickelt. Die Applikation basiert auf der Open Source Lösung «OneGov Cloud» (https://www.onegovcloud.ch). Sie ist optimiert für mobile Geräte (Responsive Design). Die Lösung ist horizontal skalierbar (Kantonsebene) und soll mit der anstehenden Weiterentwicklung zusätzlich eine vertikale Integration ermöglichen (Kantone, Städte und Gemeinden).
+Das Projekt ist eines von vier unterstützten Projekten im Rahmen von Innovationen 2016/2017. Die drei Kantone Graubünden, Schwyz und Zug haben zusammen ein Online-Portal zur Publikation von Wahl- und Abstimmungsergebnissen entwickelt. Die Applikation basiert auf der Open Source Lösung «OneGov Cloud» (https://onegovcloud.ch). Sie ist optimiert für mobile Geräte (Responsive Design). Die Lösung ist horizontal skalierbar (Kantonsebene) und soll mit der anstehenden Weiterentwicklung zusätzlich eine vertikale Integration ermöglichen (Kantone, Städte und Gemeinden).
 
 Mit dem Förderungsbeitrag können Erweiterungen in folgenden Bereichen umgesetzt werden: Vertikale Integration, Visualisierung, Einbettung, Erweiterungen Export.
 
