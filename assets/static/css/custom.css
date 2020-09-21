@@ -495,7 +495,7 @@ _:-ms-lang(x), #customers .card img {
     opacity: .5
 }
 
-.model-startup #splash {
+.model-startup #splash, .model-careers #splash {
     margin-top: 30px;
     background: url('../../static/img/hipster.jpg');
     background-size: contain;
