@@ -1,3 +1,6 @@
-_model: redirect
+_model: careers
 ---
-target: https://seantis.ch/news/job-apprenticeship-application-developer/
+title: Offene Stellen
+---
+description: Wir suchen Menschen mit vielfältigen Talenten für die Entwicklung digitaler Lösungen.
+---
