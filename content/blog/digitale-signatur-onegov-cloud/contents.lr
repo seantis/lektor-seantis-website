@@ -36,9 +36,6 @@ Signierte Dateien sind nicht direkt öffentlich, sondern durchlaufen einen Publi
 ### Digitale Signaturen
 Dokumente können in der OneGov Cloud rechtsgültig digital unterzeichnet werden. Der Prozess der digitalen Signatur stellt erhöhte Anforderungen an die Sicherheit. Nur Administratoren haben das Recht zum digitalen Signieren und selbst wenn sie bereits eingeloggt sind müssen sie zum Signieren immer ihren YubiKey verwenden. Damit wird verhindert, dass jemand unbefugt ein Dokument mit einer elektronischen Signatur erstellt. Für eine missbräuchliche Signatur müssten also nicht nur das Login und Passwort des Administrators in falsche Hände geraten, sondern auch dessen physischer YubiKey gestohlen worden sein. Eine handschriftliche Unterschrift zu fälschen scheint uns einfacher.
 
-<div class="responsive-embed">
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/EhZSS1maX2I" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-</div>
 
 Vor jedem digitalen Signaturvorgang wird also zur Sicherheit im Hintergrund das Login und der YubiKey geprüft. Ein sogenannter digitaler Fingerabdruck des Dokuments wird danach an den ‚All-in Signing Service‘ der Swisscom gesendet wo das Dokument digital signiert wird.
 
