@@ -177,9 +177,24 @@ p img {
 
 .head {
     text-align: center;
-    background: #F7FAFC;
-    padding: 40px 0 0 0;
-    margin: 30px 0 30px 0px;
+    padding: 0;
+    margin: 0;
+}
+
+.head .grid-x:before {
+    background: url('../../static/img/dot-left-corner.png') no-repeat;
+    content: '';
+    height: 300px;
+    position: absolute;
+    width: 230px;
+}
+
+.head h1 {
+        padding-top: 80px;
+}
+
+.head .subheader {
+    margin-top: 20px;
 }
 
 #solutions {
@@ -313,7 +328,8 @@ article .h2,
     font-size: 150%;
     font-weight: 400;
     margin-bottom: 40px;
-    color: #6a778b
+    color: #6a778b;
+    min-height: 140px;
 }
 
 .subnavigation {
