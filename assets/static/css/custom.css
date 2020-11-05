@@ -181,20 +181,28 @@ p img {
     margin: 0;
 }
 
-.head .grid-x:before {
-    background: url('../../static/img/dot-left-corner.png') no-repeat;
-    content: '';
-    height: 300px;
-    position: absolute;
-    width: 230px;
-}
-
 .head h1 {
-        padding-top: 80px;
+        padding-top: 20px;
 }
 
-.head .subheader {
-    margin-top: 20px;
+@media screen and (min-width: 39.9375em) {
+
+    .head .grid-x:before {
+        background: url('../../static/img/dot-left-corner.png') no-repeat;
+        content: '';
+        height: 300px;
+        position: absolute;
+        width: 230px;
+    }
+
+    .head .subheader {
+        margin-top: 20px;
+    }
+
+    .head h1 {
+        padding-top: 80px;
+    }
+    .lead{min-height: 140px;}
 }
 
 #solutions {
@@ -329,7 +337,6 @@ article .h2,
     font-weight: 400;
     margin-bottom: 40px;
     color: #6a778b;
-    min-height: 140px;
 }
 
 .subnavigation {
@@ -405,6 +412,9 @@ ul.pagination li::before {
     .bosw {
         margin-bottom: 20px;
     }
+    h1 {font-size: 2.3rem}
+    h2 {font-size: 1.75rem}
+    h3 {font-size: 1.5rem}
 }
 
 .top-bar .input-group-field {
