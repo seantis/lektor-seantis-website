@@ -1,0 +1,23 @@
+title: Deep Learning zum Scoring von Röntgenbildern als Webservice
+---
+pub_date: 2020-11-11
+---
+author: seantis
+---
+description: Im Rahmen einer Bachelorarbeit am Departement Informatik der Hochschule Luzern wurde ein Webservice zur Beurteilung von Röntgenbilder mit Deep Learning entwickelt.
+---
+body: 
+
+Ein Röntgenbild hochladen und sofort erfahren, wie stark geschädigt welches Gelenk ist – dies war Ziel der Bachelorarbeit von Informatik-Absolvent Patrick Bucher. Rheumatoide Arthritis gehört zu den häufigsten rheumatischen Erkrankungen. Die chronischen Entzündungen schränken die Funktion der betroffenen Gelenke ein und können sie komplett zerstören. Wie schwer der Verlauf ist, wird durch medizinisches Fachpersonal anhand von Röntgenbildern ermittelt. Dieses sogenannte Scoring dauert pro Patienten mehrere Minuten. 
+
+Künstliche Intelligenz und maschinelles Lernen eröffnen neue Möglichkeiten für das Scoring, sagt Tobias Reinhard, Co-Gründer der Seantis GmbH. Die Firma entwickelt Software für medizinische Forschungsprojekte und hat die Bachelorarbeit bei der Hochschule Luzern – Informatik in Auftrag gegeben. Das Ziel des Projekts DeepXRay ist es, auf Basis dreier Machine Learning Modelle einen Prototyp für einen Webservice zu entwickeln. Dies ist gerade bei langfristig angelegten und grösseren Studien zum Verlauf der rheumatoiden Arthritis hilfreich.
+
+### Flexible Architektur
+
+Die bestehenden Machine-Learning-Modelle wurden mithilfe von Messaging zu einem lose gekoppelten System zusammenfügt. Diese Architektur erlaubt es, mehrere Instanzen pro Modell auszuführen, wodurch die Röntgenbilder schnell und zuverlässig verarbeitet werden können. Die Qualität des Gesamtsystems wird mit verschiedenen Metriken evaluiert. Damit können Qualitätsverbesserungen des Gesamtsystems beurteilt werden, wenn einzelne Machine-Learning-Komponenten durch neuere, verbesserte Versionen ersetzt werden.
+
+### Verarbeitung in mehreren Schritten
+
+Das Ergebnis der Arbeit ist ein Prototyp, der einen Webservice anbietet. Das Röntgenbild wird in den drei Schritten verarbeitet: Zunächst wird das dargestellte Körperteil erkannt. Handelt es sich dabei um eine linke Hand, kann der Vorgang fortgesetzt werden. Im zweiten Schritt werden die Gelenke extrahiert. Die Bildausschnitte werden an den nächsten Verarbeitungsschritt weitergereicht. Im dritten Schritt wird die Erosion der Gelenke auf einer Skala von 0 bis 5 ermittelt. Die Ergebnisse werden gesammelt und an den Client zurückgeliefert.
+
+**Quelle: [Blogbeitrag Hochschule Luzern - Deep Learning für die Rheumatologie]( https://hub.hslu.ch/informatik/deep-learning-fur-die-rheumatologie/)**
