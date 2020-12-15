@@ -1,0 +1,323 @@
+Running ["ScriptCheck", "LinkCheck", "ImageCheck"] on ["/home/kevin/github.com/seantis/lektor-seantis-website"] on *.html... 
+
+
+Checking 62 external links...
+Ran on 32 files!
+- /home/kevin/github.com/seantis/lektor-seantis-website/lektor-seantis-website/templates/blog.html
+  *  internally linking to {{ child|url }}, which does not exist (line 28)
+     <a href="%7B%7B%20child%7Curl%20%7D%7D">→ mehr erfahren</a>
+- /home/kevin/github.com/seantis/lektor-seantis-website/lektor-seantis-website/templates/careers.html
+  *  internal image {{ '/static/img/team/Fabian-Reinhard.jpg'|url }} does not exist (line 60)
+  *  internally linking to {{ '/portrait/agile-softwareentwicklung/'|url }}, which does not exist (line 12)
+     <a href="%7B%7B%20'/portrait/agile-softwareentwicklung/'%7Curl%20%7D%7D">→ Unsere Methodik</a>
+  *  internally linking to {{ '/portrait/agile-softwareentwicklung/'|url }}, which does not exist (line 30)
+     <a href="%7B%7B%20'/portrait/agile-softwareentwicklung/'%7Curl%20%7D%7D">→ mehr erfahren</a>
+  *  internally linking to {{ item|url }}, which does not exist (line 41)
+     <a href="%7B%7B%20item%7Curl%20%7D%7D">→ mehr erfahren</a>
+- /home/kevin/github.com/seantis/lektor-seantis-website/lektor-seantis-website/templates/frontpage.html
+  *  External link http://www.concordia.ch failed: 302 SSL connect error
+  *  internal image {{ '/static/img/bosw.jpg'|url }} does not exist (line 298)
+  *  internal image {{ '/static/img/customers/ar.svg'|url }} does not exist (line 159)
+  *  internal image {{ '/static/img/customers/baar.png'|url }} does not exist (line 181)
+  *  internal image {{ '/static/img/customers/bs.png'|url }} does not exist (line 164)
+  *  internal image {{ '/static/img/customers/chuv.png'|url }} does not exist (line 120)
+  *  internal image {{ '/static/img/customers/concordia.svg'|url }} does not exist (line 213)
+  *  internal image {{ '/static/img/customers/duerrenaesch.svg'|url }} does not exist (line 230)
+  *  internal image {{ '/static/img/customers/ebikon.png'|url }} does not exist (line 174)
+  *  internal image {{ '/static/img/customers/gr.svg'|url }} does not exist (line 142)
+  *  internal image {{ '/static/img/customers/hug.png'|url }} does not exist (line 125)
+  *  internal image {{ '/static/img/customers/ilo.png'|url }} does not exist (line 191)
+  *  internal image {{ '/static/img/customers/msd.svg'|url }} does not exist (line 130)
+  *  internal image {{ '/static/img/customers/mt.svg'|url }} does not exist (line 218)
+  *  internal image {{ '/static/img/customers/musikschule-rontal.svg'|url }} does not exist (line 186)
+  *  internal image {{ '/static/img/customers/nzz-libro.jpg'|url }} does not exist (line 225)
+  *  internal image {{ '/static/img/customers/pilatus.svg'|url }} does not exist (line 240)
+  *  internal image {{ '/static/img/customers/pro-juventute.svg'|url }} does not exist (line 203)
+  *  internal image {{ '/static/img/customers/rueti.svg'|url }} does not exist (line 196)
+  *  internal image {{ '/static/img/customers/scqm.svg'|url }} does not exist (line 208)
+  *  internal image {{ '/static/img/customers/sg.svg'|url }} does not exist (line 147)
+  *  internal image {{ '/static/img/customers/sz.svg'|url }} does not exist (line 152)
+  *  internal image {{ '/static/img/customers/universitaet-bern.svg'|url }} does not exist (line 235)
+  *  internal image {{ '/static/img/customers/usz.png'|url }} does not exist (line 115)
+  *  internal image {{ '/static/img/customers/winterthur.svg'|url }} does not exist (line 169)
+  *  internal image {{ '/static/img/customers/zg.svg'|url }} does not exist (line 137)
+  *  internal image {{ '/static/img/healthdata.svg'|url }} does not exist (line 41)
+  *  internal image {{ '/static/img/mycontrol.svg'|url }} does not exist (line 61)
+  *  internal image {{ '/static/img/onegovcloud.svg'|url }} does not exist (line 51)
+  *  internal image {{ '/static/img/team/office.jpg'|url }} does not exist (line 92)
+  *  internal image {{ image.thumbnail(600)|url }} does not exist (line 266)
+  *  internally linking to {{ '/news/pro-juventute-feriennet-best-of-swiss-web/'|url }}, which does not exist (line 292)
+     <a href="%7B%7B%20'/news/pro-juventute-feriennet-best-of-swiss-web/'%7Curl%20%7D%7D">→ mehr erfahren</a>
+  *  internally linking to {{ '/portrait'|url }}, which does not exist (line 107)
+     <a href="%7B%7B%20'/portrait'%7Curl%20%7D%7D">→ mehr erfahren</a>
+  *  internally linking to {{ '/portrait/awards'|url }}, which does not exist (line 84)
+     <a href="%7B%7B%20'/portrait/awards'%7Curl%20%7D%7D">Preise und Auszeichnungen</a>
+  *  internally linking to {{ '/startup'|url }}, which does not exist (line 86)
+     <a href="%7B%7B%20'/startup'%7Curl%20%7D%7D">→ mehr erfahren</a>
+  *  internally linking to {{ '/success-stories'|url }}, which does not exist (line 255)
+     <a href="%7B%7B%20'/success-stories'%7Curl%20%7D%7D">→ mehr erfahren</a>
+  *  internally linking to {{ '/success-stories/deep-learning-xray'|url }}, which does not exist (line 13)
+     <a href="%7B%7B%20'/success-stories/deep-learning-xray'%7Curl%20%7D%7D">→ Projekt DeepXray</a>
+  *  internally linking to {{ child|url }}, which does not exist (line 265)
+     <a href="%7B%7B%20child%7Curl%20%7D%7D">
+                                        <img src="%7B%7B%20image.thumbnail(600)%7Curl%20%7D%7D" alt="{{ child.title }}">
+                                    </a>
+  *  internally linking to {{ child|url }}, which does not exist (line 272)
+     <a href="%7B%7B%20child%7Curl%20%7D%7D">→ mehr erfahren</a>
+- /home/kevin/github.com/seantis/lektor-seantis-website/lektor-seantis-website/templates/layout.html
+  *  internal image {{ '/static/img/bosw-2016.svg'|url }} does not exist (line 96)
+  *  internal image {{ '/static/img/bosw-2019.png'|url }} does not exist (line 95)
+  *  internal image {{ '/static/img/logo.svg'|url }} does not exist (line 66)
+  *  internal image {{ '/static/img/swissmadesoftware.png'|url }} does not exist (line 91)
+  *  internal script {{ '/static/js/aos.js'|asseturl }} does not exist (line 122)
+  *  internal script {{ '/static/js/app.js'|asseturl }} does not exist (line 131)
+  *  internal script {{ '/static/js/foundation.min.js'|asseturl }} does not exist (line 128)
+  *  internal script {{ '/static/js/jquery.min.js'|asseturl }} does not exist (line 120)
+  *  internal script {{ '/static/js/tipuesearch.min.js'|asseturl }} does not exist (line 130)
+  *  internal script {{ '/static/js/tipuesearch_set.js'|asseturl }} does not exist (line 129)
+  *  internal script {{ '/static/js/what-input.min.js'|asseturl }} does not exist (line 127)
+  *  internally linking to {{ '/'|url }}, which does not exist (line 29)
+     <a href="%7B%7B%20'/'%7Curl%20%7D%7D">Home</a>
+  *  internally linking to {{ '/'|url }}, which does not exist (line 38)
+     <a href="%7B%7B%20'/'%7Curl%20%7D%7D">Home</a>
+  *  internally linking to {{ '/'|url }}, which does not exist (line 66)
+     <a href="%7B%7B%20'/'%7Curl%20%7D%7D"><img id="logo" src="%7B%7B%20'/static/img/logo.svg'%7Curl%20%7D%7D" alt="Zur Startseite"></a>
+  *  internally linking to {{ '/blog/nzz-hackback'|url }}, which does not exist (line 25)
+     <a href="%7B%7B%20'/blog/nzz-hackback'%7Curl%20%7D%7D">🛡Gastkommentar Cyber Security @NZZ #donthackback ⚔️</a>
+  *  internally linking to {{ '/contact'|url }}, which does not exist (line 30)
+     <a href="%7B%7B%20'/contact'%7Curl%20%7D%7D">Kontakt</a>
+  *  internally linking to {{ '/contact'|url }}, which does not exist (line 107)
+     <a class="button" href="%7B%7B%20'/contact'%7Curl%20%7D%7D">Kontakt</a>
+  *  internally linking to {{ '/static/css/aos.css'|asseturl }}, which does not exist (line 15)
+     <link rel="stylesheet" href="%7B%7B%20'/static/css/aos.css'%7Casseturl%20%7D%7D">
+  *  internally linking to {{ '/static/css/custom.css'|asseturl }}, which does not exist (line 14)
+     <link rel="stylesheet" href="%7B%7B%20'/static/css/custom.css'%7Casseturl%20%7D%7D">
+  *  internally linking to {{ '/static/css/fira.css'|asseturl }}, which does not exist (line 12)
+     <link rel="stylesheet" href="%7B%7B%20'/static/css/fira.css'%7Casseturl%20%7D%7D">
+  *  internally linking to {{ '/static/css/fontawesome.min.css'|asseturl }}, which does not exist (line 13)
+     <link rel="stylesheet" href="%7B%7B%20'/static/css/fontawesome.min.css'%7Casseturl%20%7D%7D">
+  *  internally linking to {{ '/static/css/foundation.min.css'|asseturl }}, which does not exist (line 11)
+     <link rel="stylesheet" href="%7B%7B%20'/static/css/foundation.min.css'%7Casseturl%20%7D%7D">
+  *  internally linking to {{ href|url }}, which does not exist (line 54)
+     <a href="%7B%7B%20href%7Curl%20%7D%7D">{{ title }}</a>
+- /home/kevin/github.com/seantis/lektor-seantis-website/lektor-seantis-website/templates/macros/pagination.html
+  *  internally linking to {{ pagination.for_page(page)|url }}, which does not exist (line 15)
+     <a href="%7B%7B%20pagination.for_page(page)%7Curl%20%7D%7D">{{ page }}</a>
+  *  internally linking to {{ pagination.next|url }}, which does not exist (line 25)
+     <a href="%7B%7B%20pagination.next%7Curl%20%7D%7D">Nächste</a>
+  *  internally linking to {{ pagination.prev|url }}, which does not exist (line 7)
+     <a href="%7B%7B%20pagination.prev%7Curl%20%7D%7D">Vorherige</a>
+- /home/kevin/github.com/seantis/lektor-seantis-website/lektor-seantis-website/templates/macros/team.html
+  *  internal image {{ '/static/img/team/David-Salvisberg.jpg'|url }} does not exist (line 94)
+  *  internal image {{ '/static/img/team/Fabian-Reinhard.jpg'|url }} does not exist (line 13)
+  *  internal image {{ '/static/img/team/Lukas-Burkhard.jpg'|url }} does not exist (line 74)
+  *  internal image {{ '/static/img/team/Marc-Sommerhalder.jpg'|url }} does not exist (line 109)
+  *  internal image {{ '/static/img/team/Patrick-Bucher.jpg'|url }} does not exist (line 58)
+  *  internal image {{ '/static/img/team/Person.jpg'|url }} does not exist (line 128)
+  *  internal image {{ '/static/img/team/Person.jpg'|url }} does not exist (line 142)
+  *  internal image {{ '/static/img/team/Tobias-Reinhard.jpg'|url }} does not exist (line 37)
+- /home/kevin/github.com/seantis/lektor-seantis-website/lektor-seantis-website/templates/news-post.html
+  *  image {{ image|url }} does not have an alt attribute (line 22)
+  *  internal image {{ image|url }} does not exist (line 22)
+- /home/kevin/github.com/seantis/lektor-seantis-website/lektor-seantis-website/templates/news.html
+  *  internally linking to {{ child|url }}, which does not exist (line 28)
+     <a href="%7B%7B%20child%7Curl%20%7D%7D">→ mehr erfahren</a>
+- /home/kevin/github.com/seantis/lektor-seantis-website/lektor-seantis-website/templates/page.html
+  *  internally linking to {{ child.path }}, which does not exist (line 25)
+     <a href="%7B%7B%20child.path%20%7D%7D">{{ child.title }}</a>
+- /home/kevin/github.com/seantis/lektor-seantis-website/lektor-seantis-website/templates/portrait.html
+  *  internally linking to {{ '/blog/we-support-the-hacker-pledge'|url }}, which does not exist (line 54)
+     <a href="%7B%7B%20'/blog/we-support-the-hacker-pledge'%7Curl%20%7D%7D">We support the Hacker Pledge</a>
+  *  internally linking to {{ '/portrait/agile-softwareentwicklung'|url }}, which does not exist (line 37)
+     <a href="%7B%7B%20'/portrait/agile-softwareentwicklung'%7Curl%20%7D%7D">Agile als Grundeinstellung</a>
+  *  internally linking to {{ '/portrait/awards'|url }}, which does not exist (line 32)
+     <a href="%7B%7B%20'/portrait/awards'%7Curl%20%7D%7D">Preise und Auszeichnungen</a>
+  *  internally linking to {{ '/portrait/open-mind-open-source'|url }}, which does not exist (line 52)
+     <a href="%7B%7B%20'/portrait/open-mind-open-source'%7Curl%20%7D%7D">Open Source (Web-)Technologien</a>
+  *  internally linking to {{ '/portrait/ventures'|url }}, which does not exist (line 40)
+     <a href="%7B%7B%20'/portrait/ventures'%7Curl%20%7D%7D">Ventures</a>
+  *  internally linking to {{ child.path }}, which does not exist (line 112)
+     <a href="%7B%7B%20child.path%20%7D%7D">{{ child.title }}</a>
+- /home/kevin/github.com/seantis/lektor-seantis-website/lektor-seantis-website/templates/startup.html
+  *  internal image {{ '/static/img/bosw.jpg'|url }} does not exist (line 138)
+  *  internal image {{ '/static/img/sketches.png'|url }} does not exist (line 40)
+  *  internal image {{ '/static/img/team/Fabian-Reinhard.jpg'|url }} does not exist (line 112)
+  *  internally linking to {{ '/news/pro-juventute-feriennet-best-of-swiss-web/'|url }}, which does not exist (line 132)
+     <a href="%7B%7B%20'/news/pro-juventute-feriennet-best-of-swiss-web/'%7Curl%20%7D%7D">→ mehr erfahren</a>
+- /home/kevin/github.com/seantis/lektor-seantis-website/lektor-seantis-website/templates/success-stories.html
+  *  image {{ image.thumbnail(400)|url }} does not have an alt attribute (line 28)
+  *  internal image {{ image.thumbnail(400)|url }} does not exist (line 28)
+  *  internally linking to {{ child|url }}, which does not exist (line 27)
+     <a href="%7B%7B%20child%7Curl%20%7D%7D">
+                                            <img src="%7B%7B%20image.thumbnail(400)%7Curl%20%7D%7D" alt="">
+                                        </a>
+  *  internally linking to {{ child|url }}, which does not exist (line 36)
+     <a href="%7B%7B%20child%7Curl%20%7D%7D">→ mehr erfahren</a>
+- /home/kevin/github.com/seantis/lektor-seantis-website/lektor-seantis-website/templates/success-story.html
+  *  image {{ image|url }} does not have an alt attribute (line 32)
+  *  internal image {{ image|url }} does not exist (line 32)
+- /home/kevin/github.com/seantis/lektor-seantis-website/templates/blog.html
+  *  internally linking to {{ child|url }}, which does not exist (line 28)
+     <a href="%7B%7B%20child%7Curl%20%7D%7D">→ mehr erfahren</a>
+- /home/kevin/github.com/seantis/lektor-seantis-website/templates/careers.html
+  *  internal image {{ '/static/img/team/Fabian-Reinhard.jpg'|url }} does not exist (line 60)
+  *  internally linking to {{ '/portrait/agile-softwareentwicklung/'|url }}, which does not exist (line 12)
+     <a href="%7B%7B%20'/portrait/agile-softwareentwicklung/'%7Curl%20%7D%7D">→ Unsere Methodik</a>
+  *  internally linking to {{ '/portrait/agile-softwareentwicklung/'|url }}, which does not exist (line 30)
+     <a href="%7B%7B%20'/portrait/agile-softwareentwicklung/'%7Curl%20%7D%7D">→ mehr erfahren</a>
+  *  internally linking to {{ item|url }}, which does not exist (line 41)
+     <a href="%7B%7B%20item%7Curl%20%7D%7D">→ mehr erfahren</a>
+- /home/kevin/github.com/seantis/lektor-seantis-website/templates/frontpage.html
+  *  internal image {{ '/static/img/bosw.jpg'|url }} does not exist (line 298)
+  *  internal image {{ '/static/img/customers/ar.svg'|url }} does not exist (line 159)
+  *  internal image {{ '/static/img/customers/baar.png'|url }} does not exist (line 181)
+  *  internal image {{ '/static/img/customers/bs.png'|url }} does not exist (line 164)
+  *  internal image {{ '/static/img/customers/chuv.png'|url }} does not exist (line 120)
+  *  internal image {{ '/static/img/customers/concordia.svg'|url }} does not exist (line 213)
+  *  internal image {{ '/static/img/customers/duerrenaesch.svg'|url }} does not exist (line 230)
+  *  internal image {{ '/static/img/customers/ebikon.png'|url }} does not exist (line 174)
+  *  internal image {{ '/static/img/customers/gr.svg'|url }} does not exist (line 142)
+  *  internal image {{ '/static/img/customers/hug.png'|url }} does not exist (line 125)
+  *  internal image {{ '/static/img/customers/ilo.png'|url }} does not exist (line 191)
+  *  internal image {{ '/static/img/customers/msd.svg'|url }} does not exist (line 130)
+  *  internal image {{ '/static/img/customers/mt.svg'|url }} does not exist (line 218)
+  *  internal image {{ '/static/img/customers/musikschule-rontal.svg'|url }} does not exist (line 186)
+  *  internal image {{ '/static/img/customers/nzz-libro.jpg'|url }} does not exist (line 225)
+  *  internal image {{ '/static/img/customers/pilatus.svg'|url }} does not exist (line 240)
+  *  internal image {{ '/static/img/customers/pro-juventute.svg'|url }} does not exist (line 203)
+  *  internal image {{ '/static/img/customers/rueti.svg'|url }} does not exist (line 196)
+  *  internal image {{ '/static/img/customers/scqm.svg'|url }} does not exist (line 208)
+  *  internal image {{ '/static/img/customers/sg.svg'|url }} does not exist (line 147)
+  *  internal image {{ '/static/img/customers/sz.svg'|url }} does not exist (line 152)
+  *  internal image {{ '/static/img/customers/universitaet-bern.svg'|url }} does not exist (line 235)
+  *  internal image {{ '/static/img/customers/usz.png'|url }} does not exist (line 115)
+  *  internal image {{ '/static/img/customers/winterthur.svg'|url }} does not exist (line 169)
+  *  internal image {{ '/static/img/customers/zg.svg'|url }} does not exist (line 137)
+  *  internal image {{ '/static/img/healthdata.svg'|url }} does not exist (line 41)
+  *  internal image {{ '/static/img/mycontrol.svg'|url }} does not exist (line 61)
+  *  internal image {{ '/static/img/onegovcloud.svg'|url }} does not exist (line 51)
+  *  internal image {{ '/static/img/team/office.jpg'|url }} does not exist (line 92)
+  *  internal image {{ image.thumbnail(600)|url }} does not exist (line 266)
+  *  internally linking to {{ '/news/pro-juventute-feriennet-best-of-swiss-web/'|url }}, which does not exist (line 292)
+     <a href="%7B%7B%20'/news/pro-juventute-feriennet-best-of-swiss-web/'%7Curl%20%7D%7D">→ mehr erfahren</a>
+  *  internally linking to {{ '/portrait'|url }}, which does not exist (line 107)
+     <a href="%7B%7B%20'/portrait'%7Curl%20%7D%7D">→ mehr erfahren</a>
+  *  internally linking to {{ '/portrait/awards'|url }}, which does not exist (line 84)
+     <a href="%7B%7B%20'/portrait/awards'%7Curl%20%7D%7D">Preise und Auszeichnungen</a>
+  *  internally linking to {{ '/startup'|url }}, which does not exist (line 86)
+     <a href="%7B%7B%20'/startup'%7Curl%20%7D%7D">→ mehr erfahren</a>
+  *  internally linking to {{ '/success-stories'|url }}, which does not exist (line 255)
+     <a href="%7B%7B%20'/success-stories'%7Curl%20%7D%7D">→ mehr erfahren</a>
+  *  internally linking to {{ '/success-stories/deep-learning-xray'|url }}, which does not exist (line 13)
+     <a href="%7B%7B%20'/success-stories/deep-learning-xray'%7Curl%20%7D%7D">→ Projekt DeepXray</a>
+  *  internally linking to {{ child|url }}, which does not exist (line 265)
+     <a href="%7B%7B%20child%7Curl%20%7D%7D">
+                                        <img src="%7B%7B%20image.thumbnail(600)%7Curl%20%7D%7D" alt="{{ child.title }}">
+                                    </a>
+  *  internally linking to {{ child|url }}, which does not exist (line 272)
+     <a href="%7B%7B%20child%7Curl%20%7D%7D">→ mehr erfahren</a>
+- /home/kevin/github.com/seantis/lektor-seantis-website/templates/layout.html
+  *  internal image {{ '/static/img/bosw-2016.svg'|url }} does not exist (line 96)
+  *  internal image {{ '/static/img/bosw-2019.png'|url }} does not exist (line 95)
+  *  internal image {{ '/static/img/logo.svg'|url }} does not exist (line 66)
+  *  internal image {{ '/static/img/swissmadesoftware.png'|url }} does not exist (line 91)
+  *  internal script {{ '/static/js/aos.js'|asseturl }} does not exist (line 122)
+  *  internal script {{ '/static/js/app.js'|asseturl }} does not exist (line 131)
+  *  internal script {{ '/static/js/foundation.min.js'|asseturl }} does not exist (line 128)
+  *  internal script {{ '/static/js/jquery.min.js'|asseturl }} does not exist (line 120)
+  *  internal script {{ '/static/js/tipuesearch.min.js'|asseturl }} does not exist (line 130)
+  *  internal script {{ '/static/js/tipuesearch_set.js'|asseturl }} does not exist (line 129)
+  *  internal script {{ '/static/js/what-input.min.js'|asseturl }} does not exist (line 127)
+  *  internally linking to {{ '/'|url }}, which does not exist (line 29)
+     <a href="%7B%7B%20'/'%7Curl%20%7D%7D">Home</a>
+  *  internally linking to {{ '/'|url }}, which does not exist (line 38)
+     <a href="%7B%7B%20'/'%7Curl%20%7D%7D">Home</a>
+  *  internally linking to {{ '/'|url }}, which does not exist (line 66)
+     <a href="%7B%7B%20'/'%7Curl%20%7D%7D"><img id="logo" src="%7B%7B%20'/static/img/logo.svg'%7Curl%20%7D%7D" alt="Zur Startseite"></a>
+  *  internally linking to {{ '/blog/nzz-hackback'|url }}, which does not exist (line 25)
+     <a href="%7B%7B%20'/blog/nzz-hackback'%7Curl%20%7D%7D">🛡Gastkommentar Cyber Security @NZZ #donthackback ⚔️</a>
+  *  internally linking to {{ '/contact'|url }}, which does not exist (line 30)
+     <a href="%7B%7B%20'/contact'%7Curl%20%7D%7D">Kontakt</a>
+  *  internally linking to {{ '/contact'|url }}, which does not exist (line 107)
+     <a class="button" href="%7B%7B%20'/contact'%7Curl%20%7D%7D">Kontakt</a>
+  *  internally linking to {{ '/static/css/aos.css'|asseturl }}, which does not exist (line 15)
+     <link rel="stylesheet" href="%7B%7B%20'/static/css/aos.css'%7Casseturl%20%7D%7D">
+  *  internally linking to {{ '/static/css/custom.css'|asseturl }}, which does not exist (line 14)
+     <link rel="stylesheet" href="%7B%7B%20'/static/css/custom.css'%7Casseturl%20%7D%7D">
+  *  internally linking to {{ '/static/css/fira.css'|asseturl }}, which does not exist (line 12)
+     <link rel="stylesheet" href="%7B%7B%20'/static/css/fira.css'%7Casseturl%20%7D%7D">
+  *  internally linking to {{ '/static/css/fontawesome.min.css'|asseturl }}, which does not exist (line 13)
+     <link rel="stylesheet" href="%7B%7B%20'/static/css/fontawesome.min.css'%7Casseturl%20%7D%7D">
+  *  internally linking to {{ '/static/css/foundation.min.css'|asseturl }}, which does not exist (line 11)
+     <link rel="stylesheet" href="%7B%7B%20'/static/css/foundation.min.css'%7Casseturl%20%7D%7D">
+  *  internally linking to {{ href|url }}, which does not exist (line 54)
+     <a href="%7B%7B%20href%7Curl%20%7D%7D">{{ title }}</a>
+- /home/kevin/github.com/seantis/lektor-seantis-website/templates/macros/pagination.html
+  *  internally linking to {{ pagination.for_page(page)|url }}, which does not exist (line 15)
+     <a href="%7B%7B%20pagination.for_page(page)%7Curl%20%7D%7D">{{ page }}</a>
+  *  internally linking to {{ pagination.next|url }}, which does not exist (line 25)
+     <a href="%7B%7B%20pagination.next%7Curl%20%7D%7D">Nächste</a>
+  *  internally linking to {{ pagination.prev|url }}, which does not exist (line 7)
+     <a href="%7B%7B%20pagination.prev%7Curl%20%7D%7D">Vorherige</a>
+- /home/kevin/github.com/seantis/lektor-seantis-website/templates/macros/team.html
+  *  internal image {{ '/static/img/team/David-Salvisberg.jpg'|url }} does not exist (line 94)
+  *  internal image {{ '/static/img/team/Fabian-Reinhard.jpg'|url }} does not exist (line 13)
+  *  internal image {{ '/static/img/team/Lukas-Burkhard.jpg'|url }} does not exist (line 74)
+  *  internal image {{ '/static/img/team/Marc-Sommerhalder.jpg'|url }} does not exist (line 109)
+  *  internal image {{ '/static/img/team/Patrick-Bucher.jpg'|url }} does not exist (line 58)
+  *  internal image {{ '/static/img/team/Person.jpg'|url }} does not exist (line 128)
+  *  internal image {{ '/static/img/team/Person.jpg'|url }} does not exist (line 142)
+  *  internal image {{ '/static/img/team/Tobias-Reinhard.jpg'|url }} does not exist (line 37)
+- /home/kevin/github.com/seantis/lektor-seantis-website/templates/news-post.html
+  *  image {{ image|url }} does not have an alt attribute (line 22)
+  *  internal image {{ image|url }} does not exist (line 22)
+- /home/kevin/github.com/seantis/lektor-seantis-website/templates/news.html
+  *  internally linking to {{ child|url }}, which does not exist (line 28)
+     <a href="%7B%7B%20child%7Curl%20%7D%7D">→ mehr erfahren</a>
+- /home/kevin/github.com/seantis/lektor-seantis-website/templates/page.html
+  *  internally linking to {{ child.path }}, which does not exist (line 25)
+     <a href="%7B%7B%20child.path%20%7D%7D">{{ child.title }}</a>
+- /home/kevin/github.com/seantis/lektor-seantis-website/templates/portrait.html
+  *  internally linking to {{ '/blog/we-support-the-hacker-pledge'|url }}, which does not exist (line 54)
+     <a href="%7B%7B%20'/blog/we-support-the-hacker-pledge'%7Curl%20%7D%7D">We support the Hacker Pledge</a>
+  *  internally linking to {{ '/portrait/agile-softwareentwicklung'|url }}, which does not exist (line 37)
+     <a href="%7B%7B%20'/portrait/agile-softwareentwicklung'%7Curl%20%7D%7D">Agile als Grundeinstellung</a>
+  *  internally linking to {{ '/portrait/awards'|url }}, which does not exist (line 32)
+     <a href="%7B%7B%20'/portrait/awards'%7Curl%20%7D%7D">Preise und Auszeichnungen</a>
+  *  internally linking to {{ '/portrait/open-mind-open-source'|url }}, which does not exist (line 52)
+     <a href="%7B%7B%20'/portrait/open-mind-open-source'%7Curl%20%7D%7D">Open Source (Web-)Technologien</a>
+  *  internally linking to {{ '/portrait/ventures'|url }}, which does not exist (line 40)
+     <a href="%7B%7B%20'/portrait/ventures'%7Curl%20%7D%7D">Ventures</a>
+  *  internally linking to {{ child.path }}, which does not exist (line 112)
+     <a href="%7B%7B%20child.path%20%7D%7D">{{ child.title }}</a>
+- /home/kevin/github.com/seantis/lektor-seantis-website/templates/startup.html
+  *  internal image {{ '/static/img/bosw.jpg'|url }} does not exist (line 138)
+  *  internal image {{ '/static/img/sketches.png'|url }} does not exist (line 40)
+  *  internal image {{ '/static/img/team/Fabian-Reinhard.jpg'|url }} does not exist (line 112)
+  *  internally linking to {{ '/news/pro-juventute-feriennet-best-of-swiss-web/'|url }}, which does not exist (line 132)
+     <a href="%7B%7B%20'/news/pro-juventute-feriennet-best-of-swiss-web/'%7Curl%20%7D%7D">→ mehr erfahren</a>
+- /home/kevin/github.com/seantis/lektor-seantis-website/templates/success-stories.html
+  *  image {{ image.thumbnail(400)|url }} does not have an alt attribute (line 28)
+  *  internal image {{ image.thumbnail(400)|url }} does not exist (line 28)
+  *  internally linking to {{ child|url }}, which does not exist (line 27)
+     <a href="%7B%7B%20child%7Curl%20%7D%7D">
+                                            <img src="%7B%7B%20image.thumbnail(400)%7Curl%20%7D%7D" alt="">
+                                        </a>
+  *  internally linking to {{ child|url }}, which does not exist (line 36)
+     <a href="%7B%7B%20child%7Curl%20%7D%7D">→ mehr erfahren</a>
+- /home/kevin/github.com/seantis/lektor-seantis-website/templates/success-story.html
+  *  image {{ image|url }} does not have an alt attribute (line 32)
+  *  internal image {{ image|url }} does not exist (line 32)
+Traceback (most recent call last):
+	8: from /usr/bin/htmlproofer:11:in `<main>'
+	7: from /usr/share/rubygems-integration/all/gems/mercenary-0.3.6/lib/mercenary.rb:19:in `program'
+	6: from /usr/share/rubygems-integration/all/gems/mercenary-0.3.6/lib/mercenary/program.rb:42:in `go'
+	5: from /usr/share/rubygems-integration/all/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `execute'
+	4: from /usr/share/rubygems-integration/all/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `each'
+	3: from /usr/share/rubygems-integration/all/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `block in execute'
+	2: from /usr/bin/htmlproofer:103:in `block (2 levels) in <main>'
+	1: from /usr/lib/ruby/vendor_ruby/html-proofer/runner.rb:50:in `run'
+/usr/lib/ruby/vendor_ruby/html-proofer/runner.rb:172:in `print_failed_tests': HTML-Proofer found 195 failures! (RuntimeError)
+
+
+htmlproofer 3.14.1 | Error:  HTML-Proofer found 195 failures!
