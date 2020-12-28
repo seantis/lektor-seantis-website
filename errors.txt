@@ -1,0 +1,728 @@
+blog
+  - ./blog/51-mio--sms-und-mms-zum-silvester/index.html
+    *  External link http://www.swisscom-mobile.ch/ failed: response code 0 means something's wrong.
+              It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+              Sometimes, making too many requests at once also breaks things.
+              Either way, the return message (if any) from the server is: Failure when receiving data from the peer
+  - ./blog/aerzte-von-klinikinformationssystemen-kis-enttaeuscht/index.html
+    *  External link http://www.gfsbern.ch/Neuigkeiten/tabid/177/itemid/827/amid/1151/swiss-
+    ehealth-barometer-2013.aspx failed: response code 0 means something's wrong.
+              It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+              Sometimes, making too many requests at once also breaks things.
+              Either way, the return message (if any) from the server is: URL using bad/illegal format or missing URL
+  - ./blog/air-force-one-als-graffiti-opfer/index.html
+    *  External link http://www.stillfree.com/ failed: response code 0 means something's wrong.
+              It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+              Sometimes, making too many requests at once also breaks things.
+              Either way, the return message (if any) from the server is: Couldn't resolve host name
+  - ./blog/anti-google-vom-wikipedia-gruender/index.html
+    *  External link http://www.welt.de/data/2006/12/24/1156729.html failed: 404 No error
+  - ./blog/archetypes-annotationstorage-and-image-scaling/index.html
+    *  External link http://www.unc.edu/%7Ejj/plone/ failed: 404 No error
+  - ./blog/artikel-ueber-die-onegov-box-in-der-egov-praesenz-2-2012/index.html
+    *  External link http://www.wirtschaft.bfh.ch/de/forschung/publikationen/egov_praesenz.html failed: 404 No error
+  - ./blog/bundesamt-warnt-vor-benutzung-von-internet-explorer/index.html
+    *  External link https://www.bsi.bund.de/cln_183/ContentBSI/presse/Pressemitteilungen/Sicherheitsluecke_IE_150110.html failed: 404 No error
+  - ./blog/cablecom-will-mehr-geld-und-ruiniert-backbone/index.html
+    *  External link http://www.nzz.ch/2006/10/27/em/articleELMMC.html failed: 404 No error
+  - ./blog/connecting-to-mssql-with-pyodbc/index.html
+    *  External link http://lambie.org/2008/02/28/connecting-to-an-mssql-database-from-ruby-
+  on-ubuntu/ failed: response code 0 means something's wrong.
+              It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+              Sometimes, making too many requests at once also breaks things.
+              Either way, the return message (if any) from the server is: URL using bad/illegal format or missing URL
+  - ./blog/credit-suisse-bankraub-news-als-masche-zum-verbreiten-von-trojanern/index.html
+    *  External link http://www.pctipp.ch/helpdesk/sicherheit/archiv/34853.asp failed: 404 No error
+  - ./blog/das-gesicht-von-google/index.html
+    *  External link http://www.google.com/intl/en/customlogos.html failed: 404 No error
+    *  External link http://www.welt.de/webwelt/article798746/Der_Kampf_um_das_Google-
+  Gesicht_.html failed: response code 0 means something's wrong.
+              It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+              Sometimes, making too many requests at once also breaks things.
+              Either way, the return message (if any) from the server is: URL using bad/illegal format or missing URL
+  - ./blog/data-dictionary-mit-sphinx/index.html
+    *  External link https://www.seantis.ch/portfolio/swiss-clinical-
+  quality-management-in-rheumatic-diseases failed: response code 0 means something's wrong.
+              It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+              Sometimes, making too many requests at once also breaks things.
+              Either way, the return message (if any) from the server is: URL using bad/illegal format or missing URL
+  - ./blog/data-driven-analysis-in-der-rheumaforschung/index.html
+    *  External link http://www.scqm.ch/uber-scqm/annual-reports/annual-report-2013 failed: 404 No error
+    *  image Cluster.png does not have an alt attribute (line 115)
+  - ./blog/deployment-buildout/index.html
+    *  External link http://plone.org/documentation/tutorial/buildout/a-deployment-configuration failed: 404 No error
+    *  External link http://varnish.projects.linpro.no/ failed: response code 0 means something's wrong.
+              It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+              Sometimes, making too many requests at once also breaks things.
+              Either way, the return message (if any) from the server is: Couldn't connect to server
+    *  External link http://wiki.codemongers.com/Main failed: response code 0 means something's wrong.
+              It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+              Sometimes, making too many requests at once also breaks things.
+              Either way, the return message (if any) from the server is: Couldn't resolve host name
+    *  External link http://www.martinaspeli.net/articles/an-uber-buildout-for-a-production-plone-
+  server failed: response code 0 means something's wrong.
+              It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+              Sometimes, making too many requests at once also breaks things.
+              Either way, the return message (if any) from the server is: URL using bad/illegal format or missing URL
+  - ./blog/deutsche-wikipedia-soll-auf-papier-erscheinen/index.html
+    *  External link http://www.wp10.de/ failed: 404 No error
+  - ./blog/die-aerztliche-handschrift-und-dokumentationsfehler/index.html
+    *  External link http://www.nzz.ch/aktuell/schweiz/die-handschrift-der-
+  halbgoetter-in-weiss-1.12848707 failed: response code 0 means something's wrong.
+              It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+              Sometimes, making too many requests at once also breaks things.
+              Either way, the return message (if any) from the server is: URL using bad/illegal format or missing URL
+  - ./blog/die-zu-schoene-wahrheit-in-wikipedia/index.html
+    *  External link http://www.nzz.ch/nachrichten/startseite/wikipedia_als_pr-
+  instrument_1.549558.html failed: response code 0 means something's wrong.
+              It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+              Sometimes, making too many requests at once also breaks things.
+              Either way, the return message (if any) from the server is: URL using bad/illegal format or missing URL
+  - ./blog/digitale-signatur-onegov-cloud/index.html
+    *  External link https://www.egovernment.ch/de/dokumentation/rechtliche-fragen/elektronische-signatur failed: 404 No error
+  - ./blog/domain-namen-dichte/index.html
+    *  External link http://www.switch.ch/id/geo-statistics/absolut2007/ failed: 404 No error
+  - ./blog/e-mail-freier-freitag/index.html
+    *  External link http://www.nzz.ch/nachrichten/medien/e-mail-
+  freier_freitag_beim_weltgroessten_chiphersteller__1.571629.html failed: response code 0 means something's wrong.
+              It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+              Sometimes, making too many requests at once also breaks things.
+              Either way, the return message (if any) from the server is: URL using bad/illegal format or missing URL
+  - ./blog/einfache-zusammenarbeit-alles-hat-eine-url/index.html
+    *  External link http://www.hipchat.com/ failed: response code 0 means something's wrong.
+              It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+              Sometimes, making too many requests at once also breaks things.
+              Either way, the return message (if any) from the server is: Server returned nothing (no headers, no data)
+    *  image bikeshedding.png does not have an alt attribute (line 146)
+  - ./blog/firefox-wird-footiefox/index.html
+    *  http://www.mozilla-
+  europe.org/de/products/firefox/ is an invalid URL (line 111)
+      <a href="http://www.mozilla-%0Aeurope.org/de/products/firefox/">Firefox</a>
+  - ./blog/flask-vs--django-vs--pyramid-vs--plone/index.html
+    *  External link http://blog.stacktrace.ch/post/49178654214 failed: 301 Number of redirects hit maximum amount
+  - ./blog/getting-pyramid-to-work-with-uwsgi-in-a-buildout-environment/index.html
+    *  External link http://trac.pythonpaste.org/pythonpaste/ticket/473 failed: response code 0 means something's wrong.
+              It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+              Sometimes, making too many requests at once also breaks things.
+              Either way, the return message (if any) from the server is: Couldn't resolve host name
+  - ./blog/google-mit-selbstzensur-im-chinesischen-markt/index.html
+    *  External link http://www.giga.de/index.php?storyid=130720 failed: 404 No error
+  - ./blog/googlendus-ergo-sum/index.html
+    *  External link http://de.wikibooks.org/wiki/Latein:_Lateinische_Grammatik:_Satzlehre_Nominalkonstruktionen_Gerundivum failed: 404 No error
+  - ./blog/grippe-trends-bei-google/index.html
+    *  External link http://www.google.org/flutrends/intl/de/ch/ failed: 404 No error
+  - ./blog/habermas-zur-bedeutung-des-internet/index.html
+    *  External link http://www.renner-institut.at/download/texte/habermas2006-03-09.pdf failed: 404 No error
+  - ./blog/health-2-0/index.html
+    *  External link http://www.heise.de/newsticker/Medica-2008-Medizin-im-Zeichen-des-Mitmach-
+  Webs--/meldung/117209 failed: response code 0 means something's wrong.
+              It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+              Sometimes, making too many requests at once also breaks things.
+              Either way, the return message (if any) from the server is: URL using bad/illegal format or missing URL
+  - ./blog/historisiertes-gemeindeverzeichnis-der-schweiz-als-json/index.html
+    *  External link http://www.bfs.admin.ch/bfs/portal/de/index/infothek/nomenklaturen/blank/blank/gem_liste/02.html failed: 404 No error
+    *  image BFS.png does not have an alt attribute (line 122)
+  - ./blog/how-to-convert-from-subversion-to-git/index.html
+    *  External link http://pauldowman.com/2008/07/26/how-to-
+  convert-from-subversion-to-git/ failed: response code 0 means something's wrong.
+              It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+              Sometimes, making too many requests at once also breaks things.
+              Either way, the return message (if any) from the server is: URL using bad/illegal format or missing URL
+  - ./blog/html5-web-app/index.html
+    *  External link http://techcrunch.com/2011/06/07/ft-bypasses-apples-itunes-launches-html5
+  -web-app-free-access-first-week/ failed: response code 0 means something's wrong.
+              It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+              Sometimes, making too many requests at once also breaks things.
+              Either way, the return message (if any) from the server is: URL using bad/illegal format or missing URL
+  - ./blog/image-upload-panel/index.html
+    *  External link http://www.pythonware.com/products/pil/ failed: response code 0 means something's wrong.
+              It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+              Sometimes, making too many requests at once also breaks things.
+              Either way, the return message (if any) from the server is: Couldn't resolve host name
+  - ./blog/import-export-funktionalitaeten-in-plone/index.html
+    *  External link http://plone.org/documentation/faq/webdav-ftp/ failed: 404 No error
+    *  External link http://plone.org/products/massloader/ failed: 404 No error
+    *  External link http://plone.org/products/plonefileszip/ failed: 404 No error
+    *  External link http://www.enfoldsystems.com/Products/Desktop failed: 404 No error
+  - ./blog/internet-explorer-7/index.html
+    *  External link http://plone.org/documentation/how-to/plone-ie7-updates failed: 404 No error
+  - ./blog/klingelton-fuer-junge/index.html
+    *  External link http://www.infowing.ch/web/de/static-content/specials_teenbuzz.htm failed: 404 No error
+    *  External link http://www.infowing.ch/web/sounds/mms/248-teenbuzz.mp3 failed: 404 No error
+  - ./blog/mails-zurueck-in-die-zukunft/index.html
+    *  External link http://www.stern.de/computer-technik/internet/:Zukunft-
+  Mails-Sie-Post/552011.html failed: response code 0 means something's wrong.
+              It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+              Sometimes, making too many requests at once also breaks things.
+              Either way, the return message (if any) from the server is: URL using bad/illegal format or missing URL
+  - ./blog/medication-timeline/index.html
+    *  image Timeline.png does not have an alt attribute (line 115)
+  - ./blog/microsoft-has-stolen-our-logo/index.html
+    *  External link http://blogs.technet.com/b/microsoft_blog/archive/2012/08/23/microsoft-
+  unveils-a-new-look.aspx failed: response code 0 means something's wrong.
+              It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+              Sometimes, making too many requests at once also breaks things.
+              Either way, the return message (if any) from the server is: URL using bad/illegal format or missing URL
+    *  External link https://www.seantis.ch/news/seantis.ch-auf-plone-4.0 failed: 404 No error
+  - ./blog/microsoft-lanciert-live-search/index.html
+    *  External link http://plone.org/documentation/whatsnew/2.1/livesearch failed: 404 No error
+  - ./blog/microsoft-sagt-domain-trittbrettfahrerern-den-kampf-an/index.html
+    *  External link http://research.microsoft.com/URLTracer failed: 404 No error
+  - ./blog/news_item-2010-06-22-3734561017/index.html
+    *  External link http://ec.europa.eu/enterprise/ict/policy/doc/2006-11-20-flossimpact.pdf failed: 404 No error
+  - ./blog/nzz-zur-suisse-id-identitaetskrise/index.html
+    *  External link http://www.weltwoche.ch/onlineexklusiv/aktuell/2010-05-04-suisseid-teure-
+  loesung-fuer-nicht-existierende-probleme.html failed: response code 0 means something's wrong.
+              It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+              Sometimes, making too many requests at once also breaks things.
+              Either way, the return message (if any) from the server is: URL using bad/illegal format or missing URL
+  - ./blog/ocqm-open-clinical-quality-management/index.html
+    *  External link https://www.seantis.ch/portfolio/swiss-clinical-quality-
+  management-in-rheumatic-diseases/scqm-nationale-rheuma-datenbank failed: response code 0 means something's wrong.
+              It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+              Sometimes, making too many requests at once also breaks things.
+              Either way, the return message (if any) from the server is: URL using bad/illegal format or missing URL
+  - ./blog/open-source-in-the-enterprise-plone-novell/index.html
+    *  External link http://plone.tv/ failed: response code 0 means something's wrong.
+              It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+              Sometimes, making too many requests at once also breaks things.
+              Either way, the return message (if any) from the server is: Couldn't resolve host name
+    *  External link http://plone.tv/media/1142075512/view failed: response code 0 means something's wrong.
+              It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+              Sometimes, making too many requests at once also breaks things.
+              Either way, the return message (if any) from the server is: Couldn't resolve host name
+    *  External link http://plone.tv/media/1838007412/view failed: response code 0 means something's wrong.
+              It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+              Sometimes, making too many requests at once also breaks things.
+              Either way, the return message (if any) from the server is: Couldn't resolve host name
+  - ./blog/open-source-java/index.html
+    *  External link http://www.seantis.ch/loesungen/seantisCMS/opensource failed: 404 No error
+  - ./blog/open-source-tv-spot/index.html
+    *  External link http://www-5.ibm.com/e-business/uk/linux/?tactic=106DF02W#see failed: 404 No error
+    *  External link http://www.seantis.ch/portrait/open/opensource failed: 404 No error
+  - ./blog/partnerschaft-zwischen-microsoft-und-novell/index.html
+    *  External link http://www.microsoft.com/presspass/press/2006/nov06/11-02MSNovellPR.mspx failed: 403 No error
+  - ./blog/pdf-view-in-plone-with-z3c-rml-1/index.html
+    *  External link http://svn.zope.org/z3c.rml/trunk/src/z3c/rml/rml-
+  reference.pdf?view=auto failed: response code 0 means something's wrong.
+              It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+              Sometimes, making too many requests at once also breaks things.
+              Either way, the return message (if any) from the server is: URL using bad/illegal format or missing URL
+  - ./blog/plone-3-0-buch/index.html
+    *  External link http://www.packtpub.com/Professional-Plone-web-applications-
+  CMS/book failed: response code 0 means something's wrong.
+              It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+              Sometimes, making too many requests at once also breaks things.
+              Either way, the return message (if any) from the server is: URL using bad/illegal format or missing URL
+  - ./blog/plone-3-0-performance/index.html
+    *  External link http://limi.net/articles/some-preliminary-plone-3.0-benchmark-
+  results/ failed: response code 0 means something's wrong.
+              It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+              Sometimes, making too many requests at once also breaks things.
+              Either way, the return message (if any) from the server is: URL using bad/illegal format or missing URL
+  - ./blog/plone-for-phpers/index.html
+    *  External link http://www.seantis.ch/news/blog/blog/archive/2006/09/06/the-fast-and-furious-web-developer/ failed: 404 No error
+  - ./blog/plone3-buildout/index.html
+    *  External link http://plone.org/documentation/manual/developer-manual/managing-projects-
+  with-buildout/creating-a-buildout-for-your-project failed: response code 0 means something's wrong.
+              It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+              Sometimes, making too many requests at once also breaks things.
+              Either way, the return message (if any) from the server is: URL using bad/illegal format or missing URL
+  - ./blog/pyramid-web-application-framework/index.html
+    *  External link http://docs.pylonshq.com/pyramid/dev failed: 404 No error
+    *  External link http://lists.repoze.org/pipermail/repoze-
+  dev/2010-November/003619.html failed: response code 0 means something's wrong.
+              It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+              Sometimes, making too many requests at once also breaks things.
+              Either way, the return message (if any) from the server is: URL using bad/illegal format or missing URL
+  - ./blog/python-org/index.html
+    *  External link http://www.seantis.ch/portrait/opensource failed: 404 No error
+  - ./blog/realtime-benchmarking-for-medical-data/index.html
+    *  image summarystats.png does not have an alt attribute (line 116)
+  - ./blog/repoze-bfg-language-negotiator/index.html
+    *  External link http://docs.repoze.org/bfg/1.3/narr/i18n.html failed: got a time out (response code 0)
+    *  External link https://flight-log.ch/ failed: response code 0 means something's wrong.
+              It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+              Sometimes, making too many requests at once also breaks things.
+              Either way, the return message (if any) from the server is: SSL peer certificate or SSH remote key was not OK
+  - ./blog/research-data-repository/index.html
+    *  image datapreprocessing.png does not have an alt attribute (line 175)
+  - ./blog/responsive-website/index.html
+    *  External link http://www.alistapart.com/articles
+  /responsive-web-design failed: response code 0 means something's wrong.
+              It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+              Sometimes, making too many requests at once also breaks things.
+              Either way, the return message (if any) from the server is: URL using bad/illegal format or missing URL
+  - ./blog/rss-news-im-abo/index.html
+    *  External link http://de.wikipedia.org/wiki/rss failed: 404 No error
+    *  External link http://news.bbc.co.uk/1/hi/help/rss/default.stm failed: 404 No error
+    *  External link http://www.mozilla-europe.org/de/products/firefox/live-bookmarks/ failed: response code 0 means something's wrong.
+              It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+              Sometimes, making too many requests at once also breaks things.
+              Either way, the return message (if any) from the server is: Couldn't resolve host name
+  - ./blog/run-auf-die-neuen-eu-domains/index.html
+    *  External link http://www.n-tv.de/653557.html failed: 404 No error
+  - ./blog/schiff-ahoi/index.html
+    *  External link http://dock.easycruise.com/ failed: response code 0 means something's wrong.
+              It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+              Sometimes, making too many requests at once also breaks things.
+              Either way, the return message (if any) from the server is: Couldn't resolve host name
+    *  http://www.fahrschule-
+  schaer.ch/ is an invalid URL (line 124)
+      <a href="http://www.fahrschule-%0Aschaer.ch/">http://www.fahrschule-schaer.ch</a>
+  - ./blog/seantis-kultur-arkway/index.html
+    *  External link http://www.jafud.com/ failed: response code 0 means something's wrong.
+              It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+              Sometimes, making too many requests at once also breaks things.
+              Either way, the return message (if any) from the server is: Couldn't resolve host name
+  - ./blog/seantis-questionnaire-released/index.html
+    *  External link http://docs.djangoproject.com/en/1.0/topics/signals/ failed: 404 No error
+    *  External link http://wiki.github.com/rmt/seantis-questionnaire failed: 400 No error
+  - ./blog/shared-access-to-medical-records/index.html
+    *  image dataaccess.png does not have an alt attribute (line 113)
+  - ./blog/ship-swiss-healthcare-insurance-premiums/index.html
+    *  External link http://www.bag.admin.ch/themen/krankenversicherung/01156/02446/index.html?lang=de failed: 404 No error
+    *  External link http://www.nzz.ch/aktuell/schweiz/bund-liess-comparis-hackerangriff-
+  durchgehen-1.17547910 failed: response code 0 means something's wrong.
+              It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+              Sometimes, making too many requests at once also breaks things.
+              Either way, the return message (if any) from the server is: URL using bad/illegal format or missing URL
+  - ./blog/sitemaps-protokoll-von-google-yahoo-und-msn/index.html
+    *  External link http://www.seantis.ch/news/blog/archive/2006/11/archive/2005/12/26
+  /sitemaps-wegweiser-fuer-google failed: response code 0 means something's wrong.
+              It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+              Sometimes, making too many requests at once also breaks things.
+              Either way, the return message (if any) from the server is: URL using bad/illegal format or missing URL
+  - ./blog/sprechen-wir-ueber-das-problem-statt-ueber-die-loesung/index.html
+    *  External link http://katgleason.tumblr.com/post/47257463324/talk-about-the-problem-not-the-
+  solution failed: response code 0 means something's wrong.
+              It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+              Sometimes, making too many requests at once also breaks things.
+              Either way, the return message (if any) from the server is: URL using bad/illegal format or missing URL
+  - ./blog/stable-marriage/index.html
+    *  image image-1.png does not have an alt attribute (line 117)
+    *  image image-2.png does not have an alt attribute (line 120)
+    *  image image-3.png does not have an alt attribute (line 123)
+    *  image image-4.png does not have an alt attribute (line 127)
+    *  image results-1.png does not have an alt attribute (line 172)
+    *  image results-2.png does not have an alt attribute (line 179)
+  - ./blog/suchen-um-zu-lesen/index.html
+    *  External link http://ngrams.googlelabs.com/ failed: got a time out (response code 0)
+    *  External link http://ngrams.googlelabs.com/graph?content=Internet%2CBook&year_start=1800&year_end=2000&corpus=0&smoothing=3 failed: got a time out (response code 0)
+  - ./blog/suisseid-2-0-oder-wie-alles-gut-wuerde/index.html
+    *  External link http://www.computerworld.ch/aktuell/news/52792/index.html failed: 404 No error
+    *  External link http://www.suisseid.ch/unternehmen/einsatzszenarien/zertifikat/index.html failed: 404 No error
+  - ./blog/suisseid-ad-absurdum/index.html
+    *  External link http://www.suisseid.ch/unternehmen/einsatzszenarien/index.html failed: 404 No error
+  - ./blog/swiss-army-kommt-zu-internet-film-ehren/index.html
+    *  External link http://www.blick.ch/sonntagsblick/aktuell/artikel48983 failed: 404 No error
+  - ./blog/the-experience-of-learning-puppet/index.html
+    *  External link https://github.com/puppetlabs/puppetlabs-nginx failed: 404 No error
+    *  External link https://github.com/puppetlabs/puppetlabs-nginx/pull/15 failed: 404 No error
+  - ./blog/the-fast-and-furious-web-developer/index.html
+    *  External link http://oodt.jpl.nasa.gov/better-web-app.mov failed: response code 0 means something's wrong.
+              It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+              Sometimes, making too many requests at once also breaks things.
+              Either way, the return message (if any) from the server is: Couldn't resolve host name
+    *  External link http://seankelly.tv/author/kelly failed: response code 0 means something's wrong.
+              It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+              Sometimes, making too many requests at once also breaks things.
+              Either way, the return message (if any) from the server is: Couldn't resolve host name
+  - ./blog/the-knowing-doing-gap/index.html
+    *  External link http://www.amazon.com/Knowing-Doing-Gap-Companies-Knowledge-
+  Action/dp/1578511240 failed: response code 0 means something's wrong.
+              It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+              Sometimes, making too many requests at once also breaks things.
+              Either way, the return message (if any) from the server is: URL using bad/illegal format or missing URL
+  - ./blog/too-cool-for-internet-explorer/index.html
+    *  External link http://www.thecounter.com/stats/2007/September/browser.php failed: 404 No error
+    *  External link http://www.w3junkies.com/toocool/index.php failed: got a time out (response code 0)
+    *  External link http://www.w3junkies.com/toocool/join.php failed: response code 0 means something's wrong.
+              It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+              Sometimes, making too many requests at once also breaks things.
+              Either way, the return message (if any) from the server is: Couldn't resolve host name
+  - ./blog/uebersichtliches-formular-fuer-die-familienanamnese/index.html
+    *  image EintragFamilie.png does not have an alt attribute (line 123)
+    *  image FamilienAnamnese.png does not have an alt attribute (line 110)
+  - ./blog/viral-marketing/index.html
+    *  External link http://www.seantis.ch/news/media/ad_berlitz_-_sinking.mpg failed: 404 No error
+  - ./blog/visualisierung-krankenkassenpraemien-2014/index.html
+    *  image ship2014.png does not have an alt attribute (line 117)
+  - ./blog/vom-201esemantic-web201c-zum-201eweb-of-data201c/index.html
+    *  External link http://www.nzz.ch/nachrichten/medien/das_grosse_aufraeumen_im_hypertext-
+  haufen_1.2216427.html failed: response code 0 means something's wrong.
+              It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+              Sometimes, making too many requests at once also breaks things.
+              Either way, the return message (if any) from the server is: URL using bad/illegal format or missing URL
+  - ./blog/web-2-0-droge-religionsersatz-oder-zukunftstechnologie/index.html
+    *  External link http://www.nzz.ch/2006/01/13/em/articleDHFG7.html failed: 404 No error
+    *  External link http://www.oreillynet.com/pub/a/oreilly/tim/news/2005/09/30/what-is-
+  web-20.html failed: response code 0 means something's wrong.
+              It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+              Sometimes, making too many requests at once also breaks things.
+              Either way, the return message (if any) from the server is: URL using bad/illegal format or missing URL
+  - ./blog/web-2-0-logos/index.html
+    *  External link http://www.seantis.ch/news/media/web2_0.jpg/image_view_fullscreen failed: 404 No error
+    *  External link http://www.uneasysilence.com/archive/2006/04/5885 failed: got a time out (response code 302)
+  - ./blog/wem-gehoert-schweiz-ch/index.html
+    *  External link http://www.nzz.ch/2006/02/23/il/newzzEK0VY31C-12.html failed: 404 No error
+  - ./blog/wetteralarm/index.html
+    *  External link http://www.wetteralarm.ch/ failed: 403 No error
+  - ./blog/wie-cool-ist-cuil/index.html
+    *  External link http://www.cuil.com/ failed: response code 0 means something's wrong.
+              It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+              Sometimes, making too many requests at once also breaks things.
+              Either way, the return message (if any) from the server is: Couldn't resolve host name
+  - ./blog/wikipedia-oder-am-anfang-war-eine-gute-idee/index.html
+    *  External link http://www.technologyreview.com/InfoTech/wtr_16057,308,p1.html failed: 404 No error
+  - ./blog/wlan-luzern/index.html
+    *  External link http://www.ewl-luzern.ch/?rub=65&id=100086 failed: 404 No error
+  - ./blog/wm-als-ascii-livestream/index.html
+    *  External link http://www.ascii-wm.net/ failed: 301 SSL peer certificate or SSH remote key was not OK
+
+index
+  - ./index.html
+    *  External link http://www.concordia.ch failed: 302 SSL connect error
+    *  internal image success-stories/data-monitor-issues/0-issue@600.png does not exist (line 435)
+    *  internal image success-stories/deep-learning-xray/Xray@600.jpg does not exist (line 451)
+    *  internal image success-stories/digitale-kursverwaltung/fsi@600.png does not exist (line 355)
+    *  internal image success-stories/docare/docare@600.png does not exist (line 419)
+    *  internal image success-stories/fhir-api/fhir@600.png does not exist (line 403)
+    *  internal image success-stories/staatskalender-ar/staatskalender-ar@600.png does not exist (line 387)
+    *  internal image success-stories/swissvotes-abstimmungen/1-swissvotes@600.png does not exist (line 371)
+    *  internal image success-stories/uno-ilo/papyrus@600.png does not exist (line 483)
+    *  internal image success-stories/wahl-abstimmungsresultate/Portale@600.png does not exist (line 467)
+
+news
+  - ./news/201efit-for-work201c-online-tool-wocado/index.html
+    *  External link http://www.fitforwork-swiss.ch/ failed: response code 0 means something's wrong.
+              It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+              Sometimes, making too many requests at once also breaks things.
+              Either way, the return message (if any) from the server is: Couldn't resolve host name
+  - ./news/a-python-conference-in-switzerland/index.html
+    *  image postersmall.png does not have an alt attribute (line 113)
+  - ./news/covid-19/index.html
+    *  image mySCQM.png does not have an alt attribute (line 113)
+  - ./news/covid19-antibodies/index.html
+    *  image hem-col.jpg does not have an alt attribute (line 113)
+  - ./news/deep-learning-rheumatologie/index.html
+    *  image og_image.jpg does not have an alt attribute (line 112)
+  - ./news/deeplearning-xray-webservice/index.html
+    *  image DeepXRay_fix.png does not have an alt attribute (line 113)
+  - ./news/fallstudie-auf-plone-org-easyfinder-en/index.html
+    *  External link http://plone.net/case-studies/mettler-toledo-easyfinder-2.0 failed: got a time out (response code 0)
+  - ./news/flight-log-online-en/index.html
+    *  External link http://www.seantis.ch/engineering/case-studies/flight-log failed: 404 No error
+  - ./news/gemeinde-lauerz/index.html
+    *  image Gemeinde-Lauerz.png does not have an alt attribute (line 113)
+  - ./news/idialog-monthly-msd-merck-app/index.html
+    *  image iDialog.png does not have an alt attribute (line 113)
+  - ./news/informationssicherheit-iso-27001/index.html
+    *  image CI-Pipeline.png does not have an alt attribute (line 113)
+  - ./news/innnovation-e-government-schweiz/index.html
+    *  image Kantone.png does not have an alt attribute (line 113)
+  - ./news/inserateaufgabe-fuer-den-zuger-marktplatz-en/index.html
+    *  External link https://www.amtsblattzug.ch/e-amtsblatt failed: response code 0 means something's wrong.
+              It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+              Sometimes, making too many requests at once also breaks things.
+              Either way, the return message (if any) from the server is: SSL peer certificate or SSH remote key was not OK
+  - ./news/inserateaufgabe-fuer-den-zuger-marktplatz/index.html
+    *  External link http://www.reportlab.org/ failed: got a time out (response code 0)
+    *  External link http://www.seantis.ch/engineering/case-studies/eamtsblatt failed: 404 No error
+    *  External link https://www.amtsblattzug.ch/eamtsblatt failed: response code 0 means something's wrong.
+              It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+              Sometimes, making too many requests at once also breaks things.
+              Either way, the return message (if any) from the server is: SSL peer certificate or SSH remote key was not OK
+  - ./news/interdisziplinaeres-aerztenetzwerk-zuerich/index.html
+    *  External link https://www.seantis.ch/cms/plone-content-
+  management-system-cms failed: response code 0 means something's wrong.
+              It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+              Sometimes, making too many requests at once also breaks things.
+              Either way, the return message (if any) from the server is: URL using bad/illegal format or missing URL
+  - ./news/langzeitverlauf-in-der-online-rheumadatenbank/index.html
+    *  image 1685.png does not have an alt attribute (line 113)
+  - ./news/medical-research-in-practice/index.html
+    *  External link http://www.theatlantic.com/health/archive/2014/03
+  /doctors-and-tech-who-serves-whom/284518/ failed: response code 0 means something's wrong.
+              It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+              Sometimes, making too many requests at once also breaks things.
+              Either way, the return message (if any) from the server is: URL using bad/illegal format or missing URL
+  - ./news/mettler-toledo-balance-support-site-en/index.html
+    *  External link http://www.mettler-toledo-support.com/ failed: response code 0 means something's wrong.
+              It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+              Sometimes, making too many requests at once also breaks things.
+              Either way, the return message (if any) from the server is: Couldn't connect to server
+  - ./news/mettler-toledo-easyfinder-2-0/index.html
+    *  External link http://www.lab-balance.com/ failed: 302 SSL peer certificate or SSH remote key was not OK
+    *  External link http://www.mt.com/mt/businessDesc/businessDesc.jsp failed: 404 No error
+  - ./news/mettler-toledo-labx-activation-portal-en/index.html
+    *  External link http://ch.mt.com/mt/businessDesc/businessDesc.jsp failed: 302 SSL peer certificate or SSH remote key was not OK
+  - ./news/mettler-toledo-microsite-quantos-en/index.html
+    *  External link http://www.perfect-dosing.com/**](http://www.perfect-dosing.com/)** failed: 404 No error
+  - ./news/mobile-amtsblatt-ch/index.html
+    *  External link http://plone.org/products/web-and-mobile failed: 404 No error
+  - ./news/mt-activation-portal-mit-webservices-en/index.html
+    *  External link http://www.seantis.ch/news/news/mettler-toledo-labx-activation-web-portal failed: 404 No error
+  - ./news/mt-activation-portal-mit-webservices/index.html
+    *  External link http://www.seantis.ch/news/news/mettler-toledo-labx-activation-portal failed: 404 No error
+    *  External link https://activation.mt.com/ failed: response code 0 means something's wrong.
+              It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+              Sometimes, making too many requests at once also breaks things.
+              Either way, the return message (if any) from the server is: SSL peer certificate or SSH remote key was not OK
+  - ./news/multizentrische-biobank/index.html
+    *  External link http://www.scqm.ch/biobank failed: 404 No error
+  - ./news/mycontrol-aero-operator-easa-compliance/index.html
+    *  External link https://www.seantis.ch/portfolio/flight-log/myControl.aero-Operator.pdf failed: 404 No error
+  - ./news/mycontrol-aero-version-1-8/index.html
+    *  External link https://myControl.aero/notfound failed: 404 No error
+  - ./news/mycontrol-aero-version-2-3/index.html
+    *  External link https://www.mycontrol.aero/)** failed: 404 No error
+  - ./news/nationale-datenbank-zur-erforschung-rheumatologischer-erkrankungen-en/index.html
+    *  External link http://www.essex.ch/ failed: 404 No error
+    *  External link http://www.wyeth.ch/ failed: response code 0 means something's wrong.
+              It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+              Sometimes, making too many requests at once also breaks things.
+              Either way, the return message (if any) from the server is: Couldn't resolve host name
+  - ./news/nationale-rheuma-datenbank-in-public-beta-en/index.html
+    *  External link http://www.seantis.ch/news/news/national-database-for-research-into-rheumatological-diseases failed: 404 No error
+  - ./news/nationale-rheuma-datenbank-in-public-beta/index.html
+    *  External link http://www.seantis.ch/news/news/nationale-datenbank-zur-erforschung-rheumatologischer-erkrankungen failed: 404 No error
+  - ./news/nationwide-swiss-research-biobank-scqm/index.html
+    *  External link http://www.scqm.ch/uber-scqm/annual-
+  reports/annual-report-2014 failed: response code 0 means something's wrong.
+              It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+              Sometimes, making too many requests at once also breaks things.
+              Either way, the return message (if any) from the server is: URL using bad/illegal format or missing URL
+  - ./news/neuer-internetauftritt-der-gemeinde-risch/index.html
+    *  External link http://www.zg.ch/behoerden/gemeinden/risch-
+  rotkreuz/verwaltung/aktuelles/mitteilungen/mit-wenigen-klicks-ans-ziel failed: response code 0 means something's wrong.
+              It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+              Sometimes, making too many requests at once also breaks things.
+              Either way, the return message (if any) from the server is: URL using bad/illegal format or missing URL
+  - ./news/neuer-webmail-client/index.html
+    *  External link http://controlpanel.seantis.ch/tools/webmail failed: response code 0 means something's wrong.
+              It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+              Sometimes, making too many requests at once also breaks things.
+              Either way, the return message (if any) from the server is: Couldn't resolve host name
+  - ./news/ocqms-klinische-dokumentation/index.html
+    *  External link https://www.healhdata.ai/ failed: response code 0 means something's wrong.
+              It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+              Sometimes, making too many requests at once also breaks things.
+              Either way, the return message (if any) from the server is: Couldn't resolve host name
+  - ./news/onegov-award/index.html
+    *  image feriennet.jpg does not have an alt attribute (line 113)
+  - ./news/onegov-box-personenverzeichnis/index.html
+    *  External link https://phzg.zug.ch/mitarbeitende failed: 404 No error
+  - ./news/onegov-cloud-gewinnt-einen-best-of-swiss-web/index.html
+    *  image upload.jpg does not have an alt attribute (line 113)
+  - ./news/online-patienteneingabe-mit-ipad/index.html
+    *  External link https://www.seantis.ch/portfolio
+  /swiss-clinical-quality-management-in-rheumatic-diseases failed: response code 0 means something's wrong.
+              It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+              Sometimes, making too many requests at once also breaks things.
+              Either way, the return message (if any) from the server is: URL using bad/illegal format or missing URL
+  - ./news/online-portal-fuer-wahl-und-abstimmungsresultate/index.html
+    *  External link https://abstimmungen.gr.ch/opendata failed: 404 No error
+    *  image Kantone.png does not have an alt attribute (line 113)
+  - ./news/online-praxisguide/index.html
+    *  External link https://www.copd-update.ch/ failed: got a time out (response code 0)
+  - ./news/open-data-conference/index.html
+    *  image OpenDataConference.jpg does not have an alt attribute (line 113)
+  - ./news/pilot-logbook-in-the-cloud/index.html
+    *  image Flights.png does not have an alt attribute (line 113)
+  - ./news/plone-screencast-en/index.html
+    *  External link http://plone.tv/media/689203017 failed: response code 0 means something's wrong.
+              It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+              Sometimes, making too many requests at once also breaks things.
+              Either way, the return message (if any) from the server is: Couldn't resolve host name
+  - ./news/plone-suisseid-neue-version/index.html
+    *  External link http://plone.org/products/collective.suisseid failed: 404 No error
+  - ./news/plone-update-2-5/index.html
+    *  External link http://plone.org/products/plone/releases/2.5 failed: 404 No error
+  - ./news/plone-update/index.html
+    *  External link http://plone.org/products/plone/releases/2.5.2 failed: 404 No error
+  - ./news/portrait-fabian-reinhard-auf-roi-online/index.html
+    *  http://www.roi-
+  online.ch/koepfe/artikel/zentralscheiz/fabian-reinhard-managing-partner-der-
+  seantis-gmbh-luzern.html is an invalid URL (line 117)
+      <a href="http://www.roi-%0Aonline.ch/koepfe/artikel/zentralscheiz/fabian-reinhard-managing-partner-der-%0Aseantis-gmbh-luzern.html">http://www.roi-
+  online.ch/koepfe/artikel/zentralscheiz/fabian-reinhard-managing-partner-der-
+  seantis-gmbh-luzern.html</a>
+  - ./news/pro-juventute-feriennet-best-of-swiss-web/index.html
+    *  image bosw.jpg does not have an alt attribute (line 113)
+  - ./news/scqm-online-neues-patient-interface/index.html
+    *  External link http://www.seantis.ch/news/news/scqm-online-screencast failed: 404 No error
+  - ./news/seantis-ch-auf-plone-4-0/index.html
+    *  External link https://www.seantis.ch/portfolio failed: 404 No error
+  - ./news/seantis-ch-mobile-version/index.html
+    *  External link http://m.seantis.ch/ failed: response code 0 means something's wrong.
+              It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+              Sometimes, making too many requests at once also breaks things.
+              Either way, the return message (if any) from the server is: Couldn't resolve host name
+  - ./news/seantis-invoice-open-source-fakturierung-en/index.html
+    *  External link http://bfg.repoze.org/ failed: got a time out (response code 0)
+    *  External link http://blog.repoze.org/Seantis%20releases%20BFG-
+  based%20invoicing%20application/ failed: response code 0 means something's wrong.
+              It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+              Sometimes, making too many requests at once also breaks things.
+              Either way, the return message (if any) from the server is: URL using bad/illegal format or missing URL
+    *  External link http://invoice.seantis.ch/ failed: response code 0 means something's wrong.
+              It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+              Sometimes, making too many requests at once also breaks things.
+              Either way, the return message (if any) from the server is: Couldn't resolve host name
+  - ./news/seantis-invoice-open-source-fakturierung/index.html
+    *  External link http://blog.repoze.org/Seantis%20releases%20BFG-based%20invoicing%20application/ failed: got a time out (response code 0)
+  - ./news/sponsor-europython-2019/index.html
+    *  image job-ad.png does not have an alt attribute (line 113)
+  - ./news/sponsoring-dinacon-2018/index.html
+    *  image dinacon.jpg does not have an alt attribute (line 113)
+  - ./news/suisseid-fuer-plone/index.html
+    *  External link http://plone.org/products/collective.suisseid/ failed: 404 No error
+  - ./news/swiss-epigenetic-crc-cohort-study/index.html
+    *  External link https://biomedizin.unibas.ch/nc/about-
+  us/people/profil/profile/person/pscha/ failed: response code 0 means something's wrong.
+              It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+              Sometimes, making too many requests at once also breaks things.
+              Either way, the return message (if any) from the server is: URL using bad/illegal format or missing URL
+    *  http://www
+  .gastroenterologie-oberaargau.ch/ is an invalid URL (line 128)
+      <a href="http://www%0A.gastroenterologie-oberaargau.ch/">PD Dr. med. Kaspar Truninger</a>
+  - ./news/swiss-quality-award/index.html
+    *  External link http://www.swissqualityaward.ch/projekte/#anchor_126070dd_ambulant failed: 404 No error
+    *  image iDialog-Stats.png does not have an alt attribute (line 113)
+  - ./news/the-definitive-guide-to-plone/index.html
+    *  External link http://docs.neuroinf.de/PloneBook/ failed: response code 0 means something's wrong.
+              It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+              Sometimes, making too many requests at once also breaks things.
+              Either way, the return message (if any) from the server is: Couldn't resolve host name
+    *  External link http://plone.org/documentation/manual/definitive-
+  guide/definitive_guide_to_plone.pdf failed: response code 0 means something's wrong.
+              It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+              Sometimes, making too many requests at once also breaks things.
+              Either way, the return message (if any) from the server is: URL using bad/illegal format or missing URL
+    *  External link http://www.24ix.de/fileadmin/documents/Plone/Plone-Deutsch-Handbuch.pdf failed: 404 No error
+  - ./news/umstellung-mailserver/index.html
+    *  External link https://www.seantis.ch/email-migration failed: 404 No error
+  - ./news/wahlen-abstimmungen-st-gallen/index.html
+    *  image wab-sg.png does not have an alt attribute (line 113)
+  - ./news/website-aerztenetzwerk-bern/index.html
+    *  External link https://www.seantis.ch/news/cms/plone-
+  content-management-system-cms failed: response code 0 means something's wrong.
+              It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+              Sometimes, making too many requests at once also breaks things.
+              Either way, the return message (if any) from the server is: URL using bad/illegal format or missing URL
+
+portrait
+  - ./portrait/pgp-keys/index.html
+    *  internally linking to 58C1BF15.asc, which does not exist (line 118)
+      <a href="58C1BF15.asc">Pub Fabian Reinhard</a>
+    *  internally linking to BDFA49D2.asc, which does not exist (line 122)
+      <a href="BDFA49D2.asc">Pub Tobias Reinhard</a>
+
+services
+  - ./services/index.html
+    *  External link http://de.wikipedia.org/wiki/ZFS_(Dateisystem failed: 404 No error
+
+success
+  - ./success-stories/5vorzmittag/index.html
+    *  image 5vorzmittag.png does not have an alt attribute (line 125)
+  - ./success-stories/arthritis-checkup/index.html
+    *  image arthritis-checkup.png does not have an alt attribute (line 126)
+  - ./success-stories/balance-finder/index.html
+    *  image mt.jpg does not have an alt attribute (line 125)
+  - ./success-stories/cobal/index.html
+    *  image cobal.png does not have an alt attribute (line 125)
+  - ./success-stories/concordia/index.html
+    *  External link https://www.concordia.ch/ failed: response code 0 means something's wrong.
+              It's possible libcurl couldn't connect to the server or perhaps the request timed out.
+              Sometimes, making too many requests at once also breaks things.
+              Either way, the return message (if any) from the server is: SSL connect error
+    *  image MRT.png does not have an alt attribute (line 125)
+  - ./success-stories/crowdfunding-theater/index.html
+    *  image theateramsee.png does not have an alt attribute (line 125)
+  - ./success-stories/data-monitor-issues/index.html
+    *  image 0-issue.png does not have an alt attribute (line 125)
+  - ./success-stories/deep-learning-xray/index.html
+    *  image Xray.jpg does not have an alt attribute (line 125)
+  - ./success-stories/digitale-kursverwaltung/index.html
+    *  image fsi.png does not have an alt attribute (line 125)
+  - ./success-stories/docare/index.html
+    *  image docare.png does not have an alt attribute (line 125)
+  - ./success-stories/feriennet-pro-juventute/index.html
+    *  image feriennet.png does not have an alt attribute (line 125)
+  - ./success-stories/fhir-api/index.html
+    *  image fhir.png does not have an alt attribute (line 125)
+  - ./success-stories/index.html
+    *  image data-monitor-issues/0-issue@400.png does not have an alt attribute (line 213)
+    *  image digitale-kursverwaltung/fsi@400.png does not have an alt attribute (line 118)
+    *  image docare/docare@400.png does not have an alt attribute (line 194)
+    *  image fhir-api/fhir@400.png does not have an alt attribute (line 175)
+    *  image staatskalender-ar/staatskalender-ar@400.png does not have an alt attribute (line 156)
+    *  image swissvotes-abstimmungen/1-swissvotes@400.png does not have an alt attribute (line 137)
+    *  internal image data-monitor-issues/0-issue@400.png does not exist (line 213)
+    *  internal image digitale-kursverwaltung/fsi@400.png does not exist (line 118)
+    *  internal image docare/docare@400.png does not exist (line 194)
+    *  internal image fhir-api/fhir@400.png does not exist (line 175)
+    *  internal image staatskalender-ar/staatskalender-ar@400.png does not exist (line 156)
+    *  internal image swissvotes-abstimmungen/1-swissvotes@400.png does not exist (line 137)
+  - ./success-stories/musikschule-rontal/index.html
+    *  image Musikschule-Rontal.png does not have an alt attribute (line 125)
+  - ./success-stories/nzz-libro/index.html
+    *  image nzz-libro.png does not have an alt attribute (line 125)
+  - ./success-stories/page/2/index.html
+    *  image ../../5vorzmittag/5vorzmittag@400.png does not have an alt attribute (line 175)
+    *  image ../../concordia/MRT@400.png does not have an alt attribute (line 137)
+    *  image ../../crowdfunding-theater/theateramsee@400.png does not have an alt attribute (line 213)
+    *  image ../../deep-learning-xray/Xray@400.jpg does not have an alt attribute (line 118)
+    *  image ../../feriennet-pro-juventute/feriennet@400.png does not have an alt attribute (line 156)
+    *  image ../../musikschule-rontal/Musikschule-Rontal@400.png does not have an alt attribute (line 194)
+    *  internal image ../../5vorzmittag/5vorzmittag@400.png does not exist (line 175)
+    *  internal image ../../concordia/MRT@400.png does not exist (line 137)
+    *  internal image ../../crowdfunding-theater/theateramsee@400.png does not exist (line 213)
+    *  internal image ../../deep-learning-xray/Xray@400.jpg does not exist (line 118)
+    *  internal image ../../feriennet-pro-juventute/feriennet@400.png does not exist (line 156)
+    *  internal image ../../musikschule-rontal/Musikschule-Rontal@400.png does not exist (line 194)
+  - ./success-stories/page/3/index.html
+    *  image ../../arthritis-checkup/arthritis-checkup@400.png does not have an alt attribute (line 156)
+    *  image ../../cobal/cobal@400.png does not have an alt attribute (line 195)
+    *  image ../../ship/ship@400.png does not have an alt attribute (line 214)
+    *  image ../../uno-ilo/papyrus@400.png does not have an alt attribute (line 137)
+    *  image ../../wahl-abstimmungsresultate/Portale@400.png does not have an alt attribute (line 118)
+    *  image ../../wocado/wocado@400.png does not have an alt attribute (line 176)
+    *  internal image ../../arthritis-checkup/arthritis-checkup@400.png does not exist (line 156)
+    *  internal image ../../cobal/cobal@400.png does not exist (line 195)
+    *  internal image ../../ship/ship@400.png does not exist (line 214)
+    *  internal image ../../uno-ilo/papyrus@400.png does not exist (line 137)
+    *  internal image ../../wahl-abstimmungsresultate/Portale@400.png does not exist (line 118)
+    *  internal image ../../wocado/wocado@400.png does not exist (line 176)
+  - ./success-stories/page/4/index.html
+    *  image ../../balance-finder/mt@400.jpg does not have an alt attribute (line 156)
+    *  image ../../nzz-libro/nzz-libro@400.png does not have an alt attribute (line 175)
+    *  image ../../rainin/rainin@400.jpg does not have an alt attribute (line 194)
+    *  image ../../scqm/scqm@400.png does not have an alt attribute (line 118)
+    *  image ../../veranstaltungskalender/veranstaltungen-thun@400.png does not have an alt attribute (line 137)
+    *  internal image ../../balance-finder/mt@400.jpg does not exist (line 156)
+    *  internal image ../../nzz-libro/nzz-libro@400.png does not exist (line 175)
+    *  internal image ../../rainin/rainin@400.jpg does not exist (line 194)
+    *  internal image ../../scqm/scqm@400.png does not exist (line 118)
+    *  internal image ../../veranstaltungskalender/veranstaltungen-thun@400.png does not exist (line 137)
+  - ./success-stories/rainin/index.html
+    *  image rainin.jpg does not have an alt attribute (line 125)
+  - ./success-stories/scqm/index.html
+    *  image scqm.png does not have an alt attribute (line 125)
+  - ./success-stories/ship/index.html
+    *  image ship.png does not have an alt attribute (line 125)
+  - ./success-stories/staatskalender-ar/index.html
+    *  image staatskalender-ar.png does not have an alt attribute (line 125)
+  - ./success-stories/swissvotes-abstimmungen/index.html
+    *  image 1-swissvotes.png does not have an alt attribute (line 124)
+  - ./success-stories/uno-ilo/index.html
+    *  image papyrus.png does not have an alt attribute (line 125)
+  - ./success-stories/veranstaltungskalender/index.html
+    *  External link http://veranstaltungen.zug.ch/veranstaltungen-steinhausen/veranstaltungen failed: 404 No error
+    *  image veranstaltungen-thun.png does not have an alt attribute (line 125)
+  - ./success-stories/wahl-abstimmungsresultate/index.html
+    *  image Portale.png does not have an alt attribute (line 125)
+  - ./success-stories/wocado/index.html
+    *  image wocado.png does not have an alt attribute (line 125)
+htmlproofer 3.14.1 | Error:  HTML-Proofer found 284 failures!
