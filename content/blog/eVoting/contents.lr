@@ -1,0 +1,46 @@
+
+title: Die andere Sicht: Vertrauen in E-Voting ist mehr als ein Verschlüs­selungs­protokoll
+---
+
+pub_date: 2020-12-28
+---
+author: seantis
+---
+description: **Die bisherige Diskussion zu E-Voting wird zu einseitig geführt, so der IT-Unternehmer und Milizpolitiker Fabian Reinhard.**
+---
+
+body: 
+
+**«[Die andere Sicht: Vertrauen in E-Voting ist mehr als ein Verschlüs­selungs­protokoll](https://www.inside-it.ch/de/post/die-andere-sicht-vertrauen-in-e-voting-ist-mehr-als-ein-verschluesselungsprotokoll-20201221)», Inside IT am 21. Dezember 2020**
+
+Wurde meine Stimme wirklich korrekt gezählt? Wurde mein Stimmzettel unterschlagen oder gar verfälscht? Die Frage scheint bei uns Schweizerinnen und Schweizern eher theoretischer Natur zu sein. Wir vertrauen bei Wahlen darauf, dass der Prozess der Auszählung korrekt verläuft. Selbstverständlich ist dies aber nicht. Der nervenaufreibende und langwierige Prozess der Auszählung der Stimmen in den USA hat uns aktuell daran erinnert, wie sehr die Stimmenden bei Wahlen auf die mit der Auszählung betrauten Institutionen vertrauen müssen.
+
+#### Unser Vertrauen in Urnenbüros
+
+Wir Milizpolitiker kennen die Urnenbüros in den Schweizer Städten und Gemeinden von innen. Hier läuft alles korrekt und fair ab: die Stimmenzähler und die Urnenbüro-Chefinnen handeln nach bestem Wissen und Gewissen; jede Stimme wird gewissenhaft gezählt. Als Stimmbürger vertraue ich auf die Institution des Urnenbüros. Eine Garantie aber, dass meine Stimme korrekt gezählt wird, gibt es nicht. Warum eigentlich nicht? Bei Abstimmungen im Nationalrat, in den Kantons- oder Gemeindeparlamenten kann ich als abstimmender Parlamentarier sicher sein, dass meine Stimme korrekt gezählt worden ist. Erscheint mein Name auf der digitalen Resultattafel in der korrekten Farbe, können ich und die Öffentlichkeit sicher sein, dass meine Stimme korrekt gezählt worden ist. Bei einer Volksabstimmung hingegen muss mein unterzeichneter Stimmrechtsausweis von meinem Wahlzettel getrennt werden.
+
+Der direkten Verifizierbarkeit meiner Stimme steht also das Stimmgeheimnis im Wege. Das Stimmgeheimnis ist eine unabdingbare Voraussetzung der rechtsstaatlichen Demokratie. Behörden und die Öffentlichkeit dürfen nicht erfahren, wer wie gestimmt hat. Damit soll der einzelne Stimmbürger vor Druckversuchen beziehungsweise Repressalien seitens der Behörden oder der Öffentlichkeit geschützt werden.
+
+#### Verifizierbarkeit ist technisch möglich
+
+In seiner Doktorarbeit an der Yale University schlug der[ Kryptograph Josh Benaloh im Jahr 1987](https://www.microsoft.com/en-us/research/publication/verifiable-secret-ballot-elections) ein System für Wahlen vor, welches sicherstellen kann, dass eine Wahl durch alle Teilnehmer und durch unabhängige Wahlbeobachter verifiziert werden kann. Das Stimmgeheimnis bleibt dabei gewahrt. Microsoft Research, wo Benaloh heute arbeitet, hat auf der Entwicklerplattform Github mit[ ElectionGuard quelloffene Entwicklerwerkzeuge](https://github.com/microsoft/electionguard) – basierend auf dem Prinzip der homomorphen Verschlüsselung – veröffentlicht.[
+](https://github.com/microsoft/electionguard)
+
+#### Jedes System ist angreifbar
+
+Die bisherige öffentliche Diskussion zu E-Voting wird meines Erachtens zu einseitig geführt: Es werden fast ausschliesslich Sicherheitsrisiken diskutiert; die technischen Möglichkeiten der Verifizierbarkeit finden zu wenig Beachtung. Wie bei jedem IT-System sind sowohl die Architektur, die technischen Details der Implementierung sowie die Integrität und Verfügbarkeit des Systems im Betrieb für die Sicherheit entscheidend.
+
+Eine kritische Haltung bezüglich der Risiken – wie sie zum Beispiel der Chaos Computer Club Schweiz in seiner [Vernehmlassungsantwort (PDF)](https://chaosticino.ch/docs/20190430-vernehmlassung--e-voting-ordentlicher-betrieb.pdf) zur Revision des Bundesgesetzes über die Politischen Rechte zum Ausdruck gebracht hat – ist wichtig und richtig. Wer jedoch den Verzicht auf Softwareunterstützung im Prozess der Wahlen fordert, macht sich selbst etwas vor: die Ausmittlung und Zuteilung der Mandate wird schon längst mit Software berechnet; dies geschieht abseits der Öffentlichkeit mit wenig Einblick und Transparenz bezüglich der technischen Funktionsweise dieser Ausmittlungssoftware.[
+](https://chaosticino.ch/docs/20190430-vernehmlassung--e-voting-ordentlicher-betrieb.pdf)
+
+Die bemerkenswerte Idee hinter der End-zu-End-Verifizierbarkeit besteht aber gerade darin, dass nicht vorausgesetzt wird, ein solches System sei unangreifbar. Es gibt bekanntlich keinen Computer und kein menschengemachtes System, welches nicht angegriffen und manipuliert werden könnte. Der entscheidende Punkt bei der End-zu-End-Verifizierbarkeit besteht aber darin, dass ein Angriff erkannt wird.
+
+Die technischen Risiken sollen uns also nicht den Blick versperren auf den echten Quantensprung, den die elektronische Stimmabgabe erst ermöglicht. Ich kann so als Stimmbürger – unter der Wahrung meines Stimmgeheimnisses – selbst überprüfen, ob meine Stimme effektiv korrekt gezählt wurde. Die Möglichkeit zur Verifizierung ist das einzig wirklich überzeugende Argument für E-Voting. Es geht bei E-Voting also nicht darum, die Stimmabgabe bequemer zu machen und es geht nicht um eine damit verbundene Hoffnung auf eine höhere politische Beteiligung.
+
+#### E-Voting könnte zusätzliches Vertrauen schaffen
+
+Am Wahlsonntag gratuliert der Verlierer dem Gewinner. Auch wenn uns die Gratulation als Floskel erscheinen mag, haben die Glückwünsche eine wichtige Funktion. Eine Wahl ist dann entschieden, wenn der Verlierer seine Niederlage anerkennt. Nicht der Sieger muss vom Resultat überzeugt werden, der Verlierer muss überzeugt werden. Vertrauen in Technik allein kann nicht Vertrauen in Institutionen ersetzen. Vertrauen ist mehr als ein Verschlüsselungsprotokoll, schreibt zum Thema sogar das technophile ['Wired Magazine'](https://www.wired.com/story/dana-debeauvoir-texas-county-clerk-voting-tech-revolution/) .
+
+Wir sind uns zu wenig bewusst, auf welch tönernen Füssen Wahlen und damit unsere Demokratie stehen. Um das notwendige Vertrauen auch langfristig zu sichern, sind – nicht nur aber auch – neue technische Möglichkeiten sorgfältig zu prüfen und zu nützen. Die elektronische Stimmabgabe mit End-zu-End-Verifizierbarkeit könnte zusätzliches Vertrauen in Wahlen schaffen.
+
+*Fabian Reinhard ist IT-Unternehmer, er hat Internationale Beziehungen an der Universität Zürich studiert und sich an der Harvard Kennedy School weitergebildet. Er ist Präsident der FDP Stadt Luzern.*
