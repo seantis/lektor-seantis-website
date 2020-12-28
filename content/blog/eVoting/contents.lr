@@ -39,8 +39,13 @@ Die technischen Risiken sollen uns also nicht den Blick versperren auf den echte
 
 #### E-Voting könnte zusätzliches Vertrauen schaffen
 
-Am Wahlsonntag gratuliert der Verlierer dem Gewinner. Auch wenn uns die Gratulation als Floskel erscheinen mag, haben die Glückwünsche eine wichtige Funktion. Eine Wahl ist dann entschieden, wenn der Verlierer seine Niederlage anerkennt. Nicht der Sieger muss vom Resultat überzeugt werden, der Verlierer muss überzeugt werden. Vertrauen in Technik allein kann nicht Vertrauen in Institutionen ersetzen. Vertrauen ist mehr als ein Verschlüsselungsprotokoll, schreibt zum Thema sogar das technophile ['Wired Magazine'](https://www.wired.com/story/dana-debeauvoir-texas-county-clerk-voting-tech-revolution/) .
+Am Wahlsonntag gratuliert der Verlierer dem Gewinner. Auch wenn uns die Gratulation als Floskel erscheinen mag, haben die Glückwünsche eine wichtige Funktion. Eine Wahl ist dann entschieden, wenn der Verlierer seine Niederlage anerkennt. Nicht der Sieger muss vom Resultat überzeugt werden, der Verlierer muss überzeugt werden. Vertrauen in Technik allein kann nicht Vertrauen in Institutionen ersetzen. Vertrauen ist mehr als ein Verschlüsselungsprotokoll, schreibt zum Thema sogar das technophile ['Wired Magazine'](https://www.wired.com/story/dana-debeauvoir-texas-county-clerk-voting-tech-revolution/).
 
 Wir sind uns zu wenig bewusst, auf welch tönernen Füssen Wahlen und damit unsere Demokratie stehen. Um das notwendige Vertrauen auch langfristig zu sichern, sind – nicht nur aber auch – neue technische Möglichkeiten sorgfältig zu prüfen und zu nützen. Die elektronische Stimmabgabe mit End-zu-End-Verifizierbarkeit könnte zusätzliches Vertrauen in Wahlen schaffen.
 
 *Fabian Reinhard ist IT-Unternehmer, er hat Internationale Beziehungen an der Universität Zürich studiert und sich an der Harvard Kennedy School weitergebildet. Er ist Präsident der FDP Stadt Luzern.*
+
+---
+
+Nachtrag 28.12.2020: Ich möchte noch einmal betonen, dass die Sicherheit beim Thema E-Voting essentiell ist. E-Voting hat grosse konzeptionelle Sicherheitsprobleme, welche sehr grosse technische Herausforderungen mit sich bringen. Es bleibt eine offene Frage ob und wie diese gelöst werden können. So scheinen fundamentale Probleme, die durch elektronische Abstimmungssysteme entstehen, auch mit Blockchain nicht gelöst werden können ([Going from Bad to Worse: From Internet Voting to Blockchain Voting](https://people.csail.mit.edu/rivest/pubs/PSNR20.pdf)). Auch wenn E-Voting die Stimm- und Wahlbeteiligung nicht zu erhöhen vermag ([Internet voting and turnout: Evidence from Switzerland](https://doi.org/10.1016/j.electstud.2017.03.001)), müssen wir den Zugang für alle Stimmberechtigten im Blick behalten: Auslandschweizerinnen und blinde Menschen, welche damit eine Möglichkeit der Teilnahme mit Wahrung des Stimmgeheimnises erhalten.
+
