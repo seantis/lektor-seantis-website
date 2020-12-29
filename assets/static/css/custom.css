@@ -260,6 +260,10 @@ p img {
     background: #fff;
 }
 
+#customers img {
+    padding: 30px;
+}
+
 footer {
     padding: 40px 0;
     margin-top: 70px;
@@ -503,6 +507,7 @@ _:-ms-lang(x), #customers .card img {
     .dotted {
         margin: 30px 0 30px 0px;
     }
+
 }
 
 
@@ -550,4 +555,10 @@ _:-ms-lang(x), #customers .card img {
 
 .model-startup .listing {
     margin-bottom: 0;
+}
+
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+    #customers img {
+        padding: 10px;
+    }
 }
