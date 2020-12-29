@@ -18,119 +18,151 @@
 
 <body class="model-{{ this._model }}">
 
-    <!-- <div class="announcement"><a href="{{ '/news/job-python-entwickler'|url }}">&rarr; Jobs: Full Stack Python-Entwickler(in) (60-100%)<i class="fab fa-python"></i></a></div> -->
-    <!-- <div class="announcement"><a href="{{ '/news/deep-learning-rheumatologie'|url }}">&rarr; Wissenschaftliche Publikation zur Anwendung von Deep Learning in der Rheumatologie <i class="far fa-newspaper"></i></a></div> -->
-    <!-- <div class="announcement"><a href="{{ '/news/covid-19'|url }}">&rarr; Studie zu COVID-19 für Rheumapatienten <i class="far fa-newspaper"></i></a></div> -->
-    <!-- <div class="announcement"><a href="{{ '/news/job-apprenticeship-application-developer'|url }}">👩‍💻 Lehrstelle als Informatiker (Fachrichtung Applikationsentwicklung) ab Sommer 2021 oder 2022</a></div> -->
-    <div class="announcement"><a href="{{ '/blog/nzz-hackback'|url }}">🛡Gastkommentar Cyber Security @NZZ #donthackback ⚔️</a></div>
+    <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
 
-    <div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="medium" style="display:none">
-        <button class="menu-icon" type="button" data-toggle="responsive-menu"></button>
-        <div class="title-bar-title"> <a href="{{ '/'|url }}">Home</a></div>
-        <div class="title-bar-right contact"><a href="{{ '/contact'|url }}">Kontakt</a></div>
+        <!-- Close button -->
+        <button class="close-button" aria-label="Close menu" type="button" data-close>
+            <span aria-hidden="true">&times;</span>
+        </button>
+
+        <!-- Menu -->
+        <ul class="menu" data-dropdown-menu>
+            {% set menu = [
+                ['/portrait', 'Über uns', ''],
+                ['/engineering', 'Engineering', ''],
+                ['/services', 'Services', ''],
+                ['/success-stories', 'Erfolgsgeschichten', ''],
+                ['/news', 'News', ''],
+                ['/careers', 'Jobs', ''],
+                ['/blog', 'Blog', ''],
+                ['/contact', 'Kontakt', 'contact']
+                ] %}
+                {% for href, title, class_ in menu %}
+                <li class="{{ ' '.join([class_, 'active' if this.is_child_of(href) else '']) }}"><a href="{{ href|url }}">{{ title }}</a></li>
+                {% endfor %}
+        </ul>
+
     </div>
 
-    <div class="top" id="responsive-menu" style="display:none">
-        <div class="grid-container">
-            <div class="top-bar">
-              <div class="top-bar-left">
-                  <ul class="menu hide-for-small-only">
-                      <li><a href="{{ '/'|url }}">Home</a></li>
-                  </ul>
-              </div>
-              <div class="top-bar-right">
-                  <ul class="menu" data-dropdown-menu>
-                      {% set menu = [
-                          ['/portrait', 'Über uns', ''],
-                          ['/engineering', 'Engineering', ''],
-                          ['/services', 'Services', ''],
-                          ['/success-stories', 'Erfolgsgeschichten', ''],
-                          ['/news', 'News', ''],
-                          ['/careers', 'Jobs', ''],
-                          ['/blog', 'Blog', ''],
-                          ['/contact', 'Kontakt', 'contact']
-                      ] %}
-                      {% for href, title, class_ in menu %}
-                          <li class="{{ ' '.join([class_, 'active' if this.is_child_of(href) else '']) }}"><a href="{{ href|url }}">{{ title }}</a></li>
-                      {% endfor %}
-                  </ul>
-              </div>
-            </div>
+    <div class="off-canvas-content" data-off-canvas-content>
+        <!-- <div class="announcement"><a href="{{ '/news/job-python-entwickler'|url }}">&rarr; Jobs: Full Stack Python-Entwickler(in) (60-100%)<i class="fab fa-python"></i></a></div> -->
+        <!-- <div class="announcement"><a href="{{ '/news/deep-learning-rheumatologie'|url }}">&rarr; Wissenschaftliche Publikation zur Anwendung von Deep Learning in der Rheumatologie <i class="far fa-newspaper"></i></a></div> -->
+        <!-- <div class="announcement"><a href="{{ '/news/covid-19'|url }}">&rarr; Studie zu COVID-19 für Rheumapatienten <i class="far fa-newspaper"></i></a></div> -->
+        <!-- <div class="announcement"><a href="{{ '/news/job-apprenticeship-application-developer'|url }}">👩‍💻 Lehrstelle als Informatiker (Fachrichtung Applikationsentwicklung) ab Sommer 2021 oder 2022</a></div> -->
+        <div class="announcement"><a href="{{ '/blog/nzz-hackback'|url }}">🛡Gastkommentar Cyber Security @NZZ #donthackback ⚔️</a></div>
+
+        <div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="medium" style="display:none">
+            <button type="button" class="menu-icon" data-toggle="offCanvas"></button>
+            <div class="title-bar-title"> <a href="{{ '/'|url }}">Home</a></div>
+            <div class="title-bar-right contact"><a href="{{ '/contact'|url }}">Kontakt</a></div>
         </div>
-    </div>
 
-    <div class="grid-container">
-        <div class="header">
-            <div class="top-bar">
-                <div class="top-bar-left">
-                    <a href="{{ '/'|url }}"><img id="logo" src="{{ '/static/img/logo.svg'|url }}" alt="Zur Startseite"/></a>
-                </div>
-                <div class="top-bar-right">
-                    <form action="{{ '/search'|url }}">
-                        <div class="input-group show-for-medium">
-                            <input class="input-group-field" type="search" name="q" id="tipue_search_input">
-                            <div class="input-group-button">
-                                <input type="submit" class="button" value="Suche">
-                            </div>
+        <div class="top" id="responsive-menu" style="display:none">
+            <div class="grid-container">
+                <div class="top-bar">
+                    <div class="top-bar-left">
+                        <ul class="menu hide-for-small-only">
+                            <li><a href="{{ '/'|url }}">Home</a></li>
+                        </ul>
+                    </div>
+                    <div class="top-bar-right">
+                        <ul class="menu" data-dropdown-menu>
+                            {% set menu = [
+                                ['/portrait', 'Über uns', ''],
+                                ['/engineering', 'Engineering', ''],
+                                ['/services', 'Services', ''],
+                                ['/success-stories', 'Erfolgsgeschichten', ''],
+                                ['/news', 'News', ''],
+                                ['/careers', 'Jobs', ''],
+                                ['/blog', 'Blog', ''],
+                                ['/contact', 'Kontakt', 'contact']
+                                ] %}
+                                {% for href, title, class_ in menu %}
+                                <li class="{{ ' '.join([class_, 'active' if this.is_child_of(href) else '']) }}"><a href="{{ href|url }}">{{ title }}</a></li>
+                                {% endfor %}
+                            </ul>
                         </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    {% block content %}{% endblock %}
-
-    <footer>
-        <div class="grid-container">
-            <div class="grid-x grid-padding-x">
-                <div class="large-8 medium-8 cell">
-                    <h4>Building data-driven web applications with an open-source toolset and an agile mindset</h4>
-                    <p>Wir entwicklen qualitativ hochstehende Software. Dazu setzen wir auf die besten Open Source Entwickler-Tools und arbeiten gemäss Agiler Methodik.</p>
-                    <a href="http://www.swissmadesoftware.org">
-                        <img id="swissmadesoftware" src="{{ '/static/img/swissmadesoftware.png'|url }}" alt="Swiss made software"/>
-                    </a>
-                    <div class="bosw">
-                        <a href="https://www.bestofswissweb.ch">
-                            <img src="{{ '/static/img/bosw-2019.png'|url }}" alt="Best of Swiss Web 2019"/>
-                            <img src="{{ '/static/img/bosw-2016.svg'|url }}" alt="Best of Swiss Web 2016"/>
-                        </a>
                     </div>
                 </div>
-                <div class="large-4 medium-4 cell">
-                    <h5>Cloud Platform</h5>
-                    <ul>
-                        <li><a href="http://www.healthdata.ai">HealthData.ai</a></li>
-                        <li><a href="https://onegovcloud.ch">OneGov Cloud</a></li>
-                        <li><a href="http://www.mycontrol.aero">myControl.aero</a></li>
-                    </ul>
-                    <a class="button" href="{{ '/contact'|url }}">Kontakt</a>
+            </div>
+
+            <div class="grid-container">
+                <div class="header">
+                    <div class="top-bar">
+                        <div class="top-bar-left">
+                            <a href="{{ '/'|url }}"><img id="logo" src="{{ '/static/img/logo.svg'|url }}" alt="Zur Startseite"/></a>
+                        </div>
+                        <div class="top-bar-right">
+                            <form action="{{ '/search'|url }}">
+                                <div class="input-group show-for-medium">
+                                    <input class="input-group-field" type="search" name="q" id="tipue_search_input">
+                                    <div class="input-group-button">
+                                        <input type="submit" class="button" value="Suche">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
                 </div>
             </div>
 
-            <div class="grid-x grid-padding-x">
-                <div class="large-12 cell">
-                    <div id="copyright">© 2005 - {{ None|dateformat('yyyy') }} by seantis gmbh | Lektor powered & built with Python</div>
-                </div>
-            </div>
+            {% block content %}{% endblock %}
 
+            <footer>
+                <div class="grid-container">
+                    <div class="grid-x grid-padding-x">
+                        <div class="large-8 medium-8 cell">
+                            <h4>Building data-driven web applications with an open-source toolset and an agile mindset</h4>
+                            <p>Wir entwicklen qualitativ hochstehende Software. Dazu setzen wir auf die besten Open Source Entwickler-Tools und arbeiten gemäss Agiler Methodik.</p>
+                            <a href="http://www.swissmadesoftware.org">
+                                <img id="swissmadesoftware" src="{{ '/static/img/swissmadesoftware.png'|url }}" alt="Swiss made software"/>
+                            </a>
+                            <div class="bosw">
+                                <a href="https://www.bestofswissweb.ch">
+                                    <img src="{{ '/static/img/bosw-2019.png'|url }}" alt="Best of Swiss Web 2019"/>
+                                    <img src="{{ '/static/img/bosw-2016.svg'|url }}" alt="Best of Swiss Web 2016"/>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="large-4 medium-4 cell">
+                            <h5>Cloud Platform</h5>
+                            <ul>
+                                <li><a href="http://www.healthdata.ai">HealthData.ai</a></li>
+                                <li><a href="https://onegovcloud.ch">OneGov Cloud</a></li>
+                                <li><a href="http://www.mycontrol.aero">myControl.aero</a></li>
+                            </ul>
+                            <a class="button" href="{{ '/contact'|url }}">Kontakt</a>
+                        </div>
+                    </div>
+
+                    <div class="grid-x grid-padding-x">
+                        <div class="large-12 cell">
+                            <div id="copyright">© 2005 - {{ None|dateformat('yyyy') }} by seantis gmbh | Lektor powered & built with Python</div>
+                        </div>
+                    </div>
+
+                </div>
+            </footer>
         </div>
-    </footer>
 
-    <script src="{{ '/static/js/jquery.min.js'|asseturl }}"></script>
 
-    <script src="{{ '/static/js/aos.js'|asseturl }}"></script>
-    <script>
+
+
+
+        <script src="{{ '/static/js/jquery.min.js'|asseturl }}"></script>
+
+        <script src="{{ '/static/js/aos.js'|asseturl }}"></script>
+        <script>
         AOS.init();
-    </script>
+        </script>
 
-    <script src="{{ '/static/js/what-input.min.js'|asseturl }}"></script>
-    <script src="{{ '/static/js/foundation.min.js'|asseturl }}"></script>
-    <script src="{{ '/static/js/tipuesearch_set.js'|asseturl }}"></script>
-    <script src="{{ '/static/js/tipuesearch.min.js'|asseturl }}"></script>
-    <script src="{{ '/static/js/app.js'|asseturl }}"></script>
+        <script src="{{ '/static/js/what-input.min.js'|asseturl }}"></script>
+        <script src="{{ '/static/js/foundation.min.js'|asseturl }}"></script>
+        <script src="{{ '/static/js/tipuesearch_set.js'|asseturl }}"></script>
+        <script src="{{ '/static/js/tipuesearch.min.js'|asseturl }}"></script>
+        <script src="{{ '/static/js/app.js'|asseturl }}"></script>
 
-    <script>
+        <script>
         $(document).foundation();
 
         var _paq = _paq || [];
@@ -145,7 +177,7 @@
         })();
 
         {% block scripts %}{% endblock %}
-    </script>
+        </script>
 
-</body>
-</html>
+    </body>
+    </html>
