@@ -1,11 +1,11 @@
-title: FHIR 🔥 offene Schnittstelle für medizinische Daten 
+title: FHIR 🔥 offene Schnittstelle für medizinische Daten
 ---
 
 pub_date: 2019-07-17
 ---
 author: seantis
 ---
-description: Die Plattform docare.ch bietet mit FHIR eine offene Schnittstelle für den Austausch medizinscher Daten.
+description: Die Plattform docare.ch bietet mit FHIR eine offene Schnittstelle für den Austausch medizinischer Daten.
 ---
 
 customer: [MSD Merck Sharp & Dohme AG](http://www.msd.ch)
@@ -14,7 +14,7 @@ customer: [MSD Merck Sharp & Dohme AG](http://www.msd.ch)
 technology: [HealthData.ai](http://www.healthdata.ai)
 ---
 
-task: Für die Plattform [docare.ch](http://www.docare.ch) soll der dirkete Datenaustausch mittels Schnittstellen in Praxisinformationssysteme ermöglicht werden. Die API Schnittstelle legt darüber hinaus die Grundlage für eine digitale Datenplattform.
+task: Für die Plattform docare.ch soll der dirkete Datenaustausch mittels Schnittstellen in Praxisinformationssysteme ermöglicht werden. Die API Schnittstelle legt darüber hinaus die Grundlage für eine digitale Datenplattform.
 
 ---
 solution: Die Webservice API basiert auf dem internationalen [HL7® FHIR®](http://www.hl7.org/fhir/) Standard für den Austausch von Gesundheitsinformationen. Für den Zugriff auf einzelne Datenelemente beschreibt FHIR sogenannte „Ressourcen“. FHIR schafft damit eine Alternative zu dokumentenzentrierten Ansätzen, in dem es den direkten Zugriff auf einzelne Informationsfelder als Service ermöglicht. FHIR setzt auf bewährte  web-basierte  API Technologien wie das RESTful Protokoll oder OAUTH2 zur Authentifizierung.
@@ -22,19 +22,15 @@ solution: Die Webservice API basiert auf dem internationalen [HL7® FHIR®](http
 ---
 benefit:
 
-Ein wesentliches Ziel von FHIR ist es, Gesundheitsdaten auch auf mobilen Endgeräten wie Tablet und Smartphone verarbeiten zu können und diese auf einfache Art und Weise in existierende Systeme einzubinden. Die FHIR Schnittstelle von HealthData.ai wird denn auch schon für die Anbindung einer Patient App genutzt. Als generische API ist FHIR aber eben nicht auf einzelne spezifische Use Cases beschränkt, sondern bietet eine offene Schnittstelle für medizinsche Datenplattformen.
-
-Die Dokumentation der FHIR API von docare.ch ist öffentlich und ein Testportal steht für Entwickler zur Verfügung: https://seantis.github.io/docare-api-doc
+Ein wesentliches Ziel von FHIR ist es, Gesundheitsdaten auch auf mobilen Endgeräten wie Tablet und Smartphone verarbeiten zu können und diese auf einfache Art und Weise in existierende Systeme einzubinden. Die FHIR Schnittstelle von HealthData.ai wird denn auch schon für die Anbindung einer Patient App genutzt. Als generische API ist FHIR aber eben nicht auf einzelne spezifische Use Cases beschränkt, sondern bietet eine offene Schnittstelle für medizinsche Datenplattformen. Die Dokumentation der FHIR API von docare.ch ist öffentlich und ein Testportal steht für Entwickler zur Verfügung.
 
 Die docare.ch FHIR API durften wir auf Einladung von [eHealth Suisse](https://www.e-health-suisse.ch) am [Informationsanlass zum HL7-Standard FHIR](https://www.e-health-suisse.ch/ueber-uns/geschaeftsstelle/veranstaltungen/details.html?tx_nezzoagenda_details%5Bevent%5D=51&cHash=276886d8b949c419a0eae306eb7e1dbd) einem Fachpublikum präsentieren.
 
 ---
 links:
 
-- docare.ch: http://www.docare.ch
 - MSD Merck Sharp & Dohme AG: http://www.msd.ch
 - HealthData.ai: [www.healthdata.ai](http://www.healthdata.ai)
-- Dokumentation docare FHIR API: https://seantis.github.io/docare-api-doc
 - Slides Informationsanlass zum HL7-Standard FHIR: [docare-FHIR.pdf](docare-FHIR.pdf)
 
 ---

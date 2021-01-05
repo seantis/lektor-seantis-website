@@ -14,7 +14,7 @@ customer: [MSD Merck Sharp & Dohme AG](http://www.msd.ch)
 technology: [HealthData.ai](http://www.healthdata.ai)
 ---
 
-task: [docare.ch](http://www.docare.ch) bietet nicht nur eine Online-Registerung, sondern vereinfacht den Prozess bei der Patientenaufnahme in der Praxis grundlegend.
+task: docare.ch bietet nicht nur eine Online-Registerung, sondern vereinfacht den Prozess bei der Patientenaufnahme in der Praxis grundlegend.
 
 <div class="flex-video">
     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/dDlJ6LRwgUQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -25,7 +25,7 @@ task: [docare.ch](http://www.docare.ch) bietet nicht nur eine Online-Registerung
 **Andreas Moser**, Facharzt Dermatologie und Venerologie, Affoltern am Albis
 
 ---
-solution: [docare.ch](http://www.docare.ch) wurde auf Basis der Plattform HealthData.ai entwickelt und bietet eine nahtlose Schnittstelle für Praxisinformationssysteme. Die [Webservice API](https://seantis.github.io/docare-api-doc/#introduction) basiert auf dem internationalen [HL7® FHIR®](http://www.hl7.org/fhir/) Standard für den Austausch von Gesundheitsinformationen.
+solution: docare.ch wurde auf Basis der Plattform HealthData.ai entwickelt und bietet eine nahtlose Schnittstelle für Praxisinformationssysteme. Die Webservice API basiert auf dem internationalen [HL7® FHIR®](http://www.hl7.org/fhir/) Standard für den Austausch von Gesundheitsinformationen.
 
 ---
 benefit:
@@ -44,7 +44,6 @@ MSD ist eines der weltweit führenden, forschenden biopharmazeutischen Unternehm
 ---
 links:
 
-- docare.ch: http://www.docare.ch
 - MSD Merck Sharp & Dohme AG: http://www.msd.ch
 - HealthData.ai: [www.healthdata.ai](http://www.healthdata.ai)
 
