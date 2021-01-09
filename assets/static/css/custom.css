@@ -522,6 +522,10 @@ _:-ms-lang(x), #customers .card img {
         margin: 30px 0 30px 0px;
     }
 
+    #splash {
+        padding-top: 10px !important;
+    }
+
 }
 
 
