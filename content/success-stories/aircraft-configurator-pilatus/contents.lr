@@ -1,0 +1,36 @@
+title: Digitaler Konfigurator für die Pilatus Flugzeugwerke
+---
+
+pub_date: 2021-01-15
+---
+author: seantis
+---
+description: Im Auftrag der Pilatus Aircraft hat seantis einen digitalen Konfigurator für den PC-24 Businessjet entwickelt.
+---
+
+customer: [Pilatus Aircraft](https://www.pilatus-aircraft.com)
+---
+
+technology: Pyramid, Python
+---
+
+task: Der PC-24 ist der weltweit erste Businessjet, der die Vielseitigkeit eines Turboprops, die Kabinengrösse eines Medium Light Jets und die Leistung eines Light Jets kombiniert. Der äusserst grosszügig konzipierte Innenraum des PC-24 bietet bis zu zehn Passagieren komfortabel Platz. Individuell einstellbare Sitze, Waschraum mit Toilette, ein während des Fluges zugänglicher Gepäckraum und eine Garderobe stehen den Passagieren zur Verfügung. Der PC-24 kann auch mit einer modularen Bordküche ausgestattet werden.
+
+---
+solution: Der digitale Konfigurator steht im Dienst der individuellen Ausstattung des Flugzeuges gemäss den Kundenwünschen. Die spezifischen Anforderungen des Kunden werden massgeschneidert und zuverlässig abgebildet. Die Ausstattung und das Interior jedes einzelnen Jets werden durch den Kunden spezifiziert und sind damit pro Flugzeug individuell. Dem Kunden von Pilatus werden Hunderte von Ausstattungs-Varianten zur Auswahl angeboten: von der Sitz-Konfiguration über Konnektivitäts-Optionen wie In-Flight Internet bis zur modularen Bordküche.  Für die «Forward Galley» kann beispielsweise individuell konfiguriert werden, ob ein Mikrowellen-Gerät oder eine Kaffeemaschine eingebaut werden soll.
+
+Bekannt sind Online-Konfiguratoren für die Ausstattung und die Auswahl von Optionen aus der Automobilindustrie. Mit dem Pilatus Aircraft Configurator können Verkaufsberater und Kunde gemeinsam ein Flugzeug massgeschneidert von A-Z spezifizieren.
+
+Einzelne Optionen sind in Packages erhältlich und es bestehen komplexe Abhängigkeiten zwischen den Optionen und Packages. Die Konfiguration der Ausstattung hat Auswirkungen auf den Preis und das Gewicht des Flugzeuges. Anpassungen in der Konfiguration werden vollständig versioniert und bleiben so nachvollziehbar.
+
+---
+benefit: Der Konfigurator wird am Hauptsitz von Pilatus in Stans sowie in den weltweiten Sales Centers eingesetzt. Aus der Applikation können die Vertragsdokumente sowie die Listen für die Produktionsplanung erstellt werden. Der Flugzeug-Konfigurator unterstützt den Verkauf in der Schaffung eines aussergewöhnlichen Kundenerlebnisses und vereinfacht die Abläufe von der Bestellung bis zur Produktion.
+
+---
+links:
+
+- [PC-24 - The Super Versatile Jet](https://www.pilatus-aircraft.com/de/fly/pc-24)
+- [Pilatus Flugzeugwerke AG](https://www.pilatus-aircraft.com)
+
+---
+frontpage: yes
