@@ -180,6 +180,10 @@
             g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
         })();
 
+        $(function(){
+            $(".storybox-"+(new Date().getTime() % 2 +1)).css("display", "block");
+        });
+
         {% block scripts %}{% endblock %}
         </script>
 

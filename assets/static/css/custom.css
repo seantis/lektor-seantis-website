@@ -576,3 +576,9 @@ _:-ms-lang(x), #customers .card img {
 .model-startup .listing {
     margin-bottom: 0;
 }
+
+.storybox-2 {
+    background: url('../../static/img/pc24.jpg') !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+}

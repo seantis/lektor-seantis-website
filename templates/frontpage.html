@@ -2,15 +2,26 @@
 {% from "macros/team.html" import render_team %}
 {% block content %}
 
-    <div id="hero" data-aos="fade-up">
+    <div id="hero">
         <div class="grid-container">
-            <div id="splash">
+            <div id="splash" class="storybox-1" style="display:none;">
                 <div class="grid-x grid-margin-x">
                     <div class="large-5 large-offset-6 medium-offset-5 medium-6 cell">
                         <div id="square">
                             <h3>Daten werden komplexer. Unsere Lösungen bleiben einfach.</h3>
                             <p>Für die medizinische Forschung nutzen wir Deep Learning zum Scoring von Röntgenbildern.</p>
                             <p><a href="{{ '/success-stories/deep-learning-xray'|url }}">&rarr; Projekt DeepXray</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="splash" class="storybox-2" style="display:none;">
+                <div class="grid-x grid-margin-x">
+                    <div class="large-5 large-offset-6 medium-offset-5 medium-6 cell">
+                        <div id="square">
+                            <h3>Ein digitaler Konfigurator für die Pilatus Flugzeugwerke</h3>
+                            <p>Im Auftrag der Pilatus Aircraft hat seantis einen digitalen Konfigurator für den PC-24 Businessjet entwickelt.</p>
+                            <p><a href="{{ '/success-stories/aircraft-configurator-pilatus'|url }}">&rarr; Erfolgsgeschichte Pilatus Aircraft</a></p>
                         </div>
                     </div>
                 </div>
