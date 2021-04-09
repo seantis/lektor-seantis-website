@@ -1,0 +1,32 @@
+title: Staatskalender des Kantons Basel Stadt mit Anbindung von Azure AD
+---
+
+pub_date: 2021-04-09
+---
+author: seantis
+---
+description: Der neue digitale Staatskalender des Kantons Basel Stadt ist direkt an den Enterprise-Identitätsdienst Azure AD angebunden.
+---
+
+customer: [Kanton Basel Stadt](http://www.bs.ch)
+---
+
+technology: [OneGov Cloud](https://onegovcloud.ch)
+---
+
+task: Der Staatskalender bietet allen Interessierten einen einfachen Zugang zu Organisationen, Behördenmitgliedern und Staatsangestellten des Kantons Basel Stadt. In enger Zusammenarbeit mit den Verantwortlichen der Staatskanzlei sowie der IT BS wurde die Applikation weiter optimiert.
+
+---
+solution: Der Kanton Basel Stadt setzt auf den digitalen Staatskalender der OneGov Cloud. Gemeinsam mit IT BS konnte eine Anbindung den Enterprise-Identitätsdienst Azure AD realisiert werden. Identitäten und Zugriffsrechten von Benutzern des Backend werden mit Azure AD abgeglichen. Azure AD bietet Single Sign-On (SSO) und mehrstufige Authentifizierung (Multi-Factor Authentication). Azure AD eignet sich ideal für die Anbindung von externen SaaS-Anwendungen wie der OneGov Cloud.
+
+---
+benefit: Nach den Kantonen Zug und Appenzell Ausserrhoden ist der Kanton Basel Stadt damit bereits der dritte Kanton, welcher die Schweizer Open Source Plattform OneGov Cloud für ihr Behördenverzeichnis einsetzt.
+
+---
+links:
+
+- Staatskalender Staatskalender Kanton Basel Stadt: http://staatskalender.bs.ch
+- OneGov Cloud: https://onegovcloud.ch
+
+---
+frontpage: no
