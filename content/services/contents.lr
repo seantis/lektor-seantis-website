@@ -10,8 +10,6 @@ Auf unserer Cloud Infrastruktur bieten wir Monitoring, Wartung, Support und Appl
 
 seantis verwaltet alle Server mit **Konfigurationsmanagement Tools** (u.a. [Puppet](http://puppetlabs.com/) und [Ansible](http://www.ansible.com/)). Damit ist sichergestellt, dass die Konfiguration eines jeden Servers explizit gemacht und dokumentiert ist. Auch bieten uns die Konfigurationsmanagement Tools die Möglichkeit Konfigurationsänderungen und Updates kontrollierbar über alle Server sicher auszurollen.
 
-![Server Health](serverhealth.png)
-
 ### Server Health Monitoring
 
 Folgende Parameter der **Server werden proaktiv überwacht** und auf einem zentralen Events Service auf einem separaten Server gespeichert und visualisiert:
@@ -62,8 +60,3 @@ Die **Reaktionszeit und Verfügbarkeiten** sind in einem Service Level Agreeme
 Ist auf Grund einer geplanten Serverwartung ein Service-Unterbruch zu erwarten so wird dieser vor dem Ereignis angekündigt. Die Information erfolgt über bei seantis über ein internes Tool (**Schedule Maintenance**), welches an eine definierte Kontaktliste eine standarisierte Email (inkl. Kalendereintrag) für das Wartungsfenster verschickt.
 
 Es wird ein kurzes **Betriebshandbuch** mit Kontaktadressen, Verzeichnis der Services sowie den relevanten URLs erstellt.
-
-
-
----
-portlet: ![swiss made software](/static/img/bosw.svg)
