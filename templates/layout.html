@@ -56,41 +56,44 @@
 
 
 
+        <div data-sticky-container>
+             <div class="sticky" data-sticky data-sticky-on="small" data-margin-top="0">
+                <div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="medium" style="display:none">
+                    <button type="button" class="menu-icon" data-toggle="offCanvas"></button>
+                    <div class="title-bar-title"> <a href="{{ '/'|url }}">Home</a></div>
+                    <div class="title-bar-right contact"><a href="{{ '/contact'|url }}">Kontakt</a></div>
+                </div>
 
-        <div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="medium" style="display:none">
-            <button type="button" class="menu-icon" data-toggle="offCanvas"></button>
-            <div class="title-bar-title"> <a href="{{ '/'|url }}">Home</a></div>
-            <div class="title-bar-right contact"><a href="{{ '/contact'|url }}">Kontakt</a></div>
-        </div>
-
-        <div class="top" id="responsive-menu" style="display:none">
-            <div class="grid-container">
-                <div class="top-bar">
-                    <div class="top-bar-left">
-                        <ul class="menu hide-for-small-only">
-                            <li><a href="{{ '/'|url }}">Home</a></li>
-                        </ul>
-                    </div>
-                    <div class="top-bar-right">
-                        <ul class="menu" data-dropdown-menu>
-                            {% set menu = [
-                                ['/portrait', 'Über uns', ''],
-                                ['/engineering', 'Engineering', ''],
-                                ['/services', 'Services', ''],
-                                ['/success-stories', 'Erfolgsgeschichten', ''],
-                                ['/news', 'News', ''],
-                                ['/careers', 'Jobs', ''],
-                                ['/blog', 'Blog', ''],
-                                ['/contact', 'Kontakt', 'contact']
-                                ] %}
-                                {% for href, title, class_ in menu %}
-                                <li class="{{ ' '.join([class_, 'active' if this.is_child_of(href) else '']) }}"><a href="{{ href|url }}">{{ title }}</a></li>
-                                {% endfor %}
-                            </ul>
+                <div class="top" id="responsive-menu" style="display:none">
+                    <div class="grid-container">
+                        <div class="top-bar">
+                            <div class="top-bar-left">
+                                <ul class="menu hide-for-small-only">
+                                    <li><a href="{{ '/'|url }}">Home</a></li>
+                                </ul>
+                            </div>
+                            <div class="top-bar-right">
+                                <ul class="menu" data-dropdown-menu>
+                                    {% set menu = [
+                                        ['/portrait', 'Über uns', ''],
+                                        ['/engineering', 'Engineering', ''],
+                                        ['/services', 'Services', ''],
+                                        ['/success-stories', 'Erfolgsgeschichten', ''],
+                                        ['/news', 'News', ''],
+                                        ['/careers', 'Jobs', ''],
+                                        ['/blog', 'Blog', ''],
+                                        ['/contact', 'Kontakt', 'contact']
+                                        ] %}
+                                        {% for href, title, class_ in menu %}
+                                        <li class="{{ ' '.join([class_, 'active' if this.is_child_of(href) else '']) }}"><a href="{{ href|url }}">{{ title }}</a></li>
+                                        {% endfor %}
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            <div>
 
             <div class="grid-container">
                 <div class="header">
