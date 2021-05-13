@@ -21,31 +21,21 @@ Wir hosten folgende und viele andere Open Source Projekte auf GitHub: 
 
 Eine sehr selektive Auswahl aus den von uns eingesetzten Open Source Technologien. Wir verwenden sehr viel mehr Open Source Software als hier exemplarisch aufgelistet:
 
-- **Python** ist eine objektorientierte Scriptsprache, damit umgesetzt sind unter anderem auch Zope bzw. Plone.  
+- **Python** ist eine objektorientierte Scriptsprache, damit umgesetzt sind unter anderem auch Zope bzw. Plone.
   [www.python.org](http://www.python.org/)
-  
-- **Pyramid** ist ein leichtgewichtiges Web-Applikations-Framework.  
+- **Pyramid** ist ein leichtgewichtiges Web-Applikations-Framework.
   [docs.pylonsproject.org](http://docs.pylonsproject.org/)
-  
 - **morepath** ist ein Web-Applikations-Framework
   https://morepath.readthedocs.io/en/latest/
-  
-- **Puppet** ist ein Systemkonfigurationswerkzeug zum Konfigurationsmanagement.   
+- **Puppet** ist ein Systemkonfigurationswerkzeug zum Konfigurationsmanagement. 
   [http://puppetlabs.com](http://puppetlabs.com/)
-  
-- **Git** ist eine Freie Software zur verteilten Versionsverwaltung  
+- **Git** ist eine Freie Software zur verteilten Versionsverwaltung
   [git-scm.com](http://git-scm.com/)
-  
-- **Ubuntu** setzen wir als Betriebssystem (OS) auf unseren Servern ein. Ubuntu verwendet den Linux-Betriebssystemkern, die meisten grundlegenden Systemwerkzeuge stammen vom GNU-Projekt.   
+- **Ubuntu** setzen wir als Betriebssystem (OS) auf unseren Servern ein. Ubuntu verwendet den Linux-Betriebssystemkern, die meisten grundlegenden Systemwerkzeuge stammen vom GNU-Projekt. 
   [www.ubuntu.com](http://www.ubuntu.com/)
-  
-- **MySQL** ist ein multithreaded, multi-user, SQL (Structured Query Language) Database Management System. MySQL ist die im Webbereich am meisten verwendete Datenbank.  
+- **MySQL** ist ein multithreaded, multi-user, SQL (Structured Query Language) Database Management System. MySQL ist die im Webbereich am meisten verwendete Datenbank.
   [www.mysql.com](http://www.mysql.com/)
-  
-- **PostgreSQL** ist ein freies, objektrelationales Datenbankmanagementsystem (ORDBMS).  
+- **PostgreSQL** ist ein freies, objektrelationales Datenbankmanagementsystem (ORDBMS).
   [www.postgresql.org](http://www.postgresql.org/)
-  
-- **Nginx** ist ein high-performance HTTP server und reverse proxy. Nginx ist bekannt für seine hohe Performance, Stabilität, Vielfalt an Funktionen und Konfigurationsmöglichkeiten.  
+- **Nginx** ist ein high-performance HTTP server und reverse proxy. Nginx ist bekannt für seine hohe Performance, Stabilität, Vielfalt an Funktionen und Konfigurationsmöglichkeiten.
   [wiki.nginx.org](http://wiki.nginx.org/Main)
-  
-  
