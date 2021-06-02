@@ -5,7 +5,7 @@ cache:
     - $HOME/.cache/pip
     - $HOME/.cache/lektor/builds
 install:
-  - pip install Lektor
+  - pip install Flask==1.1.4 Lektor
   - lektor plugins reinstall
 script: "lektor build"
 deploy:
