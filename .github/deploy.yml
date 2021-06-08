@@ -1,0 +1,37 @@
+name: "Deploy site"
+
+on:
+  push:
+    branches:
+    - 'master'
+
+jobs:
+  example-1:
+    name: Deploy lektor website
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v2
+      - name: Setup node
+        uses: actions/setup-node@v1
+        with:
+          node-version: '10'
+      - name: Setup Python
+        uses: actions/setup-python@v1
+        with:
+          python-version: '3.7'
+          architecture: 'x64'
+      - name: Install dependencies
+        run: |
+          pip install -U pip
+          pip install "Flask==1.1.4"
+          pip install Lektor
+      - name: Install plugins
+        run: lektor plugins reinstall
+      - name: Build site
+        run: lektor build
+      - name: Deploy
+        env:
+          LEKTOR_DEPLOY_USERNAME: ${{ secrets.LEKTOR_DEPLOY_USERNAME }}
+          LEKTOR_DEPLOY_PASSWORD: ${{ secrets.LEKTOR_DEPLOY_PASSWORD }}
+        run: lektor deploy ghpages
