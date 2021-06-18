@@ -6,10 +6,10 @@ pub_date: 2021-06-17
 ---
 author: seantis
 ---
-description: In enger Zusammenarbeit mit den fünf Kantonen Graubünden, St. Gallen, Schwyz, Zug und Basel-Landschaft hat seantis ein digitales Portal zur Publikation von Wahl- und Abstimmungsergebnissen entwickelt. Die Applikation ist Open Source verfügbar und basiert auf der Lösung "OneGov Cloud".
+description: In enger Zusammenarbeit mit den fünf Kantonen Graubünden, St. Gallen, Schwyz, Zug und Basel-Landschaft hat seantis ein digitales Portal zur Publikation von Wahl- und Abstimmungsergebnissen entwickelt. Die Applikation ist Open Source verfügbar und basiert auf der Lösung «OneGov Cloud».
 ---
 
-body: 
+body:
 
 **Erschienen als Praxisbeispiel in der Open Source Studie Schweiz 2021**
 
@@ -25,7 +25,7 @@ Open Data setzt voraus, dass die Daten ohne rechtliche Einschränkung verwendet
 
 Daten werden grundsätzlich in Tabellen publiziert. Wo sinnvoll, werden die Resultate auf einer interaktiven Karte benutzerfreundlich dargestellt. Bei aller Attraktivität grafischer Darstellung wird nicht vergessen, dass sämtliche Daten immer im Rohformat exportierbar sein müssen. Als Exportformate stehen JSON, CSV sowie Excel zur Verfügung.
 
-Der Quellcode der OneGov Cloud ist mit einer "MIT License" als Open Source frei verfügbar. Die OneGov Cloud wird getragen von einer Gemeinschaft von Partnern, Kunden und Software-Herstellern, die über den Verein OneGov.ch organisiert sind.
+Der Quellcode der OneGov Cloud ist mit einer «MIT License» als Open Source frei verfügbar. Die OneGov Cloud wird getragen von einer Gemeinschaft von Partnern, Kunden und Software-Herstellern, die über den Verein OneGov.ch organisiert sind.
 
 Die OneGov Cloud bietet offene Schnittstellen für die direkte Anbindung von Softwarelösungen Dritter für die Ausmittlung und Zuteilung der Mandate. Für das «Open Government Data»-Portal des Bundes hat seantis eine Schnittstelle zur automatischen Publikation bzw. Registrierung als Linked Open Data der Wahl- und Abstimmungsdaten auf opendata.swiss entwickelt. Neue Abstimmungs- bzw. Wahlresultate werden nach der Publikation auf der OneGov Cloud automatisch auch auf opendata.swiss publiziert.
 
