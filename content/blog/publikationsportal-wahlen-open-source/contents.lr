@@ -37,5 +37,11 @@ Die Weiterentwicklung des Portals wird durch die Wahlverantwortlichen in den kan
 
 Dass die Infrastruktur für Wahlen und Abstimmungen zum Ziel von Cyber-Angriffen werden kann, zeigen aktuelle Beispiele aus dem Ausland. Wie bei jedem IT-System sind sowohl die Architektur, die technischen Details der Implementierung als auch die Integrität und Verfügbarkeit des Systems im Betrieb für die Sicherheit entscheidend. Um z.B. die technische Verfügbarkeit zu gefährden braucht es nicht einmal böswillige Akteure, das System kann ebenso durch Lastspitzen am Wahlsonntag ins Wanken geraten. Für einen zuverlässigen und sicheren Betrieb betreibt seantis die Portale der Kantone auf der bewährten Infrastruktur der OneGov Cloud bei einem zuverlässigen Schweizer Cloud Provider, zertifiziert gemäss ISO 27001.
 
-*Fabian Reinhard, Managing Partner, seantis GmbH. Studium Universität Zürich (Politologie) und Weiterbildung Harvard Kennedy School. Mitglied des Parlamentes, Präsident FDP Stadt Luzern.*
+### Downloads
 
+- [Open Source Studie Schweiz 2021](OSS-Studie2021.pdf)
+- [OneGov Cloud Publikationsplattform Wahlen & Abstimmungen](OneGov-Cloud-WAB.pdf)
+
+
+
+*Fabian Reinhard, Managing Partner, seantis GmbH. Studium Universität Zürich (Politologie und VWL) und Weiterbildung Harvard Kennedy School. Mitglied des Parlamentes, Präsident FDP Stadt Luzern.*
