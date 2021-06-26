@@ -1,0 +1,37 @@
+{% extends "layout.html" %}
+{% from "macros/pagination.html" import render_pagination %}
+{% block content %}
+
+    <div class="main-content">
+
+        <div class="head">
+            <div class="grid-container">
+                <div class="grid-x grid-padding-x">
+                    <div class="large-7 large-offset-1 medium-10 medium-offset-1 cell">
+                        <h1>{{ this.title }}</h1>
+                        <p class="lead">{{ this.description }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="listing">
+            <div class="grid-container">
+                <div class="grid-x grid-padding-x" data-equalizer data-equalize-on="medium">
+                    {% for child in this.pagination.items %}
+                        <div class="large-4 medium-6 cell">
+                            <div class="card" data-equalizer-watch>
+                                <div class="card-section">
+                                    <h4>{{ child.title }}</h4>
+                                    <p>{{ child.description }}</p>
+                                    <a href="{{ child|url }}">&rarr; mehr erfahren</a>
+                                </div>
+                            </div>
+                        </div>
+                    {% endfor %}
+                    {{ render_pagination(this.pagination) }}
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

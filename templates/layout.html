@@ -32,15 +32,16 @@
                 ['/portrait', 'Über uns', ''],
                 ['/engineering', 'Engineering', ''],
                 ['/services', 'Services', ''],
+                ['/academy', 'Academy', ''],
                 ['/success-stories', 'Erfolgsgeschichten', ''],
                 ['/news', 'News', ''],
                 ['/careers', 'Jobs', ''],
                 ['/blog', 'Blog', ''],
                 ['/contact', 'Kontakt', 'contact']
                 ] %}
-                {% for href, title, class_ in menu %}
+            {% for href, title, class_ in menu %}
                 <li class="{{ ' '.join([class_, 'active' if this.is_child_of(href) else '']) }}"><a href="{{ href|url }}">{{ title }}</a></li>
-                {% endfor %}
+            {% endfor %}
         </ul>
 
     </div>
@@ -73,19 +74,9 @@
                             </div>
                             <div class="top-bar-right">
                                 <ul class="menu" data-dropdown-menu>
-                                    {% set menu = [
-                                        ['/portrait', 'Über uns', ''],
-                                        ['/engineering', 'Engineering', ''],
-                                        ['/services', 'Services', ''],
-                                        ['/success-stories', 'Erfolgsgeschichten', ''],
-                                        ['/news', 'News', ''],
-                                        ['/careers', 'Jobs', ''],
-                                        ['/blog', 'Blog', ''],
-                                        ['/contact', 'Kontakt', 'contact']
-                                        ] %}
-                                        {% for href, title, class_ in menu %}
+                                    {% for href, title, class_ in menu %}
                                         <li class="{{ ' '.join([class_, 'active' if this.is_child_of(href) else '']) }}"><a href="{{ href|url }}">{{ title }}</a></li>
-                                        {% endfor %}
+                                    {% endfor %}
                                     </ul>
                                 </div>
                             </div>

@@ -1,0 +1,33 @@
+_model: course
+---
+title: Webentwicklung mit Python
+---
+description: Python erlaubt effizientes und schnelles entwickeln von Fullstack- und Backend-Webapplikationen.
+---
+body:
+
+Der Kurs gibt einen Einstieg in die Entwicklung von Webapplikationen mit Django. Neben dem grundlegenden Aufbau von Webapplikationen werden Datenbanken, das dynamische Darstellungen von Seiten, asynchrone Services sowie die Überführung der Applikation in einen Mikroservice behandelt.
+
+Nach Abschluss des Kurses
+- kennen die Teilnehmenden die Grundlegenden Mechanismen von Webapplikationen mit Python
+- können die Teilnehmenden eigenständig eine Webapplikation mit Django entwickeln
+- können die Teilnehmenden eigenständig eine Webapplikation mit Django betreiben
+
+Der Kursinhalt kann je nach Vorwissen und Bedürfnissen inhaltlich angepasst werden.
+
+##### Programmvorschlag
+
+- Tag 1: Einführung, Setup, Grundlagen von Webapplikationen (Request, Response, URLs)
+- Tag 2: Django
+- Tag 3: SQL
+- Tag 4: Django: Models
+- Tag 5: Jinja
+- Tag 6: REST APIs mit Django
+- Tag 7: Django REST Framework, Django Filters
+- Tag 8: Django Channels
+- Tag 9: Celery
+- Tag 10: Dockerization
+
+##### Durchführung und Preis
+
+Auf Anfrage
