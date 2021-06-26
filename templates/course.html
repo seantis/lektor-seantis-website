@@ -1,0 +1,67 @@
+{% extends "layout.html" %}
+{% block content %}
+
+    <div class="head">
+        <div class="grid-container">
+            <div class="grid-x grid-padding-x">
+                <div class="large-7 large-offset-1 medium-10 medium-offset-1 cell">
+                    <h1>{{ this.title }}</h1>
+                    <p class="lead">{{ this.description }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="grid-container">
+        <div class="grid-x grid-margin-x">
+            <div class="large-7 large-offset-1 medium-9 medium-offset-1 cell">
+                <div class="main-content">
+                    {{ this.body }}
+                    {% if this.children %}
+                        <div class="subnavigation">
+                            <ul class="vertical menu">
+                                {% for child in this.children if not child.hidden %}
+                                    {% if not child.hidden %}
+                                        <li><a href="{{ child.path }}">{{ child.title }}</a></li>
+                                    {% endif %}
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    {% endif %}
+
+                    <div class="direct-contact">
+                        <div class="grid-x grid-margin-x">
+                            <div class="large-6 medium-6 small-7 cell">
+                                <h3>Ansprechpartner</h3>
+                                <h5>Marc Sommerhalder</h5>
+                                <p>Kursleiter SVEB</p>
+                                <p><i class="far fa-envelope"></i> <a href="mailto:marc.sommerhalder@seantis.ch">marc.sommerhalder@seantis.ch</a><br />
+                            </div>
+                            <div class="large-6 medium-6 small-5 cell">
+                                <div class="dotted">
+                                    <img class="full" src="{{ '/static/img/team/Marc-Sommerhalder.jpg'|url }}" alt="Marc Sommerhalder">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        {% if this.attachments.images %}
+        {% set image = this.attachments.images.first() %}
+        {% if image.path.endswith('mood.jpg') %}
+
+        <div class="grid-x grid-padding-x" data-aos="fade-up">
+            <div class="cell">
+                <div class="dotted">
+                    <img class="full" src="{{ 'mood.jpg'|url }}" alt="Office Luzern">
+                </div>
+            </div>
+        </div>
+        {% endif %}
+        {% endif %}
+
+    </div>
+
+{% endblock %}

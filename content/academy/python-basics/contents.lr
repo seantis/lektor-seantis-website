@@ -1,0 +1,32 @@
+_model: course
+---
+title: Grundlagenkurs Python
+---
+description: Die Programmiersprache Python ist sowohl einfach als auch mächtig - und damit ein idealer Partner für verschiedenste Projekte.
+---
+body:
+
+Der Kurs gibt eine solide Grundlage der Programmiersprache Python. Neben dem Aufsetzen und Betreiben einer Entwicklungsumgebung liegt das Hauptaugenmerk vor allem auf der Syntax von Python: Typen, Flow Control, Exceptions, Funktionen sowie objektorientiertes Programmieren.
+
+Nach Abschluss des Kurses
+- kennen die Teilnehmenden die wichtigsten Elemente der Syntax der Programmiersprache Python
+- können die Teilnehmenden eigenständig ein Python Skript erstellen und programmieren
+- können die Teilnehmenden ein Python Skript debuggen
+
+Der Kursinhalt kann je nach Vorwissen und Bedürfnissen inhaltlich angepasst werden.
+
+##### Programmvorschlag
+
+- Tag 1: Einführung, Setup, REPL
+- Tag 2: Basistypen, Listen, Tuples
+- Tag 3: Dictionaries, Sets
+- Tag 4: Control Flow
+- Tag 6: Funktionen
+- Tag 7: Exceptions
+- Tag 8: Einführung OOP, Syntax OOP
+- Tag 9: Erweiterte Syntax OOP
+- Tag 10: Debugging
+
+##### Durchführung und Preis
+
+Auf Anfrage
