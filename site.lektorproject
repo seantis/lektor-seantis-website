@@ -7,4 +7,4 @@ locale = de_CH
 lektor-open-graph =
 
 [servers.ghpages]
-target = ghpages+https://seantis/seantis.github.io.git
+target = ghpages+https://seantis/seantis.github.io
