@@ -1,0 +1,32 @@
+title: Digitale Dienstleistungen der Gemeinde Ebikon
+---
+
+pub_date: 2021-05-28
+---
+author: seantis
+---
+description: Das Hauptziel des neuen Portals ist der einfache Zugang zu Informationen und Dienstleistungen der Gemeinde.
+---
+
+customer: [Gmeinde Ebikon](https://www.ebikon.ch)
+---
+
+technology: OneGov Cloud, Python
+---
+
+task: Das Portal soll der Ebikoner Bevölkerung digitale Lösungen bieten – einfach und jederzeit zugänglich. „Im Bereich «Online-Schalter» finden Sie eine Vielzahl an elektronischen Formularen. Ob für die Bestellung einer Wohnsitzbestätigung oder für die Beantragung einer Fristerstreckung zur Einreichung der Steuererklärung: Vieles lässt sich bequem von zu Hause aus oder unterwegs erledigen“, sagt Roland Beyeler, Kommunikationsbeauftragter der Gemeinde. Und er stellt in Aussicht, dass weitere Services folgen werden: „ebikon.ch wird sich fortlaufend weiterentwickeln. Vieles konnte nach Plan umgesetzt werden. Weitere Funktionalitäten, zum Beispiel die Bezahlung via Kreditkarte, werden kontinuierlich ergänzt.“
+
+---
+solution: Technisch basiert die neue Website auf der Plattform «OneGov Cloud». „Wir haben in der Zusammenarbeit mit Seantis stets versucht, Funktionalitäten aus dem Blickwinkel des Benutzers zu optimieren. So entstanden beispielsweise die Fokus-Themen, die sich direkt auf der Startseite einbinden lassen oder der intuitive und visuell aufgefrischte Veranstaltungskalender, welcher von den Vereinen und Veranstaltern selber gepflegt werden kann“, so Beyeler.
+
+---
+benefit: Der barrierefreie Zugang auf ebikon.ch ist gewährleistet. Das Portal orientiert sich an den Richtlinien des Bundes für die Gestaltung von barrierefreien Internetangeboten gemäss dem Behindertengleichstellungsgesetz und den internationalen Web Content Accessibility Guidelines. Zur Gewährung des Datenschutzes und der Informationssicherheit werden sensible Daten ausschliesslich in einem zertifizierten Schweizer Rechenzentrum gespeichert. Mitarbeitende der Gemeinde, die Inhalte auf ebikon.ch pflegen, melden sich mit einem sicheren Login mit 2-Faktor-Authentifizierung an.
+
+---
+links:
+
+- Gemeinde Ebikon: https://www.ebikon.ch
+- OneGov Cloud: https://www.onegovcloud.ch
+
+---
+frontpage: no
