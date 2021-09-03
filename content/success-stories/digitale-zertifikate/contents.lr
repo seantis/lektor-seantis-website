@@ -1,0 +1,36 @@
+title: Digitale Zertifikate mit CertificateClaim
+---
+
+pub_date: 2021-09-03
+---
+author: seantis
+---
+description: CertificateClaim ist ein digitaler Service zum einfachen Erstellen und sicheren Versenden von digitalen Zertifikaten.
+---
+
+customer: [CertificateClaim](https://www.certificateclaim.com)
+---
+
+technology: Pyramid, Python
+---
+
+task: Nach der Teilnahme an einem Kongress oder an einem Webinar erwarten Teilnehmende eine Teilnahmebestätigung in der Form eines Zertifikates.
+
+---
+solution: Mit dem Service von CertificateClaim erstellen und versenden Sie hochwertige digitale Zertifkate:
+
+- als Anhang im E-Mail
+- als PDF in Druckqualität
+- in Ihrem Design gemäss CI
+- elektronisch signiert
+
+---
+benefit: CertificateClaim erspart das mühsame Erstellen von Listen und Serienbriefen und erstellt professionelle digitale Zertifkate und versendet diese sicher via E-Mail.
+
+---
+links:
+
+**CertificateClaim: https://www.certificateclaim.com**
+
+---
+frontpage: no
