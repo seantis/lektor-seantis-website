@@ -25,7 +25,7 @@
                                 <div class="card-head {{ 'padded'  if image.path.endswith('.png') else '' }}">
                                     {% if image %}
                                         <a href="{{ child|url }}">
-                                            <img src="{{ image.thumbnail(400)|url }}" alt="">
+                                            <img src="{{ image.thumbnail(800)|url }}" alt="">
                                         </a>
                                     {% endif %}
                                 </div>
