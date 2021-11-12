@@ -18,7 +18,7 @@ Die an der Studie teilnehmenden Patienten haben sich selbst Blut abgenommen. Von
 In der COVID-19 Ansicht in der mySCQM App sind die Ergebnisse der Impfantikörper aus dem Blut, welche Patienten im Rahmen der SCQM-Impfstudie zum Coronavirus abgegeben haben, ersichtlich. Die Antikörperwerte der eingesendeten Blutproben sind als blaue Punkte dargestellt und mit einer Linie verbunden. Ein positives Ergebnis zeigt, dass eine Person in der Vergangenheit mit dem SARS-CoV-2 (Coronavirus) infiziert war oder eine Impfung erhalten hatte und daraufhin Antikörper gebildet hat. 
 
 ### Visualisierung Antikörpertests für Ärzte
-Ärzte und medizinisches Fachpersonal, welche Daten im SCQM Register erfassen haben Zugriff auf die Testergebnisse ihrer Patienten. Die Ergebnisse werden in einem Boxplot dargestellt, so dass der Wert eines einzelnen Patienten in der Verteilung der gesamten Kohorte auf einen Blick sichtbar gemacht wird.
+Ärzte und medizinisches Fachpersonal, welche Daten im SCQM Register erfassen, haben Zugriff auf die Testergebnisse ihrer Patienten. Die Ergebnisse werden in einem Boxplot dargestellt, so dass der Wert eines einzelnen Patienten in der Verteilung der gesamten Kohorte auf einen Blick sichtbar gemacht wird.
 
 ### Weitere Informationen
 - [SCQM Foundation](https://www.scqm.ch)
