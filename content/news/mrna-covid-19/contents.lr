@@ -7,15 +7,15 @@ author: seantis
 description: Für das nationale Rheumaregister realisierte seantis die technische Infrastruktur für eine Studie zur Wirksamkeit von mRNA COVID-19 Impfungen.
 ---
 
-body: SCQM Foundation führt eine wissenschaftliche Studie zum Coronavirus (COVID 19/SARS CoV-2) und der Impfung dagegen durch. In einer prospektiven Studie wird neben weiteren Fragestellungen untersucht, welchen Einfluss immunsupprimierende Medikamente (Medikamente, die zu einer Unterdrückung des körpereigenen Abwehrsystems führen) auf den Antikörperspiegel haben. 
+body: Die SCQM Foundation führt eine wissenschaftliche Studie zum Coronavirus (COVID 19/SARS CoV-2) und der Impfung dagegen durch. In einer prospektiven Studie wird neben weiteren Fragestellungen untersucht, welchen Einfluss immunsupprimierende Medikamente (Medikamente, die zu einer Unterdrückung des körpereigenen Abwehrsystems führen) auf den Antikörperspiegel haben.
 
 Erste Ergebnisse der COVID19-Impfstudie mit Antikörpertests für Rheumapatienten geben Hinweise darauf, dass die Behandlung mit Immunsuppressiva zu einer verminderten Immunantwort und damit möglicherweise geringeren Wirksamkeit von mRNA COVID-19 Impfungen führen. Langzeitdaten fehlen bisher noch. Erste wissenschaftliche Resultate an der ACR Convergence 2021 präsentiert.
 
-### Blutselbsttests durch Patienten 
-Die an der Studie teilnehmenden Patienten haben sich selbst Blut abgenommen. Von höchster Bedeutung war dabei der richtige Zeitpunkt der Blutabnahme. Die von seantis entwickelte Patient App mit Fragebögen und SMS Erinnerungen auf dem Smartphone haben die Patienten dabei unterstützt.
+### Blutselbsttests durch Patienten
+Die an der Studie teilnehmenden Patienten haben sich selbst Blut abgenommen. Von grosser Bedeutung war dabei der richtige Zeitpunkt der Blutabnahme. Die von seantis entwickelte Patient App mit Fragebögen und SMS Erinnerungen auf dem Smartphone haben die Patienten dabei unterstützt.
 
 ### Visualisierung und Interpretation in der Patient App
-In der COVID-19 Ansicht in der mySCQM App sind die Ergebnisse der Impfantikörper aus dem Blut, welche Patienten im Rahmen der SCQM-Impfstudie zum Coronavirus abgegeben haben, ersichtlich. Die Antikörperwerte der eingesendeten Blutproben sind als blaue Punkte dargestellt und mit einer Linie verbunden. Ein positives Ergebnis zeigt, dass eine Person in der Vergangenheit mit dem SARS-CoV-2 (Coronavirus) infiziert war oder eine Impfung erhalten hatte und daraufhin Antikörper gebildet hat. 
+In der COVID-19 Ansicht in der mySCQM App sind die Ergebnisse der Impfantikörper aus dem Blut, welche Patienten im Rahmen der SCQM-Impfstudie zum Coronavirus abgegeben haben, ersichtlich. Ein positives Ergebnis zeigt, dass eine Person in der Vergangenheit mit dem SARS-CoV-2 (Coronavirus) infiziert war oder eine Impfung erhalten hatte und daraufhin Antikörper gebildet hat.
 
 ### Visualisierung Antikörpertests für Ärzte
 Ärzte und medizinisches Fachpersonal, welche Daten im SCQM Register erfassen, haben Zugriff auf die Testergebnisse ihrer Patienten. Die Ergebnisse werden in einem Boxplot dargestellt, so dass der Wert eines einzelnen Patienten in der Verteilung der gesamten Kohorte auf einen Blick sichtbar gemacht wird.
