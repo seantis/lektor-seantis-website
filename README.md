@@ -8,7 +8,8 @@ The seantis website generated with [Lektor](https://github.com/lektor/lektor).
 sudo apt install imagemagick
 git clone git@github.com:seantis/lektor-seantis-website.git
 cd lektor-seantis-website
-pipenv install --python python3 Flask==1.1.4 Lektor
-pipenv run lektor plugins reinstall
-pipenv run lektor server
+python3 -m venv env
+env/bin/pip install Lektor
+env/bin/lektor plugins reinstall
+env/bin/lektor server
 ```
