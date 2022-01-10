@@ -1,0 +1,32 @@
+title: Digitales Portal Gemeinde Ottenbach
+---
+
+pub_date: 2022-01-10
+---
+author: seantis
+---
+description: Die Gemeinde Ottenbach setzt für ihr digitales Portal auf die Schweizer E-Government Plattform OneGov Cloud.
+---
+
+customer: [Gmeinde Ottenbach](https://www.ottenbach.ch)
+---
+
+technology: OneGov Cloud, Python
+---
+
+task: Durch den Wechsel auf die neue Lösung wurde nicht nur die Gestaltung erneuert, auch die Inhalte wurden überarbeitet und neue Funktionen sind hinzugekommen. Neu können zum Beispiel Reservationen der Säle direkt online vorgenommen werden. 
+
+---
+solution: Technisch basiert die neue Website auf der Plattform «OneGov Cloud». Die Schweizer Open Source Lösung für die öffentliche Hand überzeugt mit einem umfassenden Serviceangebot und hoher Standard bezüglich Informationssicherheit. Der Kern der Lösung bildet ein Formularservice mit integriertem Service-Ticketing-System.
+
+---
+benefit: Die Veranstaltungen in Ottenbach werden durch die Vereine und Organisationen zur Publikation eingereicht und im Veranstaltungskalender publiziert. Ab sofort ist zudem die systematische Rechtssammlung der Erlasse auf Gemeindeebene gemäss kantonalen Vorgaben aufgeschaltet.
+
+---
+links:
+
+- Gemeinde Ottenbach: https://www.ottenbach.ch
+- OneGov Cloud: https://www.admin.digital
+
+---
+frontpage: no
