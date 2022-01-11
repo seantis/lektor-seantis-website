@@ -11,7 +11,7 @@ description: Die Fachstelle Sicherheit des Kantons Zug verwaltet regelmässige 
 customer: [Kanton Zug](http://www.zg.ch)
 ---
 
-technology: [OneGov Cloud](https://onegovcloud.ch)
+technology: [OneGov Cloud](https://admin.digital)
 ---
 
 task: Die Fachstelle Sicherheit (FSI) ist im Auftrag des Regierungsrats des Kantons Zug verantwortlich für die Überwachung und Umsetzung der betrieblichen Sicherheitsmassnahmen in der kantonalen Verwaltung sowie den Gerichten. Zu ihren Aufgaben und Kompetenzen gehört die Organisation und Durchführung aller obligatorischen dezentralen Sicherheitsschulungen.
@@ -28,7 +28,7 @@ benefit: Die Benutzer melden sich mit ihrem Verzeichnisdienst-Account beim Porta
 links:
 
 - **Kanton Zug: http://www.zg.ch**
-- OneGov Cloud: https://onegovcloud.ch
+- OneGov Cloud: https://admin.digital
 
 ---
 frontpage: yes
