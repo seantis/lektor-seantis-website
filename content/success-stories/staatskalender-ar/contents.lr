@@ -11,7 +11,7 @@ description: Die Kantonskanzlei von Appenzell Ausserrhoden löst den gedruckten
 customer: [Kanton Appenzell Ausserrhoden](http://www.ar.ch)
 ---
 
-technology: [OneGov Cloud](https://onegovcloud.ch)
+technology: [OneGov Cloud](https://admin.digital)
 ---
 
 task: Neu können Informationen zu Behördenmitgliedern oder Staatsangestellten
@@ -27,7 +27,7 @@ benefit: Die Onlineversion bietet einen benutzerfreundlichen Zugriff auf aktuell
 links:
 
 - Staatskalender Staatskalender Appenzell Ausserrhoden: http://staatskalender.ar.ch
-- OneGov Cloud: https://onegovcloud.ch
+- OneGov Cloud: https://admin.digital
 
 ---
 frontpage: no

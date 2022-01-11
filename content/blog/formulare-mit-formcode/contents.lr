@@ -8,7 +8,7 @@ author: seantis
 description: Mit Formcode können eigene Formulare schnell und einfach erstellt werden.
 ---
 
-body: Für die Definition von Formularen setzt die [OneGov Cloud](https://onegovcloud.ch) seit Beginn auf eine Eigenentwicklung: Formcode.  Mit der neusten Version wird es noch einfacher mit Formcode zu arbeiten.
+body: Für die Definition von Formularen setzt die [OneGov Cloud](https://admin.digital) seit Beginn auf eine Eigenentwicklung: Formcode.  Mit der neusten Version wird es noch einfacher mit Formcode zu arbeiten.
 
 Die Erstellung bzw. Definition von Formularen wird bei anderen Softwarelösungen meist über komplizierte Benutzeroberflächen realisiert. Das funktioniert gut für einfache Formulare: man verschiebt ein paar Felder in eine Box und schon steht das eigene Formular. WYSIWYG (What you see is what you get) nennt man dies im Jargon.
 
@@ -34,6 +34,6 @@ Als Alternative zu einer Dokumentation haben wir neu eine Sammlung von Vorlagen 
 
 Formcode hat noch einen weiteren Vorteil; in den Snippets erscheinen bisher unbekannte Arten von Formularfeldern. Wussten Sie beispielsweise dass wir ein Feld für die Unternehmens-Identifkationsnummer inkl. Validierung haben? Wir auch nicht 😉.
 
-**OneGov Cloud - Smart Government Platform: [https://onegovcloud.ch](https://onegovcloud.ch)**
+**OneGov Cloud - Smart Government Platform: [https://admin.digital](https://admin.digital)**
 
 ![Formcode Snippets](snippets.png)
