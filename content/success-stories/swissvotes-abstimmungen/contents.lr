@@ -11,13 +11,13 @@ description: Swissvotes ist die umfassendste Datenbank zu den Schweizer Volksabs
 customer: [Institut für Politikwissenschaft der Universität Bern](http://www.ipw.unibe.ch/)
 ---
 
-technology: [OneGov Cloud](https://onegovcloud.ch)
+technology: [OneGov Cloud](https://admin.digital)
 ---
 
 task: seantis entwickelte im Auftrag von [Année Politique Suisse](https://anneepolitique.swiss) am Institut für [Politikwissenschaft der Universität Bern](http://www.ipw.unibe.ch) ein rundum erneuertes und stark erweitertes Datenportal für alle Schweizer Volksabstimmungen. Für jede der 644 eidgenössischen Volksabstimmungen seit 1848 wird nicht nur eine kurze Zusammenfassung von Vorgeschichte, Gegenstand, Abstimmungskampf und Ergebnis geboten, sondern zu jeder Vorlage lassen sich auch zahlreiche detaillierte Daten und Originaldokumente herunterladen.
 
 ---
-solution: Die Datenplattform wurde auf Basis der OneGov Cloud entwickelt. Die [OneGov Cloud](https://onegovcloud.ch) ist ein von seantis entwickeltes Source Framework für digitale Plattformen des öffentlichen Sektors. Das Framework wird in der Gemeinschaft des Vereins [OneGov.ch](https://onegov.ch) weiterentwickelt. 
+solution: Die Datenplattform wurde auf Basis der OneGov Cloud entwickelt. Die [OneGov Cloud](https://admin.digital) ist ein von seantis entwickeltes Source Framework für digitale Plattformen des öffentlichen Sektors. Das Framework wird in der Gemeinschaft des Vereins [OneGov.ch](https://onegov.ch) weiterentwickelt. 
 
 ---
 benefit: Einen Einblick in den wertvollen Fundus von Swissvotes gibt folgendes Beispiel. Wer in der Volltextsuche den Begriff „[Milchkuh](https://swissvotes.ch/votes?from_date=&to_date=&legal_form=1&legal_form=2&legal_form=3&legal_form=4&result=0&result=1&term=Milchkuh&full_text=1&position_federal_council=1&position_federal_council=2&position_federal_council=3&position_federal_council=-1&position_national_council=1&position_national_council=2&position_national_council=3&position_council_of_states=1&position_council_of_states=2&position_council_of_states=3&sort_by=&sort_order=)“ eingibt, wird überrascht feststellen, dass nur eine Minderheit der Abstimmungen in den Suchresultaten dem Politikbereich Landwirtschaft zugeordnet werden kann. Meist taucht die Milchkuh nämlich im Zusammenhang mit Steuern, Umverteilung oder Abgaben auf.
@@ -31,7 +31,7 @@ links:
 - Année Politique Suisse: [https://anneepolitique.swiss](https://anneepolitique.swiss) 
 - Institut für Politikwissenschaft der Universität Bern: [http://www.ipw.unibe.ch](http://www.ipw.unibe.ch)
 - Medienmitteilung Swissvotes: [Wer wird bei Volksabstimmungen gemolken?](Relaunch-Medienmitteilung-27-08-2019.pdf)
-- OneGov Cloud: https://onegovcloud.ch
+- OneGov Cloud: https://admin.digital
 - Verein OneGov.ch: https://onegov.ch
 
 ---
