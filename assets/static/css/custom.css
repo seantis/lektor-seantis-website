@@ -587,3 +587,9 @@ _:-ms-lang(x), #customers .card img {
     background-size: contain !important;
     background-repeat: no-repeat !important;
 }
+
+.storybox-3 {
+    background: url('../../static/img/lucerne.jpg') !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+}
