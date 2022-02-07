@@ -426,7 +426,7 @@ ul.pagination li::before {
     .menu {display: block}
     .contact {border-left: none; margin-left: 0px; padding-right: 10px}
     #square {
-        margin: 185px 0 0px 0;
+        margin: 130px 0 0px 0;
         min-height: auto;
     }
     .lead {font-size: 125%}
