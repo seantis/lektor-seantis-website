@@ -13,21 +13,31 @@ Nach Abschluss des Kurses
 - können die Teilnehmenden eigenständig eine Webapplikation mit Django entwickeln
 - können die Teilnehmenden eigenständig eine Webapplikation mit Django betreiben
 
-Der Kursinhalt kann je nach Vorwissen und Bedürfnissen inhaltlich angepasst werden.
+##### Programm
 
-##### Programmvorschlag
+- Woche 1: Einführung, Setup, Grundlagen von Webapplikationen (Request, Response, URLs)
+- Woche 2: Django
+- Woche 3: SQL
+- Woche 4: Django: Models
+- Woche 5: Jinja
+- Woche 6: REST APIs mit Django
+- Woche 7: Django REST Framework, Django Filters
+- Woche 8: Django Channels
+- Woche 9: Celery
+- Woche 10: Dockerization
 
-- Tag 1: Einführung, Setup, Grundlagen von Webapplikationen (Request, Response, URLs)
-- Tag 2: Django
-- Tag 3: SQL
-- Tag 4: Django: Models
-- Tag 5: Jinja
-- Tag 6: REST APIs mit Django
-- Tag 7: Django REST Framework, Django Filters
-- Tag 8: Django Channels
-- Tag 9: Celery
-- Tag 10: Dockerization
+Für Firmenkurse kann auch das Programm auch je nach Vorwissen und Bedürfnissen inhaltlich angepasst werden.
 
-##### Durchführung und Preis
+##### Aufwand
 
-Auf Anfrage
+3-4h pro Woche (Theorie und selbständige Übungen)
+
+##### Preis
+
+CHF 990.-
+
+##### Durchführung
+
+Der Kurs wird ab fünf Teilnehmenden durchgeführt.
+
+Nächste Durchführung auf Anfrage.
