@@ -3,11 +3,11 @@ title: seantis gmbh
 ---
 
 
-description: Seantis GmbH (CH-241.4.005.076-6).
+description: Seantis GmbH (CH-241.4.005.076-6)
 ---
 body:
 
-- Domizil: Obere Dattenbergstrasse 35, 6010 Kriens
+- Domizil: Pilatusstrasse 3, 6003 Luzern
 - Rechtsform: GmbH
 - Gründungsjahr: 2005
 - Kapital: CHF 21'000
@@ -17,7 +17,6 @@ body:
 - MWST-Nr.: CHE-112.413.964 MWST
 - UID: CHE-112.413.964
 - D-U-N-S: 483058496
-- Bankverbindung: IBAN: CH63 0026 2262 4750 3901 U / SWIFT: UBSWCHZH80A / UBS AG, Postfach, CH-6002 Luzern
 
 ---
 portlet: ![swiss made software](/static/img/swiss_made.gif)
