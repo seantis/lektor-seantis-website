@@ -593,3 +593,9 @@ _:-ms-lang(x), #customers .card img {
     background-size: contain !important;
     background-repeat: no-repeat !important;
 }
+
+.storybox-4 {
+    background: url('../../static/img/ogc.png') !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+}
