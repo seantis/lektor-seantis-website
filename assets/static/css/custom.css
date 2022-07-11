@@ -108,6 +108,10 @@ p img {
     padding: .7rem .8rem;
 }
 
+.menu a {
+    display: inline;
+}
+
 .top-bar .input-group {
     margin-bottom: 0
 }
