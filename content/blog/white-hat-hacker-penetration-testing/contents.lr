@@ -11,7 +11,7 @@ description: In Zusammenarbeit mit HackerOne haben wir unsere Plattform für die
 
 body:
 
-### Weisse Hüte
+### Security Researchers mit weissen Hüten
 
 [HackerOne](https://www.hackerone.com) ist eine international renommierte Plattform, welche Penetration Testing und Bug Bounty Programme anbietet. Die Plattform arbeitet mit den weltweit besten White-Hat-Hackern – auch Security Researchers genannt – um Schwachstellen in System aufzuspüren und die Sicherheit von IT-Systemen zu verbessern. White Hat Hacker nutzen – im Gegensatz zu Black Hat Hackern – die gefundenen Schwachstellen nicht für kriminelle Machenschaften aus, sondern melden diese den Betreibern und leisten so einen wichtigen Beitrag für mehr Informationssicherheit.
 
