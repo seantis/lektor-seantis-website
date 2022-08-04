@@ -23,6 +23,6 @@ Jede Software hat Schwachstellen. Diese zu finden und die Sicherheit zu verbesse
 
 Der simulierte Angriff hat auf einem Testsystem ohne echte Daten stattgefunden. Die Penetration Tester haben ein Benutzerkonto erhalten und konnten sich wie normale User innerhalb des Systems bewegen. Der Test hat keine schweren oder gar kritischen Schwachstellen aufgedeckt. Dank der Erkenntnisse der Security Researchers von HackerOne konnten aber Verbesserungen umgesetzt werden, welche die Sicherheit unserer Plattform weiter erhöhen. Wir planen eine Wiederholung der Pentetration Tests in regelmässigen Abständen.
 
-### Informationssicherheit gemäss ISO 27001
+### Informationssicherheit ISO 27001
 
 In der IT-Sicherheit gibt es leider keine Garantien. Sicherheit ist kein Zustand, sondern ein Prozess. In unserem [zertifizierten Informationssicherheits-Managementsystems](../../portrait/informationssicherheit-iso-27001/) sind messbare Ziele definiert, welche eine kontinuierliche Überwachung und Steuerung erlauben, so dass unsere Prozesse bezüglich Informationssicherheit überwacht und stetig verbessert werden können. Penetration Testing kann einen wichtigen Beitrag für mehr Informationssicherheit leisten.
