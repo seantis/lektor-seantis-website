@@ -1,0 +1,28 @@
+
+title: Penetration Testing HealthData.ai
+---
+
+pub_date: 2022-08-04
+---
+author: seantis
+---
+description: In Zusammenarbeit mit HackerOne haben wir unsere Plattform für die medizinische Forschung HealthData.ai einem Penetration Testing unterzogen.
+---
+
+body:
+
+### Weisse Hüte
+
+[HackerOne](https://www.hackerone.com) ist eine international renommierte Plattform, welche Penetration Testing und Bug Bounty Programme anbietet. Die Plattform arbeitet mit den weltweit besten White-Hat-Hackern – auch Security Researchers genannt – um Schwachstellen in System aufzuspüren und die Sicherheit von IT-Systemen zu verbessern. White Hat Hacker nutzen – im Gegensatz zu Black Hat Hackern – die gefundenen Schwachstellen nicht für kriminelle Machenschaften aus, sondern melden diese den Betreibern und leisten so einen wichtigen Beitrag für mehr Informationssicherheit.
+
+### Schwachstellen in Software
+
+Jede Software hat Schwachstellen. Diese zu finden und die Sicherheit zu verbessern ist ein kontinuierlicher Prozess und wir setzen auf einen ganzen Strauss von Massnahmen zur Erreichung höchster Schutzziele. Wie bei jedem IT-System sind sowohl die Architektur, die technischen Details der Implementierung sowie die Sicherstellung der Vertraulichkeit, Integrität und Verfügbarkeit des Systems im Betrieb für die Sicherheit entscheidend. Penetration Tests sind ein besonders effektives Mittel, weil sie einen echten Angriff auf ein System simulieren können. 
+
+### Verbesserungen für mehr Sicherheit
+
+Der simulierte Angriff hat auf einem Testsystem ohne echte Daten stattgefunden. Die Penetration Tester haben ein Benutzerkonto erhalten und konnten sich wie normale User innerhalb des Systems bewegen. Der Test hat keine schweren oder gar kritischen Schwachstellen aufgedeckt. Dank der Erkenntnisse der Security Researchers von HackerOne konnten aber Verbesserungen umgesetzt werden, welche die Sicherheit unserer Plattform weiter erhöhen. Wir planen eine Wiederholung der Pentetration Tests in regelmässigen Abständen.
+
+### Informationssicherheit gemäss ISO 27001
+
+In der IT-Sicherheit gibt es leider keine Garantien. Sicherheit ist kein Zustand, sondern ein Prozess. In unserem [zertifizierten Informationssicherheits-Managementsystems](../../portrait/informationssicherheit-iso-27001/) sind messbare Ziele definiert, welche eine kontinuierliche Überwachung und Steuerung erlauben, so dass unsere Prozesse bezüglich Informationssicherheit überwacht und stetig verbessert werden können. Penetration Testing kann einen wichtigen Beitrag für mehr Informationssicherheit leisten.
