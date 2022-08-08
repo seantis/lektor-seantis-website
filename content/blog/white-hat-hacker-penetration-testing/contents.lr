@@ -21,7 +21,7 @@ Jede Software hat Schwachstellen. Diese zu finden und die Sicherheit zu verbesse
 
 ### Verbesserungen für mehr Sicherheit
 
-Der simulierte Angriff hat auf einem Testsystem ohne echte Daten stattgefunden. Die Penetration Tester haben ein Benutzerkonto erhalten und konnten sich wie normale User innerhalb des Systems bewegen. Der Test hat keine schweren oder gar kritischen Schwachstellen aufgedeckt. Dank der Erkenntnisse der Security Researchers von HackerOne konnten aber Verbesserungen umgesetzt werden, welche die Sicherheit unserer Plattform weiter erhöhen. Wir planen eine Wiederholung der Pentetration Tests in regelmässigen Abständen.
+Der simulierte Angriff hat auf einem Testsystem der [HealthData.ai](https://www.healthdata.ai/) Plattform ohne echte Daten stattgefunden. Die Penetration Tester haben ein Benutzerkonto erhalten und konnten sich wie normale User innerhalb des Systems bewegen. Der Test hat keine schweren oder gar kritischen Schwachstellen aufgedeckt. Dank der Erkenntnisse der Security Researchers von HackerOne konnten aber Verbesserungen umgesetzt werden, welche die Sicherheit unserer Plattform weiter erhöhen. Wir planen eine Wiederholung der Pentetration Tests in regelmässigen Abständen.
 
 ### Informationssicherheit ISO 27001
 
