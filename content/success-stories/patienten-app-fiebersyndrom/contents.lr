@@ -16,19 +16,19 @@ technology: Pyramid, Python
 
 task: Die ersten Symptome hereditärer periodischer Fiebersyndrome zeigen sich meistens in der Kindheit. Die Betroffenen haben wiederkehrende periodische Fieberschübe mit Entzündungen. Unter den Symptomen leiden nur wenige Patienten, die periodische Fiebersyndrome zählen daher zu den seltenen Krankheiten.
 
-Das zunehmende wissenschaftliche Verständnis über die Ursache der Krankheit ermöglicht neue Wege der Therapie. Die Möglichkeit gezielter medikamentöser Therapie ruft nach einem validierten Assessment-Tool zur Einschätzung der Krankheitsaktivität und der Wirksamkeit der Therapie. Mit dem Auto-Inflammatory Diseases Activity Index (AIDAI) kann ein solcher Assessment Score zur Einschätzung der Krankheitsaktivität berechnet werden. Das Assessment-Tools soll dabei helfen die Kinder und Jugendlichen besser zu behandeln sowie das wissenschaftliche Verständnis der Krankheit zu vertiefen.
+Das zunehmende wissenschaftliche Verständnis über die Ursache der Krankheit ermöglicht neue Wege der Therapie. Die Möglichkeit gezielter medikamentöser Therapie ruft nach einem validierten Assessment-Tool zur Einschätzung der Krankheitsaktivität und der Wirksamkeit der Therapie. Das Assessment-Tools soll dabei helfen die Kinder und Jugendlichen besser zu behandeln sowie das wissenschaftliche Verständnis der Krankheit zu vertiefen.
 
 ---
-solution: Der AIDAI Score wurde in der JIR Cohort integriert. Die JIR Cohort (Juvenile Inflammatory Rheumatism) ist eine internationale, multizentrische Beobachtungsstudie für Kinder und Jugendliche mit entzündlichen rheumatischen Erkrankungen.  Die Studie ist modular aufgebaut und kann als elektronische Patientenakte sowie für wissenschaftliche Untersuchungen genutzt werden. Die primäre Zielsetzung der JIR Cohort ist die Erforschung der Sicherheit und Wirksamkeit von krankheitsmodifizierenden antirheumatischen Medikamenten (DMARDs) bei Kindern und Jugendlichen.
+solution: Die JIR Cohort (Juvenile Inflammatory Rheumatism) ist eine internationale, multizentrische Beobachtungsstudie für Kinder und Jugendliche mit entzündlichen rheumatischen Erkrankungen.  Die Studie ist modular aufgebaut und kann als elektronische Patientenakte sowie für wissenschaftliche Untersuchungen genutzt werden. Die primäre Zielsetzung der JIR Cohort ist die Erforschung der Sicherheit und Wirksamkeit von krankheitsmodifizierenden antirheumatischen Medikamenten (DMARDs) bei Kindern und Jugendlichen.
 
 ---
-benefit: In der Patient App können Patienten beziehungsweise deren Eltern periodische Fieberschübe auf einer Kalenderansicht erfassen. Der Kalender ermöglicht eine einfache Übersicht über den zeitlichen Verlauf der Krankheitsschübe. Wie die Patienten haben auch die behandelnden Ärzte Zugriff auf die erfassten Daten sowie auf die berechneten AIDAI Scores. Die Informationen werden direkt für die Behandlung der Patienten sowie für die medizinische Forschung genutzt.
+benefit: In der Patient App können Patienten beziehungsweise deren Eltern periodische Fieberschübe auf einer Kalenderansicht erfassen. Der Kalender ermöglicht eine einfache Übersicht über den zeitlichen Verlauf der Krankheitsschübe. Wie die Patienten haben auch die behandelnden Ärzte Zugriff auf die erfassten Daten. Die Informationen werden direkt für die Behandlung der Patienten sowie für die medizinische Forschung genutzt.
 
 ---
 links:
 
 - JIR Cohort: https://www.jircohorte.org
-- Validation of the Auto-Inflammatory Diseases Activity Index (AIDAI) for hereditary recurrent fever syndromes: https://ard.bmj.com/content/73/12/2168
+- HealthData.ai: https://www.healthdata.ai
 
 ---
 frontpage: yes
