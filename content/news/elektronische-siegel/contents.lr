@@ -1,0 +1,45 @@
+title: Digitalisierung des Behördenstempels
+---
+pub_date: 2022-07-26
+---
+author: Fabian Reinhard
+---
+release: 
+---
+description: In Zusammenarbeit mit der Swisscom stellt admin.digital einen Service für elektronische Siegel amtlicher  Dokumente zur Verfügung.
+---
+body:
+
+Das elektronische Siegel ist der Behördenstempels des digitalen Zeitalters. Behörden können mit elektronischen Siegeln einen Herkunftsnachweis erbringen sowie den Zeitpunkt, die Integrität und Authentizität eines Dokumentes bestätigen. Das [Bundesgesetz über die elektronische Signatur (ZertES)](https://www.fedlex.admin.ch/eli/cc/2016/752/de) regelt die Verwendung von elektronischen Siegel und erlaubt damit, rechtskonforme Signaturen im Namen einer Organisation als juristische Person durchzuführen und ein gesiegeltes Dokument als Beweisstück vorzulegen.
+
+Elektronische Siegel basieren technisch auf dem gleichen Verfahren wie eine elektronische Signatur und werden von admin.digital über den [Signing Service der Swisscom](https://trustservices.swisscom.com/elektronische-siegel/) erstellt.
+
+## Urheberschaft und Unveränderbarkeit
+
+Amtliche Dokumente werden vermehrt digital verschickt oder publiziert. Elektronische Siegel ermöglichen die Sicherstellung der Integrität von Dokumenten und bestätigen deren Urheberschaft. Ergo kann damit sichergestellt werden, dass ein digital gesigeltes Dokument tatsächlich von der angegebenen Organisation stammt und seit dem Anbringen des Siegels nicht mehr verändert wurde.
+
+## Digitaler Siegel­ungsprozess
+
+Dokumente können in der OneGov Cloud rechtsgültig digital gesiegelt werden. Der Prozess der digitalen Sieglung stellt erhöhte Anforderungen an die Sicherheit. Nur Administratoren haben die Berechtigung für die digitale Siegelung und selbst wenn sie bereits eingeloggt sind müssen sie zum Siegeln ihren YubiKey verwenden. Damit wird verhindert, dass jemand unbefugt ein Dokument mit einem elektronischen Siegel erstellt. Für ein missbräuchlich gesiegeltes Dokument müssten also nicht nur das Login und Passwort des Administrators in falsche Hände geraten, sondern auch dessen physischer YubiKey gestohlen worden sein.
+
+## Vollständige Nachvollziehbarkeit
+
+Bei jeder digitalen Siegelung wird also zur Sicherheit im Hintergrund das Login und der YubiKey geprüft. Ein sogenannter digitaler Fingerabdruck des Dokuments wird danach über eine verschlüsselte Verbindung an den [Signing Service](https://trustservices.swisscom.com/signing-service) von Swisscom Trust Services gesendet wo das Dokument digital signiert wird.
+
+Folgende Informationen werden für die Nachvollziehbarkeit permanent aufgezeichnet:
+
+- Die ID der Anfrage an die Swisscom
+- Das Yubikey Token
+- Der Zeitstempel
+- Der auslösende Benutzer
+- Der Fingerabdruck der Datei vor der Siegelung
+- Der Fingerabdruck der Datei nach der Siegelung
+- Selbst wenn die Datei später gelöscht wird, können wir weiterhin prüfen ob eine bestimmte Datei auf unserem System gesiegelt wurde.
+
+## Verfügbar für Gemeindeverwaltungen
+
+Die elektronischen Siegel stehen für alle Gemeinden der Plattform von admin.digital zur Verfügung. Ein weiterer Schritt für die digitale Transformation der Gemeindeverwaltung.
+
+
+---
+apps: 
