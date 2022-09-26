@@ -599,3 +599,10 @@ _:-ms-lang(x), #customers .card img {
     background-size: contain !important;
     background-repeat: no-repeat !important;
 }
+
+.figcaption {
+    color: #333;
+    font-size: 60%;
+    text-align: center;
+    margin-bottom: 20px;
+}
