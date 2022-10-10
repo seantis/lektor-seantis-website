@@ -1,0 +1,35 @@
+title: Reservationssystem Gemeinde Neuenkirch
+---
+
+pub_date: 2022-10-10
+---
+author: seantis
+---
+description: Die Gemeinde Neuenkirch hat weiter in ihr Raumangebot für Vereine und Kultur investiert. Dank dem neuen Reservationssystem können die Räume der Gemeinde Neuenkirch einfach online reserviert werden.     
+---
+
+customer: [Gemeinde Neuenkirch](https://www.neuenkirch.ch)
+---
+
+technology: OneGov Cloud, Python
+---
+
+task: Neuenkirch ist eine Gemeinde mit hohem Freizeitwert. Ein vielfältiges kulturelles Angebot an Kultur-, Sport- und Freizeitaktivitäten steht den Einwohnerinnen und Einwohnern von Neuenkirch zur Verfügung. Dafür bietet die Gemeinde das passende Raumangebot und hat weiter in ihre Infrastruktur investiert. Mit dem neuen Musik- und Kulturzentrum konnte ein 9-Millionen-Bau eingeweit werden, welcher Platz bietet für die Musikschule und zahlreiche Vereine wie Blasmusikformationen und Chöre. Die Gemeindeverwaltung, Schule und Musikschule haben entschieden ein neues System für effiziente und transparenten Reservationsprozesse für die Räumlichkeiten in der Gemeinde zu evaluiert.
+
+---
+solution: Die Evaluation des Reservationssystems wurde von Studierenden der [HSLU](https://www.hslu.ch) im Rahmen eines Projektes durchgeführt. Die Wahl fiel auf das Reservationssystem von admin.digital. Durch die Verantwortlichen der Gemeinde- und Schulverwaltung wird definiert, wann Räume verfügbar sind, bzw. wann interne oder externe Benutzern einzelne Räume reservieren können.
+
+Das System stellt sicher, dass keine Überbuchungen möglich sind und ermöglicht es dem Benutzer einfach mehrere Ressourcen zu reservieren. Nach der Auswahl der Einteilung auf einer Ressource füllt der Kunde das Formular mit den Personalien und allenfalls weiteren notwendigen Angaben aus. Der Benutzer überprüft alle seine Angaben und bestätigt seine Reservation. Reservationen von externen Benutzern, welche eine Freigabe benötigen, werden über ein Service-Ticketing-System verarbeitet und freigeben.
+
+---
+benefit: Dank dem neuen Reservationssystem können die Räume der Gemeinde Neuenkirch einfach online reserviert werden. Die Verarbeitung der Reservationen erfolgt in einem Ticketing-System, welches effizienten und transparente Prozesse sicherstellt.    Verantwortliche Personen wie z.B. der Hauswarte erhalten automatische Benachrichtigungen bezüglich Reservationen und Belegungen.
+
+---
+links:
+
+- Reservationssystem Gemeinde Ottenbach: https://reservation.neuenkirch.ch
+- OneGov Cloud: https://www.admin.digital
+- Bericht Luzerner Zeitung: [Gemeindepräsident zum neuen Kulturraum: «Endlich ist alles unter einem Dach vereint»](https://www.luzernerzeitung.ch/zentralschweiz/kanton-luzern/neuenkirch-gemeindepraesident-zum-neuen-kulturraum-endlich-ist-alles-unter-einem-dach-vereint-ld.2341601)
+
+---
+frontpage: no
