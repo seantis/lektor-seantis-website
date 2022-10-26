@@ -51,7 +51,7 @@ Der tägliche Backup-Prozess wird automatisch überwacht und seantis informiert,
 
 Vom Offsite Backup Server werden die Daten einmal wöchentlich auf einen verschlüsselten Datenträger übertragen. Dieser Datenträger wird in einem Tresorfach bei einer Schweizer  Bank hinterlegt. Die Datenträger im Schliessfach sind komplett entkoppelt und haben natürlich keine Netzwerk- bzw. Internetverbindung (**Airgap Backup**).
 
-Während des *seantis Backup Days* werden die Backups auf virtuellen Servern eingespielt und damit überprüft, dass die Backups auch wirklich verwendbar sind. Die regelmässige Überprüfung auf **Wiederherstellbarkeit (Restore Tests)** ist somit auch sichergestellt.
+Während periodischer Restore-Tests werden die Backups auf virtuellen Servern (gemäss [ISMS-CIA-Sicherheitskategorien](/portrait/informationssicherheit-iso-27001/)) eingespielt und damit überprüft, dass die Backups auch wirklich verwendbar sind. Die regelmässige Überprüfung auf **Wiederherstellbarkeit (Restore Tests)** ist somit auch sichergestellt.
 
 ### Service Level Agreement (SLA)
 
