@@ -553,7 +553,7 @@ _:-ms-lang(x), #customers .card img {
 
 .model-startup #splash, .model-careers #splash {
     margin-top: 30px;
-    background: url('../../static/img/hipster.jpg');
+    background: url('../../static/img/meeting.jpg');
     background-size: contain;
     background-repeat: no-repeat;
     padding-top: 60px;
