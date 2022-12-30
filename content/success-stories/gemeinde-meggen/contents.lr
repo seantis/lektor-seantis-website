@@ -1,0 +1,44 @@
+title: Webportal Gemeinde Meggen
+---
+
+pub_date: 2022-12-30
+---
+author: seantis
+---
+description: Die Gemeinde Meggen hat ihren Webauftritt erneuert. Das Portal meggen.ch wurde von Grund auf überarbeitet, um Informationen und Dienstleistungen für alle Besucherinnen und Besucher noch einfacher zugänglich zu machen.  
+---
+
+customer: [Gemeinde Meggen](https://www.meggen.ch)
+---
+
+technology: OneGov Cloud, Python
+---
+
+task:
+
+Mehr als die Hälfte der Besucherinnen und Besucher im Web sind mit ihrem Smartphone unterwegs, Tendenz steigend. Aus diesem Grund wurde das neue Portal der Gemeinde Meggen für die Ansicht auf dem Smartphone optimiert, damit alle Informationen unabhängig vom Endgerät leicht zugänglich sind. Die Benutzerführung und die integrierte Volltextsuche helfen, die gesuchten Inhalte, Ansprechpartner und Dienstleistungen noch schneller zu finden.
+
+---
+solution: 
+
+Das neue Portal der Gemeinde Meggen macht zusätzliche Dienstleistungen digital verfügbar. Ebenso ist es für Besucherinnen und Besucher möglich, direkt online zu bezahlen. Ein Service-Ticketing-System stellt sicher, dass alle Anfragen zeitnah und in höchster Servicequalität bearbeitet werden.
+
+Entdecken Sie auf einem Fussmarsch die vielen Sehenswürdigkeiten von Meggen. Die 2014 aus Anlass des 950-Jahr-Jubiläums der Gemeinde geschaffene Entdeckertour führt über 17 Kilometer rund um das Dorf. Die Entdeckertour Meggen ist nun digital verfügbar und so auf Ihrem Smartphone im Hosensack mit dabei.
+
+---
+benefit: 
+
+Digitale Barrierefreiheit stellt sicher, dass das Megger Webportal von allen Menschen genutzt werden kann, unabhängig von körperlichen Einschränkungen. Mehr als zehn Prozent der Schweizer Bevölkerung haben eine Einschränkung: sei es visuell, auditiv, motorisch oder kognitiv. Überproportional betroffen von Einschränkungen sind ältere Menschen.
+
+Um den Zugang auch für Menschen mit Einschränkungen sicherzustellen, wurde das Portal gemäss den Richtlinien des Bundes für die Gestaltung von barrierefreien Internetangeboten sowie gemäss der internationalen Accessibility Guidelines entwickelt.
+
+Die Cyber-Bedrohung ist real auch für Schweizer Gemeinden. Bereits mehrere Schweizer Gemeinden wurden Opfer von Cyber-Angriffen, bei welchen Kriminelle sensitive Daten gestohlen haben. Im Online-Schalter werden sensitive personenbezogene Daten verarbeitet. Daher führen wir ein Managementsystem Informationssicherheit und sind gemäss ISO/IEC 27001:2013 zertifiziert. Schützenswerte Daten werden bei einem Schweizer Cloud-Provider in zertifizierten Schweizer Rechenzentren gespeichert.
+
+---
+links:
+
+- Portal Gemeinde Meggen: https://www.meggen.ch
+- OneGov Cloud: https://www.admin.digital
+
+---
+frontpage: yes
