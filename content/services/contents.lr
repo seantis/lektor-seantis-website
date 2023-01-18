@@ -41,7 +41,7 @@ Backups werden auf der **Backup Infrastruktur** von seantis gemacht. Das Backu
 
 Der Backup Plan sieht sieht folgende **inkrementelle Backups** vor:
 
-- tägliche Rotatation: 7 Tage Retension
+- tägliche Rotation: 7 Tage Retension
 - wöchentliche Rotation: 4 Wochen Retension
 - monatliche Rotation: 3 Monate Retension
 
