@@ -2,7 +2,6 @@
 name = seantis
 url = https://www.seantis.ch
 locale = de_CH
-url_style = absolute
 
 [packages]
 lektor-open-graph = 1b4
