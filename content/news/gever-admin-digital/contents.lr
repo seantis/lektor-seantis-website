@@ -1,0 +1,22 @@
+title: Schnittstelle zur GEVER Geschäftsverwaltung
+---
+
+pub_date: 2023-02-09
+---
+author: seantis
+---
+description: Weil wir der festen Überzeugung sind, dass Schnittstellen der Schlüssel zu erfolgreichem E-Governement sind, haben wir für unsere Gemeindeplattform admin.digital eine Schnittstelle zur GEVER Geschäftsverwaltung entwickelt.
+---
+
+body: Mit der neuen Komponente onegov.gever wurde in [admin.digital](https://www.admin.digital) eine Anbindung an GEVER Systeme realisiert. So können Dokumente mit einem Klick an das Geschäftsverwaltungssystem übertragen werden. Neu gibt es die Option «Hochladen auf GEVER», die auf einem Ticket angezeigt wird. Ein Ticket kann mit dieser Option schnell und unkompliziert an ein GEVER System übermittelt werden. Die PDF-Version dieses Tickets wird on-the-fly generiert und anschliessend hochgeladen. 
+
+Voraussetzung dafür ist, dass die API-Credentials in den Einstellungen hinterlegt werden. Dieser Schritt ist einmalig notwendig. Sobald die API-Credentials gespeichert sind, können aus der OneGov Cloud beliebig Dokumente hochgeladen werden. Diese werden dann an den GEVER-Endpunkt geschickt. Dort angelangt, kann das Dokument dann weiter zugeordnet werden. Der Eingangskorb von GEVER bietet sich hierfür an.
+
+Als erstes GEVER System wurde die digitale Geschäftsverwaltung [OneGov GEVER](https://www.4teamwork.ch/loesungen/onegov-gever/) der [Fabasoft 4teamwork AG](https://www.4teamwork.ch) angebunden. Schnittstellen auf weitere Geschäftsverwaltungssystem sind geplant.
+
+**[admin.digital](https://www.admin.digital) – Schweizer Cloud für die öffentliche Verwaltung**
+
+---
+_hidden: no
+---
+tags: 
