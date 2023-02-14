@@ -15,7 +15,7 @@ body:
 
 [HackerOne](https://www.hackerone.com) ist eine international renommierte Plattform, welche Penetration Testing und Bug Bounty Programme anbietet. Die Plattform arbeitet mit den weltweit besten White-Hat-Hackern – auch ethische Hacker oder Security Researcher genannt – um Schwachstellen in System aufzuspüren und die Sicherheit von IT-Systemen zu verbessern. White Hat Hacker nutzen – im Gegensatz zu Black Hat Hackern – die gefundenen Schwachstellen nicht für kriminelle Machenschaften aus, sondern melden diese den Betreibern und leisten so einen wichtigen Beitrag für mehr Informationssicherheit.
 
-### Jede Softeware hat Schwachstellen
+### Jede Software hat Schwachstellen
 
 Jede Software hat Schwachstellen. Diese zu finden und die Sicherheit zu verbessern ist ein kontinuierlicher Prozess und wir setzen auf einen ganzen Strauss von Massnahmen zur Erreichung höchster Schutzziele. Wie bei jedem IT-System sind sowohl die Architektur, die technischen Details der Implementierung sowie die Sicherstellung der Vertraulichkeit, Integrität und Verfügbarkeit des Systems im Betrieb für die Sicherheit entscheidend. Penetration Tests sind ein besonders effektives Mittel, weil sie einen echten Angriff auf ein System simulieren können. 
 
