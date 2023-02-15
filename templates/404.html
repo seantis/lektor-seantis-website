@@ -1,13 +1,42 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>404 -Page Not Found</title>
-    </head>
-    <body>
-        
-        <h1>404- Page Not Found </h1>
-        <p>We are sorry, but the page you requested could not be found. You may have entered an incorrect URL or the page may have been removed.</p>
-        <p>Please check the URL or visit the <a href="/">home page</a></p>
-    
-    </body>
-</html>
+{% extends "layout.html" %}
+
+<body>
+<div class="top" id="responsive-menu" style="">
+    <div class="grid-container">
+      <div class="top-bar">
+        <div class="top-bar-left">
+            <a href="./" class="logo" >
+              <img src="https://seantis.ch/static/img/logo.svg" alt="Logo">
+            </a>
+         <div class="top-bar-right">
+          <form role="search" method="get" class="search-form" action="#">
+            <input type="search" class="search-field" placeholder="Search..." value="" name="s">
+            <button type="submit" class="search-submit">Search</button>
+          </form>
+        </div>
+       
+          
+          <ul class="menu">
+            <li><a href="./">Home</a></li>
+            <li><a href="portrait/">Über uns</a></li>
+            <li><a href="engineering/">Engineering</a></li>
+            <li><a href="services/">Services</a></li>
+            <li><a href="academy/">Academy</a></li>
+            <li><a href="success-stories/">Erfolgsgeschichten</a></li>
+            <li><a href="news/">News</a></li>
+            <li><a href="jobs/">Jobs</a></li>
+            <li><a href="blog/">Blog</a></li>
+            <li><a href="contact/">Kontakt</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  <h1>404</h1>
+  <p>We are sorry, but the page you requested could not be found. You may have entered an incorrect URL or the
+          page
+          may have been removed.</p>
+</body>
+  
