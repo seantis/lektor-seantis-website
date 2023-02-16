@@ -4,10 +4,10 @@ description: PGP Public Keys.
 ---
 body:
 
-| Titel                               | Typ   |
-| ----------------------------------- | ----- |
-| [Pub Fabian Reinhard](58C1BF15.asc) | Datei |
-| [Pub Tobias Reinhard](BDFA49D2.asc) | Datei |
+| Titel                                      | Typ   |
+| ------------------------------------------ | ----- |
+| [Pub Fabian Reinhard](fabian-reinhard.asc) | Datei |
+| [Pub Tobias Reinhard](tobias-reinhard.asc) | Datei |
 
 ---
 portlet: ![swiss made software](/static/img/swiss_made.gif)
