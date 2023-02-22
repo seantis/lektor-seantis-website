@@ -1,0 +1,65 @@
+
+title: Wie «Infrastructure as Code» die Qualität im Cloud-Betrieb erhöht
+---
+
+pub_date: 2023-02-22
+---
+author: seantis
+---
+description: Gemäss dem «Infrastructure as Code» Paradigma verwalten wir unsere Cloud-Infrastruktur durch Code und weitestgehend frei von manuellen Eingriffen. Veränderungen werden so zur Routine, ohne Drama und Stress für alle Beteiligten und die Qualität steigt.
+---
+
+body:
+
+Unser Ziel ist die Auslieferung von qualitativ hochwertiger Software in kurzen Zyklen. So wird die Software iterativ und inkrementell in enger Zusammenarbeit mit den Usern entwickelt. Für die Planung, die Tests und Umsetzung von Änderungen an der produktiven IT-Umgebung verwenden wir standardisierte Verfahren. So können wir das Risiko von negativen Auswirkungen auf Systeme, welche in produktivem Betrieb stehen, minimieren. 
+
+### «DevOps» und «Infrastructure as Code»
+
+seantis lebt eine «DevOps» Kultur und das «Infrastructure as Code» Paradigma. Bei DevOps arbeiten die für Entwicklung und Betrieb verantwortlichen Teams zusammen, um Anwendungen schnell, in hoher Qualität und kontrolliert zu erstellen, zu testen, bereitzustellen und zu überwachen. Die Trennung zwischen IT-Betrieb und Entwicklung wird bewusst aufgehoben.
+
+Gemäss dem «Infrastructure as Code» Paradigma wird die Infrastruktur durch Code – und nicht durch manuelle Prozesse – verwaltet und bereitgestellt. Es werden Konfigurationsdateien erstellt, welche die komplette Spezifikation der Infrastruktur exakt vorgeben. So ist sichergestellt, dass immer genau die gleiche Umgebung provisioniert wird und die Infrastruktur so homogen wie möglich bleibt.  Ebenso werden undokumentierte und damit problematische Ad-hoc-Änderungen der Konfiguration vermieden.
+
+### Zielsetzungen «Infrastructure as Code»
+
+Gemäss dem «Infrastructure as Code» (Morris 2016) Paradigma verfolgen wir folgende Ziele:  
+
+- Die IT-Infrastruktur unterstützt und macht Änderungen möglich, anstatt ein Hindernis oder eine Beschränkung zu sein.
+- Veränderungen werden zur Routine, ohne Drama und Stress für die Mitarbeitenden
+- Die Mitarbeitenden verwenden ihre Zeit nicht für repetitive Aufgaben ohne Mehrwert.
+- Die Mitarbeitenden sind befähigt die Ressourcen, welche benötigt werden, selbstständig zu definieren, bereitzustellen und zu verwalten.
+- Als Team können wir Fehler rasch korrigieren. Wr versuchen nicht Fehler um jeden Preis zu vermeiden.
+- Verbesserungen werden kontinuierlich gemacht und ausgerollt. Grosse und risikoreiche «Big Bang» Projekte werden vermieden.
+- Funktionierende Software ist der Massstab: Implementation und automatisches Testing sind wichtiger als Meetings und Dokumente.
+
+«Infrastructure as Code» (Morris 2016) basiert auf folgenden Prinzipen: 
+
+- Systeme können einfach reproduziert werden
+- Systeme sind wegwerfbar/ersetzbar («disposable»)
+- Systeme sind konsistent 
+- Prozesse sind reproduzierbar
+- Das Design verändert sich ständig
+
+«Infrastructure as Code» (Morris 2016) gibt folgende Praktiken vor: 
+
+- Konfigurationen sind in Definitions-Dateien abgelegt
+- System und Prozesse sind selbst-dokumentiert
+- Die gesamte Konfiguration ist unter Versionskontrolle
+- Kontinuierliche automatische Tests für Systeme und Prozesse
+- Kleine kontinuierliche Änderungen statt grosser Projekte
+- Services sollen immer verfügbar sein.
+
+### Continuous Integration (Building/Testing Pipeline)
+
+ Änderungen am Quellcode bzw. an der Konfiguration jeglicher Applikationen und Systeme sind ausschliesslich im Prozessablauf der Building/Testing Pipeline zulässig. Die Code Base aller Applikation sowie die Konfiguration aller IT-Systeme sind komplett unter Git Versionskontrolle. Bei jedem «Git Commit» wird automatisch ein «Build» und «Test Run» angestossen. Der technische Ablauf eines «Change Requests» sieht inkl. «Continuous Integration» wie folgt aus: 
+
+1. Der Entwickler macht ein Commit mit der Änderung im Code
+2. Der «Build» und «Test» Prozess wird automatisch angestossen.
+3. Nach erfolgreichem Building und Testing erstellt der IT-Mitarbeiter ein Release.
+4. Das Release wird ausgerollt (Testing, Production). 
+
+### Informationssicherheit ISO/IEC 27001:2013
+
+
+Unsere System verarbeiten hochsensitive personenbezogene Daten. Informationssicherheit ist daher Teil der DNA unseres Unternehmens. Wir führen ein Informationssicherheitsmanagementsystem und sind gemäss [ISO/IEC 27001:2013](https://www.seantis.ch/portrait/informationssicherheit-iso-27001) zertifiziert
+
+*Kief Morris (2016): Infrastructure as Code: Managing Servers in the Cloud*
