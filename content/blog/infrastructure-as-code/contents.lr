@@ -10,7 +10,7 @@ description: Gemäss dem «Infrastructure as Code» Paradigma verwalten wir unse
 
 body:
 
-Unser Ziel ist die Auslieferung von qualitativ hochwertiger Software in kurzen Zyklen. So wird die Software iterativ und inkrementell in enger Zusammenarbeit mit den Usern entwickelt. Für die Planung, die Tests und Umsetzung von Änderungen an der produktiven IT-Umgebung verwenden wir standardisierte Verfahren. So können wir das Risiko von negativen Auswirkungen auf Systeme, welche in produktivem Betrieb stehen, minimieren. 
+Unser Ziel ist die Auslieferung von qualitativ hochwertiger Software in kurzen Zyklen. Dafür wird die Software iterativ und inkrementell in enger Zusammenarbeit mit den Usern entwickelt. Für die Planung, die Tests und Umsetzung von Änderungen an der produktiven IT-Umgebung verwenden wir standardisierte Verfahren. So können wir das Risiko von negativen Auswirkungen auf Systeme, welche in produktivem Betrieb stehen, minimieren. 
 
 ### «DevOps» und «Infrastructure as Code»
 
@@ -23,7 +23,7 @@ Gemäss dem «Infrastructure as Code» Paradigma wird die Infrastruktur durch Co
 Gemäss dem «Infrastructure as Code» (Morris 2016) Paradigma verfolgen wir folgende Ziele:  
 
 - Die IT-Infrastruktur unterstützt und macht Änderungen möglich, anstatt ein Hindernis oder eine Beschränkung zu sein.
-- Veränderungen werden zur Routine, ohne Drama und Stress für die Mitarbeitenden
+- Veränderungen werden zur Routine, ohne Drama und Stress für die Mitarbeitenden.
 - Die Mitarbeitenden verwenden ihre Zeit nicht für repetitive Aufgaben ohne Mehrwert.
 - Die Mitarbeitenden sind befähigt die Ressourcen, welche benötigt werden, selbstständig zu definieren, bereitzustellen und zu verwalten.
 - Als Team können wir Fehler rasch korrigieren. Wr versuchen nicht Fehler um jeden Preis zu vermeiden.
@@ -32,19 +32,19 @@ Gemäss dem «Infrastructure as Code» (Morris 2016) Paradigma verfolgen wir fol
 
 «Infrastructure as Code» (Morris 2016) basiert auf folgenden Prinzipen: 
 
-- Systeme können einfach reproduziert werden
-- Systeme sind wegwerfbar/ersetzbar («disposable»)
-- Systeme sind konsistent 
-- Prozesse sind reproduzierbar
-- Das Design verändert sich ständig
+- Systeme können einfach reproduziert werden.
+- Systeme sind wegwerfbar/ersetzbar («disposable»).
+- Systeme sind konsistent.
+- Prozesse sind reproduzierbar.
+- Das Design verändert sich ständig.
 
 «Infrastructure as Code» (Morris 2016) gibt folgende Praktiken vor: 
 
-- Konfigurationen sind in Definitions-Dateien abgelegt
-- System und Prozesse sind selbst-dokumentiert
-- Die gesamte Konfiguration ist unter Versionskontrolle
-- Kontinuierliche automatische Tests für Systeme und Prozesse
-- Kleine kontinuierliche Änderungen statt grosser Projekte
+- Konfigurationen sind in Definitions-Dateien abgelegt.
+- System und Prozesse sind selbst-dokumentiert.
+- Die gesamte Konfiguration ist unter Versionskontrolle.
+- Kontinuierliche automatische Tests für Systeme und Prozesse.
+- Kleine kontinuierliche Änderungen statt grosser Projekte.
 - Services sollen immer verfügbar sein.
 
 ### Continuous Integration (Building/Testing Pipeline)
