@@ -26,7 +26,7 @@ Gemäss dem «Infrastructure as Code» (Morris 2016) Paradigma verfolgen wir fol
 - Veränderungen werden zur Routine, ohne Drama und Stress für die Mitarbeitenden.
 - Die Mitarbeitenden verwenden ihre Zeit nicht für repetitive Aufgaben ohne Mehrwert.
 - Die Mitarbeitenden sind befähigt die Ressourcen, welche benötigt werden, selbstständig zu definieren, bereitzustellen und zu verwalten.
-- Als Team können wir Fehler rasch korrigieren. Wr versuchen nicht Fehler um jeden Preis zu vermeiden.
+- Als Team können wir Fehler rasch korrigieren. Wir versuchen nicht Fehler um jeden Preis zu vermeiden.
 - Verbesserungen werden kontinuierlich gemacht und ausgerollt. Grosse und risikoreiche «Big Bang» Projekte werden vermieden.
 - Funktionierende Software ist der Massstab: Implementation und automatisches Testing sind wichtiger als Meetings und Dokumente.
 
