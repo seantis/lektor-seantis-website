@@ -16,7 +16,7 @@ Unser Ziel ist die Auslieferung von qualitativ hochwertiger Software in kurzen Z
 
 seantis lebt eine «DevOps» Kultur und das «Infrastructure as Code» Paradigma. Bei DevOps arbeiten die für Entwicklung und Betrieb verantwortlichen Teams zusammen, um Anwendungen schnell, in hoher Qualität und kontrolliert zu erstellen, zu testen, bereitzustellen und zu überwachen. Die Trennung zwischen IT-Betrieb und Entwicklung wird bewusst aufgehoben.
 
-Firmen wie Netflix setzen sehr bewusst auf «DevOps». In seinem [Blog schreibt das Team von Netflix](https://netflixtechblog.com/full-cycle-developers-at-netflix-a08c31f83249) davon, wie das Team, welches den "Schmerz" des Betriebs spürt, besser darauf reagieren kann. Das Team, welches die Software entwickelt, soll auch für deren Betrieb zuständig sein.
+Firmen wie Netflix setzen sehr bewusst auf «DevOps». In seinem [Blog schreibt das Team von Netflix](https://netflixtechblog.com/full-cycle-developers-at-netflix-a08c31f83249) davon, wie das Team, welches den «Schmerz» des Betriebs spürt, besser darauf reagieren kann. Das Team, welches die Software entwickelt, soll auch für deren Betrieb zuständig sein.
 
 > “Operate what you build” puts the devops principles in action by having the team that develops a system also be responsible for operating and supporting that system. Distributing this responsibility to each development team, rather than externalizing it, creates direct feedback loops and aligns incentives. Teams that feel operational pain are empowered to remediate the pain by changing their system design or code; they are responsible and accountable for both functions. Each development team owns deployment issues, performance bugs, capacity planning, alerting gaps, partner support, and so on.
 
