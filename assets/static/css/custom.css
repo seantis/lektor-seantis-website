@@ -463,21 +463,21 @@ iframe {
     background: #004B87 url('../../static/img/health-data.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: top center;
 }
 
 .products #admindigital .card {
     background: #004B87 url('../../static/img/admin-digital.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: top center;
 }
 
 .products #mycontrol .card {
     background: #004B87 url('../../static/img/mycontrol.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: top center;
 }
 
 .announcement {
