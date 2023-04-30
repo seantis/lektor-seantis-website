@@ -458,13 +458,26 @@ iframe {
     margin: 30px 0;
 }
 
-.products .card {
-    background: #004B87 url('../../static/img/neurons.svg');
+
+.products #healthdata .card {
+    background: #004B87 url('../../static/img/health-data.png');
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 
-.products .card {
-    background-position: 70px 0px;
+.products #admindigital .card {
+    background: #004B87 url('../../static/img/admin-digital.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.products #mycontrol .card {
+    background: #004B87 url('../../static/img/mycontrol.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 
 .announcement {
