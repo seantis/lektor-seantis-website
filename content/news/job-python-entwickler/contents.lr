@@ -1,7 +1,7 @@
 title: Full Stack Python-Entwickler:in (40-100%)
 ---
 
-pub_date: 2022-10-04
+pub_date: 2023-05-10
 ---
 author: seantis
 ---
@@ -13,9 +13,9 @@ body: seantis entwickelt qualitativ hochstehende Software mit den besten Open So
 - **[admin.digital](https://admin.digital)** für die öffentliche Hand
 - **[myControl.aero](http://www.mycontrol.aero)** für die Aviatik
 
-Qualität und Informationssicherheit gehören seit der Gründung zu unseren Grundwerten. Seit 2021 führen wir ein nach ISO 27001 zertifiziertes [Informationssicherheitsmanagementsystem](https://seantis.ch/portrait/informationssicherheit-iso-27001/).
+Qualität und Informationssicherheit gehören seit der Gründung zu unseren Grundwerten. Seit 2021 führen wir ein nach ISO 27001 zertifiziertes [Informationssicherheitsmanagementsystem](https://seantis.ch/portrait/informationssicherheit-iso-27001/). Wir leben eine «DevOps» Kultur orientieren uns am «[Infrastructure as Code](https://www.seantis.ch/blog/infrastructure-as-code/)» Paradigma. Unseren Mitarbeitenden  bieten wir ein optimales Arbeitsumfeld für die Softwareentwicklung: «[We support the Hacker Pledge](https://www.seantis.ch/blog/we-support-the-hacker-pledge/)».
 
-**Zur Verstärkung unseres Python-Entwicklerteams suchen wir eine/n Full Stack Python-Entwickler:in.**
+**Zur Verstärkung unseres Python-Entwicklerteams suchen wir eine/n Full Stack Python-Entwickler:in mit Erfahrung in DevOps.**
 
 ### Du möchtest
 
@@ -30,7 +30,7 @@ Qualität und Informationssicherheit gehören seit der Gründung zu unseren Grun
 
 - Hohes Qualitätsbewusstsein und echte Leidenschaft für Softwareentwicklung.
 - Fundierte Kenntnisse und Praxis in der objektorientierten Programmierung.
-- Idealerweise Kenntnisse der Programmiersprache Python.
+- Kenntnisse der Programmiersprache Python.
 - Erfahrung in der Entwicklung von Webapplikationen (HTML, JavaScript, CSS).
 - Verständnis für automatisiertes Software-Testing.
 - Sicheren Umgang mit der Linux Shell sowie der Versionsverwaltung Git.
@@ -44,6 +44,6 @@ Bei Fragen meldest du dich bei Fabian Reinhard (+41 41 511 22 50) oder schickst 
 *Wir arbeiten nicht mit Personalvermittlern zusammen. Unerbetene Angebote und Zusendungen von Personalvermittlern werden ungelesen gelöscht.*
 
 ---
-_hidden: yes
+_hidden: no
 ---
 tags: job
