@@ -37,7 +37,7 @@ Wir entwickeln ausschliesslich mit Open Source Software. Den Software Stack pass
 - Python als Programmiersprache
 - Postgres als Datenbank
 - Pyramid / morepath als leichtgewichtige Web Frameworks
-- Zope/Plone als Web Applikation Framework
+- Puppet für DevOps
 
 ### DevOps
 
