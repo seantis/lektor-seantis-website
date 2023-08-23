@@ -39,7 +39,7 @@ Der Web Monitor wird für den Kunden aufgesetzt und die entsprechenden Konfigura
 
 Backups werden auf der **Backup Infrastruktur** von seantis gemacht. Das Backup erfolgt inkrementell, wird auf dem Quellsystem (Server) komprimiert und über eine sichere verschlüsselte Netzwerkverbindung auf einen dezidierten **Offsite Backup** Root-Server übertragen.
 
-Der Backup Plan sieht sieht folgende **inkrementelle Backups** vor:
+Der Backup Plan sieht folgende **inkrementelle Backups** vor:
 
 - tägliche Rotation: 7 Tage Retension
 - wöchentliche Rotation: 4 Wochen Retension

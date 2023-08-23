@@ -3,14 +3,22 @@ title: Auszeichnungen
 ---
 
 
-description: Für unsere Webapplikationen durften wir Preise und Auszeichnungen entgegennehmen.
+description: Für unsere Webapplikationen durften wir zahlreiche Preise und Auszeichnungen entgegennehmen.
 ---
 
 body:
 
+### OneGov Award (2023)
+
+Der Verein OneGov.ch hat das Projekt Webportal **[Gemeinde Meggen](https://www.meggen.ch)** mit dem OneGov Award 2023 ausgezeichnet. Mit der Gemeinde Meggen setzt eine weitere Gemeinde auf die Open Source E-Government-Plattform aus Luzern. Gemeinsam mit dem Kunden wurde die bestehende Plattform weiterentwickelt. Dank dem SaaS-Modell ist sichergestellt, dass diese auch allen anderen Gemeinden, welche die Plattform von [**admin.digital**](https://www.admin.digital/) nutzen, zugutekommt. Einmal entwickeln – mehrfach nutzen!
+
+### OneGov Award 2020
+
+Der Verein OneGov.ch hat das Projekt **[Swissvotes](https://swissvotes.ch)** mit dem OneGov Award 2020 ausgezeichnet. Swissvote ist die umfassendste Datenbank zu den Schweizer Volksabstimmungen. Seit August 2019 steht sie als neue Webanwendung für alle Interessierten zur Verfügung. Der neue Auftritt basiert auf dem Framework OneGov Cloud. Swissvotes ist ein Projekt von **[Année Politique Suisse](https://anneepolitique.swiss) ([Universität Bern](https://www.unibe.ch))**.
+
 ### Best of Swiss Web (2019)
 
-Zusammen mit unserer Partnerfirma Netcetera haben wir im Auftrag der **Stiftung Pro Juventute** die Plattform **Feriennet** entwickelt. Ferienaktivitäten für Kinder können mit der Plattform einfach geplant, koordiniert, und abgewickelt werden. Das bedeutet viel Freude für die Kinder und weniger Stress für deren Eltern während den Schulferien. Auch die Jury des Best of Swiss Web Award hat diese clevere Planungs- und Buchungsplattform im April 2019 honoriert: Feriennet gewinnt Silber in der Kategorie Public Affairs.
+Zusammen mit unserer Partnerfirma Netcetera haben wir im Auftrag der **[Stiftung Pro Juventute](https://www.projuventute.ch)** die Plattform **[Feriennet](https://www.projuventute.ch/de/eltern/lehrpersonen-fachpersonen/feriennet)** entwickelt. Ferienaktivitäten für Kinder können mit der Plattform einfach geplant, koordiniert, und abgewickelt werden. Das bedeutet viel Freude für die Kinder und weniger Stress für deren Eltern während den Schulferien. Auch die Jury des Best of Swiss Web Award hat diese clevere Planungs- und Buchungsplattform im April 2019 honoriert: Feriennet gewinnt Silber in der Kategorie Public Affairs.
 
 ### OneGov Award (2018)
 
@@ -27,8 +35,3 @@ An der Award Night im Kongresshaus Zürich durfte seantis 2016 einen begehrten �
 ### Innovationsförderung E-Government Schweiz (2016)
 
 Im Rahmen des Schwerpunktplan Innovationen 2016/2017 hat die Geschäftsstelle E-Government Schweiz (Innovationsförderung) für das Projekt **«Online Portal für Wahl- und Abstimmungsresultate»** einen Beitrag von CHF 40’000 gesprochen. Das Projekt ist eines von vier unterstützten Projekten im Rahmen der Innovationensförderung 2016/2017. seantis hat das Portal für die drei Kantone Graubünden, Schwyz und Zug entwickelt.
-
-![bosw](bosw.jpg)
-
----
-portlet: ![swiss made software](/static/img/swiss_made.gif)
