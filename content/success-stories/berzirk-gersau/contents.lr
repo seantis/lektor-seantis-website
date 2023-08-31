@@ -1,0 +1,42 @@
+title: **Webportal Bezirk Gersau** 
+---
+
+pub_date: 2023-09-01
+---
+author: seantis
+---
+description: Die Zukunft der Verwaltung liegt darin, der Bevölkerung Informationen und Dienste standardmässig  digital anzubieten. Mit dem neuen Webportal auf der Basis von admin.digital der Firma seantis hat der Bezirk Gersau den Zugang zu digitalen Dienstleistungen für die Bevölkerung erweitert und stark vereinfacht. 
+---
+
+customer: [Gemeinde Meggen](https://www.meggen.ch)
+---
+
+technology: OneGov Cloud, Python
+---
+
+task:
+
+Fast die Hälfte der digitalen Angebote werden bereits heute mit einem Smartphone genutzt. Um diesem Anspruch gerecht zu werden, ist das Webportal Gersau für die Ansicht mit dem Smartphone optimiert. Der Verwaltung ermöglicht das neue Webportal ihre digitalen Dienstleistungen bedarfsgerecht und ohne grossen Aufwand selbständig anzupassen und zu erweitern. 
+
+---
+solution: 
+
+Die digitale Barrierefreiheit stellt sicher, dass das Webportal von allen Menschen genutzt werden kann, unabhängig von körperlichen Einschränkungen. Eine Benutzerführung und eine Volltextsuche ermöglichen digitale Dienstleistungen einfach zu nutzen und Inhalte rasch zu finden. Besucherinnen und Besuchern ist es neu möglich, die Bezirksinfrastruktur direkt online zu reservieren. Ein Service-Ticketing System vereinfacht den administrativen Aufwand der angebotenen Online- Dienstleistungen. 
+
+---
+benefit: 
+
+Um den Zugang auch für Menschen mit Einschränkungen sicherzustellen, wurde das Portal gemäss den Richtlinien des Bundes für die Gestaltung von barrierefreien Internetangeboten sowie gemäss der internationalen Accessibility Guidelines entwickelt. 
+
+Zum Schutz sensibler Daten führen wir ein Managementsystem Informationssicherheit und sind gemäss ISO/IEC 27001:2013 zertifiziert. Schützenswerte Daten werden bei einem Schweizer Cloud-Provider in zertifizierten Schweizer Rechenzentren gespeichert.
+
+Die Eigenentwicklung [«Formcode»](https://www.seantis.ch/blog/formulare-mit-formcode/) ermöglicht das einfache Erstellen von Formularen durch die Verwaltung ganz ohne komplizierte Benutzeroberfläche. Formulare sind die Grundlage für digitale Angebote auf dem Webportal. Mit der Möglichkeit Formulare selber zu erstellen, kann die Verwaltung bei Bedarf ihr digitales Angebot jederzeit selbständig erweitern oder anpassen.
+
+---
+links:
+
+- Portal Bezirk Gersau: https://www.gersau.ch
+- Admin.digital: https://www.admin.digital
+
+---
+frontpage: yes
