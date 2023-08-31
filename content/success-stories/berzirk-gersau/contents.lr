@@ -5,7 +5,7 @@ pub_date: 2023-09-01
 ---
 author: seantis
 ---
-description: Die Zukunft der Verwaltung liegt darin, der Bevölkerung Informationen und Dienste standardmässig  digital anzubieten. Mit dem neuen Webportal auf der Basis von admin.digital der Firma seantis hat der Bezirk Gersau den Zugang zu digitalen Dienstleistungen für die Bevölkerung erweitert und stark vereinfacht. 
+description: Die Zukunft der Verwaltung liegt darin, der Bevölkerung Informationen und Dienste standardmässig  digital anzubieten.
 ---
 
 customer: [Gemeinde Meggen](https://www.meggen.ch)
@@ -15,6 +15,8 @@ technology: OneGov Cloud, Python
 ---
 
 task:
+
+Mit dem neuen Webportal auf der Basis von admin.digital der Firma seantis hat der Bezirk Gersau den Zugang zu digitalen Dienstleistungen für die Bevölkerung erweitert und stark vereinfacht.
 
 Fast die Hälfte der digitalen Angebote werden bereits heute mit einem Smartphone genutzt. Um diesem Anspruch gerecht zu werden, ist das Webportal Gersau für die Ansicht mit dem Smartphone optimiert. Der Verwaltung ermöglicht das neue Webportal ihre digitalen Dienstleistungen bedarfsgerecht und ohne grossen Aufwand selbständig anzupassen und zu erweitern. 
 
