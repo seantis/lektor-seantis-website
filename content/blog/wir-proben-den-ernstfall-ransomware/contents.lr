@@ -1,0 +1,97 @@
+title: Wir üben für den Ernstfall: Ransomware
+---
+pub_date: 2023-10-17
+---
+author: seantis
+---
+_discoverable: no
+---
+description: "Montag Morgen, der Kaffee ist noch warm. Plötzlich fallen Systeme aus, die Ursache ist nicht aufzufinden, es bricht Hektik aus. Und dann sinkt das Herz tief in die Brust: Die eigene IT ist mit einem Verschlüsselungstrojaner infiziert."
+---
+body:
+
+> Bild: So stellt sich die künstliche Intelligenz [Midjourney](https://www.midjourneyai.ai/) unsere Notfallübung vor.
+
+Na, hat Ihnen diese Beschreibung Schweissperlen auf die Stirn getrieben? Dann
+ergeht es ihnen wie uns. Wir haben nämlich diesen Ernstfall vor Kurzem mit
+einer Tabletop-Übung erprobt.
+
+## Tabletop-Übung
+
+
+Tabletop-Übungen sind eine Methode, um genau solche Ernstfälle in einem
+sicheren Rahmen zu proben. Dabei führt die Übungsleitung die Teilnehmenden
+durch ein fiktives Szenario. Die Teilnehmenden diskutieren, welche Schritte sie
+in den jeweiligen Situationen unternehmen würden. Dabei greifen sie auch auf
+interne Notfallpläne zurück. Die Übungsleitung dokumentiert alle Schritte
+sorgfältig, um sie später im Debriefing gemeinsam kritisch zu hinterfragen und zu
+reflektieren.
+
+Die Übungsleitung ist bemüht, das Szenario möglichst realistisch zu gestalten.
+Sie kann das Szenario auch laufend anpassen und so für unerwartete Situationen
+sorgen. In unserem Beispiel haben wir sogar spontan E-Mails und
+Tweet-Nachrichten mit ChatGPT generiert, passend zu Ereignissen im Szenario.
+
+## Szenario
+
+In unserem simulierten Szenario geraten verschiedene Schweizer KMUs ins Visier
+einer Hackergruppe. Dabei wurde ein System in unserer Infrastruktur durch
+Ransomware verschlüsselt. Die Angreifer forderten ein Lösegeld für die Freigabe
+unserer gesperrten Systeme und drohten damit, gestohlene Daten zu
+veröffentlichen.
+
+
+![Ransom-Note](./ransom.png)
+
+Der Angriff fiel unseren Mitarbeitenden auf, als das System ungewöhnlich
+reagierte und schliesslich nicht mehr ansprechbar war. Als klar war, dass es
+sich um Ransomware handelte, griff unser Team sofort ein, aktivierte den
+Notfallplan und isolierte das betroffene System. Gleichzeitig informierten wir
+unsere fiktiven Kunden zeitnah und transparent über den laufenden Angriff.
+
+Während einige Mitarbeitende das Einfallstor lokalisieren und schliessen,
+arbeiteten andere bereits an einem neuen System. Dank unserer konsequenten
+[Backup-Strategie](/services) können wir schnell auf eine saubere Kopie der
+Daten zugreifen.
+
+Intensive Untersuchungen wurden durchgeführt, um sicherzustellen, dass keine
+weiteren Systeme beeinträchtigt wurden. Zudem analysierten wir die auf dem
+System befindlichen Daten, um potenzielles Diebesgut der Hacker zu
+identifizieren. Diese enthielten keine sensiblen Informationen. Somit können
+uns die Hacker auch mit der Drohung, diese zu veröffentlichen, nicht schaden.
+
+Nachdem das Team grünes Licht gab, dass das Netzwerk sauber ist, konnte das
+neue System in Betrieb genommen werden. Das Team kehrte langsam zum normalen
+Betrieb zurück, wobei der Kunde stets umfassend informiert und auf dem
+Laufenden gehalten wurde.
+
+
+## Erkenntnisse
+
+Die Tabletop-Übung war nicht nur lehrreich, sondern auch äusserst
+aufschlussreich. Hier sind einige der wichtigsten Erkenntnisse:
+
+1. **Klare und transparente Kommunikation:** Wir haben den fiktiven Kunden frühzeitig
+    und transparent über den laufenden Angriff informiert, anstatt diese
+    Information zurückzuhalten. Dadurch stärken wir nicht nur das Vertrauen,
+    sondern verhindern auch, dass diese Information für unangenehme Überraschungen
+    sorgt. Darüber hinaus ermöglicht dies eine aktive Einbindung unserer Kunden und
+    Partner.
+
+2. **Zusammenarbeit:** Die Zusammenarbeit unserer Mitarbeitenden in
+    verschiedenen Rollen ist entscheidend. Nur gemeinsam können wir uns solchen
+    Herausforderungen stellen. Unser bewährter Modus Operandi ermöglichte eine
+    effiziente Verteilung der Aufgaben, sodass technische Mitarbeitende sich auf
+    technische Probleme konzentrieren konnten, während andere die Kommunikation mit
+    Kunden, Partnern und Behörden übernahmen.
+
+3. **Sensibilisierung**: Die Übung sensibilisierte uns erneut für das Thema und
+    verdeutlichte, wie verheerend solche Angriffe sein können.
+
+## Fazit
+
+Die Tabletop-Übung war äusserst aufschlussreich und eine lohnende Erfahrung für
+unser Team. Sie ermöglichte es uns, unsere Reaktionsfähigkeit zu verbessern und
+das Bewusstsein für solche Bedrohungen weiter zu schärfen. Wir sind fest davon
+überzeugt, dass regelmässige Übungen und gründliche Vorbereitung essentiell
+sind, um uns gegen derartige Bedrohungen wirksam zu wappnen.
