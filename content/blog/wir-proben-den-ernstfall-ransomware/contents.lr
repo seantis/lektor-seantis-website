@@ -10,7 +10,7 @@ description: "Montag Morgen, der Kaffee ist noch warm. Plötzlich fallen Systeme
 ---
 body:
 
-> Bild: So stellt sich die künstliche Intelligenz [Midjourney](https://www.midjourneyai.ai/) unsere Notfallübung vor.
+<div class="figcaption">Abbildung: So stellt sich die künstliche Intelligenz <a href="https://www.midjourneyai.ai">Midjourney</a> unsere Notfallübung vor.</div>
 
 Na, hat Ihnen diese Beschreibung Schweissperlen auf die Stirn getrieben? Dann
 ergeht es ihnen wie uns. Wir haben nämlich diesen Ernstfall vor Kurzem mit
