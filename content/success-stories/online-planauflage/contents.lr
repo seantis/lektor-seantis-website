@@ -1,0 +1,52 @@
+title: Online Planauflage
+---
+
+pub_date: 2024-01-023
+---
+author: seantis
+---
+description: Mit admin.digital publizieren seit Anfang 2024 bereits 14 Luzerner Gemeinden ihre Baugesuche datenschutzkonform im Internet.
+---
+
+customer: [admin.digital](https://www.admin.digital)
+---
+
+technology: admin.digital, Python
+---
+
+task:
+
+Als Beispiel für die öffentliche Planauflauflage von Baugesuchen dienen die gesetzlichen Vorgaben des Kantons Luzern. Die Planungs- und Bauverordnung (PBV) des Kantons Luzern regelt in Artikel 58 die öffentliche Bekanntmachung und Auflage von Baugesuchen. Die revidierte Verordnung trat per 1. Januar 2024 in Kraft.
+
+> «Die Gemeinde hat Baugesuche gleichzeitig ortsüblich, im Internet und – falls erforderlich – in anderer Form, insbesondere im Kantonsblatt, öffentlich bekannt zu machen. Das Baugesuchsformular ist mit sämtlichen Plänen und Beilagen während der öffentlichen Auflage passwortgeschützt im Internet zur Einsicht bereitzustellen. Die Gemeinde hat das Passwort auf individuelle Anfrage hin bekannt zu geben.»
+
+---
+solution: 
+
+Die Auflage soll öffentlich sein, gleichzeitig muss aber verhindert werden, dass automatisierte Abfragen möglich sind. Entsprechend dieser Vorgabe wurde der Publikationsprozess für die Online-Planauflage realisiert.
+
+- Bauvorhaben werden als Einträge in einem Verzeichnis mit allen zugehörigen Informationen strukturiert erfasst.
+- Die Einträge werden in einer Listenansicht publiziert und zusätzlich auf einer interaktiven Karte angezeigt.
+- Zu jedem Eintrag kann eine beliebige Anzahl an PDF-Anhängen (Formulare, Pläne etc.) hochgeladen werden.
+- Die Publikation ist auf die Minute zeitlich terminierbar. So können Bauvorhaben durch den Editor erfasst werden und werden durch das System automatisch zum richtigen Zeitpunkt publiziert und auch wieder de-publiziert (Status intern).
+- Die Inhalte zu den einzelnen Baugesuchen sind mit einem Einmal-Code, welcher per SMS verschickt wird, geschützt.
+
+Für den Zugriffsschutz wird eine Authentifizierung per SMS OTP (Einmalcode) entwickelt. Die Informationen zu den Baugesuchen sind so auch nicht für automatische Abfragen (Suchmaschinen und andere Portal) zugänglich. Der Ablauf ist dabei wie folgt:
+
+- Der Besucher möchte die Detailinformation zu einem Baugesuch einsehen. 
+- Der Besucher muss seine Mobilnummer eingeben.
+- An die Mobilnummer des Benutzers wird eine SMS mit einem Einmal-Code verschickt.
+- Nach der Eingabe des Einmal-Codes erhält der Benutzer Zugriff auf die Informationen.
+
+---
+benefit: 
+
+Gemeinsam mit den Luzerner Gemeinden Meggen und Ebikon hat seantis ein Modul für die öffentliche Planauflage entwickelt. Unsere Lösung durften an einer Informationsveranstaltung der VLGI (Vereinigung Luzernischer Gemeindeingenieure) anfangs November 2023 präsentieren. Diese ist auf grosses Interesse gestossen und bereits einen Monat später war die Publikationsplattform in 14 Gemeinden des Kantons Luzern eingeführt. Diese Gemeinden erfüllen damit die neuen Vorgaben des Kantons für die datenschutzkonforme Publikation von Baugesuchen im Internet.
+
+---
+links:
+
+- admin.digital: https://www.admin.digital
+
+---
+frontpage: yes
