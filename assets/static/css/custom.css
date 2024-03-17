@@ -156,6 +156,12 @@ p img {
     margin-bottom: 40px;
 }
 
+.model-riskmatrix #splash {
+    background: url('../../static/img/riskmatrix.jpg');
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+}
+
 .intro {
     margin-bottom: 40px;
 }

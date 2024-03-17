@@ -1,0 +1,103 @@
+{% extends "layout.html" %}
+{% from "macros/team.html" import render_team %}
+{% block content %}
+
+    <div id="hero" data-aos="fade-up">
+        <div class="grid-container">
+            <div id="splash">
+                <div class="grid-x grid-margin-x">
+                    <div class="large-5 large-offset-6 medium-offset-5 medium-6 cell">
+                        <div id="square">
+                            <h3>Risikomanagement</h3>
+                            <p>
+                                Risikomanagement zielt darauf ab, den Umgang mit Unsicherheiten proaktiv zu steuern und den Einfluss negativer Ereignisse auf die Geschäftsziele zu minimieren.</p>
+                            <p><a href="#solutions step">&rarr; Zum Vorgehen</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div class="grid-container">
+            <div class="grid-x grid-margin-x">
+                <div class="large-7 large-offset-1 medium-10 medium-offset-1 cell">
+                    <div class="intro">
+                        <h1>RiskMatrix</h1>
+                        <h3>Lean Risk Management</h3>
+                        <p>Cyber-Risiken sind zu einem der primären operativen Risiken mit potenziell existenzbedrohenden Schäden geworden. Da Cyber-Risiken den Fortbestand des Unternehmens gefährden können, sind die Geschäftsleitung und der Verwaltungsrat gesetzlich verpflichtet, sich mit dem Thema zu beschäftigen.</p>
+                        <p><strong>RiskMatrix unterstützt die Prozesse der Identifikation, Bewertung und Steuerung von Risiken mit einem intuitiven digitalen Tool.</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid-container">
+            <div class="grid-x grid-padding-x" data-aos="fade-up">
+                <div class="cell">
+                    <div class="dotted">
+                        <img class="full" src="{{ '/static/img/riskmatrix.png'|url }}" alt="RiskMatrix">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="solutions step">
+            <div class="listing team products steps" data-aos="fade-up">
+                <div class="grid-container">
+                    <div class="grid-x grid-padding-x" data-equalizer data-equalize-on="small">
+                        <div class="large-4 medium-4 cell">
+                            <div class="card" style="padding: 20 0 0 0;" data-equalizer-watch>
+                                <div class="card-section">
+                                    <h3>Risikoerkennung 🔦</h3>
+                                    <p>Auflistung der Top-10-Risiken für die eigene Unternehmung: Was ist passiert und was kann passieren?</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="large-4 medium-4 cell">
+                            <div class="card" data-equalizer-watch>
+                                <div class="card-section">
+                                    <h3>Risikobewertung 🥇</h3>
+                                    <p>Bewertung der Risiken aufgrund des potentiellen Schadensausmasses sowie der Eintrittswahrscheinlichkeit.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="large-4 medium-4 cell">
+                            <div class="card" data-equalizer-watch>
+                                <div class="card-section">
+                                    <h3>Risikosteuerung 📅</h3>
+                                    <p>Überwachung der Risken mit Erinnerungen gemäss den Anforderungen eines Unternehmens.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid-container">
+            <div class="grid-x grid-margin-x">
+                <div class="large-7 large-offset-1 medium-10 medium-offset-1 cell">
+                    <div class="direct-contact">
+                        <div class="grid-x grid-margin-x">
+                            <div class="large-6 medium-6 small-7 cell">
+                                <h3>Ansprechpartner</h3>
+                                <h5>Fabian Reinhard</h5>
+                                <p>Solution Architect</p>
+                                <p><i class="far fa-envelope"></i> <a href="mailto:fabian.reinhard@seantis.ch">fabian.reinhard@seantis.ch</a><br />
+                                <i class="fas fa-phone"></i> +41 41 511 22 50</p>
+                            </div>
+                            <div class="large-6 medium-6 small-5 cell">
+                                <div class="dotted">
+                                    <img class="full" src="{{ '/static/img/team/Fabian-Reinhard.jpg'|url }}" alt="Fabian Reinhard">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+{% endblock %}
