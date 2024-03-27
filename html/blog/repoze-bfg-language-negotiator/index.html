@@ -1,0 +1,435 @@
+<!doctype html>
+<html class="no-js" lang="de" dir="ltr" prefix="og: http://ogp.me/ns#">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>seantis gmbh</title>
+    <meta name="description"
+        content="seantis gmbh entwickelt Webapplikationen für die medizinische Forschung, die öffentliche Verwaltung sowie für die Aviatik.">
+    <meta property="og:description" content="">
+    <meta property="og:site_name" content="seantis">
+<meta property="og:url" content="https://www.seantis.ch/blog/repoze-bfg-language-negotiator/">
+<meta property="og:title" content="repoze.bfg Language Negotiator">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://www.seantis.ch/og_image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:alt" content="logo">
+    <link rel="stylesheet" href="/static/css/foundation.min.css?h=883e6026">
+    <link rel="stylesheet" href="/static/css/fira.css?h=bcd50a1c">
+    <link rel="stylesheet" href="/static/css/fontawesome.min.css?h=20d2d431">
+    <link rel="stylesheet" href="/static/css/custom.css?h=85151875">
+    <link rel="stylesheet" href="/static/css/aos.css?h=9a26a349" />
+</head>
+
+<body class="model-blog-post">
+
+    <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
+
+        <!-- Close button -->
+        <button class="close-button" aria-label="Close menu" type="button" data-close>
+            <span aria-hidden="true">&times;</span>
+        </button>
+
+        <!-- Menu -->
+        <ul class="menu" data-dropdown-menu>
+            
+            
+            <li class=" "><a href="/portrait/">Über uns</a></li>
+            
+            <li class=" "><a href="/engineering/">Engineering</a></li>
+            
+            <li class=" "><a href="/services/">Services</a></li>
+            
+            <li class=" "><a href="/academy/">Academy</a></li>
+            
+            <li class=" "><a href="/success-stories/">Erfolgsgeschichten</a></li>
+            
+            <li class=" "><a href="/news/">News</a></li>
+            
+            <li class=" "><a href="/careers/">Jobs</a></li>
+            
+            <li class=" active"><a href="/blog/">Blog</a></li>
+            
+            <li class="contact "><a href="/contact/">Kontakt</a></li>
+            
+        </ul>
+
+    </div>
+
+    <div class="off-canvas-content" data-off-canvas-content>
+        <!-- <div class="announcement"><a href="/news/job-python-entwickler/">&rarr; Jobs: Full Stack Python-Entwickler(in) (60-100%)<i class="fab fa-python"></i></a></div> -->
+        <!-- <div class="announcement"><a href="/news/deep-learning-rheumatologie/">&rarr; Wissenschaftliche Publikation zur Anwendung von Deep Learning in der Rheumatologie <i class="far fa-newspaper"></i></a></div> -->
+        <!-- <div class="announcement"><a href="/news/covid-19/">&rarr; Studie zu COVID-19 für Rheumapatienten <i class="far fa-newspaper"></i></a></div> -->
+        <!-- <div class="announcement"><a href="/news/job-apprenticeship-application-developer/">👩‍💻 Lehrstelle als Informatiker (Fachrichtung Applikationsentwicklung) ab Sommer 2021 oder 2022</a></div> -->
+        <!-- <div class="announcement"><a href="/blog/nzz-hackback/">🛡Gastkommentar Cyber Security @NZZ #donthackback ⚔️</a></div>-->
+        <!-- <div class="announcement"><a href="/success-stories/aircraft-configurator-pilatus/">Digitaler Konfigurator für die Pilatus Flugzeugwerke 🛩</a></div>-->
+        <!-- <div class="announcement"><a href="/portrait/informationssicherheit-iso-27001/"> ISO 27001 zertifiziertes Informationssicherheits-Managementsystem 🛡</a></div>-->
+        <!-- <div class="announcement"><a href="/blog/publikationsportal-wahlen-open-source/"> Unser Praxisbeispiel in der Open Source Studie Schweiz 2021 🗳</a></div> -->
+        <div class="announcement"><a href="/blog/cybersecurity-resilienz-resignation/">🧀 Schweizer Käse statt Burgmauern für bessere Informationssicherheit 🏰</a></div>
+
+
+        <div data-sticky-container>
+            <div class="sticky" data-sticky data-sticky-on="small" data-margin-top="0">
+                <div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="medium"
+                    style="display:none">
+                    <button type="button" class="menu-icon" data-toggle="offCanvas"></button>
+                    <div class="title-bar-title"> <a href="/">Home</a></div>
+                    <div class="title-bar-right contact"><a href="/contact/">Kontakt</a></div>
+                </div>
+
+                <div class="top" id="responsive-menu" style="display:none">
+                    <div class="grid-container">
+                        <div class="top-bar">
+                            <div class="top-bar-left">
+                                <ul class="menu hide-for-small-only">
+                                    <li><a href="/">Home</a></li>
+                                </ul>
+                            </div>
+                            <div class="top-bar-right">
+                                <ul class="menu" data-dropdown-menu>
+                                    
+                                    <li class=" "><a
+                                            href="/portrait/">Über uns</a></li>
+                                    
+                                    <li class=" "><a
+                                            href="/engineering/">Engineering</a></li>
+                                    
+                                    <li class=" "><a
+                                            href="/services/">Services</a></li>
+                                    
+                                    <li class=" "><a
+                                            href="/academy/">Academy</a></li>
+                                    
+                                    <li class=" "><a
+                                            href="/success-stories/">Erfolgsgeschichten</a></li>
+                                    
+                                    <li class=" "><a
+                                            href="/news/">News</a></li>
+                                    
+                                    <li class=" "><a
+                                            href="/careers/">Jobs</a></li>
+                                    
+                                    <li class=" active"><a
+                                            href="/blog/">Blog</a></li>
+                                    
+                                    <li class="contact "><a
+                                            href="/contact/">Kontakt</a></li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid-container">
+            <div class="header">
+                <div class="top-bar">
+                    <div class="top-bar-left">
+                        <a href="/"><img id="logo" src="/static/img/logo.svg"
+                                alt="Zur Startseite" /></a>
+                    </div>
+                    <div class="top-bar-right">
+                        <form action="/search/">
+                            <div class="input-group show-for-medium">
+                                <input class="input-group-field" type="search" name="q" id="tipue_search_input">
+                                <div class="input-group-button">
+                                    <input type="submit" class="button" value="Suche">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+
+    <div class="head">
+        <div class="grid-container">
+            <div class="grid-x grid-padding-x">
+                <div class="large-7 large-offset-1 medium-10 medium-offset-1 cell">
+                    <h5 class="subheader"><small>22.06.2010</small></h5>
+                    <h1>repoze.bfg Language Negotiator</h1>
+                    <p class="lead"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    
+
+    <div class="grid-container">
+        <div class="grid-x grid-margin-x">
+            <div class="large-7 large-offset-1 medium-9 medium-offset-1 cell">
+                <div class="main-content">
+                    <p>Since version 1.3 repoze.bfg offers internationalization and localization. For
+one of our projects (<a href="https://flight-log.ch/">Flight Log</a>) we have written a
+custom locale negotiator showing the page in the language defined in the users
+browser settings.</p>
+<p>The way how to internationalize your application is fully documented in the
+amazing repoze.bfg documentation:
+<a href="http://docs.repoze.org/bfg/1.3/narr/i18n.html">http://docs.repoze.org/bfg/1.3/narr/i18n.html</a></p>
+<p>Let's have a look at the test first:</p>
+<pre><code>from unittest import TestCase  
+
+from webob.acceptparse import Accept  
+
+from repoze.bfg.interfaces import ISettings  
+from repoze.bfg.threadlocal import get_current_registry  
+from repoze.bfg.testing import DummyRequest  
+
+class TestLocaleNegotiator(TestCase):  
+
+    def test_get_preferred_languages(self):  
+        from flightlog.locale_negotiator import get_preferred_languages  
+
+        # No header  
+        request = DummyRequest()  
+        langs = get_preferred_languages(request)  
+        self.assertEquals([], langs)  
+
+        # Empty header  
+        request = DummyRequest()  
+        setattr(request, 'accept_language', Accept('Accept-Language', ''))  
+        langs = get_preferred_languages(request)  
+        self.assertEquals([], langs)  
+
+        request = DummyRequest()  
+        setattr(request, 'accept_language', Accept('Accept-Language', 'de'))  
+        langs = get_preferred_languages(request)  
+        self.assertEquals(['de'], langs)  
+
+    def test_locale_negotiator(self):  
+        from flightlog.locale_negotiator import locale_negotiator  
+
+        registry = get_current_registry()  
+        settings = {'available_languages' : 'en de', 'default_locale_name' : 'de'}  
+        registry.registerUtility(settings, ISettings)  
+
+        # No header  
+        request = DummyRequest()  
+        lang = locale_negotiator(request)  
+        self.assertEquals('de', lang)  
+
+        # Single accepted language  
+        request = DummyRequest()  
+        setattr(request, 'accept_language', Accept('Accept-Language', 'en'))  
+        lang = locale_negotiator(request)  
+        self.assertEquals('en', lang)  
+
+        # List of languages  
+        request = DummyRequest()  
+        setattr(request, 'accept_language', Accept('Accept-Language', 'de, en'))  
+        lang = locale_negotiator(request)  
+        self.assertEquals('de', lang)  
+
+        # Qualities  
+        request = DummyRequest()  
+        setattr(request, 'accept_language', Accept('Accept-Language', 'da, en-gb;q=0.8, en;q=0.7'))  
+        lang = locale_negotiator(request)  
+        self.assertEquals('en', lang)  
+
+        # Malformed quality  
+        request = DummyRequest()  
+        setattr(request, 'accept_language', Accept('Accept-Language', 'da, en-gb;q=0.8.0, en;q=0.7'))  
+        lang = locale_negotiator(request)  
+        self.assertEquals('en', lang)  
+</code></pre>
+<p>Next the language negotiator (this code has mostly been copied from
+<a href="http://pypi.python.org/pypi/zope.i18n">zope.i18n</a>):</p>
+<pre><code>from repoze.bfg.settings import get_settings  
+
+def get_preferred_languages(request):  
+
+    # Not availabe in DummyRequest during testing  
+    if not hasattr(request, 'accept_language') or not hasattr(request.accept_language, 'header_value'):  
+        return []  
+
+    accept_langs = request.accept_language.header_value.split(',')  
+
+    # Normalize lang strings  
+    accept_langs = [normalize_lang(l) for l in accept_langs]  
+    # Then filter out empty ones  
+    accept_langs = [l for l in accept_langs if l]  
+
+    accepts = []  
+    for index, lang in enumerate(accept_langs):  
+        l = lang.split(';', 2)  
+
+        # If not supplied, quality defaults to 1...  
+        quality = 1.0  
+
+        if len(l) == 2:  
+            q = l[1]  
+            if q.startswith('q='):  
+                q = q.split('=', 2)[1]  
+                try:  
+                    quality = float(q)  
+                except ValueError:  
+                    # malformed quality value, skip it.  
+                    continue  
+
+        if quality == 1.0:  
+            # ... but we use 1.9 - 0.001 * position to  
+            # keep the ordering between all items with  
+            # 1.0 quality, which may include items with no quality  
+            # defined, and items with quality defined as 1.  
+            quality = 1.9 - (0.001 * index)  
+
+        accepts.append((quality, l[0]))  
+
+    # Filter langs with q=0, which means  
+    # unwanted lang according to the spec  
+    # See: http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.4  
+    accepts = [acc for acc in accepts if acc[0]]  
+
+    accepts.sort()  
+    accepts.reverse()  
+
+    return [lang for quality, lang in accepts]  
+
+def normalize_lang(lang):  
+    lang = lang.strip().lower()  
+    lang = lang.replace('_', '-')  
+    lang = lang.replace(' ', '')  
+    return lang  
+
+def normalize_langs(langs):  
+    # Make a mapping from normalized-&gt;original so we keep can match  
+    # the normalized lang and return the original string.  
+    n_langs = {}  
+    for l in langs:  
+        n_langs[normalize_lang(l)] = l  
+    return n_langs  
+
+def locale_negotiator(request):  
+
+    settings = get_settings()  
+    available_languages = settings.get('available_languages', '').split()  
+    preferred_languages = get_preferred_languages(request)  
+
+    available_languages = normalize_langs(available_languages)  
+    for lang in preferred_languages:  
+        if lang in available_languages:  
+            return available_languages.get(lang)  
+        # If the user asked for a specific variation, but we don't  
+        # have it available we may serve the most generic one,  
+        # according to the spec (eg: user asks for ('en-us',  
+        # 'de'), but we don't have 'en-us', then 'en' is preferred  
+        # to 'de').  
+        parts = lang.split('-')  
+        if len(parts) &gt; 1 and parts[0] in available_languages:  
+            return available_languages.get(parts[0])  
+
+    return settings.get('default_locale_name', 'en')  
+</code></pre>
+<p>Finally have to include it via ZCML in configure.zcml.</p>
+<pre><code>&lt;configure xmlns="http://namespaces.repoze.org/bfg"&gt;  
+
+  &lt;!-- this must be included for the view declarations to work --&gt;  
+  &lt;include package="repoze.bfg.includes" /&gt;  
+
+  &lt;localenegotiator negotiator=".locale_negotiator.locale_negotiator" /&gt;  
+
+  &lt;translationdir dir="flightlog:locale/" /&gt;  
+
+&lt;/configure&gt;  
+</code></pre>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+        <footer>
+            <div class="grid-container">
+                <div class="grid-x grid-padding-x">
+                    <div class="large-8 medium-8 cell">
+                        <h4>Building data-driven web applications with an open-source toolset and an agile mindset</h4>
+                        <p>Wir entwicklen qualitativ hochstehende Software. Dazu setzen wir auf die besten Open Source
+                            Entwickler-Tools und arbeiten gemäss Agiler Methodik.</p>
+                        <a href="http://www.swissmadesoftware.org">
+                            <img id="swissmadesoftware" src="/static/img/swissmadesoftware.png"
+                                alt="Swiss made software" />
+                        </a>
+                        <div class="bosw">
+                            <a href="https://www.bestofswissweb.ch">
+                                <img src="/static/img/bosw-2019.png" alt="Best of Swiss Web 2019" />
+                                <img src="/static/img/bosw-2016.svg" alt="Best of Swiss Web 2016" />
+                            </a>
+                            <a href="https://www.berufsbildungplus.ch">
+                                <img src="/static/img/vignette-sbfi.png" alt="Lehrbetrieb" />
+                            </a>
+                            <a href="/portrait/informationssicherheit-iso-27001/">
+                                <img src="/static/img/SSC_ISO27001_transparent.png"
+                                    alt="ISO/IEC 27001:2013" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="large-4 medium-4 cell">
+                        <h5>Cloud Platform</h5>
+                        <ul>
+                            <li><a href="http://www.healthdata.ai">HealthData.ai</a></li>
+                            <li><a href="https://admin.digital">OneGov Cloud</a></li>
+                            <li><a href="http://www.mycontrol.aero">myControl.aero</a></li>
+                        </ul>
+                        <a class="button" href="/contact/">Kontakt</a>
+                    </div>
+                </div>
+
+                <div class="grid-x grid-padding-x">
+                    <div class="large-12 cell">
+                        <div id="copyright">© 2005 - 2023 by seantis gmbh | Lektor powered &
+                            built with Python</div>
+                    </div>
+                </div>
+
+            </div>
+        </footer>
+    </div>
+
+    <script src="/static/js/jquery.min.js?h=1055018c"></script>
+
+    <script src="/static/js/aos.js?h=e38950c1"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <script src="/static/js/what-input.min.js?h=d37c555d"></script>
+    <script src="/static/js/foundation.min.js?h=507bf6ca"></script>
+    <script src="/static/js/tipuesearch_set.js?h=51d521ed"></script>
+    <script src="/static/js/tipuesearch.min.js?h=bd976a7c"></script>
+    <script src="/static/js/app.js?h=a7d8dbf4"></script>
+
+    <script>
+        $(document).foundation();
+
+        var _paq = _paq || [];
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function () {
+            var u = "//stats.seantis.ch/";
+            _paq.push(['setTrackerUrl', u + 'piwik.php']);
+            _paq.push(['setSiteId', '15']);
+            var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+            g.type = 'text/javascript'; g.async = true; g.defer = true; g.src = u + 'piwik.js'; s.parentNode.insertBefore(g, s);
+        })();
+
+        $(function () {
+            $(".storybox-" + (new Date().getTime() % 4 + 1)).css("display", "block");
+        });
+
+         
+    </script>
+
+</body>
+
+</html>

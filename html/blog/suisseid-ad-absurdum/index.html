@@ -1,0 +1,428 @@
+<!doctype html>
+<html class="no-js" lang="de" dir="ltr" prefix="og: http://ogp.me/ns#">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>seantis gmbh</title>
+    <meta name="description"
+        content="seantis gmbh entwickelt Webapplikationen für die medizinische Forschung, die öffentliche Verwaltung sowie für die Aviatik.">
+    <meta property="og:description" content="Wir sind gerade dabei die Implementierung der SuisseID für Plone umzusetzen und mussten dabei feststellen, dass bestehende Implementierungen die Idee hinter einer Authentifizierung wie der SuisseID  nicht respektieren.">
+    <meta property="og:site_name" content="seantis">
+<meta property="og:url" content="https://www.seantis.ch/blog/suisseid-ad-absurdum/">
+<meta property="og:title" content="SuisseID ad absurdum">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://www.seantis.ch/og_image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:alt" content="logo">
+    <link rel="stylesheet" href="/static/css/foundation.min.css?h=883e6026">
+    <link rel="stylesheet" href="/static/css/fira.css?h=bcd50a1c">
+    <link rel="stylesheet" href="/static/css/fontawesome.min.css?h=20d2d431">
+    <link rel="stylesheet" href="/static/css/custom.css?h=85151875">
+    <link rel="stylesheet" href="/static/css/aos.css?h=9a26a349" />
+</head>
+
+<body class="model-blog-post">
+
+    <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
+
+        <!-- Close button -->
+        <button class="close-button" aria-label="Close menu" type="button" data-close>
+            <span aria-hidden="true">&times;</span>
+        </button>
+
+        <!-- Menu -->
+        <ul class="menu" data-dropdown-menu>
+            
+            
+            <li class=" "><a href="/portrait/">Über uns</a></li>
+            
+            <li class=" "><a href="/engineering/">Engineering</a></li>
+            
+            <li class=" "><a href="/services/">Services</a></li>
+            
+            <li class=" "><a href="/academy/">Academy</a></li>
+            
+            <li class=" "><a href="/success-stories/">Erfolgsgeschichten</a></li>
+            
+            <li class=" "><a href="/news/">News</a></li>
+            
+            <li class=" "><a href="/careers/">Jobs</a></li>
+            
+            <li class=" active"><a href="/blog/">Blog</a></li>
+            
+            <li class="contact "><a href="/contact/">Kontakt</a></li>
+            
+        </ul>
+
+    </div>
+
+    <div class="off-canvas-content" data-off-canvas-content>
+        <!-- <div class="announcement"><a href="/news/job-python-entwickler/">&rarr; Jobs: Full Stack Python-Entwickler(in) (60-100%)<i class="fab fa-python"></i></a></div> -->
+        <!-- <div class="announcement"><a href="/news/deep-learning-rheumatologie/">&rarr; Wissenschaftliche Publikation zur Anwendung von Deep Learning in der Rheumatologie <i class="far fa-newspaper"></i></a></div> -->
+        <!-- <div class="announcement"><a href="/news/covid-19/">&rarr; Studie zu COVID-19 für Rheumapatienten <i class="far fa-newspaper"></i></a></div> -->
+        <!-- <div class="announcement"><a href="/news/job-apprenticeship-application-developer/">👩‍💻 Lehrstelle als Informatiker (Fachrichtung Applikationsentwicklung) ab Sommer 2021 oder 2022</a></div> -->
+        <!-- <div class="announcement"><a href="/blog/nzz-hackback/">🛡Gastkommentar Cyber Security @NZZ #donthackback ⚔️</a></div>-->
+        <!-- <div class="announcement"><a href="/success-stories/aircraft-configurator-pilatus/">Digitaler Konfigurator für die Pilatus Flugzeugwerke 🛩</a></div>-->
+        <!-- <div class="announcement"><a href="/portrait/informationssicherheit-iso-27001/"> ISO 27001 zertifiziertes Informationssicherheits-Managementsystem 🛡</a></div>-->
+        <!-- <div class="announcement"><a href="/blog/publikationsportal-wahlen-open-source/"> Unser Praxisbeispiel in der Open Source Studie Schweiz 2021 🗳</a></div> -->
+        <div class="announcement"><a href="/blog/cybersecurity-resilienz-resignation/">🧀 Schweizer Käse statt Burgmauern für bessere Informationssicherheit 🏰</a></div>
+
+
+        <div data-sticky-container>
+            <div class="sticky" data-sticky data-sticky-on="small" data-margin-top="0">
+                <div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="medium"
+                    style="display:none">
+                    <button type="button" class="menu-icon" data-toggle="offCanvas"></button>
+                    <div class="title-bar-title"> <a href="/">Home</a></div>
+                    <div class="title-bar-right contact"><a href="/contact/">Kontakt</a></div>
+                </div>
+
+                <div class="top" id="responsive-menu" style="display:none">
+                    <div class="grid-container">
+                        <div class="top-bar">
+                            <div class="top-bar-left">
+                                <ul class="menu hide-for-small-only">
+                                    <li><a href="/">Home</a></li>
+                                </ul>
+                            </div>
+                            <div class="top-bar-right">
+                                <ul class="menu" data-dropdown-menu>
+                                    
+                                    <li class=" "><a
+                                            href="/portrait/">Über uns</a></li>
+                                    
+                                    <li class=" "><a
+                                            href="/engineering/">Engineering</a></li>
+                                    
+                                    <li class=" "><a
+                                            href="/services/">Services</a></li>
+                                    
+                                    <li class=" "><a
+                                            href="/academy/">Academy</a></li>
+                                    
+                                    <li class=" "><a
+                                            href="/success-stories/">Erfolgsgeschichten</a></li>
+                                    
+                                    <li class=" "><a
+                                            href="/news/">News</a></li>
+                                    
+                                    <li class=" "><a
+                                            href="/careers/">Jobs</a></li>
+                                    
+                                    <li class=" active"><a
+                                            href="/blog/">Blog</a></li>
+                                    
+                                    <li class="contact "><a
+                                            href="/contact/">Kontakt</a></li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid-container">
+            <div class="header">
+                <div class="top-bar">
+                    <div class="top-bar-left">
+                        <a href="/"><img id="logo" src="/static/img/logo.svg"
+                                alt="Zur Startseite" /></a>
+                    </div>
+                    <div class="top-bar-right">
+                        <form action="/search/">
+                            <div class="input-group show-for-medium">
+                                <input class="input-group-field" type="search" name="q" id="tipue_search_input">
+                                <div class="input-group-button">
+                                    <input type="submit" class="button" value="Suche">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+
+    <div class="head">
+        <div class="grid-container">
+            <div class="grid-x grid-padding-x">
+                <div class="large-7 large-offset-1 medium-10 medium-offset-1 cell">
+                    <h5 class="subheader"><small>08.10.2010</small></h5>
+                    <h1>SuisseID ad absurdum</h1>
+                    <p class="lead">Wir sind gerade dabei die Implementierung der SuisseID für Plone umzusetzen und mussten dabei feststellen, dass bestehende Implementierungen die Idee hinter einer Authentifizierung wie der SuisseID  nicht respektieren.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    
+    <div class="grid-container">
+        <div class="grid-x grid-padding-x" data-aos="fade-up">
+            <div class="large-9 cell">
+                <div class="dotted">
+                    <img class="full" src="/blog/suisseid-ad-absurdum/2.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="grid-container">
+        <div class="grid-x grid-margin-x">
+            <div class="large-7 large-offset-1 medium-9 medium-offset-1 cell">
+                <div class="main-content">
+                    <p><strong>Nachtrag (12.10.2010) Es geht uns in dieser Darstellung einzig um die Art und Weise wie Service-Provider die Authentifizierung implementieren. Es geht nicht um eine generelle Kritik an der SuisseID. Wir sind auch bemüht unsere Darstellung nach Kommentaren entsprechend zu ergänzen und zu präzisieren. Vielen Dank für die gute Diskussion!</strong></p>
+<p><strong>Vorbemerkung:</strong> Es geht uns hier nicht um eine grundlegende Kritik an zertifikatbasierter Authentifizierung oder SAML2, sondern darum wie SuisseID-Authentifizierungen implementiert sind.</p>
+<p><strong>Ergänzung (14.10.2010): </strong>Die SuisseID sieht <a href="http://www.suisseid.ch/unternehmen/einsatzszenarien/index.html">folgende Einsatzszenarien</a> vor:</p>
+<ol>
+<li>Authentifizierung rein Zertifikats-basiert</li>
+<li>Authentifizierung via einen IdP (Identity Provider)</li>
+<li>Abfrage von Attributen der SuisseID via einen IdP</li>
+</ol>
+<p>Auch Kombinationen sind zulässig. Die direkte Authentifizierung mittels des
+SuisseID-Zertifikates scheint uns für Internetanwendungen, aus den unten
+genannten Gründen, nach wie vor problematisch.</p>
+<p>Vielen Dank für den entsprechenden Kommentar!</p>
+<h2>#</h2>
+<h3>Ablauf 1: Wie es sein sollte!</h3>
+<p>Hier mal der Prozess der Authentifizierung mit SuisseID für unsere Plone-Site.
+Ich sehe  in der rechten Spalte eine Login-Box, in der ich mich mit meiner
+SuisseID anmelden kann.</p>
+<p><img src="/blog/suisseid-ad-absurdum/Plone1.png" alt="SuisseID Plone Front Site"></p>
+<p><img src="/blog/suisseid-ad-absurdum/Plone2.jpg" alt="SuisseID Plone Select Provider">Im Dropdown muss
+ich den SuisseID-Provider wählen. Zur Zeit vergeben SwissSign und QuoVadis
+SuisseIDs. Wie wir später sehen werden ist es wichtig, dass ich als Benutzer
+diese Auswahl selbst treffe und diese nicht irgendwie automatisch passiert.</p>
+<p>Nachdem ich meinen Provider gewählt habe, werde ich auf die Site von SwissSign
+weitergeleitet. Da ich mich nun bei SwissSign authentifizieren muss, fragt
+mich mein Browser nach dem Passwort meiner SuisseID.</p>
+<p><img src="/blog/suisseid-ad-absurdum/PlonePassword.png" alt="SuisseID Password"></p>
+<p>Ich gebe dieses ein und sehe nun ein weiteres Fenster, das mir mitteilt, an
+wen mein Zertifikat und damit auch einige persönliche Daten übermittelt
+werden. Ich sehe, dass es sich beim Empfänger um SwissSign handelt und da ich
+meinem Identitätsprovider vertraue, bin ich mit der Übermittlung
+einverstanden.</p>
+<p><img src="/blog/suisseid-ad-absurdum/PloneCertificate.jpg" alt="PloneCertificate.jpg"></p>
+<p>Als Benutzer werde ich nun in der Adressbar des Browsers schauen, ob ich
+wirklich auf der Site von SwissSign bin. Die grüne Adresszeile zeigt mir an,
+dass dies der Fall ist und dass die Site per SSL verschlüsselt ist. Es ist
+zentral, dass diese Seite bei SwissSign läuft. Man kann diesen Schritt nicht
+überspringen, da ich nur meinem eigenen Identitätsprovider vetraue und damit
+nur dieser mich authentifizieren kann und darf.</p>
+<p><img src="/blog/suisseid-ad-absurdum/Plone3_keine_email.jpg" alt="SuisseID Plone Name Vorname"></p>
+<p>Ich kann nun auch wählen welche Infos (Vorname, Nachname) ich zurück an unsere
+Plone Site übertragen will. Ich klicke also auf "Freigeben" und komme zurück
+auf die Plone Site wo ich nun angemeldet bin. Wenn ich hier "Abbrechen"
+klicke, dann werden überhaupt keine Daten an den anfragenden Dienst
+übermittelt.</p>
+<p>"Bin ich schon drin?" Ja, ich bin nun bei der Plone Site angemeldet. Alles
+bestens also! So bin ich auf der absolut sicheren Seite, weil ich nur meinem
+Provider Zugriff auf meine Daten gegeben habe.</p>
+<p><img src="/blog/suisseid-ad-absurdum/Bildschirmfoto20101008um17.51.21.png" alt="SuisseID Plone Logged
+in"></p>
+<h2>Ablauf 2: Wie es besser nicht sein sollte!</h2>
+<p>Nun schauen wir uns ein Beispiel an, welches gegen die Idee dieser
+Authentifizierung - seine Daten übermittelt man ausschliesslich an seinen
+Provider  - verstösst. Als zweites Beispiel schauen wir uns eine Applikation
+an, wo die Authentifizierung anders abläuft. (Korrektur 14.10.2010 vgl.
+Kommentar)</p>
+<p><img src="/blog/suisseid-ad-absurdum/wineshop1.png" alt="Wineshop1"></p>
+<p>Ich kicke auf den SuisseID-Button und HOPPLA werde nach dem Passwort meines
+Zertifikates gefragt!</p>
+<p><img src="/blog/suisseid-ad-absurdum/wineshop2.png" alt="Wineshop2"></p>
+<p>Der Weinladen verlangt also nach meinem Zertifikat. Das finde ich nicht so
+toll, denn eigentlich wollte ich meine email-Adresse und meinen vollen Namen
+nicht an den Weinshop (bzw. das SECO) übermitteln, da sich diese Informationen
+jedoch im Zertifikat befinden, werden sie ans SECO übermittelt!</p>
+<p><img src="/blog/suisseid-ad-absurdum/wineshop31.jpg" alt="Wineshop3"></p>
+<p>Eigentlich sollte der Weinshop jedoch nur mein Alter überprüfen. Dazu werde
+ich korrekterweise auf die Seite meines Identitätsproviders (in diesem Fall
+SwissSign) weitergeleitet:</p>
+<p><img src="/blog/suisseid-ad-absurdum/wineshop4.jpg" alt="wineshop4.jpg"></p>
+<p>Falls ich der Datenübermittlung zustimme, sendet SwissSign nur gerade diese
+Information (Nachweis dass ich älter als 18 bin) an den Weinshop. Was in
+diesem Ablauf nicht optimal läuft, ist dass der Wineshop selbst auf mein
+Zertifikat zugreift, um mir die manuelle Auswahl des Providers zu ersparen.
+Indem er das jedoch tut, wird gleichzeitig auch meine Email Adresse (und mein
+Arbeitgeber, der auf meinem persönlichen Zertifikat gespeichert ist)
+ausgelesen. Die Idee hinter einem Verfahren wie der SuisseID ist, dass ich nur
+meinem Indentitätsprovider voll vetrauen muss, und dieser vor jeder
+Datenübermittlung meine Zustimmung einholt. Somit sollte ich auch nur meinem
+Identitätsprovider Zugriff auf mein Authentifizierungszertifikat gewähren.</p>
+<p><img src="/blog/suisseid-ad-absurdum/firefox_settings.png" alt="SuisseID Firefox Settings">Verlangt
+jedoch bereits der Weinshop Zugriff auf mein Zertifikat und ich die darin
+enthaltenen persönlichen Daten nicht an ihn übermitteln will, so bleibt nur
+die Möglichkeit die Authentifizierung mittels SuisseID  abzubrechen!</p>
+<p>Ich muss zudem die Sicherheitseinstellungen in meinem Browser so setzen, dass
+ich jedes mal explizit ein Zertifikat auswählen möchte, falls eine Website ein
+solches verlangt. Ansonsten kann jede Website mittels SSL auf alle Daten
+meines Zertifikats zugreifen ohne dass ich überhaupt etwas davon bemerke. Man
+könnte jetzt natürlich argumentieren, dass auf meinem Zertifikat keine
+wirklich heiklen Daten liegen, sondern dass diese bei meinem
+Indentitätsprovider hinterlegt sind. Das stimmt aber nur teilweise: Mein
+amtlich beglaubigter Name, meine Email Adresse und meine Organisation sagen
+doch schon einiges über mich aus. Ich will diese Infos nicht irgendeine
+beliebige Website schicken!</p>
+<p>(Ergänzung 14.10.2010 vgl. Kommentar) Es handelt sich hier um eine Kombination
+der rein zertifikatsbasierten Authentifizierung mit der Abfrage von
+personenbezogenen Attributen beim IdP. Dies ist zwar zulässig, die
+Authentifizierung wäre jedoch wie in Ablauf 1 besser auch über den Identity
+Provider gelaufen, so hätte ich mein Zertifikat nur diesem zeigen müssen.</p>
+<h3>Ablauf 3: Wie es definitiv nicht sein sollte</h3>
+<p>Drittes Beispiel ist der Authentifizierungsprozess bei
+<a href="http://amazee.com">www.amazee.com</a>.</p>
+<p>Ich klicke als wiederum auf den SuisseID Button und werde - wie schon beim
+Weinshop - nach dem Passwort meines Zertifikates gefragt. Bemerkenswert ist
+hier, dass ich auf der Site von amazee bin und ich meine Daten an Clavid
+übermitteln werden sollen! Mit Clavid habe ich aber gar nichts am Hut, es
+handelt sich weder um die Seite bei der ich mich anmelden möchte (amazee) noch
+meinen Identitätsprovider (SwissSign). Trotzdem will Clavid auf mein
+Zertifikat und damit meine Daten zugreifen.</p>
+<p><img src="/blog/suisseid-ad-absurdum/2.jpg" alt="amazee1"></p>
+<p>Man könnte, wie bereits beim zweiten Prozess, wiederum argumentieren, dass
+diese Daten nicht wirklich heikel sind.</p>
+<p>Das wirklich bemerkenswerte passiert jedoch im nächsten Schritt. Ich komme nun
+auf eine Site die zwar derjenigen von SwissSign ähnlich sieht, hinter der sich
+aber Clavid versteckt!</p>
+<p><img src="/blog/suisseid-ad-absurdum/32.jpg" alt="amazee2"></p>
+<p>An diesem Punkt ist für mich als sicherheitsbewusster Benutzer definitiv
+Feierabend! Ich sollte hier auf der Site meines Providers (SwissSign) sein.
+Clavid kenne ich nicht und vertraue der Seite daher auch nicht. Clavid
+übernimmt hier also die Rolle meines Identitätsproviders, obwohl ich für die
+Authentifizerung nur meinem wirklichen Identitätsprovider (SwissSign)
+vertrauen sollte. Clavid liest als Drittpartei also nicht nur mein Zerifikat
+aus sondern gibt sich auch noch als Identitätsprovider aus.</p>
+<p>Die grundlegende Idee hinter dem der SuisseID zu Grunde liegenden
+Authentifizierungsverfahren besteht darin, dass ich mich nur auf der Seite
+meines Identitätsproviders (mit einem Zertifikat oder Passwort) anmelde und
+mich deshalb auch wirklich auf dieser Seite befinden muss (was ich an Hand der
+URL und des Zertifikat überprüfen kann). Dadurch ist der Prozess für den
+Benutzer transparent. Im Fall von amazee/Clavid ist jedoch völlig unklar ob
+und wie ich bei meinem Identitätsprovider authentifiziert werden. Bei Clavid
+handelt es sich nicht um einem authorisierten SuisseID Identitätsprovider und
+trotzdem übernimmt der Dienst meine Authentifizierung. Zusätzlich kann Clavid
+auch meine persönlichen Daten einsehen, obwohl ich nur der Übermittlung an
+amazee zugestimmt habe.</p>
+<p>Entgegen aller meiner Grundsätze klicke ich mal auf OK und tatsächlich habe
+ich nun einen Account bei amazee.</p>
+<p>(Ergänzung 14.10.2010 vgl. Kommentar) Es handelt sich hier (amazee möge mich
+korrigieren) um eine rein zertifikatsbasierte Authentifizierung, auch wenn die
+Seite für die "Freigabe" der Daten den entsprechenden Seiten der Identity
+Provider zum verwechseln ähnlich sieht.</p>
+<h3>Fazit - Bei der Implementierung die Idee des SuisseID-Prinzip (SAML2 oder</h3>
+<p>auch OpenID) ernst nehmen</p>
+<p>Die unser Prozess für die Anmeldung mit der SuisseID zeigt, dass man das
+Zertifikat des Benutzers auf Seiten des anfragenden Services weder auslesen
+muss noch soll. Das Zertifikat wird erst auf der SSL-Seite von SwissSign
+ausgelesen. Unsere Plone Seite muss gar nicht wissen wie sich der Benutzer bei
+SwissSign oder QuoVadis authentifiziert. Das kann über ein Passwort, ein One
+Time Token oder eben ein Zertifikat geschehen. Wie das geschieht liegt aber in
+der Verantwortung des Identitätsproviders. Dem Serviceprovider (unsere Plone
+Seite) ist die Art der Authentifizierung egal er muss nur dem
+Identitätsprovider vetrauen (dass dieser eine sichere Authentifizierung
+durchführt). Das ist die grundlegende Idee hiner SAML2 oder auch OpenID.</p>
+<p>Was der Idee widerspricht:</p>
+<ul>
+<li>Wenn jeder Serviceprovider rasch das Zertifikat des Benutzers ausliest (sei es auch nur um auf den passenden Provider weiterzuleiten). Der Endbenutzer muss so "erzogen" werden, dass er mit seinem Zertifikat sehr sorgfältig umgeht. Wenn nun inflationär im Browser die Frage nach dem Zugriff kommt, so legt er genau diese Vorsicht ab. Immer wenn er Zugriff auf sein Zertifikat gibt, so kann der Service-Provider persönliche Angaben wie die email-Adresse auslesen. Der Benutzer hat nicht wirklich eine Möglichkeit zu sagen, dass er diese Angabe nicht machen will (mehr zum Thema SuisseID und email-Adresse ein anderes Mal).</li>
+<li>Es dürfte keine "Pseudo"-Identitätsprovider wie Clavid geben, denn ich darf nur meinem Provider vertrauen.</li>
+<li>Was macht Clavid wirklich? Der Ablauf ist für uns unklar und intransparent und entspricht schon daher nicht der grundlegenden Idee des Protokolls</li>
+</ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+        <footer>
+            <div class="grid-container">
+                <div class="grid-x grid-padding-x">
+                    <div class="large-8 medium-8 cell">
+                        <h4>Building data-driven web applications with an open-source toolset and an agile mindset</h4>
+                        <p>Wir entwicklen qualitativ hochstehende Software. Dazu setzen wir auf die besten Open Source
+                            Entwickler-Tools und arbeiten gemäss Agiler Methodik.</p>
+                        <a href="http://www.swissmadesoftware.org">
+                            <img id="swissmadesoftware" src="/static/img/swissmadesoftware.png"
+                                alt="Swiss made software" />
+                        </a>
+                        <div class="bosw">
+                            <a href="https://www.bestofswissweb.ch">
+                                <img src="/static/img/bosw-2019.png" alt="Best of Swiss Web 2019" />
+                                <img src="/static/img/bosw-2016.svg" alt="Best of Swiss Web 2016" />
+                            </a>
+                            <a href="https://www.berufsbildungplus.ch">
+                                <img src="/static/img/vignette-sbfi.png" alt="Lehrbetrieb" />
+                            </a>
+                            <a href="/portrait/informationssicherheit-iso-27001/">
+                                <img src="/static/img/SSC_ISO27001_transparent.png"
+                                    alt="ISO/IEC 27001:2013" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="large-4 medium-4 cell">
+                        <h5>Cloud Platform</h5>
+                        <ul>
+                            <li><a href="http://www.healthdata.ai">HealthData.ai</a></li>
+                            <li><a href="https://admin.digital">OneGov Cloud</a></li>
+                            <li><a href="http://www.mycontrol.aero">myControl.aero</a></li>
+                        </ul>
+                        <a class="button" href="/contact/">Kontakt</a>
+                    </div>
+                </div>
+
+                <div class="grid-x grid-padding-x">
+                    <div class="large-12 cell">
+                        <div id="copyright">© 2005 - 2023 by seantis gmbh | Lektor powered &
+                            built with Python</div>
+                    </div>
+                </div>
+
+            </div>
+        </footer>
+    </div>
+
+    <script src="/static/js/jquery.min.js?h=1055018c"></script>
+
+    <script src="/static/js/aos.js?h=e38950c1"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <script src="/static/js/what-input.min.js?h=d37c555d"></script>
+    <script src="/static/js/foundation.min.js?h=507bf6ca"></script>
+    <script src="/static/js/tipuesearch_set.js?h=51d521ed"></script>
+    <script src="/static/js/tipuesearch.min.js?h=bd976a7c"></script>
+    <script src="/static/js/app.js?h=a7d8dbf4"></script>
+
+    <script>
+        $(document).foundation();
+
+        var _paq = _paq || [];
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function () {
+            var u = "//stats.seantis.ch/";
+            _paq.push(['setTrackerUrl', u + 'piwik.php']);
+            _paq.push(['setSiteId', '15']);
+            var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+            g.type = 'text/javascript'; g.async = true; g.defer = true; g.src = u + 'piwik.js'; s.parentNode.insertBefore(g, s);
+        })();
+
+        $(function () {
+            $(".storybox-" + (new Date().getTime() % 4 + 1)).css("display", "block");
+        });
+
+         
+    </script>
+
+</body>
+
+</html>
