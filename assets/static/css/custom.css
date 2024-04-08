@@ -627,3 +627,9 @@ _:-ms-lang(x), #customers .card img {
     text-align: center;
     margin-bottom: 20px;
 }
+
+.code-inline, code {
+    background-color: #ededed;
+    border: 0;
+    border-radius: 3px;
+}
