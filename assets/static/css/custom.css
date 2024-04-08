@@ -4,6 +4,7 @@ body {
     -ms-hyphens: auto;
     -webkit-hyphens: auto;
     hyphens: auto;
+    color: #212529;
 }
 
 .grid-container {
