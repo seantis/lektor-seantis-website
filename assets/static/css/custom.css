@@ -4,6 +4,7 @@ body {
     -ms-hyphens: auto;
     -webkit-hyphens: auto;
     hyphens: auto;
+    color: #212529;
 }
 
 .grid-container {
@@ -154,6 +155,12 @@ p img {
     background-repeat: no-repeat;
     padding-top: 60px;
     margin-bottom: 40px;
+}
+
+.model-riskmatrix #splash {
+    background: url('../../static/img/riskmatrix.jpg');
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
 }
 
 .intro {
@@ -619,4 +626,10 @@ _:-ms-lang(x), #customers .card img {
     font-size: 85%;
     text-align: center;
     margin-bottom: 20px;
+}
+
+.code-inline, code {
+    background-color: #ededed;
+    border: 0;
+    border-radius: 3px;
 }
