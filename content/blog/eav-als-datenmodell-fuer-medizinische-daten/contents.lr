@@ -14,7 +14,7 @@ werden Attribute nicht in einer Datenbankspalte sondern in einer
 Datenbankzeile abgelegt.
 
   * **E**ntity (Datensatz): z.B. Patient
-  * **A**ttribute (Eigenschaft): z.B. Gewicht (Code [SNOMED](www.snomed.org): 248334005)
+  * **A**ttribute (Eigenschaft): z.B. Gewicht (Code [SNOMED](http://www.snomed.org): 248334005)
   * **V**alue (Eigenschaftswert): z.B. 85kg
 
 ### Hohe Flexibilität dank Schemafreiheit
