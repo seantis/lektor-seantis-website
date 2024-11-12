@@ -51,6 +51,20 @@ In participating in our vulnerability disclosure program in good faith, we ask t
 - You should only interact with test accounts you own or with explicit permission from the account holder; and
 - Do not engage in extortion.
 
+### Irrelevant Vulnerabilities
+
+Issues that we do not consider relevant vulnerabilities include, but are not limited to:
+
+ - Missing security features alone without demonstrated impact
+ - Missing rate limiting without demonstrated impact
+ - Missing security-related HTTP headers without demonstrated impact
+ - Missing or incomplete SPF/DKIM/DMARC records
+ - Content spoofing without demonstrated impact
+ - Automated scan reports without proof-of-concept or explanatory documentation
+ - Clickjacking and issues that are only exploitable through clickjacking
+ - Self-XSS
+ - Social engineering attacks
+
 ### Safe Harbor
 
 When conducting vulnerability research, according to this policy, we consider this research conducted under this policy to be:
