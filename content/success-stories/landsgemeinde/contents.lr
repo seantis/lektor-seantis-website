@@ -1,0 +1,38 @@
+title: Digitales Publikationsportal für die Landsgemeinde Glarus
+---
+
+pub_date: 2024-12-27
+---
+author: seantis
+---
+description: Die Landsgemeinde Glarus wird durch ein neues digitales Publikationsportal unterstützt, das vor, während und nach der Versammlung zum Einsatz kommt.
+---
+
+customer: [Kanton Glarus](https://www.gl.ch)
+---
+
+technology: [admin.digital](https://www.admin.digital), Python
+---
+
+task: Die [Landsgemeinde](https://www.landsgemeinde.gl.ch) ist die Versammlung der stimmberechtigten Einwohnerinnen und Einwohner des Kantons Glarus und zugleich dessen oberstes Organ. Sie ermöglicht es allen Stimmberechtigten, direkt während der Versammlung Anträge zu stellen. Damit unterscheidet sich die Glarner Landsgemeinde von anderen Landsgemeinden sowie von Urnenabstimmungen, bei denen das Volk lediglich mit «Ja» oder «Nein» stimmen kann und keinen unmittelbaren Einfluss auf die kantonale Politik hat. Die Landsgemeinde findet unter freiem Himmel statt, jeweils am ersten Sonntag im Mai auf dem Zaunplatz in Glarus.
+
+---
+
+solution: In einem Ideation-Workshop mit Vertreterinnen und Vertretern aus verschiedenen Abteilungen der kantonalen Verwaltung wurden die Anforderungen an ein [Minimal Viable Product (MVP)](https://www.seantis.ch/startup/) definiert. Dabei wurden verschiedene Benutzergruppen identifiziert, wie zum Beispiel Stimmbürgerinnen und Stimmbürger, Mitarbeitende der Staatskanzlei, Journalistinnen und Journalisten sowie Historikerinnen und Historiker. Für jede Benutzergruppe wurde eine Persona in den jeweiligen Use Cases definiert.
+
+![Mockups Landsgemeinde GL](x-mockups-landsgemeinde-gl.png)
+
+Für die Benutzeroberfläche wurden Mockups skizziert, die in einem iterativen Vorgehen schrittweise auf der Plattform umgesetzt wurden. Dabei wurde das Feedback der Nutzerinnen und Nutzer kontinuierlich integriert, um die Benutzerfreundlichkeit zu optimieren. Dieses Vorgehen ermöglichte eine effiziente Anpassung an die spezifischen Bedürfnisse der verschiedenen Zielgruppen.
+
+---
+
+benefit: Das Publikationsportal wird vor, während und nach der Landsgemeinde genutzt. Um die lebendige Dynamik der direkten Demokratie widerzuspiegeln, ist ein Liveticker mit eingebetteten Videos integriert. Die Daten aus dem Landesarchiv werden auf der neuen Plattform dank einer Volltextsuche besser zugänglich gemacht. Darüber hinaus stehen die Daten interessierten Personen als Open Government Data zur Verfügung, was deren Weiterverwendung erleichtert.
+
+---
+links:
+
+- Landsgemeinde Kanton Glarus: https://www.landsgemeinde.gl.ch
+- admin.digital: https://www.admin.digital
+
+---
+frontpage: yes

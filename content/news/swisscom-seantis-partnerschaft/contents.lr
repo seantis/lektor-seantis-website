@@ -1,0 +1,35 @@
+title: Swisscom Trust Services und seantis besiegeln Partnerschaft
+---
+
+pub_date: 2023-08-02
+---
+author: seantis
+---
+description: Schweizer Unternehmen ermöglichen einfache Integration von elektronischen Siegeln in unterschiedliche digitale Prozesse.
+---
+body: Das Luzerner Software-Unternehmen seantis arbeitet mit dem Zertifizierungsdienst bzw. Vertrauensdienst Swisscom Trust Services zusammen, um elektronische Siegel in seine Angebote zu integrieren.
+
+Das auf Web-Applikationen für komplexe Daten spezialisierte Software-Entwicklerunternehmen hat einen Kundenstamm, der sich hauptsächlich aus der medizinischen Forschung, dem Behördenumfeld sowie der Aviatik zusammensetzt. Für Online-Services mit hohen Anforderungen an die Informationssicherheit setzt seantis einerseits Individualentwicklungen um, bietet andererseits aber auch Software-as-a-Service-Angebote. Dabei setzt das Unternehmen konsequent auf Open Source. Der Quellcode für die digitale Plattform admin.digital, der sich an öffentliche Verwaltungen richtet, ist etwa vollständig auf GitHub verfügbar.
+
+### Software für die Forschung, Verwaltung und Aviatik
+
+[admin.digital](https://www.admin.digital/neuerungen/alle/elektronische-siegel/) stellt schweizerischen Behörden eine digitale Version des Behördenstempels zur Verfügung. Damit können digitale Dokumente und Publikationen amtlich beglaubigt werden. Ein weiteres digitales Produkt mit elektronischen Siegeln ist [CertificateClaim](https://www.certificateclaim.com/), mit dem unter anderem Anbieter von Weiterbildungen ihre digitalen Kurszertifikate beglaubigen können.
+
+Die fortgeschrittenen elektronischen Siegel, die seantis für beide Anwendungen benötigt, bezieht das Unternehmen von Swisscom Trust Services. Dafür besteht eine direkte Anbindung über eine Programmierschnittstelle.
+
+Neben den beiden bereits umgesetzten Projekten sieht seantis noch weiteres Potenzial für elektronische Siegel in seinen Produkten. Beispielsweise sollen zeitnah digitale Logbücher für Piloten umgesetzt werden. Ausserdem arbeitet das Unternehmen an einer digitalen Version für die öffentliche Auflage von Baugesuchen und einer Lösung zur sicheren Dokumentation medizinischer Forschungsergebnisse.
+
+### Digitales Pendant zu offiziellen Stempeln
+
+Bei elektronischen Siegeln handelt es sich um ein digitales Pendant zu offiziellen Stempeln. Anders als eine elektronische Signatur sind die Siegel nicht einer einzelnen Person zugeordnet, sondern einer Institution oder Firma. Dies ermöglicht unter anderem die Stapelverarbeitung grosser Dokumentenmengen. Um ein angemessenes Sicherheitsniveau zu garantierten, müssen die verwendeten elektronischen Siegel bestimmten rechtlichen Vorgaben entsprechen. Im Idealfall setzen Unternehmen deshalb auf Siegel-Zertifikate von anerkannten und auditierten Vertrauensdiensten bzw. Zertifizierungsdiensten, wie Swisscom Trust Services, um die Sicherheit der Siegel zu garantieren. Dieser Anbieter ist als einziger europäischer Anbieter sowohl in der Schweiz als auch in der Europäischen Union akkreditiert.
+
+### Reibungslose Zusammenarbeit
+
+„Unsere Zusammenarbeit mit Swisscom Trust Services verlief bisher absolut reibungslos und wir sind sehr zufrieden. Mit diesem Partner sind wir auch für die Zukunft gut aufgestellt. Dank der internationalen Ausrichtung können wir die Siegel zukünftig bei Bedarf auch in Produkte integrieren, die nicht nur exklusiv in der Schweiz genutzt werden, wie unsere Plattform für medizinische Forschung oder digitale Logbücher für die Aviatik“, sagt Fabian Reinhard, Managing Partner bei seantis.
+
+*Quelle Swisscom Trust Services: https://trustservices.swisscom.com/de/esignature-hub/trust-blog/swisscom-trust-services-und-seantis-besiegeln-partnerschaft*
+
+---
+_hidden: no
+---
+tags:

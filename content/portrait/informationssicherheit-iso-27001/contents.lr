@@ -1,10 +1,10 @@
-title: Zertifizierung Informationssicherheit ISO/IEC 27001:2013
+title: Zertifizierung Informationssicherheit ISO/IEC 27001:2022
 ---
 description: Qualität und Informationssicherheit gehören seit der Gründung zu unseren Grundwerten. Seit 2021 führen wir ein nach ISO 27001 zertifiziertes Informationssicherheitsmanagementsystem (ISMS).
 ---
 body:
 
-**Swiss Safety Center AG: [Zertifikat ISO/IEC 27001:2013](Zertifikat-ISO-IEC-27001-seantis.pdf)**
+**ATTESTA Schweizer Zertifizierungsgesellschaft AG: [Zertifikat ISO/IEC 27001:2022](ISO-27001-Seantis.pdf)**
 
 ### Was ist ISO 27001?
 
@@ -22,7 +22,7 @@ Leider nein, in der IT-Sicherheit gibt es keine Garantien. Sicherheit ist kein Z
 
 Die Ziele für die Informationssicherheit leiten sich aus dem Auftrag ab, einen angemessenen Schutz von Informationen und Daten im festgelegten Geltungsbereich herzustellen und zu halten. Für die Ziele werden messbare Indikatoren operationalisiert. Die Indikatoren werden mittels KPIs im ISMS Cockpit überwacht.
 
-1. Die Services, welche wir für unsere Kunden entwicklen und betreiben, sind hochverfügbar.
+1. Die Services, welche wir für unsere Kunden entwickeln und betreiben, sind hochverfügbar.
 
 2. Unser Webapplikationen sind sicher und werden regelmässig auf bekannte Sicherheitslücken geprüft.
 
@@ -40,7 +40,7 @@ Die Ziele für die Informationssicherheit leiten sich aus dem Auftrag ab, einen 
 
 9. Wir vermeiden potentiellen Datenverlust indem wir funktionsfähige Backup- und Restore-Prozesse betreiben und überwachen.
 
-10. Wir entwicklen und betreiben State-of-the-Art Webapplikation und lösen veraltete Legacy-Software ab.
+10. Wir entwickeln und betreiben State-of-the-Art Webapplikation und lösen veraltete Legacy-Software ab.
 
 11. Wir führen einen Prozess mit den geeigneten Tools um Ereignisse, welche die Informationssicherheit gewährenden können, schnellstmöglich zu erkennen und so zeitnah wie möglich Massnahmen zu ergreifen.
 

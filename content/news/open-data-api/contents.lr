@@ -1,0 +1,32 @@
+title: Standardisierte Schnittstellen mit Open Data API von admin.digital
+---
+
+pub_date: 2025-01-31
+---
+author: seantis
+---
+description: Standardisierte Datenschnittstellen bilden das Fundament für reibungslosen Datenaustausch im digitalen Zeitalter. Dank der neuen Open Data API von admin.digital lassen sich Daten komfortabel abrufen und verwalten.
+---
+body: Eine Datenschnittstelle sollte möglichst standardisiert sein und neben den eigentlichen Daten auch bestimmte Meta-Informationen bereitstellen: Welche Endpunkte gibt es? Welche Filtermöglichkeiten existieren? In welcher Beziehung stehen die Daten zueinander?
+
+Die Open Data API von admin.digital setzt hierbei auf [Collection+JSON](http://amundsen.com/media-types/collection/), einen Hypermedia-Type, der speziell für das Abfragen und Verwalten von Datensammlungen entwickelt wurde. Die Einstiegspunkte sind einfach zu finden, und von dort kann man bequem durch die Daten navigieren.
+
+Für ein Gemeinde-Portal auf der Plattform von admin.digital gibt es zum Beispiel folgende Endpunkte:  
+- Einstiegspunkte (Gemeinde Meggen): [https://www.meggen.ch/api](https://www.meggen.ch/api)  
+- Veranstaltungen (Gemeinde Ebikon): [https://www.ebikon.ch/api/events](https://www.ebikon.ch/api/events)  
+- News (Gemeinde Gersau): [https://www.gersau.ch/api/news](https://www.gersau.ch/api/news)
+
+Wie kann nun diese Open Data API genutzt werden, und wem bringt sie konkreten Nutzen? Als Entwickler der Plattform und der API halten wir dies bewusst offen. Ein offensichtlicher Anwendungsfall wäre zum Beispiel eine Gemeinde-App, die die Daten über den JSON-Webservice bezieht. Das Design ist jedoch bewusst so offen gehalten, dass auch ganz andere Anwendungen möglich sind – etwa Abfragen in einem Staatskalender eines Kantons.
+
+- admin.digital – Cloud für die öffentliche Verwaltung: https://www.admin.digital
+- Webservice API admin.digital: https://www.admin.digital/neuerungen/alle/api
+- Technische Dokumentation: https://onegov.github.io/onegov-cloud/api/agency/README.html
+
+
+
+
+
+---
+_hidden: no
+---
+tags:

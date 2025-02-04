@@ -13,13 +13,13 @@ body: seantis entwickelt qualitativ hochstehende Software mit den besten Open So
 - **[admin.digital](https://admin.digital)** für die öffentliche Hand
 - **[myControl.aero](http://www.mycontrol.aero)** für die Aviatik
 
-Qualität und Informationssicherheit gehören seit der Gründung zu unseren Grundwerten. Seit 2021 führen wir ein «[Managementsystem Informationssicherheit](https://seantis.ch/portrait/informationssicherheit-iso-27001/)» zertifiziert nach ISO/IEC 27001:2013. Wir leben eine «DevOps» Kultur und orientieren uns am «[Infrastructure as Code](https://www.seantis.ch/blog/infrastructure-as-code/)» Paradigma. Unseren Mitarbeitenden  bieten wir ein optimales Arbeitsumfeld für die Softwareentwicklung und unterstützen den «[Hacker Pledge](https://www.seantis.ch/blog/we-support-the-hacker-pledge/)».
+Qualität und Informationssicherheit gehören seit der Gründung zu unseren Grundwerten. Wir führen ein «[Managementsystem Informationssicherheit](https://seantis.ch/portrait/informationssicherheit-iso-27001/)» zertifiziert nach ISO/IEC 27001:2022, leben eine «DevOps» Kultur und orientieren uns am «[Infrastructure as Code](https://www.seantis.ch/blog/infrastructure-as-code/)» Paradigma. Unseren Mitarbeitenden  bieten wir ein optimales Arbeitsumfeld für die Softwareentwicklung und unterstützen den «[Hacker Pledge](https://www.seantis.ch/blog/we-support-the-hacker-pledge/)».
 
 **Zur Verstärkung unseres Python-Entwicklungsteams suchen wir eine/n Full Stack Python-Entwickler:in mit Erfahrung in DevOps.**
 
 ### Du möchtest
 
-- Mit modernen leichtgewichtigen Python Frameworks ([Pyramid](https://trypyramid.com), [morepath](https://morepath.readthedocs.io/en/latest/)) Lösungen für komplexe Daten entwicklen.
+- Mit modernen leichtgewichtigen Python Frameworks ([Pyramid](https://trypyramid.com), [morepath](https://morepath.readthedocs.io/en/latest/)) Lösungen für komplexe Daten entwickeln.
 - In einem Team mit erfahrenen Python-Entwicklern zusammenarbeiten.
 - Dich stetig weiterentwickeln und State of the Art Software Engineering (CleanCode, TDD, DDD, CI/CD) praktizieren.
 - Eigene Ideen einbringen und selbst Verantwortung übernehmen.
@@ -44,6 +44,6 @@ Bei Fragen meldest du dich bei Fabian Reinhard (+41 41 511 22 50) oder schickst 
 *Wir arbeiten nicht mit Personalvermittlern zusammen. Unerbetene Angebote und Zusendungen von Personalvermittlern werden ungelesen gelöscht.*
 
 ---
-_hidden: no
+_hidden: yes
 ---
 tags: job

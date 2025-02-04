@@ -9,20 +9,20 @@ description: Entity Attribute Value (EAV) ist ein Datenmodell für Anwendungen, 
 ---
 body:
 
-Das OCQMS Datenmodell verwendet den Entity Attribute Value (EAV) Ansatz. Dabei
+Das HealthData.ai Datenmodell verwendet den Entity Attribute Value (EAV) Ansatz. Dabei
 werden Attribute nicht in einer Datenbankspalte sondern in einer
 Datenbankzeile abgelegt.
 
-  * Entity (Datensatz): z.B. Patient
-  * Attribute (Eigenschaft): z.B. Gewicht
-  * Value (Eigenschaftswert): z.B. 85kg
+  * **E**ntity (Datensatz): z.B. Patient
+  * **A**ttribute (Eigenschaft): z.B. Gewicht (Code [SNOMED](http://www.snomed.org): 248334005)
+  * **V**alue (Eigenschaftswert): z.B. 85kg
 
 ### Hohe Flexibilität dank Schemafreiheit
 
 Das Datenmodell ist sehr flexibel, d.h. es können neue Attribute hinzugefügt
 oder entfernt werden ohne das Datenbankschema zu ändern. Das Schema (d.h. die
-Eingabefelder) für eine spezifische OCQMS Instanz wird als Inhalt in der
-Datenbank (bzw. Definition in XML) gespeichert. Die Protokolle sind in OCQMS
+Eingabefelder) für eine spezifische HealthData.ai Instanz wird als Inhalt in der
+Datenbank (bzw. Definition in XML) gespeichert. Die Protokolle sind in HealthData.ai
 konfigurierbar und nicht nicht «hart» in der Applikation programmiert und
 damit nicht an ein Datenbankschema gebunden.
 
@@ -37,7 +37,7 @@ Zu jedem Eigenschaftswert eines Attributs («Observation») können zusätzliche
 Metadaten wie z.B. der Autor oder die Erfassungszeit gespeichert werden. Dies
 ermöglicht die Speicherung eines kompletten Audit-Trails.
 
-OCQMS bietet den kompletten «Audit Trail» aller Aktivitäten (Lesen,
+HealthData.ai bietet den kompletten «Audit Trail» aller Aktivitäten (Lesen,
 Schreiben). Dabei werden folgende Informationen erfasst:
 
   * Wann: Zeitpunkt
@@ -45,7 +45,7 @@ Schreiben). Dabei werden folgende Informationen erfasst:
   * Wo: Kontext (z.B. Patient) und Datenfeld
   * Was: Wert
 
-Das Auditing ist beim OCQMS System direkt in die Applikation integriert (d.h.
+Das Auditing ist beim HealthData.ai System direkt in die Applikation integriert (d.h.
 es gibt keine separaten Transaktionslogs oder Audittabellen). Dies ermöglicht
 einen direkten Zugriff auf die Audit Informationen für alle Benutzer direkt
 innerhalb der Applikation.
@@ -58,6 +58,5 @@ Abfragen werden die Daten in OCQM periodisch in eine klassische
 Tabellenstruktur gespiegelt. Für die Forschung werden die Datensätze
 aufbereitet und um CSV Format bereitgestellt.
 
-**Mehr Infos zu OCQMS: [www.healthdata.ai](https://www.healthdata.ai)**
-
+**Mehr Infos zu HealthData.ai: [www.healthdata.ai](https://www.healthdata.ai)**
 

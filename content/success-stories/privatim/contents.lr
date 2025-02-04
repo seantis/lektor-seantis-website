@@ -1,0 +1,36 @@
+title: Austauschplattform für Datenschutzbeauftragte
+---
+
+pub_date: 2024-11-08
+---
+author: seantis
+---
+description: Die neu entwickelte Austauschplattform für Datenschutzbeauftragte erleichtert die Zusammenarbeit zwischen Schweizer Kantonen, Gemeinden und dem Bund im Bereich Datenschutz.
+---
+
+customer: [privatim - Konferenz der schweizerischen Datenschutzbeauftragten](https://www.privatim.ch)
+---
+
+technology: Pyramid, Python
+---
+
+task: Als Konferenz der schweizerischen Datenschutzbeauftragten verschafft *privatim* den Anliegen des Datenschutzes Nachdruck. Sie fördert die Zusammenarbeit zwischen den Schweizer Kantonen, Gemeinden und dem Bund im Bereich Datenschutz durch kontinuierlichen Informationsaustausch und ermöglicht so den effizienten Einsatz von Ressourcen.
+
+---
+
+solution: Die neu entwickelte Plattform erleichtert den Informationsaustausch zwischen den Mitgliedern. Sie bietet ihnen insbesondere Zugang zu Informationen über öffentliche Vernehmlassungen und ermöglicht die einfache Diskussion von Stellungnahmen im Kreise der Datenschutzexperten. Zudem unterstützt die Plattform den Austausch von Informationen zu Arbeitsgruppen, bei der Organisation von Sitzungen sowie bei der Protokollierung.
+
+---
+
+benefit: 
+
+Die für *privatim* entwickelte Plattform vereinfacht den kontinuierlichen Informationsaustausch unter den Mitgliedern. Der Quellcode der digitalen Plattform ist im Sinne der digitalen Nachhaltigkeit als Open Source verfügbar und fördert somit Transparenz und Informationssicherheit.
+
+---
+links:
+
+- Konferenz der schweizerischen Datenschutzbeauftragten - privatim: https://www.privatim.ch
+- Open Source: https://github.com/seantis/privatim
+
+---
+frontpage: yes

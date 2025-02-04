@@ -1,0 +1,76 @@
+title: Strategien im Umgang mit Cyber-Risiken
+---
+pub_date: 2024-05-04
+---
+author: seantis
+---
+_discoverable: yes
+---
+description: Nahezu täglich berichten Medien über Cyber-Angriffe auf Schweizer Unternehmen. Betroffen sind Grosskonzerne ebenso wie KMUs. Cyber-Risiken sind zu einem der primären operativen Risiken mit potenziell existenzbedrohenden Schäden geworden. Das Ziel dieses Artikels ist es, Möglichkeiten aufzuzeigen, wie der Verwaltungsrat seiner Verantwortung im Umgang mit Cyber-Risiken gerecht werden kann. Es wird empfohlen, eine risikobasierte Cyber-Strategie zu verfolgen, welche auf dem Prinzip der Resilienz basiert.
+---
+body:
+
+**Erschienen im Newsletter / Magazin «Verwaltungsrat» in der Monatsausgabe Mai zum Thema Risiko: https://www.weka.ch/management/unternehmensfuehrung/newsletter-verwaltungsrat.html**
+
+### Zusammenfassung für eilige Leser:innen
+
+- Da Cyber-Risiken den Fortbestand des Unternehmens gefährden können, ist der Verwaltungsrat gesetzlich verpflichtet, sich damit zu beschäftigen.
+- Resilienz hat sich als Strategie für mehr Informationssicherheit bewährt.
+- Der Verwaltungsrat soll von der Geschäftsleitung ein regelmässiges Reporting mit messbaren Indikatoren zur Cyber-Sicherheit einfordern.
+- Best Practice wie das NIST Cybersecurity Framework und Normen wie ISO 27001 sind wertvolle Orientierungspunkte für Unternehmen.
+
+### Komplexität schafft Risiken
+
+Der rasante technische Wandel führt zu immer komplexeren IT-Systemen, womit die Anfälligkeit der Organisation für Cyber-Risiken weiter steigt. Offen ist, wie neue Technologien (z. B. die generative künstliche Intelligenz) sich auf die Gefahrenlage auswirken werden. Es ist aber bereits bekannt, dass der Cyberspace ein komplexes, adaptives System darstellt; ein naives Hoffen auf eine spontane Verbesserung der Sicherheitslage wäre daher illusorisch. Eine Unternehmensleitung, welche sich mit falschen Versprechungen oder Panikmache fragwürdige Produkte für Cyber-Security verkaufen lässt, ohne die eigenen Risiken zu verstehen, hat bereits verloren.
+
+### Cyber-Kriminalität
+
+Die Palette der unterschiedlichen Angriffe auf Unternehmen ist breit: von betrügerischen E-Mails (Phishing) über die Verschlüsselung von Daten mit Lösegelderpressung (Ransomware) bis zu böswilligen Überlastungen von Systemen (DDoS). Eines haben diese Angriffe gemeinsam: Es sind Straftaten. Leider aber ist das nationale Strafrecht gegen die internationale Cyber-Kriminalität wenig abschreckend und die Strafverfolgungsbehörden scheinen weitgehend machtlos zu sein. 
+
+### Cyber-Risikomanagement
+
+Für jede Unternehmensleitung ist unumgänglich, sich mit dem Cyber-Risiko auseinanderzusetzen. Unternehmerinnen und Unternehmer wissen, dass ein Risiko nicht per se ein Problem darstellt. Jede unternehmerische Tätigkeit beinhaltet Risiken. Aus diesem Grund nimmt jedes Unternehmen diese bewusst in Kauf und verfügt über umfangreiche Erfahrungen im Umgang mit unterschiedlichen Risiken. So lassen sich mit geeigneten Massnahmen für ein Unternehmen relevante Risiken auf ein vertretbares Mass reduzieren, oder wenn dies nicht möglich ist, einer Versicherung übertragen. Die Herausforderung ist, dass Cyber-Risiken im aktuellen Ausmass ein junges Phänomen sind. Es fehlt die Erfahrung auf operativer und vor allem auf strategischer Ebene mit dieser jungen Risikokategorie.
+
+### Vogel-Strauss versus Outrunning the Bear
+
+Gute Strategien lassen sich einfach in Bilder fassen; schlechte ebenso. Beginnen wir darum mit dem Bild der schlechten Strategie. Auch heute noch erstaunlich weit verbreitet scheint die Vogel-Strauss-Strategie: Den Kopf in den Sand stecken und die Gefahr durch Cyber-Risiken nicht wahrhaben wollen. Teil dieser Strategie ist auch die Verantwortung bedenkenlos auf die Geschäftsleitung oder noch ungünstiger auf die IT-Leitung abschieben zu wollen. Ein Mitglied des Verwaltungsrates trägt mit der Vogel-Strauss-Strategie weder zur Cyber-Sicherheit bei, noch nimmt diese Person ihre nicht delegierbare gesetzliche Pflicht wahr.
+
+Eine bessere Strategie als die soeben beschriebene bedient sich bei dem Bild, wie man einem Bären in der Wildnis entkommt. Wie allgemein bekannt ist, läuft kein Mensch schneller als ein Bär.  «Outrunning the Bear» meint, dass man nicht schneller als ein Bär sein muss, um diesem zu entkommen. Nur der Langsamste beim Davonrennen darf man nicht sein. Das Bild des wilden Bären ist für die Cyber-Sicherheit nicht so falsch. Cyber-Kriminelle handeln opportunistisch und werden daher den Weg des geringsten Widerstandes gehen, um ihre Ziele zu erreichen. Daraus folgt, dass die meisten Angriffe nicht gezielt gegen eine bestimmte Organisation oder Firma erfolgen, sondern dass diese Zufallsopfer sind. Betroffen ist die Organisation mit der schwächsten Verteidigung beziehungsweise mit den meisten Schwachstellen.
+
+In der Praxis bedeutet dies für zahlreiche Firmen, dass Massnahmen nicht perfekt sein müssen, sondern nur besser, im Vergleich zu denen anderer Organisationen.
+
+### Grundschutz und Cyber-Hygiene
+
+Die Eintrittswahrscheinlichkeit des Schadensfalls kann mit einem Grundschutz, bestehend aus technischen und organisatorischen Massnahmen, erheblich gesenkt werden. Auch Teil des Problems ist, dass nach wie vor keine Klarheit dahingehend besteht, welche Massnahmen gegen Cyber-Gefahren effektiv wirksam sind. Zu den wirksamen Massnahmen zählen sichere Passwörter, die Zwei-Faktor-Authentifizierung, regelmässige Updates sowie Backups geschäftskritischer Daten. Es ist also keine Rocket-Science erforderlich, eine einfache Cyber-Hygiene hat schon eine signifikante Wirkung. Sicher ist auch, dass Cyber-Sicherheit nicht einfach ausgelagert oder als Produkt eingekauft werden kann. Informationssicherheit ist kein Zustand, sondern ein Prozess.
+
+### Cyber-Resilienz
+
+Mit Strategien allein ist aber kein Krieg zu gewinnen oder wie der Boxer Mike Tyson vor einem Kampf sagte: «Jeder hat einen Plan, bis zum ersten Schlag in die Fresse». Für die erfolgreiche Abwehr von Cyber-Gefahren ist die operative und taktische Ebene mindestens genauso wichtig wie die strategische Ebene. Eine erfolgreiche Strategie nimmt diese Erkenntnis auf und erkennt die Tatsache an, dass es Garantien und absolute Sicherheit nicht geben kann. Menschen haben Schwachstellen und machen Fehler. Die Frage ist nicht, ob man als Firma ‹gehackt› wird, sondern wie man damit umgehen kann.
+
+Das renommierte National Institute of Standards and Technology (NIST) hat ein «Cybersecurity Framework» bestehend aus Standards, Richtlinien und Best Practices erarbeitet. Betont wird darin die Wichtigkeit von ‹Recover›, also der Wiederherstellung der ordentlichen Geschäftstätigkeit im Falle eines Cyber-Sicherheitsereignisses.
+
+Wenn wir das Bild des Boxers wieder aufnehmen, ist also nicht entscheidend, ob man von einem Schlag getroffen wird und vielleicht sogar zu Boden geht, sondern, wie schnell man wieder auf den Beinen steht. Diese Widerstandsfähigkeit in schwierigen Situationen ist im Konzept der Resilienz zusammengefasst.
+
+### Reporting für Cyber-Security
+
+Welche konkreten Schritte soll der Verwaltungsrat nun für mehr Cyber-Sicherheit unternehmen? Einfach und sofort umsetzbar sind die folgenden vier Schritte:
+
+1. **Auflistung der Top-10-Risiken für die eigene Unternehmung**: Was ist passiert und was kann passieren?
+2. **Erstellung eines Inventars der IT-Vermögenswerte**: Über welche Systeme und Datenbestände verfügt mein Unternehmen? Wie sind diese bezüglich der Schutzziele Vertraulichkeit, Integrität und Verfügbarkeit einzustufen.
+3. Aus den Top-10-Risiken in Anwendung auf die Vermögenswerte soll der Verwaltungsrat gemeinsam mit der Geschäftsleitung **technische und organisatorische Massnahmen** ableiten. 
+4. Gemeinsam mit der Geschäftsleitung erarbeitet der Verwaltungsrat **Ziele bezüglich der     Informationssicherheit**. Diese müssen in messbare Indikatoren (KPI) übersetzt werden. Auf diese Weise bauen die Geschäftsleitung und der Verwaltungsrat ein Managementsystem für die Informationssicherheit auf.
+
+### Gemeinsam die Verantwortung übernehmen
+
+Ein erfolgreicher Verwaltungsrat unterstützt die Geschäftsleitung auf der strategischen Ebene und greift nicht unnötig in operative Belange ein. Darum soll der Verwaltungsrat auf strategischer Ebene festlegen, dass die Cyber-Strategie des Unternehmens auf Resilienz auszurichten ist. Da Cyber-Risiken den Fortbestand des Unternehmens gefährden können, muss sich der Verwaltungsrat im Rahmen seiner gesetzlichen Aufgaben damit befassen. Damit unterstützt er die Geschäftsleitung und übernimmt Verantwortung. 
+
+Gezielte Massnahmen können das Risiko erheblich senken. Sollte trotz der ergriffenen Schutzmassnahmen ein Schadensfall eintreten, so können die Geschäftsleitung und der Verwaltungsrat nachweisen, dass sie ihre Verantwortung und Sorgfaltspflichten wahrgenommen haben. Dies sorgt nicht nur bei der IT-Leitung der Firma für einen besseren Schlaf, sondern auch beim Verwaltungsrat.
+
+Abschliessend aber noch einmal zum Bild des Davonlaufens vor dem Bären; in einem entscheidenden Punkt trifft die Metapher nicht zu. Cyber-Sicherheit ist kein Nullsummenspiel. Es lohnt sich daher nicht nur für das einzelne Unternehmen besser zu werden als der Durchschnitt, sondern wenn alle Unternehmen im Durchschnitt besser werden, so wird Cyber-Kriminalität als Ganzes weniger attraktiv. Eine wirkungsvolle Cyber-Strategie lohnt sich also nicht nur für die einzelne Unternehmung, sondern für die Gesellschaft als Ganzes. So können wir alle wieder besser schlafen.
+
+### Über den Autor
+
+Fabian Reinhard ist Gründer einer IT-Firma und Mitglied mehrerer Verwaltungsräte. Als freier Doktorand forscht er an der Universität Zürich (DSI) zum Thema Cybersecurity.
+
+*Illustration: Drei Personen fliehen vor einem Bären in einem dunklen Wald, generiert durch OpenAI's DALL·E am 14.5.2024*
+
