@@ -15,6 +15,7 @@ Für ein Gemeinde-Portal auf der Plattform von admin.digital gibt es zum Beispie
 - Einstiegspunkte (Gemeinde Meggen): [https://www.meggen.ch/api](https://www.meggen.ch/api)  
 - Veranstaltungen (Gemeinde Ebikon): [https://www.ebikon.ch/api/events](https://www.ebikon.ch/api/events)  
 - News (Gemeinde Gersau): [https://www.gersau.ch/api/news](https://www.gersau.ch/api/news)
+- Themen (Schulen Horw): https://www.schulen-horw.ch/api/topics
 
 Wie kann nun diese Open Data API genutzt werden, und wem bringt sie konkreten Nutzen? Als Entwickler der Plattform und der API halten wir dies bewusst offen. Ein offensichtlicher Anwendungsfall wäre zum Beispiel eine Gemeinde-App, die die Daten über den JSON-Webservice bezieht. Das Design ist jedoch bewusst so offen gehalten, dass auch ganz andere Anwendungen möglich sind – etwa Abfragen in einem Staatskalender eines Kantons.
 
