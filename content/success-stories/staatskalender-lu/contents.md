@@ -1,0 +1,32 @@
+title: Digitaler Staatskalender des Kantons Luzern
+---
+
+pub_date: 2025-04-14
+---
+author: seantis
+---
+description: Der Kanton Luzern treibt die Digitalisierung seiner Verwaltung mit einem digitalen Staatskalender weiter voran. Die neue Webapplikation ermöglicht allen Interessierten schnellen und einfachen Zugang zu Zuständigkeiten und wichtigen Kontaktinformationen.
+---
+
+customer: [Kanton Luzern](https://www.lu.ch)
+---
+
+technology: [OneGov Cloud](https://admin.digital)
+---
+
+task: Der Staatskalender bietet allen Interessierten einfachen Zugang zu Organisationen, Behördenmitgliedern und Staatsangestellten des Kantons Luzern. Die Webapplikation ersetzt dabei das bisherige statische Dokument.
+
+---
+solution: Mutationsmeldungen für interne und externe Benutzer werden durch ein Service-Ticketing-System erheblich vereinfacht und nach einem klar strukturierten Prozess verarbeitet. Das Provisioning-Tool für die Telefonie ist direkt über eine Schnittstelle angebunden. Der Staatskalender steht in unterschiedlichen Ausgabeformaten zur Verfügung: als Webversion, als PDF sowie in einem offenen Datenformat (JSON).
+
+---
+benefit: Nach Zug, Appenzell Ausserrhoden und Basel-Stadt ist Luzern bereits der vierte Kanton, der die Schweizer Open-Source-Plattform OneGov Cloud für das digitale Behördenverzeichnis nutzt. Dank der Digitalisierung des Staatskalenders profitieren die Benutzer von einer schnellen und transparenten Informationsbereitstellung.
+
+---
+links:
+
+- Staatskalender Staatskalender Kanton Basel Stadt: https://staatskalender.lu.ch
+- OneGov Cloud: https://admin.digital
+
+
+---
