@@ -60,3 +60,7 @@ Die **Reaktionszeit und Verfügbarkeiten** sind in einem Service Level Agreeme
 Ist auf Grund einer geplanten Serverwartung ein Service-Unterbruch zu erwarten so wird dieser vor dem Ereignis angekündigt. Die Information erfolgt über bei seantis über ein internes Tool (**Schedule Maintenance**), welches an eine definierte Kontaktliste eine standarisierte Email (inkl. Kalendereintrag) für das Wartungsfenster verschickt.
 
 Es wird ein kurzes **Betriebshandbuch** mit Kontaktadressen, Verzeichnis der Services sowie den relevanten URLs erstellt.
+
+### Zertifizierung ISO/IEC 27001:2022
+
+Qualität und Informationssicherheit gehören seit der Gründung zu den Grundwerten von seantis. Wir haben ein Managementsystem für Informationssicherheit implementiert, welches gemäss [ISO/IEC 27001:2022 zertifiziert](/informationssicherheit-iso-27001/ ) wurde und auditiert wird. ISO 27001 ist eine internationale Norm für Informationssicherheit. Die Norm beschreibt die Anforderungen für den Aufbau, den Betrieb sowie die laufende Optimierung eines dokumentierten Informationssicherheits-Managementsystems (ISMS). Die Einhaltung der Norm wird in jährlichen Audits überprüft.
