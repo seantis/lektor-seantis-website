@@ -2,7 +2,7 @@ title: Datenschutzerklärung
 ---
 description: Version vom 1.9.2023
 ---
-body: In dieser Datenschutzerklärung erläutern wir, die Seantis GmbH (nachfolgend **seantis**, **wir** oder **uns**), wie wir Personendaten erheben und sonst bearbeiten. Das ist keine abschliessende Beschreibung; allenfalls regeln andere Datenschutzerklärungen oder allgemeine Geschäftsbedingungen, Teilnahmebedingungen und ähnliche Dokumente spezifische Sachverhalte. Unter Personendaten werden alle Angaben verstanden, die sich auf eine bestimmte oder bestimmbare Person beziehen. 
+body: In dieser Datenschutzerklärung erläutern wir, die Seantis AG (nachfolgend **seantis**, **wir** oder **uns**), wie wir Personendaten erheben und sonst bearbeiten. Das ist keine abschliessende Beschreibung; allenfalls regeln andere Datenschutzerklärungen oder allgemeine Geschäftsbedingungen, Teilnahmebedingungen und ähnliche Dokumente spezifische Sachverhalte. Unter Personendaten werden alle Angaben verstanden, die sich auf eine bestimmte oder bestimmbare Person beziehen. 
 
 Wenn Sie uns Personendaten anderer Personen (z.B. Familienmitglieder, Daten von Arbeitskollegen) zur Verfügung stellen, stellen Sie bitte sicher, dass diese Personen die vorliegende Datenschutzerklärung kennen und teilen Sie uns deren Personendaten nur mit, wenn Sie dies dürfen und wenn diese Personendaten korrekt sind. 
 
@@ -12,9 +12,9 @@ Diese Datenschutzerklärung ist auf die Anforderungen der EU-Datenschutz-Grundve
 
 ### 1. Verantwortlicher / Datenschutzbeauftrager / Vertreter 
 
-Verantwortlich für die Datenbearbeitungen, die wir hier beschreiben, ist Fabian Reinhard. Wenn Sie datenschutzrechtliche Anliegen haben, können Sie uns diese an folgende Kontaktadresse mitteilen: Seantis GmbH, Pilatusstrasse 3, 6003 Luzern, [datenschutz@seantis.ch](mailto: datenschutz@seantis.ch)
+Verantwortlich für die Datenbearbeitungen, die wir hier beschreiben, ist Fabian Reinhard. Wenn Sie datenschutzrechtliche Anliegen haben, können Sie uns diese an folgende Kontaktadresse mitteilen: Seantis AG, Pilatusstrasse 3, 6003 Luzern, [datenschutz@seantis.ch](mailto: datenschutz@seantis.ch)
 
-Unser Vertreter im EWR nach Art. 27 DSGVO ist: Fabian Reinhard, Seantis GmbH, Pilatusstrasse 3, 6003 Luzern, [datenschutz@seantis.ch](mailto: datenschutz@seantis.ch)
+Unser Vertreter im EWR nach Art. 27 DSGVO ist: Fabian Reinhard, Seantis AG, Pilatusstrasse 3, 6003 Luzern, [datenschutz@seantis.ch](mailto: datenschutz@seantis.ch)
 
 ### 2. Erhebung und Bearbeitung von Personendaten 
 
