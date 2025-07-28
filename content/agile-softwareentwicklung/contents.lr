@@ -8,7 +8,7 @@ body:
 
 Im klassischen Projektmanagement wird das Eiserne Dreieck als Verhältnis zwischen Zeit, Kosten und Umfang (bzw. Qualität) beschrieben: Ein Projekt erreicht nur dann seine Ziele, wenn diese drei Grössen im Gleichgewicht gehalten werden. Wer am Umfang festhält, muss mehr Zeit oder Geld investieren; wer Budget und Termine hart setzt, muss beim Umfang flexibel sein.
 
-Das Problem bei der Entwicklung von Software: der Projektumfang ist nie wirklich fix, sondern ändert sich aufgrund sich verändernder Anforderungen laufend (Feature Creep) und sprengt so den ursprünglichen Zeit- und Kosten-Rahmen.
+Das Problem bei der Entwicklung von Software: der Projektumfang ist nie wirklich fix, sondern ändert sich aufgrund sich verändernder Anforderungen laufend und sprengt so den ursprünglichen Zeit- und Kosten-Rahmen.
 
 **Darum stellen wir das klassische Eiserne Dreieck für Softwareprojekte vom Kopf auf die Füsse: Nicht mehr der Umfang – und somit die Funktionen der zu entwickelnden Software – wird als fix gegeben betrachtet, sondern die Projektdauer sowie der Kostenrahmen. Der Umfang bleibt sehr bewusst flexibel.**
 
@@ -33,3 +33,20 @@ Agile Methoden fordern, dass funktionierende Software das wichtigste Fortschritt
 ## Transparenz und Qualität
 
 Das Eiserne Dreieck zeigt, dass Projekte nur erfolgreich sind, wenn Zeit, Kosten und Qualität zusammenpassen. Seantis adressiert diese Herausforderung mit agiler Softwareentwicklung: Wir starten mit einem MVP, um das Risiko gering zu halten und schnell echten Nutzen zu schaffen. Anschliessend entwickeln wir das Produkt in kurzen Iterationen, die als Kostendach fungieren und unseren Kunden klare Budgets geben. Jede Iteration liefert funktionierende Software und ermöglicht Feedback, sodass Umfang und Prioritäten flexibel angepasst werden können. Mit diesem Ansatz schaffen wir Transparenz und Vertrauen: Unsere Kunden wissen, dass Zeit und Geld gut investiert sind, und unser Team kann sich auf das Wesentliche konzentrieren – die Lösung ihrer Probleme mit qualitativ hochwertiger Software.
+
+<div class="direct-contact">
+                        <div class="grid-x grid-margin-x">
+                            <div class="large-6 medium-6 small-7 cell">
+                                <h3>Ansprechpartner</h3>
+                                <h5>Fabian Reinhard</h5>
+                                <p>Solution Architect</p>
+                                <p><i class="far fa-envelope"></i> <a href="mailto:fabian.reinhard@seantis.ch">fabian.reinhard@seantis.ch</a><br />
+                                <i class="fas fa-phone"></i> +41 41 511 22 50</p>
+                            </div>
+                            <div class="large-6 medium-6 small-5 cell">
+                                <div class="dotted">
+                                    <img class="full" src="../static/img/team/Fabian-Reinhard.jpg" alt="Fabian Reinhard">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
