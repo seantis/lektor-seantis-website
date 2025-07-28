@@ -14,7 +14,7 @@ Das Problem bei der Entwicklung von Software: Der Projektumfang ist nie wirklich
 
 ## Minimum Viable Product (MVP)
 
-Statt zu Beginn alles perfekt planen zu wollen, beginnen wir bei seantis mit einem [Minimum Viable Product (MVP)](startup). Ein MVP ist die erste Entwicklungsstufe eines Produkts, die unter realistischen Bedingungen beim Kunden getestet werden kann; nur Funktionen, die zum eigentlichen Zweck unbedingt nötig sind, werden implementiert. Diese kleinste lieferbare Produktversion hilft uns, in kurzer Zeit Feedback zu sammeln und Ressourcen zu sparen.
+Statt zu Beginn alles perfekt planen zu wollen, beginnen wir bei seantis mit einem [Minimum Viable Product (MVP)](../startup). Ein MVP ist die erste Entwicklungsstufe eines Produkts, die unter realistischen Bedingungen beim Kunden getestet werden kann; nur Funktionen, die zum eigentlichen Zweck unbedingt nötig sind, werden implementiert. Diese kleinste lieferbare Produktversion hilft uns, in kurzer Zeit Feedback zu sammeln und Ressourcen zu sparen.
 
 Dieser Ansatz ist kostengünstig und risikoarm, solange der MVP noch das zugrunde liegende Geschäftsmodell bzw. den abzubildenden Kernprozess repräsentiert. Er wird entwickelt, um eine  IT-Implementierung oder Innovationen zu testen; durch den fokussierten Funktionsumfang sinkt das Risiko von Fehlentwicklungen und der Aufwand bleibt überschaubar.
 
