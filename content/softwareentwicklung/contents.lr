@@ -14,17 +14,17 @@ Das Problem bei der Entwicklung von Software: Der Projektumfang ist nie wirklich
 
 ## Minimum Viable Product (MVP)
 
-Statt zu Beginn alles perfekt planen zu wollen, beginnen wir bei seantis mit einem [Minimum Viable Product (MVP)](../startup). Ein MVP ist die erste Entwicklungsstufe eines Produkts, die unter realistischen Bedingungen beim Kunden getestet werden kann; nur Funktionen, die zum eigentlichen Zweck unbedingt nötig sind, werden implementiert. Diese kleinste lieferbare Produktversion hilft uns, in kurzer Zeit Feedback zu sammeln und Ressourcen zu sparen.
+Statt zu Beginn alles perfekt planen zu wollen, beginnen wir bei Seantis mit einem [Minimum Viable Product (MVP)](../startup). Ein MVP ist die erste Entwicklungsstufe eines Produkts, die unter realistischen Bedingungen beim Kunden getestet werden kann; nur Funktionen, die zum eigentlichen Zweck unbedingt nötig sind, werden implementiert. Diese kleinste lieferbare Produktversion ermöglicht es, in kurzer Zeit Feedback zu sammeln und Ressourcen sparam einzusetzen.
 
-Dieser Ansatz ist kostengünstig und risikoarm, solange der MVP noch das zugrunde liegende Geschäftsmodell bzw. den abzubildenden Kernprozess repräsentiert. Er wird entwickelt, um eine  IT-Implementierung oder Innovationen zu testen; durch den fokussierten Funktionsumfang sinkt das Risiko von Fehlentwicklungen und der Aufwand bleibt überschaubar.
+Der Ansatz ist kostengünstig und risikoarm, solange das MVP noch das zugrunde liegende Geschäftsmodell bzw. den abzubildenden Kernprozess repräsentiert. Das MVP wird entwickelt, um eine  IT-Implementierung oder Innovationen zu testen; durch den fokussierten Funktionsumfang sinkt das Risiko von Fehlentwicklungen und der Aufwand bleibt überschaubar.
 
 ## Iterationen als Kostendach
 
-Nachdem das MVP ausgeliefert und getestet worden ist, arbeiten wir in kurzen Entwicklungszyklen (Cycles) von typischerweise 10 Tagen Dauer. Dies entspricht den Prinzipien der Agilen Softwareentwicklung: funktionierende Software regelmässig und möglichst in kurzen Zeitabständen zu liefern. So schaffen wir früh messbaren Nutzen und können flexibel auf neue Anforderungen reagieren.
+Nachdem das MVP ausgeliefert und getestet worden ist, arbeiten wir in kurzen Entwicklungszyklen (Cycles) von typischerweise 10 Tagen Dauer. Dies entspricht den Prinzipien der Agilen Softwareentwicklung: Funktionierende Software regelmässig und möglichst in kurzen Zeitabständen auszuliefern. So schaffen wir früh messbaren Nutzen und können flexibel auf neue Anforderungen reagieren.
 
-Jeder Cycle funktioniert dabei als Kostendach. Das Kostendach definiert eine Kostenobergrenze. Dieses Modell sichert primär die Auftraggeberseite. Wir kombinieren den Ansatz eines Kostendachs mit agilen Prinzipien: Für jeden Entwicklungszyklus vereinbaren wir ein Budget und eine feste Dauer. Die Projektvision und der Funktionsumfang werden zu Beginn jedes Zyklus gemeinsam mit dem Kunden definiert. 
+Jeder Cycle funktioniert dabei als Kostendach. Das Kostendach definiert eine Kostenobergrenze. Dieses Modell sichert primär die Auftraggeberseite ab. Wir kombinieren den Ansatz eines Kostendachs mit agilen Prinzipien: Für jeden Entwicklungszyklus vereinbaren wir ein Budget und eine feste Dauer. Der zu entwicklende Funktionsumfang wird zu Beginn jedes Zyklus gemeinsam mit dem Kunden definiert. 
 
-Was bis zum Zyklusende nicht geschafft wird, wandert in den nächsten Zyklus – der Umfang bleibt flexibel und Anpassungen möglich, Zeit und Kosten sind begrenzt. 
+Was bis zum Zyklusende nicht abgeschlossen werden kann, wandert in den nächsten Zyklus – der Umfang bleibt flexibel und Anpassungen möglich, Zeit und Kosten aber sind begrenzt. 
 
 ## Funktionierende Software
 
@@ -32,7 +32,7 @@ Agile Methoden fordern, dass funktionierende Software das wichtigste Fortschritt
 
 ## Transparenz und Qualität
 
-Das Eiserne Dreieck zeigt, dass Projekte nur erfolgreich sind, wenn Zeit, Kosten und Qualität zusammenpassen. Seantis adressiert diese Herausforderung mit agiler Softwareentwicklung: Wir starten mit einem MVP, um das Risiko gering zu halten und schnell echten Nutzen zu schaffen. Anschliessend entwickeln wir das Produkt in kurzen Iterationen, die als Kostendach fungieren und unseren Kunden klare Budgets geben. Jede Iteration liefert funktionierende Software und ermöglicht Feedback, sodass Umfang und Prioritäten flexibel angepasst werden können. Mit diesem Ansatz schaffen wir Transparenz und Vertrauen: Unsere Kunden wissen, dass Zeit und Geld gut investiert sind, und unser Team kann sich auf das Wesentliche konzentrieren – die Unterstützung Ihres Business mit qualitativ hochwertiger Software.
+Das Eiserne Dreieck zeigt, dass Projekte nur erfolgreich sind, wenn Zeit, Kosten und Umfang zusammenpassen. Seantis adressiert diese Herausforderung mit agiler Softwareentwicklung: Wir starten mit einem MVP, um das Risiko gering zu halten und schnell echten Nutzen zu schaffen. Anschliessend entwickeln wir die Software in kurzen Iterationen, die als Kostendach fungieren und unseren Kunden klare Budgets geben. Jede Iteration liefert funktionierende Software und ermöglicht Feedback, sodass Umfang und Prioritäten flexibel angepasst werden können. Mit diesem Ansatz schaffen wir Transparenz und Vertrauen: Unsere Kunden wissen, dass Zeit und Geld gut investiert sind, und unser Team kann sich auf das Wesentliche konzentrieren – die Unterstützung des Business unserer Kunden mit qualitativ hochwertiger Software.
 
 <div class="direct-contact" style="margin-top: 3em">
                         <div class="grid-x grid-margin-x">
