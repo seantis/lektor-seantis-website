@@ -28,7 +28,7 @@ Was bis zum Zyklusende nicht geschafft wird, wandert in den nächsten Zyklus –
 
 ## Funktionierende Software
 
-Agile Methoden fordern, dass funktionierende Software das wichtigste Fortschrittsmass ist. Die zwölf Prinzipien des [Agile Manifesto](https://agilemanifesto.org/iso/de/manifesto.html) betonen frühe und kontinuierliche Auslieferung wertvoller Software sowie die Fähigkeit, auf Änderungen zu reagieren. In unseren Entwicklungszyklen stellen wir sicher, dass das Team am Ende jeder Iteration eine lauffähige Version liefert, die die vereinbarten Funktionen erweitert oder verbessert. Durch die kontinuierliche Integration und automatische Tests wird die Software nach jedem Zyklus produktiv einsetzbar. Fehler oder Qualitätsprobleme bleiben dank dieser kurzen Feedbackschleifen klein und sind schnell korrigierbar.
+Agile Methoden fordern, dass funktionierende Software das wichtigste Fortschrittsmass ist. In unseren Entwicklungszyklen stellen wir sicher, dass das Team am Ende jeder Iteration eine lauffähige Version liefert, die die vereinbarten Funktionen erweitert oder verbessert. Durch die kontinuierliche Integration und automatische Tests wird die Software nach jedem Zyklus produktiv einsetzbar. Fehler oder Qualitätsprobleme bleiben dank dieser kurzen Feedbackschleifen klein und sind schnell korrigierbar.
 
 ## Transparenz und Qualität
 
