@@ -1,0 +1,35 @@
+title: Agile Softwareentwicklung
+---
+description: Zu oft scheitern Softwareprojekte an starren Plänen und unrealistischen Annahmen. Bei Software ist der Projektumfang selten von Anfang an klar – Anforderungen ändern sich, Prioritäten verschieben sich. Darum setzen wir in der Softwareentwicklung auf Agile Methoden. So entsteht genau das, was unsere Kunden wirklich brauchen – Schritt für Schritt, transparent und zu planbaren Kosten.
+---
+body:
+
+## Das Eiserne Dreieck
+
+Im klassischen Projektmanagement wird das Eiserne Dreieck als Verhältnis zwischen Zeit, Kosten und Umfang (bzw. Qualität) beschrieben: Ein Projekt erreicht nur dann seine Ziele, wenn diese drei Grössen im Gleichgewicht gehalten werden. Wer am Umfang festhält, muss mehr Zeit oder Geld investieren; wer Budget und Termine hart setzt, muss beim Umfang flexibel sein.
+
+Das Problem bei der Entwicklung von Software: der Projektumfang ist nie wirklich fix, sondern ändert sich aufgrund sich verändernder Anforderungen laufend (Feature Creep) und sprengt so den ursprünglichen Zeit- und Kosten-Rahmen.
+
+**Darum stellen wir das klassische Eiserne Dreieck für Softwareprojekte vom Kopf auf die Füsse: Nicht mehr der Umfang – und somit die Funktionen der zu entwickelnden Software – wird als fix gegeben betrachtet, sondern die Projektdauer sowie der Kostenrahmen. Der Umfang bleibt sehr bewusst flexibel.**
+
+## Minimum Viable Product (MVP)
+
+Statt zu Beginn alles perfekt planen zu wollen, beginnen wir bei seantis mit einem Minimum Viable Product (MVP). Ein MVP ist die erste Entwicklungsstufe eines Produkts, die unter realistischen Bedingungen beim Kunden getestet werden kann; nur Funktionen, die zum eigentlichen Zweck unbedingt nötig sind, werden implementiert. Diese kleinste lieferbare Produktversion hilft uns, in kurzer Zeit Feedback zu sammeln und Ressourcen zu sparen.
+
+Dieser Ansatz ist kostengünstig und risikoarm, solange der MVP noch das zugrunde liegende Geschäftsmodell bzw. Kernprozess repräsentiert. Er wird entwickelt, um eine  IT-Implementierung oder Innovationen zu testen; durch den fokussierten Funktionsumfang sinkt das Risiko von Fehlentwicklungen und der Aufwand bleibt überschaubar.
+
+## Iterationen als Kostendach
+
+Nachdem das MVP ausgeliefert und getestet worden ist, arbeiten wir in kurzen Entwicklungszyklen (Cycles) von typischerweise 10 Tagen Dauer. Dies entspricht den Prinzipien der Agilen Softwareentwicklung: funktionierende Software regelmässig und möglichst in kurzen Zeitabständen zu liefern. So schaffen wir früh messbaren Nutzen und können flexibel auf neue Anforderungen reagieren.
+
+Jeder Cycle funktioniert dabei als Kostendach. Das Kostendach definiert eine Kostenobergrenze. Dieses Modell sichert primär die Auftraggeberseite. Wir kombinieren den Ansatz eines Kostendachs mit agilen Prinzipien: Für jeden Entwicklungszyklus vereinbaren wir ein Budget und eine feste Dauer. Die Projektvision und der Funktionsumfang werden zu Beginn jedes Zyklus gemeinsam mit dem Kunden definiert. 
+
+Was bis zum Zyklusende nicht geschafft wird, wandert in den nächsten Zyklus – der Umfang bleibt flexibel und Anpassungen möglich, Zeit und Kosten sind begrenzt. 
+
+## Funktionierende Software
+
+Agile Methoden fordern, dass funktionierende Software das wichtigste Fortschrittsmass ist. Die zwölf Prinzipien des [Agile Manifesto](https://agilemanifesto.org/iso/de/manifesto.html) betonen frühe und kontinuierliche Auslieferung wertvoller Software sowie die Fähigkeit, auf Änderungen zu reagieren. In unseren Entwicklungszyklen stellen wir sicher, dass das Team am Ende jeder Iteration eine lauffähige Version liefert, die die vereinbarten Funktionen erweitert oder verbessert. Durch die kontinuierliche Integration und automatische Tests wird die Software nach jedem Zyklus produktiv einsetzbar. Fehler oder Qualitätsprobleme bleiben dank dieser kurzen Feedbackschleifen klein und sind schnell korrigierbar.
+
+## Transparenz und Qualität
+
+Das Eiserne Dreieck zeigt, dass Projekte nur erfolgreich sind, wenn Zeit, Kosten und Qualität zusammenpassen. Seantis adressiert diese Herausforderung mit agiler Softwareentwicklung: Wir starten mit einem MVP, um das Risiko gering zu halten und schnell echten Nutzen zu schaffen. Anschliessend entwickeln wir das Produkt in kurzen Iterationen, die als Kostendach fungieren und unseren Kunden klare Budgets geben. Jede Iteration liefert funktionierende Software und ermöglicht Feedback, sodass Umfang und Prioritäten flexibel angepasst werden können. Mit diesem Ansatz schaffen wir Transparenz und Vertrauen: Unsere Kunden wissen, dass Zeit und Geld gut investiert sind, und unser Team kann sich auf das Wesentliche konzentrieren – die Lösung ihrer Probleme mit qualitativ hochwertiger Software.

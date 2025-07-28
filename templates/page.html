@@ -12,6 +12,24 @@
         </div>
     </div>
 
+    {% if this.attachments.images %}
+    {% set image = this.attachments.images.first() %}
+    {% if image.path.endswith('mood.jpg') %}
+
+    <div class="grid-container">
+        <div class="grid-x grid-padding-x" data-aos="fade-up">
+            <div class="large-10 cell">
+                <div class="dotted">
+                    <img class="full" src="{{ 'mood.jpg'|url }}" alt="seantis">
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endif %}
+    {% endif %}
+
+
+
     <div class="grid-container">
         <div class="grid-x grid-margin-x">
             <div class="large-7 large-offset-1 medium-9 medium-offset-1 cell">
@@ -31,20 +49,6 @@
                 </div>
             </div>
         </div>
-
-        {% if this.attachments.images %}
-        {% set image = this.attachments.images.first() %}
-        {% if image.path.endswith('mood.jpg') %}
-
-        <div class="grid-x grid-padding-x" data-aos="fade-up">
-            <div class="cell">
-                <div class="dotted">
-                    <img class="full" src="{{ 'mood.jpg'|url }}" alt="Office Luzern">
-                </div>
-            </div>
-        </div>
-        {% endif %}
-        {% endif %}
 
     </div>
 
