@@ -1,0 +1,37 @@
+title: Interaktive Planung für Helikopterflüge
+---
+
+pub_date: 2025-08-01
+---
+author: seantis
+---
+description: Seantis hat für die Linth Air Service ein intuitives Online-Buchungstool für Helikopterflüge entwickelt. Kundinnen und Kunden setzen Start- und Zielpunkte direkt auf einer interaktiven Karte; darauf basierend berechnet das System automatisch Distanz, Flugzeit und Sitzplatzkosten für unterschiedliche Helikoptertypen.
+---
+
+customer: [Linth Air Service AG](https://www.linthairservice.com)
+---
+
+technology: [FastAPI](https://fastapi.tiangolo.com/), [Svelte](https://svelte.dev), [Maps Swisstopo](https://map.geo.admin.ch), Integration CRM
+---
+
+task: Die Linth Air Service hat sich zum Ziel gesetzt, ihren Kundinnen und Kunden die Planung und Buchung eines Helikopterflugs zu erleichtern. Dafür sollte ein webbasiertes Tool entstehen, über welches sich Flüge online buchen lassen. Interessierte setzen Start‑ und Landepunkte auf einer interaktiven Karte; das System ermittelt in Echtzeit die Distanz, die voraussichtliche Flugzeit und die Kosten pro Sitzplatz. Gleichzeitig stellt  das Tool sicher, dass die gesetzlichen Vorgaben der Aussenlandeverordnung, die das Landen ausserhalb von Flugplätzen regelt, jederzeit eingehalten werden.
+
+---
+
+solution: Die offiziellen Karten von Swisstopo sind als Layer in die Web‑Applikation integriert. Die Karten zeigen Zonen, in denen Landungen gemäss Aussenlandeverordnung verboten sind; dazu zählen insbesondere diverse Naturschutzzonen und Siedlungszonen. Zudem sind Aussenlandungen über 1’100 m.ü.M. nicht gestattet.
+
+Über die farblich markierten Bereiche erkennen Nutzerinnen und Nutzer sofort, wo Helikopter landen dürfen und wo nicht. Die Berechnung von Distanz, Flugzeit und Kosten erfolgt automatisch, sobald die Punkte auf der Karte gesetzt werden.
+
+Um einen reibungslosen Ablauf zu gewährleisten, werden alle im Tool eingegebenen Daten direkt an das OPS‑Team der Linth  Air  Service übermittelt. Dank der Anbindung an das bestehende Customer‑Relationship‑Management‑System (CRM) werden Buchungen nahtlos und fehlerfrei weiterverarbeitet.
+
+---
+
+benefit: Das neue Buchungstool erleichtert die Planung von Helikopterflügen deutlich. Die interaktive Karte zeigt auf einen Blick, welche Landeplätze zugelassen sind, und berechnet automatisch alle relevanten Parameter. Der Prozess wird ganz wesentlich vereinfacht, da Kundinnen und Kunden die erste Phase der Flugplanung selbst vornehmen und die Daten digital an das Service‑Team senden können. Die Integration in das CRM reduziert manuelle Arbeitsschritte und minimiert Übertragungsfehler. Dank der Berücksichtigung der Aussenlandeverordnung bietet das System nicht nur Komfort, sondern auch Rechtssicherheit.
+
+---
+links:
+
+Linth Air Service: https://www.linthairservice.com
+
+---
+frontpage: yes
