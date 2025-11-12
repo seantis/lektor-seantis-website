@@ -1,0 +1,22 @@
+title: Warum wir seit 20 Jahren Open Source für die öffentliche Hand entwickeln
+---
+pub_date: 2025-11-12
+---
+author: seantis
+---
+_discoverable: yes
+---
+description: Seit 2005 bauen wir bei seantis Webapplikationen für Verwaltungen – konsequent mit Open Source. Unser Anspruch: digitale Souveränität für Kantone und Gemeinden, nachhaltige Lösungen und echte Zusammenarbeit über organisatorische Grenzen hinweg.
+---
+body:
+
+Im Sinne des Bundesgesetzes über den Einsatz elektronischer Mittel zur Erfüllung von Behördenaufgaben (EMBAG) erfüllt admin.digital die zentralen Anforderungen an Transparenz, Nachvollziehbarkeit und Wiederverwendbarkeit. 
+
+* **Zusammenarbeit in der Gemeinschaft:** Open Source heisst für uns Unabhängigkeit, Transparenz und Mitgestaltung – kein Lock‑in. Unsere Projekte pflegen wir offen (u. a. in der OneGov.ch‑Community).
+* **Digitale Nachhaltigkeit:** Offene Standards, Schnittstellen und gemeinsam geteiltes Wissen machen öffentliche IT nachhaltig nutzbar und sichern die Weiterentwicklung.
+* **Sicherheit und Datenschutz:** Mit admin.digital betreiben wir eine offene Cloud‑Plattform speziell für die öffentliche Verwaltung – entwickelt als Open Source, betrieben in zertifizierten Schweizer Rechenzentren mit Fokus auf Informationssicherheit und Datenschutz. 
+* **Transparenz und Qualität:** Wir starten mit einem MVP, arbeiten nach agiler Methodik in kurzen Zyklen und unter einem klaren Kostendach. So bleibt der Umfang flexibel, Qualität hoch und dabei der Zeitplan und Budget jederzeit unter Kontrolle.
+
+Die Plattform ist Open Source Software und wird in einer aktiven Gemeinschaft kontinuierlich weiterentwickelt. Der Quellcode sowie die technische Dokumentation sind öffentlich zugänglich und können von Dritten eingesehen, überprüft und weiterverwendet werden.
+
+🇨🇭admin.digital: Open Source Plattform für die öffentliche Hand: [www.admin.digital](http://www.admin.digital)
