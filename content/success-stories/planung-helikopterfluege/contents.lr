@@ -28,10 +28,13 @@ Um einen reibungslosen Ablauf zu gewährleisten, werden alle im Tool eingegebene
 
 benefit: Das neue Buchungstool erleichtert die Planung von Helikopterflügen deutlich. Die interaktive Karte zeigt auf einen Blick, wo Starts und Landungen zugelassen sind und berechnet automatisch alle relevanten Parameter. Der Prozess wird ganz wesentlich vereinfacht, da Kundinnen und Kunden die erste Phase der Flugplanung selbst vornehmen und die Daten digital an das OPS‑Team senden können. Die Integration in das CRM reduziert manuelle Arbeitsschritte und minimiert Übertragungsfehler. Dank der Berücksichtigung der Aussenlandeverordnung bietet das System nicht nur optimiertes digitales Kundenerlebnis, sondern auch Rechtssicherheit.
 
+Das Buchungstool hat sich beim ESAF bewährt und wird aktuell für die Abwicklung der Buchungen der Taxi-Flüge zum WEF in Davos eingesetzt.
+
 ---
 links:
 
-Linth Air Service: https://www.linthairservice.com
+- Linth Air Service: https://www.linthairservice.com
+- Taxiflug WEF:  https://davos.linthairservice.com.
 
 ---
 frontpage: yes
