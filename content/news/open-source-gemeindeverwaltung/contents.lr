@@ -1,0 +1,34 @@
+title: Was bringt Open Source für die Gemeindeverwaltung?
+---
+
+pub_date: 2026-01-30
+---
+author: seantis
+---
+description: Das Referat im Rahmen der Veranstaltung «Open Source in der öffentlichen Verwaltung» von Smart City Hub Switzerland und dem Verein Myni Gmeind zeigt die Erfolgsformel für den Einsatz von Open Source Software.
+---
+body: Das Referat zeigt auf, wie Verwaltungen von Open Source profitieren können, wenn Open Source konsequent mit einem professionellen Betriebsmodell (SaaS) und offenen Schnittstellen bzw. offenen Daten (Open Government Data) kombiniert wird. Als Praxisbeispiel dient [**admin.digital**](https://www.admin.digital) als modulare digitale Plattform für Gemeinden. 
+
+**[→ Foliensatz zum Download](admin-digital-OSS.pdf)**
+
+## Inhalt des Referats
+
+- **Ausgangslage:** Open Source Software ist im Alltag der IT allgegenwärtig – die Basisinfrastruktur des Internets würde ohne Open Source kaum funktionieren – und bietet einen starken Werkzeugkasten für moderne Softwareentwicklung.
+- **Beispiel admin.digital:** Eine umfassende Plattform mit Modulen wie Formulare und Online-Schalter, Reservationen (Räume, Sportanlagen), Verzeichnisse (Behörden, Personen, Zuständigkeiten) sowie Publikationen (z. B. Portrait, News, Veranstaltungen, Baugesuche, digitale Siegel).
+- **100% Open Source:** admin.digital wird als Open-Source-Produkt (Webportal) plus Framework für Fachapplikationen positioniert.
+- **Vermeidbares Missverständnis:** Open Source ist nicht automatisch gratis. Freie Software ist primär eine Frage der Freiheit und Kontrolle, nicht des Preises.
+- **Sicht der Nutzenden:** Enduser verwenden Open Source täglich, ohne es zu merken; entscheidend bleibt eine gute, selbsterklärende Benutzeroberfläche.
+- **Sicht der IT- und Geschäftsleitung:** Datenschutz und Informationssicherheit bleiben Pflicht – unabhängig vom Lizenzmodell. Was sich ändern kann: weniger/keine Lizenzkosten, dafür rücken Betrieb, Support und Weiterentwicklung stärker in den Fokus.
+- **Erfolgsformel:** **OSS + SaaS + OGD** = 🤩
+  - **OSS** steht für **Freiheit/Unabhängigkeit** (kein Vendor-Lock-in, Quellcode anpassbar),
+  - **SaaS** für **Zuverlässigkeit/Sicherheit** durch professionellen Betrieb und regelmässige Updates,
+  - **OGD** für **Flexibilität/Offenheit** durch strukturierte, maschinenlesbare Daten inklusive Dokumentation (z. B. via APIs).
+
+## Über den Referenten
+
+Fabian Reinhard ist Gründer und Geschäftsführer der Seantis AG und Mitglied mehrerer Verwaltungsräte. Als freier Doktorand forscht er an der Universität Zürich (DSI) zum Thema Cybersecurity.
+
+---
+_hidden: no
+---
+tags:
