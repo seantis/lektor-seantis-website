@@ -22,13 +22,13 @@
                         <div class="large-4 medium-6 cell">
                             <div class="card" data-equalizer-watch>
                                 {% set image = child.attachments.images.first() %}
+                                {% if image %}
                                 <div class="card-head {{ 'padded'  if image.path.endswith('.png') else '' }}">
-                                    {% if image %}
-                                        <a href="{{ child|url }}">
-                                            <img src="{{ image.thumbnail(800)|url }}" alt="">
-                                        </a>
-                                    {% endif %}
+                                    <a href="{{ child|url }}">
+                                        <img src="{{ image.thumbnail(800)|url }}" alt="">
+                                    </a>
                                 </div>
+                                {% endif %}
                                 <div class="card-section">
                                     <h5 class="subheader"><small>{{ child.pub_date|dateformat }}</small></h5>
                                     <h4>{{ child.title }}</h4>

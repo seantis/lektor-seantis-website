@@ -1,0 +1,38 @@
+title: Digitale Entschädigungsabrechnung für den Kantonsrat Zug
+---
+
+pub_date: 2026-09-17
+---
+author: seantis
+---
+description: Mit dem Abrechnungssystem von admin.digital führt der Kantonsrat Zug Sitzungsteilnahmen und Entschädigungen in einem durchgängigen digitalen Ablauf zusammen. Von der Erfassung bis zur Abrechnung unterstützt die Lösung Ratsmitglieder, Kommissionspräsidien und Verwaltung bei ihren jeweiligen Aufgaben.
+---
+
+customer: [Kanton Zug](https://www.zg.ch)
+---
+
+technology: [admin.digital](https://www.admin.digital), Python
+---
+
+task: Plenarsitzungen, Kommissionsarbeit und Aktenstudium werden nach unterschiedlichen Ansätzen entschädigt. Für die Abrechnung müssen Sitzungsteilnahmen, Zeitaufwand und Funktionen der Ratsmitglieder verlässlich zusammengeführt werden. Dabei braucht die Verwaltung den Überblick, welche Angaben bereits vollständig sind und wo noch Meldungen fehlen. Die ermittelten Entschädigungen sollen anschliessend für die Lohnverarbeitung und die Finanzbuchhaltung bereitstehen.
+
+---
+
+solution: Das Modul Parlamentsverwaltung von admin.digital bildet diesen Ablauf im Parliamentarian Accounting System (PAS) ab. Ratsmitglieder erfassen ihre eigenen Anwesenheiten. Kommissionspräsidien können die Teilnahmen ihrer Mitglieder gesammelt eintragen; für Plenarsitzungen steht der Verwaltung eine Sammelerfassung zur Verfügung. Die Daten der Parlamentarinnen und Parlamentarer stammen Stammdatenverwaltung des Kantons Zug. So lassen sich die bereits zentral gepflegten Angaben auch für die Abrechnung nutzen.
+
+Für jeden Abrechnungszeitraum berechnet das System die Entschädigungen anhand der hinterlegten Jahressätze. Dabei berücksichtigt es Sitzungsart, Dauer und Funktion sowie Teuerungs- und Präsidialzulagen. Sobald die Teilnahmen vollständig erfasst sind, melden die Verantwortlichen ihren Abschluss. Die Verwaltung wird per E-Mail informiert und sieht je Kommission, welche Abschlüsse noch ausstehen. Nach dem Schliessen des Abrechnungslaufs sind die Anwesenheiten vor weiteren Änderungen geschützt.
+
+---
+
+benefit: Der Kantonsrat Zug erhält eine gemeinsame Grundlage für die Erfassung und Abrechnung seiner parlamentarischen Arbeit. Der Stammdatenimport vermeidet eine separate Pflege derselben Informationen; Sammelerfassungen vereinfachen die Bearbeitung ganzer Sitzungen.
+
+Persönliche PDF-Abrechnungen sowie Auswertungen nach Partei und Kommission machen die Entschädigungen nachvollziehbar. Für die Weiterverarbeitung stehen ein Buchungsjournal im Excel-Format und ein CSV-Export für die Finanzbuchhaltung bereit. Damit reicht der digitale Ablauf von der einzelnen Sitzungsteilnahme bis zu den Unterlagen für die Auszahlung und Verbuchung.
+
+---
+links:
+
+- [Parlamentsverwaltung auf admin.digital](https://docs.admin.digital/services/parlamentsverwaltung/)
+- [admin.digital](https://www.admin.digital)
+
+---
+frontpage: yes
