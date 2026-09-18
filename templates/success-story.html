@@ -31,6 +31,9 @@
                     <div class="dotted">
                         <img class="full" src="{{ image|url }}" alt="">
                     </div>
+                    {% if this.image_caption %}
+                        <div class="figcaption">{{ this.image_caption }}</div>
+                    {% endif %}
                 </div>
             </div>
         </div>
