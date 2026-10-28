@@ -1,0 +1,30 @@
+title: Ist das noch das Original? Nachvollziehbarkeit in der digitalen Planauflage
+---
+pub_date: 2026-10-028
+---
+author: seantis
+---
+_discoverable: yes
+---
+description: Ein Baugesuch ist längst abgeschlossen. Jahre später stellt sich die Frage: War ein bestimmter Plan tatsächlich Teil der damaligen öffentlichen Auflage? Und wie kann die Gemeinde das nachweisen?
+---
+body:
+
+Diese Frage stellte Fabian Reinhard am [22. Info Sprint des Vereins OneGov.ch](https://www.onegov.ch/info-sprint/22-info-sprint-selbstbestimmtes-handeln-wie-geht-das-27-10-26-14-19-uhr-zuerich/) an den Anfang seines Referats.
+
+Die digitale Planauflage stellt Gemeinden vor besondere Herausforderungen: Baugesuche müssen öffentlich zugänglich sein, gleichzeitig gilt es, den Datenschutz sicherzustellen. Und nach Ablauf der Auflagefrist müssen die Dokumente aus Gründen der Datensparsamkeit wieder gelöscht werden.
+
+Wie lässt sich unter diesen Voraussetzungen die Nachvollziehbarkeit sicherstellen? Die Lösung kombiniert verschiedene Technologien:
+
+- **SMS-Zugriffsschutz** schützt die Unterlagen vor unberechtigtem Zugriff.
+- **Audit Trail** dokumentiert die Publikation, Änderungen und Löschung.
+- **Kryptographische Hashes** bilden einen digitalen Fingerabdruck des gesamten Dossiers. Bereits kleinste Änderungen werden erkennbar.
+- **Elektronische Siegel mit qualifiziertem Zeitstempel** sichern Herkunft, Integrität und zeitlichen Bezug der digitalen Belege.
+
+Auch Blockchain wäre technisch eine mögliche Lösung. Doch braucht es diese überhaupt? Die Zuständigkeiten sind bereits klar geregelt und die Herkunft der Dokumente lässt sich mit elektronischen Siegeln absichern.
+
+Die wichtigste Erkenntnis: Eine rein technische Lösung gibt es nicht. Ob beispielsweise Dokumente tatsächlich während der gesamten Auflagefrist erreichbar waren, lässt sich nicht lückenlos beweisen. Vertrauen lässt sich nicht durch Algorithmen ersetzen.
+
+[admin.digital](https://www.admin.digital): Open Source GovTech Plattform für die öffentliche Hand.
+
+**[→ Foliensatz zum Download (PDF)](admin-digital-Nachvollziehbarkeit-Planauflage.pdf)**
